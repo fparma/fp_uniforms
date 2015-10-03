@@ -1157,6 +1157,118 @@ class CfgVehicles
 		{
 			"FP_Uniforms\SkinsUniform\nam_olive.paa"
 		};
+        class B_soldier_F;
+        class ESP_Rifleman_PGAC: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=2;
+                displayName="PGAC Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGAC_M90";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
+        };
+		class B_Soldier_03_F;
+		class ESP_Recon_PGAC: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=2;
+                displayName="PGAC Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGAC_M90_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
+        };
+		class B_sniper_F;
+		class ESP_Sniper_PGAC: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=2;
+                displayName="PGAC Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGAC_M90_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
+        };
+        class ESP_Rifleman_PDEF: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=2;
+                displayName="PGAC Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PDEF_M90";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
+        };
+		class ESP_Recon_PDEF: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=2;
+                displayName="PGAC Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGAC_M90_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
+        };
+		class ESP_Sniper_PDEF: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=2;
+                displayName="PDEF Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PDEF_M90_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
+        };
+
+        class ESP_Rifleman_PRAF: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=2;
+                displayName="PRAF Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PRAF_M90";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
+        };
+		class ESP_Recon_PRAF: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=2;
+                displayName="PRAF Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PRAF_M90_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
+        };
+		class ESP_Sniper_PRAF: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=2;
+                displayName="PRAF Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PRAF_M90_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
+        };
 	};
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
@@ -2283,6 +2395,192 @@ class cfgWeapons
 		displayName = "FP CH Helmet (Type 07 Universal, Goggles)";
 		hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\FP_Type07UniversalHelmet.paa"};
 	};
+	
+        class U_B_CombatUniform_mcam;
+        class UniformItem;
+        class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="PGAC M90";
+                picture="FP_Uniforms\UI\m90pgacicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_PGAC";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class U_B_CombatUniform_mcam_vest;
+        class ESP_Uniform_PGACM90_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="PGAC M90 (Rolled-up)";
+                picture="FP_Uniforms\UI\m90pgacicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_PGAC";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+        class U_B_GhillieSuit;
+        class ESP_Uniform_PGACM90_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="PGAC M90 Ghillie";
+                picture="FP_Uniforms\UI\m90pgacicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_PGAC";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+        class ESP_Uniform_PDEFM90: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="PDEF M90";
+                picture="FP_Uniforms\UI\m90pdeficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_PDEF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };
+        class ESP_Uniform_PDEFM90_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="PDEF M90 (Rolled-up)";
+                picture="FP_Uniforms\UI\m90pdeficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_PDEF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+        class ESP_Uniform_PDEFM90_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="PDEF M90 Ghillie";
+                picture="FP_Uniforms\UI\m90pdeficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_PDEF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };   
+	
+        class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="PRAF M90";
+                picture="FP_Uniforms\UI\m90praficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_PRAF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };
+        class ESP_Uniform_PRAFM90_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="PRAF M90 (Rolled-up)";
+                picture="FP_Uniforms\UI\m90praficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_PRAF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+        class ESP_Uniform_PRAFM90_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="PRAF M90 Ghillie";
+                picture="FP_Uniforms\UI\m90praficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_PRAF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };   
+	
+    	class rhsusf_mich_bare_norotos_alt;
+        class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt	
+        {
+                author = "CSLeader";
+                _generalMacro = "rhsusf_mich_bare_norotos_alt";
+                scope = 2;
+                displayName = "MICH 2000 (Black/Norotos)";
+				hiddenSelections[] = {"Camo", "Camo1", "Camo2"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\ESP_PGACMich.paa", "FP_Uniforms\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_Uniforms\SkinsHeadgear\ESP_PGACMich.paa"};
+   		};
+		class rhsusf_mich_bare_norotos_arc;
+        class ESP_Helmet_MICH_arc: rhsusf_mich_bare_norotos_arc
+        {
+                author = "CSLeader";
+                _generalMacro = "rhsusf_mich_bare_norotos_arc";
+                scope = 2;
+                displayName = "MICH 2000 (Black/Norotos/ARC)";
+				hiddenSelections[] = {"Camo", "Camo1", "Camo2", "Camo 3"};
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\ESP_PGACMich.paa", "FP_Uniforms\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_Uniforms\SkinsHeadgear\ESP_PGACMich.paa"};
+        };
+		class rhsusf_cvc_helmet;
+        class ESP_Helmet_CVC: rhsusf_cvc_helmet	
+        {
+                author = "CSLeader";
+                _generalMacro = "rhsusf_cvc_helmet";
+                scope = 2;
+                displayName = "ACVC-H (Black)";
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\ESP_PGAC_CVC.paa"};
+        };
+		class rhsusf_cvc_ess;
+        class ESP_Helmet_CVC_ESS: rhsusf_cvc_ess	
+        {
+                author = "CSLeader";
+                _generalMacro = "rhsusf_cvc_ess";
+                scope = 2;
+                displayName = "ACVC-H (Black/ESS)";
+                hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\ESP_PGAC_CVC.paa"};
+        };		
         class H_Booniehat_mcamo;
 	class FP_Boonie_Auscam: H_Booniehat_mcamo
 	{
