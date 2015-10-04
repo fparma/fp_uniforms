@@ -25,6 +25,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_DesDPM";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -43,6 +44,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_WoodlandDPM";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -61,6 +63,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MTP";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -79,6 +82,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M05";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -97,6 +101,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M84";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -115,6 +120,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M01Dane";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -133,6 +139,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M98";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -151,6 +158,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M03";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -169,6 +177,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_McamPCU";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -187,6 +196,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M90";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -205,6 +215,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_M90Des";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -223,6 +234,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Auscam";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -241,6 +253,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_CADPAT";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -259,6 +272,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_CADPATAR";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -277,6 +291,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_DualTex";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -295,6 +310,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_HECU";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -313,6 +329,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Flecktarn";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -331,6 +348,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Tropentarn";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -349,6 +367,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_CCE";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -367,6 +386,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Daguet";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -385,6 +405,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Alicam";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -403,6 +424,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_RhodieBrush";
                 author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -421,6 +443,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_RhodieBrush";
                 author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -439,6 +462,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KyrelianSplinter";
                 author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -457,6 +481,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KyrelianSplinterWinter";
                 author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -475,6 +500,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Jeitei";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -493,6 +519,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_GraniteB";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -530,6 +557,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Black";
         author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -548,6 +576,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Grey";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -566,6 +595,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_OD";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -584,6 +614,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Khaki";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -602,6 +633,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_RangerGreen";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -620,6 +652,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KhakiBrown";
                 author="FP Mod Team";
+		side = 1;
 		side = 1;
 		hiddenSelections[]=
 		{
@@ -658,6 +691,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_White";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -676,6 +710,7 @@ class CfgVehicles
 		displayName="FP US DCU 6-Colour (BDU)";
 		uniformClass="FP_Uniform_CCC";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -697,6 +732,7 @@ class CfgVehicles
 		displayName="FP US DCU 3-Colour (BDU)";
 		uniformClass="FP_Uniform_DCU";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -718,6 +754,7 @@ class CfgVehicles
 		displayName="FP UK DPM Woodland (BDU)";
 		uniformClass="FP_Uniform_DPMWD";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -761,6 +798,7 @@ class CfgVehicles
 		displayName="FP Grey (BDU)";
 		uniformClass="FP_Uniform_gry";
 		author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -782,6 +820,7 @@ class CfgVehicles
 		displayName="FP Khaki (BDU)";
 		uniformClass="FP_Uniform_khk";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -803,6 +842,7 @@ class CfgVehicles
 		displayName="FP RU KLMK (BDU)";
 		uniformClass="FP_Uniform_KLMK";
 		author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -824,6 +864,7 @@ class CfgVehicles
 		displayName="FP RU KLMK (BDU/VDV)";
 		uniformClass="FP_Uniform_klmkvdv";
 		author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -845,6 +886,7 @@ class CfgVehicles
 		displayName="FP RU Kamysh (BDU)";
 		uniformClass="FP_Uniform_kmsh";
 		author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -866,6 +908,7 @@ class CfgVehicles
 		displayName="FP FIN M05 Cold Weather (BDU)";
 		uniformClass="FP_Uniform_m05cw";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -887,6 +930,7 @@ class CfgVehicles
 		displayName="FP US M81 (BDU)";
 		uniformClass="FP_Uniform_m81";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -908,6 +952,7 @@ class CfgVehicles
 		displayName="FP US Marpat Woodland (BDU)";
 		uniformClass="FP_Uniform_mrp";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -929,6 +974,7 @@ class CfgVehicles
 		displayName="FP RU VSR (BDU)";
 		uniformClass="FP_Uniform_VSR";
 		author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -950,6 +996,7 @@ class CfgVehicles
 		displayName="FP HEL Dress Uniform";
 		uniformClass="FP_Uniform_1121";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -971,6 +1018,7 @@ class CfgVehicles
 		displayName="FP RU KLMK (Reversed)";
 		uniformClass="FP_Uniform_klmkwinter";
 		author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -992,6 +1040,7 @@ class CfgVehicles
 		displayName="FP US M81/White (BDU)";
 		uniformClass="FP_Uniform_m81white";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -1013,6 +1062,7 @@ class CfgVehicles
 		displayName="FP White (BDU)";
 		uniformClass="FP_Uniform_WhiteOfficer";
 		author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -1036,6 +1086,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_GreenM88";
                 author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -1056,6 +1107,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KLMKM88";
                 author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -1076,6 +1128,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_BerezkaM88";
                 author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -1096,6 +1149,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KSORM88";
                 author="FP Mod Team";
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -1116,6 +1170,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Alpenflage";
                 author="FP Mod Team";
+		side = 2;
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -1148,6 +1203,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_NamBDUs";
                 author="FP Mod Team";
+		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -1157,21 +1213,22 @@ class CfgVehicles
 		{
 			"FP_Uniforms\SkinsUniform\nam_olive.paa"
 		};
-        class B_soldier_F;
-        class ESP_Rifleman_PGAC: B_Soldier_F
+    class B_soldier_F;
+    class ESP_Rifleman_PGAC: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
-                scope=2;
+                scope=1;
                 displayName="PGAC Rifleman";
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-		class B_Soldier_03_F;
-		class ESP_Recon_PGAC: B_Soldier_03_F
+    class B_Soldier_03_F;
+    class ESP_Recon_PGAC: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1179,12 +1236,13 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_recon";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-		class B_sniper_F;
-		class ESP_Sniper_PGAC: B_sniper_F
+	class B_sniper_F;
+	class ESP_Sniper_PGAC: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1192,11 +1250,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_ghillie";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-        class ESP_Rifleman_PDEF: B_Soldier_F
+    class ESP_Rifleman_PDEF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
                 scope=2;
@@ -1204,11 +1263,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PDEF_M90";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
-		class ESP_Recon_PDEF: B_Soldier_03_F
+    class ESP_Recon_PDEF: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1216,11 +1276,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_recon";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
-		class ESP_Sniper_PDEF: B_sniper_F
+	class ESP_Sniper_PDEF: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1228,12 +1289,13 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PDEF_M90_ghillie";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
 
-        class ESP_Rifleman_PRAF: B_Soldier_F
+    class ESP_Rifleman_PRAF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
                 scope=2;
@@ -1241,11 +1303,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
         };
-		class ESP_Recon_PRAF: B_Soldier_03_F
+    class ESP_Recon_PRAF: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1253,11 +1316,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90_recon";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
         };
-		class ESP_Sniper_PRAF: B_sniper_F
+	class ESP_Sniper_PRAF: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1265,6 +1329,7 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90_ghillie";
                 author="CSLeader";
+		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
@@ -1289,6 +1354,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\desdpmicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1304,6 +1370,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\woodlanddpmicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1319,6 +1386,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\mtpicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1334,6 +1402,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m05icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1349,6 +1418,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m84icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1364,6 +1434,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m01icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1379,6 +1450,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m98icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1394,6 +1466,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m03icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1409,6 +1482,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m90icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1424,6 +1498,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\m90desicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1439,6 +1514,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\auscamicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1454,6 +1530,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\mcampcuicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1469,6 +1546,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\cadpaticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1484,6 +1562,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\cadpataricon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1499,6 +1578,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\dualtexicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1514,6 +1594,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\hecuicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1529,6 +1610,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\flecktarnicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1544,6 +1626,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\steppentarnicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1559,6 +1642,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\cceicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1574,6 +1658,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\dagueticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1589,6 +1674,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\alicamicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1604,6 +1690,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\rhodiecamicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1619,6 +1706,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\rhodiecamwintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1634,6 +1722,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1649,6 +1738,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\kyrelianwintersplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1664,6 +1754,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\jeiteiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1679,6 +1770,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\granitebicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1694,6 +1786,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\type07universalicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1709,6 +1802,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\blackicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1724,6 +1818,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\greyicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1739,6 +1834,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\olivedrabicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1754,6 +1850,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\khakiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1769,6 +1866,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\rgicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1816,6 +1914,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\whiteicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1832,6 +1931,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_ccc_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1847,6 +1947,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_dcu_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1862,6 +1963,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_dpmwd_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1878,6 +1980,7 @@ class cfgWeapons
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side = 1;
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1893,6 +1996,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_gry_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1908,6 +2012,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_khk_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1923,6 +2028,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_klmk_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1938,6 +2044,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_klmkvdv_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1953,6 +2060,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_kmsh_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1968,6 +2076,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_m05cw_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1983,6 +2092,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_m81_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -1998,6 +2108,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_mrp_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2013,6 +2124,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_vsr_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2028,6 +2140,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\1121icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2043,6 +2156,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_klmkwint_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2058,6 +2172,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_m81wht_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2073,6 +2188,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\u_wht_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2089,6 +2205,7 @@ class cfgWeapons
 		picture="\A3\characters_f\data\ui\icon_u_b_combatuniform_mcam_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2104,6 +2221,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\klmkicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2119,6 +2237,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\berezkaicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2134,6 +2253,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\ksoricon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 0;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2149,6 +2269,7 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\alpenflageicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -2165,6 +2286,7 @@ class cfgWeapons
 		picture="\A3\characters_f\data\ui\icon_u_b_combatuniform_mcam_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
                 author="FP Mod Team";
+		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
