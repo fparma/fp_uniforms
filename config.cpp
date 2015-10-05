@@ -2508,6 +2508,15 @@ class cfgWeapons
 		displayName = "FP CH Helmet (Type 07 Universal)";
 		hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsHeadgear\FP_Type07UniversalHelmet.paa"};
 	};
+		class FP_Helmet_m05: rhs_6b27m_digi
+	{
+		author="Helari";
+		_generalMacro="rhs_6b27m_digi";
+		scope=2;
+		displayName="FP M05 Helmet";
+		hiddenSelectionsTextures[]=
+		{"FP_Uniforms\SkinsHeadgear\FP_M05Helmet.paa"};
+	};
         class rhs_6b27m_ess;
 	class FP_Helmet_Type07UniESS: rhs_6b27m_ess
 	{
