@@ -1213,22 +1213,21 @@ class CfgVehicles
 		{
 			"FP_Uniforms\SkinsUniform\nam_olive.paa"
 		};
-    class B_soldier_F;
-    class ESP_Rifleman_PGAC: B_Soldier_F
+        class B_soldier_F;
+        class ESP_Rifleman_PGAC: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
-                scope=1;
+                scope=2;
                 displayName="PGAC Rifleman";
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-    class B_Soldier_03_F;
-    class ESP_Recon_PGAC: B_Soldier_03_F
+		class B_Soldier_03_F;
+		class ESP_Recon_PGAC: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1236,13 +1235,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_recon";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-	class B_sniper_F;
-	class ESP_Sniper_PGAC: B_sniper_F
+		class B_sniper_F;
+		class ESP_Sniper_PGAC: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1250,12 +1248,11 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_ghillie";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter.paa"};
         };
-    class ESP_Rifleman_PDEF: B_Soldier_F
+        class ESP_Rifleman_PDEF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
                 scope=2;
@@ -1263,12 +1260,11 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PDEF_M90";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
-    class ESP_Recon_PDEF: B_Soldier_03_F
+		class ESP_Recon_PDEF: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1276,12 +1272,11 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PGAC_M90_recon";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
-	class ESP_Sniper_PDEF: B_sniper_F
+		class ESP_Sniper_PDEF: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1289,13 +1284,12 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PDEF_M90_ghillie";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
         };
 
-    class ESP_Rifleman_PRAF: B_Soldier_F
+        class ESP_Rifleman_PRAF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
                 scope=2;
@@ -1303,12 +1297,11 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
         };
-    class ESP_Recon_PRAF: B_Soldier_03_F
+		class ESP_Recon_PRAF: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
                 scope=2;
@@ -1316,12 +1309,11 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90_recon";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
         };
-	class ESP_Sniper_PRAF: B_sniper_F
+		class ESP_Sniper_PRAF: B_sniper_F
         {
                 _generalMacro="B_sniper_F";
                 scope=2;
@@ -1329,12 +1321,10 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_PRAF_M90_ghillie";
                 author="CSLeader";
-		side = 1;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_Uniforms\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
         };
-	};
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
 	{
@@ -2528,11 +2518,10 @@ class cfgWeapons
 	};
 	
         class U_B_CombatUniform_mcam;
-        class UniformItem;
         class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
   {
                 scope=2;
-                displayName="PGAC M90";
+                displayName="FP PGAC M90";
                 picture="FP_Uniforms\UI\m90pgacicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2549,7 +2538,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="PGAC M90 (Rolled-up)";
+                displayName="FP PGAC M90 (Rolled-up)";
                 picture="FP_Uniforms\UI\m90pgacicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2566,7 +2555,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="PGAC M90 Ghillie";
+                displayName="FP PGAC M90 Ghillie";
                 picture="FP_Uniforms\UI\m90pgacicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2581,7 +2570,7 @@ class cfgWeapons
         class ESP_Uniform_PDEFM90: U_B_CombatUniform_mcam
   {
                 scope=2;
-                displayName="PDEF M90";
+                displayName="FP PDEF M90";
                 picture="FP_Uniforms\UI\m90pdeficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2597,7 +2586,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="PDEF M90 (Rolled-up)";
+                displayName="FP PDEF M90 (Rolled-up)";
                 picture="FP_Uniforms\UI\m90pdeficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2629,7 +2618,7 @@ class cfgWeapons
         class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
   {
                 scope=2;
-                displayName="PRAF M90";
+                displayName="FP PRAF M90";
                 picture="FP_Uniforms\UI\m90praficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2645,7 +2634,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="PRAF M90 (Rolled-up)";
+                displayName="FP PRAF M90 (Rolled-up)";
                 picture="FP_Uniforms\UI\m90praficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -2661,7 +2650,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="PRAF M90 Ghillie";
+                displayName="FP PRAF M90 Ghillie";
                 picture="FP_Uniforms\UI\m90praficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
