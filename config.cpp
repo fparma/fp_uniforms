@@ -1034,7 +1034,7 @@ class CfgVehicles
 	{
 		_generalMacro="O_officer_F";
 		scope=1;
-		displayName="FP RU KLMK (Reversed)";
+		displayName="FP RU KLMK Winter";
 		uniformClass="FP_Uniform_klmkwinter";
 		author="FP Mod Team";
 		side = 2;
@@ -2372,7 +2372,7 @@ class cfgWeapons
     class ESP_Uniform_PDEFM90_ghillie: U_B_GhillieSuit
 	{
 	    scope=2;
-        displayName="PDEF M90 Ghillie";
+        displayName="FP PDEF M90 Ghillie";
         picture="FP_Uniforms\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
