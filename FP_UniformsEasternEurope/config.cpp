@@ -315,7 +315,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="FP FIN M05 Cold Weather (BDU)";
-		picture="\FP_Uniforms\UI\u_m05cw_icon.paa";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side = 1;
