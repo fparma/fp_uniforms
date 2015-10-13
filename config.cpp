@@ -2979,6 +2979,23 @@ class cfgWeapons
 		picture="\FP_Uniforms\UI\icon_V_HarnessOU_grn_CA.paa";
 		author="FP Mod Team";
 	};
+	class H_mas_gue_HelmetI;
+	class fp_helmet_m1_camo: H_mas_gue_HelmetI
+	{
+		author="FP Mod Team";
+		displayName="FP US M1 Helmet (Mitchell Pattern)";
+		picture="\fp_uniforms\ui\m1_camo_icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fp_uniforms\SkinsHeadgear\m1_camo.paa",
+			"\mas_gue_rebl\hats\Data\tak_soldier_equip_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\fp_uniforms\SkinsHeadgear\m1_camo.rvmat",
+			"\mas_gue_rebl\hats\Data\tak_soldier_equip.rvmat"
+		};
+	};
 };
 class cfgGlasses
 {
