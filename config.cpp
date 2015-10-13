@@ -340,6 +340,25 @@ class CfgVehicles
 			"FP_Uniforms\SkinsUniform\FP_Flecktarn.paa"
 		};
 	};
+	class FP_Rifleman_FlecktarnGreen: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="FP GER Flecktarn Green";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Flecktarn";
+                author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_Uniforms\SkinsUniform\FP_FlecktarnGreen.paa"
+		};
+	};
 	class FP_Rifleman_Tropentarn: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -1333,7 +1352,7 @@ class cfgWeapons
 		displayName="FP UK Desert DPM";
 		picture="\FP_Uniforms\UI\desdpmicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1349,7 +1368,7 @@ class cfgWeapons
 		displayName="FP UK Woodland DPM (Soldier 95)";
 		picture="\FP_Uniforms\UI\woodlanddpmicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1365,7 +1384,7 @@ class cfgWeapons
 		displayName="FP UK MTP";
 		picture="\FP_Uniforms\UI\mtpicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1381,7 +1400,7 @@ class cfgWeapons
 		displayName="FP FIN M05 Woodland";
 		picture="\FP_Uniforms\UI\m05icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team(Mallow)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1413,7 +1432,7 @@ class cfgWeapons
 		displayName="FP DEN M01 Desert";
 		picture="\FP_Uniforms\UI\m01icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team(Mallow)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1429,7 +1448,7 @@ class cfgWeapons
 		displayName="FP NOR M98 Woodland";
 		picture="\FP_Uniforms\UI\m98icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team(Mallow)";
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -1595,6 +1614,22 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_Flecktarn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_FlecktarnGreen: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP GER Flecktarn (Green)";
+		picture="\FP_Uniforms\UI\flecktarnicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_FlecktarnGreen";
 			containerClass="Supply40";
 			mass=40;
 		};
