@@ -10,8 +10,9 @@ for /d %%G in ("FP_*") do (
 
 echo.
 echo Build done, no errors
+pause
 goto :EOF
 
 :error
 echo Failed with error #%errorlevel%.
-exit /b %errorlevel%
+pause
