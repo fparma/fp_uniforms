@@ -14,3 +14,6 @@ V1.02
 
 V1.03 (Release)
 - Fixed remaining filepath errors (hopefully)
+
+V1.031
+- Fixed final white balaclava error (literally end of all the pbos so yeah)

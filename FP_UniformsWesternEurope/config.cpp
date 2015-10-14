@@ -501,14 +501,3 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"FP_UniformsWesternEurope\SkinsHeadgear\FP_DaguetBoonie.paa"};
 	};
 };
-class cfgGlasses
-{
-	class G_Balaclava_blk;
-	class FP_G_Balaclava_wht: G_Balaclava_blk
-	{
-		author="FP Mod Team";
-		displayName = "Balaclava (White)";
-		hiddenSelectionsTextures[] = {"\FP_UniformsWesternEurope\SkinsHeadgear\balaclava_wht.paa"};
-		picture = "\FP_UniformsWesternEurope\UI\balaclava_wht_icon.paa";
-	};
-};
