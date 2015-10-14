@@ -346,11 +346,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_Uniforms\SkinsUniform\officer_1121.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_1121.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"FP_Uniforms\Misc\officer.rvmat"
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
 	class B_soldier_F;
