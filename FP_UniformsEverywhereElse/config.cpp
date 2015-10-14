@@ -194,7 +194,6 @@ class CfgVehicles
 		uniformClass="FP_KhakiBrown";
                 author="FP Mod Team";
 		side = 1;
-		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
