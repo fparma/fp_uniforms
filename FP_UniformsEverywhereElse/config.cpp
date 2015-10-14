@@ -331,7 +331,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class O_officer_F;
 	class FP_Rifleman_1121: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -673,7 +672,6 @@ class cfgWeapons
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side = 1;
-		side = 1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -778,7 +776,7 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
-    };     
+    };
     class U_B_CombatUniform_mcam_vest;
     class ESP_Uniform_PGACM90_recon: U_B_CombatUniform_mcam_vest
 	{
@@ -855,7 +853,7 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
-    };   
+    };
     class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
     {
         scope=2;
@@ -944,7 +942,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"};
 	};
 	class rhsusf_mich_bare_norotos_alt;
-    class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt	
+    class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt
     {
         author = "CSLeader";
         _generalMacro = "rhsusf_mich_bare_norotos_alt";
@@ -964,7 +962,7 @@ class cfgWeapons
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa"};
     };
 	class rhsusf_cvc_helmet;
-    class ESP_Helmet_CVC: rhsusf_cvc_helmet	
+    class ESP_Helmet_CVC: rhsusf_cvc_helmet
     {
         author = "CSLeader";
         _generalMacro = "rhsusf_cvc_helmet";
@@ -973,7 +971,7 @@ class cfgWeapons
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
     };
 	class rhsusf_cvc_ess;
-    class ESP_Helmet_CVC_ESS: rhsusf_cvc_ess	
+    class ESP_Helmet_CVC_ESS: rhsusf_cvc_ess
     {
         author = "CSLeader";
         _generalMacro = "rhsusf_cvc_ess";
