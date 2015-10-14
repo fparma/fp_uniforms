@@ -11,3 +11,6 @@ V1.01
 
 V1.02
 - Merged tinter's rvmat fixes, they -should- work now
+
+V1.03 (Release)
+- Fixed remaining filepath errors (hopefully)
