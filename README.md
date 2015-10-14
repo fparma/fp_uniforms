@@ -6,5 +6,8 @@ V1.0
 - Added new textures by diwako (M90, German Camos, M84, type 07, probably other ones I've forgotten)
 - Added RVMats (maybe?)
 
-V1.1
+V1.01
 - Fixed error regarding M05 CW icon
+
+V1.02
+- Merged tinter's rvmat fixes, they -should- work now
