@@ -17,3 +17,8 @@ V1.03 (Release)
 
 V1.031
 - Fixed final white balaclava error (literally end of all the pbos so yeah)
+
+V1.1
+- Added some Niko Skins
+- Fixed some errors
+- Added Airman Battle Uniform (ABU) with uniform, helmet and boonie
