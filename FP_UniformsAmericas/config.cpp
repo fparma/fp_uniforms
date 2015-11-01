@@ -224,6 +224,26 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\marpatm81.paa"
 		};
 	};
+	
+	class FP_Rifleman_tpat: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="FP USA T-PAT";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_tpat";
+                author="FP Mod Team (Niko)";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tpat.paa"
+		};
+	};	
 	class FP_Rifleman_wmarpat: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -811,6 +831,22 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_tpat: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP USA T-PAT";
+		picture="\FP_UniformsAmericas\UI\tpaticon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_tpat";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
 	class FP_Uniform_wmarpat: U_I_CombatUniform
 	{
 		scope=2;
