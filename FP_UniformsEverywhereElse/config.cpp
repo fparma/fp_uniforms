@@ -262,7 +262,7 @@ class CfgVehicles
 		};
 	};	
 	class I_Soldier_02_F;
-	class ESP_Recon_Squares: I_Soldier_02_F
+	class FP_Recon_Squares: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
@@ -278,6 +278,118 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_squares.paa"
+		};
+	};	
+	class FP_Rifleman_DTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGS Desert Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_DTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeDesert.paa"
+		};
+	};		
+	class FP_Recon_DTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGS Desert Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_DTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeDesert.paa"
+		};
+	};
+
+	class FP_Rifleman_JTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGS Jungle Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_JTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeJungle.paa"
+		};
+	};		
+	class FP_Recon_JTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGS Jungle Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_JTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeJungle.paa"
+		};
+	};
+	class FP_Rifleman_OTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGO3 Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGO_OTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGO_TigerStripe.paa"
+		};
+	};		
+	class FP_Recon_OTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGO3 Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGO_OTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGO_TigerStripe.paa"
 		};
 	};		
 	class FP_Rifleman_Ten: I_soldier_F
@@ -299,11 +411,11 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_Ten'.paa"
 		};
 	};
-	class ESP_Recon_Ten: I_Soldier_02_F
+	class FP_Recon_Ten: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
-		displayName="MGS3 Ten' Sleeves";
+		displayName="FP Ten' Sleeves";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_RU_Ten_recon";
                 author="CSLeader";
@@ -892,7 +1004,120 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_Squares_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS3 Squares (Sleeves)";
+		picture="FP_UniformsEverywhereElse\UI\mgs3squaresicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_Squares";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
 
+
+	class FP_Uniform_DTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Desert Tiger Stripe";
+		picture="FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_DTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Desert Tiger Stripe (Sleeves)";
+		picture="FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_DTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class FP_Uniform_JTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Jungle Tiger Stripe";
+		picture="FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_JTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_JTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Jungle Tiger Stripe (Sleeves)";
+		picture="FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_JTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	}
+	class FP_Uniform_OTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGO3 Tiger Stripe";
+		picture="FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_OTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_OTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGO3 Tiger Stripe (Sleeves)";
+		picture="FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_OTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	}
 	class FP_Uniform_Ten: U_I_CombatUniform
 	{
 		scope=2;
