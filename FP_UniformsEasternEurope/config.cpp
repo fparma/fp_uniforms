@@ -171,26 +171,136 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class rhs_msv_rifleman_m88_patchless;
-	class FP_Rifleman_Alpenflage: rhs_msv_rifleman_m88_patchless
+	class FP_Rifleman_LithOPFOR: O_officer_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="O_officer_F";
 		scope=1;
-		displayName="FP SWI Vierfruchtpyjama";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_Alpenflage";
-                author="FP Mod Team";
+		displayName="FP LIT M05 OPFOR (BDU)";
+		uniformClass="FP_Uniform_lith05opfor";
+		author="FP Mod Team";
 		side = 2;
 		hiddenSelections[]=
 		{
-			"Camo1",
-			"Camo2",
-			"Camob",
-                        "insignia"
+			"Camo",
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEasternEurope\SkinsUniform\FP_Alpenflage.paa"
+			"FP_UniformsEasternEurope\SkinsUniform\FP_LithOPFOR.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_LithOPFORStrich: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP LIT M05 OPFOR/Strichtarn (BDU)";
+		uniformClass="FP_Uniform_lith05opforstrich";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_LithOpforStrich.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_Strich: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP EGER Strichtarn (BDU)";
+		uniformClass="FP_Uniform_egerstrich";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_Strichtarn.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_StrichTTsMKK: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		side = 2;
+		displayName="FP EGER Strichtarn/TTsMKK (BDU)";
+		uniformClass="FP_Uniform_egerstrichttsmkk";
+		author="FP Mod Team";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_StrichTTsMKK.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_TTsMKK: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP RU TTsMKK (BDU)";
+		uniformClass="FP_Uniform_ttsmkk";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_TTsMKK.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_TTsMKKOlive: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP RU TTsMKK/Olive (BDU)";
+		uniformClass="FP_Uniform_ttsmkkolive";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_TTsMKKOlive.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
 };
@@ -327,20 +437,99 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class rhs_uniform_m88_patchless;
-	class FP_Uniform_Alpenflage: rhs_uniform_m88_patchless
+	class FP_Uniform_LithOPFOR: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="FP SWI Vierfruchtpyjama";
-		picture="\FP_UniformsEasternEurope\UI\alpenflageicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
+		displayName="FP LIT M05 OPFOR (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
 		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_Alpenflage";
-			containerClass="Supply20";
+			uniformClass="FP_Rifleman_LithOPFOR";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_LithOPFORStrich: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP LIT M05 OPFOR/Strichtarn (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_LithOPFORStrich";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Strich: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP EGER Strichtarn (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Strich";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_StrichTTsMKK: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP EGER Strichtarn/TTsMKK (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_StrichTTsMKK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_TTsMKK: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP RU TTsMKK (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_TTsMKK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_TTsMKKOlive: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP RU TTsMKK/Olive (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_TTsMKKOlive";
+			containerClass="Supply40";
 			mass=40;
 		};
 	};

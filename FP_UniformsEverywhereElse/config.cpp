@@ -1900,44 +1900,6 @@ class cfgWeapons
 		displayName = "FP UN PASGT";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"};
 	};
-	class rhsusf_mich_bare_norotos_alt;
-    class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_mich_bare_norotos_alt";
-        scope = 2;
-        displayName = "MICH 2000 (Black/Norotos)";
-		hiddenSelections[] = {"Camo", "Camo1", "Camo2"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa"};
-   	};
-    class rhsusf_mich_bare_norotos_arc;
-    class ESP_Helmet_MICH_arc: rhsusf_mich_bare_norotos_arc
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_mich_bare_norotos_arc";
-        scope = 2;
-        displayName = "MICH 2000 (Black/Norotos/ARC)";
-		hiddenSelections[] = {"Camo", "Camo1", "Camo2", "Camo 3"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa"};
-    };
-	class rhsusf_cvc_helmet;
-    class ESP_Helmet_CVC: rhsusf_cvc_helmet
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_cvc_helmet";
-        scope = 2;
-        displayName = "ACVC-H (Black)";
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
-    };
-	class rhsusf_cvc_ess;
-    class ESP_Helmet_CVC_ESS: rhsusf_cvc_ess
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_cvc_ess";
-        scope = 2;
-        displayName = "ACVC-H (Black/ESS)";
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
-    };	
 	class H_MilCap_gry;
 	class H_MilCap_blk: H_MilCap_gry
 	{
