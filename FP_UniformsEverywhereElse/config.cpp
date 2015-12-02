@@ -2106,3 +2106,14 @@ class cfgWeapons
 		author="FP Mod Team";
 	};
 };
+class cfgGlasses
+{
+	class G_Balaclava_blk;
+	class FP_G_Balaclava_wht: G_Balaclava_blk
+	{
+		author="FP Mod Team";
+		displayName = "Balaclava (White)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsGlasses\balaclava_wht.paa"};
+		picture = "FP_UniformsEverywhereElse\ui\balaclava_wht_icon.paa";
+	};
+}; 		 

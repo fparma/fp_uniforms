@@ -1242,6 +1242,15 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_M81.paa"};
 		picture="\FP_UniformsAmericas\UI\u_m81_icon.paa";
 	};
+	class FP_Helmet_MRP: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "FP US MICH (MARPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_Mrp.paa"};
+		picture="\FP_UniformsAmericas\UI\u_mrp_icon.paa";
+	};
 	class FP_Helmet_ABU: H_HelmetIA
 	{
 		author = "FP Mod Team";
@@ -1387,3 +1396,4 @@ class cfgWeapons
 		};
 	};
 };
+
