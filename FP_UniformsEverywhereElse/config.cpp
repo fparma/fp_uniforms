@@ -1226,7 +1226,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	}
+	};
 	class FP_Uniform_OTS: U_I_CombatUniform
 	{
 		scope=2;
@@ -1258,7 +1258,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	}
+	};
 	class FP_Uniform_Ten: U_I_CombatUniform
 	{
 		scope=2;
@@ -1356,23 +1356,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-/*	class rhs_uniform_m88_patchless;
-	class FP_Uniform_GreenM88: rhs_uniform_m88_patchless
-	{
-		scope=2;
-		displayName="FP M88 (Green)";
-		picture="\A3\characters_f\data\ui\icon_u_b_combatuniform_mcam_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
-		side = 0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_GreenM88";
-			containerClass="Supply20";
-			mass=80;
-		};
-	};*/
     class U_B_CombatUniform_mcam;
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {

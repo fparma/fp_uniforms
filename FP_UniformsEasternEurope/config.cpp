@@ -302,7 +302,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};*/
+	};
 };
 class cfgWeapons
 {
@@ -532,7 +532,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};*/
+	};
     class H_HelmetIA;
 	class FP_Helmet_M84: H_HelmetIA
 	{
@@ -566,16 +566,6 @@ class cfgWeapons
 		displayName = "FP SWE MICH (M90 Desert)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_M90DesHelmet.paa"};
 	};
-/*    class rhs_6b27m_digi;
-    class FP_Helmet_m05: rhs_6b27m_digi
-	{
-		author="FP Mod Team (Helari)";
-		_generalMacro="rhs_6b27m_digi";
-		scope=2;
-		displayName="FP M05 Helmet";
-		hiddenSelectionsTextures[]=
-		{"FP_UniformsEasternEurope\SkinsHeadgear\FP_M05Helmet.paa"};
-	};*/
     class H_Booniehat_mcamo;
 	class FP_Boonie_M03: H_Booniehat_mcamo
 	{
