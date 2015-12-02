@@ -194,7 +194,6 @@ class CfgVehicles
 		uniformClass="FP_KhakiBrown";
                 author="FP Mod Team";
 		side = 1;
-		side = 1;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -242,7 +241,194 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_White.paa"
 		};
+	};	
+	class FP_Rifleman_Squares: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGS3 Squares";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS3_squares";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_squares.paa"
+		};
+	};	
+	class I_Soldier_02_F;
+	class FP_Recon_Squares: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGS3 Squares Sleeves";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS3_squares_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_squares.paa"
+		};
+	};	
+	class FP_Rifleman_DTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGS Desert Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_DTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeDesert.paa"
+		};
+	};		
+	class FP_Recon_DTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGS Desert Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_DTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeDesert.paa"
+		};
 	};
+
+	class FP_Rifleman_JTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGS Jungle Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_JTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeJungle.paa"
+		};
+	};		
+	class FP_Recon_JTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGS Jungle Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS_JTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS_TigerStripeJungle.paa"
+		};
+	};
+	class FP_Rifleman_OTS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MGO3 Tiger Stripe";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGO_OTS";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGO_TigerStripe.paa"
+		};
+	};		
+	class FP_Recon_OTS: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="MGO3 Tiger Stripe (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGO_OTS_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGO_TigerStripe.paa"
+		};
+	};		
+	class FP_Rifleman_Ten: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="FP RU Ten'";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_RU_Ten";
+        author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_Ten'.paa"
+		};
+	};
+	class FP_Recon_Ten: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Ten' Sleeves";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_RU_Ten_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_Ten's.paa"
+		};
+	};	
 	class O_officer_F;
 	class FP_Rifleman_grn: O_officer_F
 	{
@@ -332,7 +518,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class O_officer_F;
 	class FP_Rifleman_1121: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -348,18 +533,18 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_Uniforms\SkinsUniform\officer_1121.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_1121.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"FP_Uniforms\Misc\officer.rvmat"
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
 	class B_soldier_F;
     class ESP_Rifleman_PGAC: B_Soldier_F
     {
         _generalMacro="B_Soldier_F";
-        scope=2;
+        scope=1;
         displayName="PGAC Rifleman";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90";
@@ -367,11 +552,23 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa"};
     };
+	class B_Soldier_02_F;
+	class ESP_Tee_PGAC: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="PGAC Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_PGAC_M90_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo","Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa", "\A3\Characters_F\Common\Data\basicbody_blue_co.paa"};
+    };		
 	class B_Soldier_03_F;
 	class ESP_Recon_PGAC: B_Soldier_03_F
     {
         _generalMacro="B_Soldier_03_F";
-        scope=2;
+        scope=1;
         displayName="PGAC Recon";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90_recon";
@@ -383,18 +580,18 @@ class CfgVehicles
 	class ESP_Sniper_PGAC: B_sniper_F
     {
          _generalMacro="B_sniper_F";
-        scope=2;
+        scope=1;
         displayName="PGAC Sniper";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90_ghillie";
         author="CSLeader";
-        hiddenSelections[]={"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa"};
+        hiddenSelections[]={"Camo", "Camo3", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_night_co.paa"};
     };
     class ESP_Rifleman_PDEF: B_Soldier_F
     {
         _generalMacro="B_Soldier_F";
-        scope=2;
+        scope=1;
         displayName="PGAC Rifleman";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PDEF_M90";
@@ -402,10 +599,22 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
     };
+	class ESP_Tee_PDEF: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="PDEF Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_PDEF_M90_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa", "\A3\Characters_F\Common\Data\basicbody_brown_co.paa"};
+    };		
+	
 	class ESP_Recon_PDEF: B_Soldier_03_F
     {
         _generalMacro="B_Soldier_03_F";
-        scope=2;
+        scope=1;
         displayName="PGAC Recon";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90_recon";
@@ -416,18 +625,18 @@ class CfgVehicles
 	class ESP_Sniper_PDEF: B_sniper_F
     {
         _generalMacro="B_sniper_F";
-        scope=2;
+        scope=1;
         displayName="PDEF Sniper";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PDEF_M90_ghillie";
         author="CSLeader";
-        hiddenSelections[]={"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa"};
+        hiddenSelections[]={"Camo", "Camo3", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Desert.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_camonet.paa"};
     };
     class ESP_Rifleman_PRAF: B_Soldier_F
     {
         _generalMacro="B_Soldier_F";
-        scope=2;
+        scope=1;
         displayName="PRAF Rifleman";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90";
@@ -435,10 +644,21 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
     };
+	class ESP_Tee_PRAF: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="PGAC Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_PRAF_M90_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
+    };		
     class ESP_Recon_PRAF: B_Soldier_03_F
     {
         _generalMacro="B_Soldier_03_F";
-        scope=2;
+        scope=1;
         displayName="PRAF Recon";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90_recon";
@@ -449,14 +669,257 @@ class CfgVehicles
 	class ESP_Sniper_PRAF: B_sniper_F
     {
         _generalMacro="B_sniper_F";
-        scope=2;
+        scope=1;
         displayName="PRAF Sniper";
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90_ghillie";
         author="CSLeader";
-        hiddenSelections[]={"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
+        hiddenSelections[]={"Camo", "Camo3", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
     };
+        class ESP_Rifleman_PGI: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="PGI Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
+        };
+		class ESP_Tee_PGI: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="PGI Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_PGI_Digital_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa", "\A3\Characters_F\Common\Data\basicbody_black_co.paa"};
+    };
+		class ESP_Recon_PGI: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="PGI Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
+        };
+		class ESP_Sniper_PGI: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="PGI Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_night_co.paa"};
+        };	
+        class ESP_Rifleman_CoG: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="CoG Cultist";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
+        };
+		class ESP_Tee_CoG: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="CoG Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_CoG_TPAT_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa", "\A3\Characters_F\Common\Data\basicbody_black_co.paa"};
+    };
+		class ESP_Recon_CoG: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="CoG Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
+        };
+		class ESP_Sniper_CoG: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="CoG Holy Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_fishnet_co.paa"};
+        };	
+        class ESP_Rifleman_ISA: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="ISA Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+        };
+		class ESP_Tee_ISA: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="CoG Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_ISA_Woodland_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
+    };
+		class ESP_Recon_ISA: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="ISA Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+        };
+		class ESP_Sniper_ISA: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="ISA Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\characters_f\common\data\ghillie_woodland_co.paa"};
+        };
+        class ESP_Rifleman_VDF: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="VDF Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
+        };
+		class ESP_Tee_VDF: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="VDF Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_ISA_Woodland_tee";
+        author="CSLeader";
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
+    };
+		class ESP_Recon_VDF: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="VDF Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
+        };
+		class ESP_Sniper_VDF: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="VDF Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
+        };		
+	class ESP_Rifleman_Voytek: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Voytek Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESP_Voytek_M07";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\Voytek_M07_Woodland.paa"
+		};
+	};	
+	class ESP_Recon_Voytek: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="Voytek Recon";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESP_Voytek_M07_recon";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\Voytek_M07_Woodland.paa"
+		};
+	};
+	class I_Sniper_F;
+	class ESP_Sniper_Voytek: I_Sniper_F
+	{
+		_generalMacro="I_Sniper_F";
+		scope=1;
+		displayName="Voytek Sniper";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESP_Voytek_M07_ghillie";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo", "Camo3",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\Voytek_M07_Woodland.paa", "\A3\characters_f\common\data\ghillie_woodland_co.paa"
+		};
+	};
 	class B_Carryall_Base;
 	class B_Carryall_Inv: B_Carryall_Base
 	{
@@ -469,6 +932,7 @@ class CfgVehicles
 		scope = 2;
 	};
 };
+
 class cfgWeapons
 {
 	class U_I_CombatUniform;
@@ -664,7 +1128,153 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
+	};	
+	class FP_Uniform_Squares: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS3 Squares";
+		picture="\FP_UniformsEverywhereElse\UI\mgs3squaresicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Squares";
+			containerClass="Supply40";
+			mass=40;
+		};
 	};
+	class FP_Uniform_Squares_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS3 Squares (Sleeves)";
+		picture="\FP_UniformsEverywhereElse\UI\mgs3squaresicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_Squares";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+
+
+	class FP_Uniform_DTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Desert Tiger Stripe";
+		picture="\FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_DTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Desert Tiger Stripe (Sleeves)";
+		picture="\FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_DTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class FP_Uniform_JTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Jungle Tiger Stripe";
+		picture="\FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_JTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_JTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGS Jungle Tiger Stripe (Sleeves)";
+		picture="\FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_JTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	}
+	class FP_Uniform_OTS: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGO3 Tiger Stripe";
+		picture="\FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_OTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_OTS_recon: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP MGO3 Tiger Stripe (Sleeves)";
+		picture="\FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Recon_OTS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	}
+	class FP_Uniform_Ten: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP RU Ten'";
+		picture="\FP_UniformsEverywhereElse\UI\tenicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Ten";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};		
 	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
@@ -673,7 +1283,6 @@ class cfgWeapons
 		picture="\FP_UniformsEverywhereElse\UI\u_grn_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
-		side = 1;
 		side = 1;
 		class ItemInfo: UniformItem
 		{
@@ -768,8 +1377,8 @@ class cfgWeapons
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {
         scope=2;
-        displayName="FP PGAC M90";
-        picture="FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
+        displayName="FP PAAPMC Splitter Blue";
+        picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -779,13 +1388,13 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
-    };     
+    };
     class U_B_CombatUniform_mcam_vest;
     class ESP_Uniform_PGACM90_recon: U_B_CombatUniform_mcam_vest
 	{
         scope=2;
-        displayName="FP PGAC M90 (Rolled-up)";
-        picture="FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
+        displayName="FP PAAPMC Splitter Blue (Rolled-up)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -795,13 +1404,29 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
-    };
+	};	
+    class U_B_CombatUniform_mcam_tshirt;
+    class ESP_Uniform_PGACM90_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP PAAPMC Splitter Blue (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_PGAC";
+            containerClass="Supply40";
+            mass=40;
+        };		
+    };		
     class U_B_GhillieSuit;
     class ESP_Uniform_PGACM90_ghillie: U_B_GhillieSuit
 	{
         scope=2;
-        displayName="FP PGAC M90 Ghillie";
-        picture="FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
+        displayName="FP PAAPMC Splitter Blue (Ghillie)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -815,8 +1440,8 @@ class cfgWeapons
     class ESP_Uniform_PDEFM90: U_B_CombatUniform_mcam
     {
         scope=2;
-        displayName="FP PDEF M90";
-        picture="FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
+        displayName="FP PAAPMC Splitter Desert";
+        picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -830,8 +1455,8 @@ class cfgWeapons
     class ESP_Uniform_PDEFM90_recon: U_B_CombatUniform_mcam_vest
 	{
         scope=2;
-        displayName="FP PDEF M90 (Rolled-up)";
-        picture="FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
+        displayName="FP PAAPMC Splitter Desert (Rolled-up)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -842,11 +1467,26 @@ class cfgWeapons
             mass=40;
         };
     };
+    class ESP_Uniform_PDEFM90_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP PAAPMC Splitter Desert (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_PDEF";
+            containerClass="Supply40";
+            mass=40;
+        };	
+	};
     class ESP_Uniform_PDEFM90_ghillie: U_B_GhillieSuit
 	{
 	    scope=2;
-        displayName="FP PDEF M90 Ghillie";
-        picture="FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
+        displayName="FP PAAPMC Splitter Desert (Ghillie)";
+        picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -856,12 +1496,12 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
-    };   
+    };
     class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
     {
         scope=2;
-        displayName="FP PRAF M90";
-        picture="FP_UniformsEverywhereElse\UI\m90praficon.paa";
+        displayName="FP PAAPMC Splitter Woodland";
+        picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -875,8 +1515,8 @@ class cfgWeapons
     class ESP_Uniform_PRAFM90_recon: U_B_CombatUniform_mcam_vest
 	{
 	    scope=2;
-        displayName="FP PRAF M90 (Rolled-up)";
-        picture="FP_UniformsEverywhereElse\UI\m90praficon.paa";
+        displayName="FP PAAPMC Splitter Woodland (Rolled-up)";
+        picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -886,12 +1526,27 @@ class cfgWeapons
             containerClass="Supply40";
             mass=40;
         };
+	};	
+    class ESP_Uniform_PRAFM90_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP PAAPMC Splitter Woodland (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_PRAF";
+            containerClass="Supply40";
+            mass=40;
+        };		
     };
     class ESP_Uniform_PRAFM90_ghillie: U_B_GhillieSuit
 	{
 	    scope=2;
-        displayName="FP PRAF M90 Ghillie";
-        picture="FP_UniformsEverywhereElse\UI\m90praficon.paa";
+        displayName="FP PAAPMC Splitter Woodland (Ghillie)";
+        picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
         class ItemInfo: UniformItem
@@ -902,6 +1557,307 @@ class cfgWeapons
             mass=40;
         };
     };
+        class ESP_Uniform_PGIDigital: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="FP PGI Digital";
+                picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_PGI";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class ESP_Uniform_PGIDigital_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="FP PGI Digital (Rolled-up)";
+                picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_PGI";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+	
+    class ESP_Uniform_PGIDigital_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP PGI Digital (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_PGI";
+            containerClass="Supply40";
+            mass=40;
+        };		
+    };		
+        class ESP_Uniform_PGIDigital_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="FP PGI Digital (Ghillie)";
+                picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_PGI";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };		
+        class ESP_Uniform_CoGTPAT: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="FP CoG TPAT";
+                picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_CoG";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class ESP_Uniform_CoGTPAT_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="FP CoG TPAT (Rolled-up)";
+                picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_CoG";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };	
+    class ESP_Uniform_CoGTPAT_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP CoG TPAT (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_CoG";
+            containerClass="Supply40";
+            mass=40;
+        };		
+    };		
+        class ESP_Uniform_CoGTPAT_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="FP CoG TPAT (Ghillie)";
+                picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_CoG";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+        class ESP_Uniform_ISAWoodland: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="FP ISA Woodland";
+                picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_ISA";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class ESP_Uniform_ISAWoodland_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="FP ISA Woodland (Rolled-up)";
+                picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_ISA";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };	
+    class ESP_Uniform_ISAWoodland_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP ISA Woodland (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_ISA";
+            containerClass="Supply40";
+            mass=40;
+        };		
+    };		
+        class ESP_Uniform_ISAWoodland_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="FP ISA Woodland (Ghillie)";
+                picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_ISA";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };		
+	
+
+        class ESP_Uniform_VDFDPM: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="FP VDF CoM DPM";
+                picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_VDF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class ESP_Uniform_VDFDPM_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="FP VDF CoM DPM (Rolled-up)";
+                picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_VDF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };	
+    class ESP_Uniform_VDFDPM_tee: U_B_CombatUniform_mcam_tshirt
+	{
+        scope=2;
+        displayName="FP VDF CoM DPM (Tee)";
+        picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
+        model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        author="CSLeader";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="ESP_Tee_VDF";
+            containerClass="Supply40";
+            mass=40;
+        };		
+    };		
+        class ESP_Uniform_VDFDPM_ghillie: U_B_GhillieSuit
+	  {
+	  
+                scope=2;
+                displayName="FP VDF CoM DPM (Ghillie)";
+                picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Sniper_VDF";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };			
+
+	
+	class ESP_Uniform_Voytek: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Voytek M07 Woodland";
+		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESP_Rifleman_Voytek";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+    class U_I_CombatUniform_shortsleeve;
+	class ESP_Uniform_Voytek_recon: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="FP Voytek M07 Woodland (Rolled-Up)";
+		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESP_Recon_Voytek";
+			containerClass="Supply40";
+			mass=40;
+		};
+    };		
+	class U_I_GhillieSuit;
+	class ESP_Uniform_Voytek_ghillie: U_I_GhillieSuit
+	{
+		scope=2;
+		displayName="FP Voytek M07 Woodland (Ghillie)";
+		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESP_Sniper_Voytek";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+			
     class H_HelmetIA;
 	class FP_Helmet_RhodieBrush: H_HelmetIA
 	{
@@ -944,44 +1900,30 @@ class cfgWeapons
 		displayName = "FP UN PASGT";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"};
 	};
-/*	class rhsusf_mich_bare_norotos_alt;
-    class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt	
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_mich_bare_norotos_alt";
-        scope = 2;
-        displayName = "MICH 2000 (Black/Norotos)";
-		hiddenSelections[] = {"Camo", "Camo1", "Camo2"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa"};
-   	};
-    class rhsusf_mich_bare_norotos_arc;
-    class ESP_Helmet_MICH_arc: rhsusf_mich_bare_norotos_arc
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_mich_bare_norotos_arc";
-        scope = 2;
-        displayName = "MICH 2000 (Black/Norotos/ARC)";
-		hiddenSelections[] = {"Camo", "Camo1", "Camo2", "Camo 3"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", "FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGACMich.paa"};
-    };
-	class rhsusf_cvc_helmet;
-    class ESP_Helmet_CVC: rhsusf_cvc_helmet	
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_cvc_helmet";
-        scope = 2;
-        displayName = "ACVC-H (Black)";
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
-    };
-	class rhsusf_cvc_ess;
-    class ESP_Helmet_CVC_ESS: rhsusf_cvc_ess	
-    {
-        author = "CSLeader";
-        _generalMacro = "rhsusf_cvc_ess";
-        scope = 2;
-        displayName = "ACVC-H (Black/ESS)";
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
-    };*/
+	class H_MilCap_gry;
+	class H_MilCap_blk: H_MilCap_gry
+	{
+		author = "Bohemia Interactive";
+		_generalMacro = "H_Beret_blk";
+		scope = 2;
+		displayName = "Military Cap [Black]";
+		hiddenSelectionsTextures[] = {"\A3\characters_f_epb\Common\Data\cappatrol_blk_co.paa"};		
+	};
+    class LOP_H_PASGTHelmet_cover_TRI;
+	class LOP_H_PASGTHelmet_cover_BLK: LOP_H_PASGTHelmet_cover_TRI
+	{
+		author="Leights OPFOR Pack";
+		scope=2;
+		displayName="PASGT Helmet cover (black)";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsHeadgear\pasgt_helmet_co_voytek.paa"
+		};
+	};		
     class H_Beret_blk;
 	class FP_Beret_Purple: H_Beret_blk
 	{
@@ -1159,8 +2101,19 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="FP M1956 Webbing";
-		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\clothing_grncamo_co.paa","\FP_UniformsEverywhereElse\SkinsUniform\tech_grncamo_co.paa"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\clothing_grncamo_co.paa","FP_UniformsEverywhereElse\SkinsUniform\tech_grncamo_co.paa"};
 		picture="\FP_UniformsEverywhereElse\UI\icon_V_HarnessOU_grn_CA.paa";
 		author="FP Mod Team";
 	};
 };
+class cfgGlasses
+{
+	class G_Balaclava_blk;
+	class FP_G_Balaclava_wht: G_Balaclava_blk
+	{
+		author="FP Mod Team";
+		displayName = "Balaclava (White)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsGlasses\balaclava_wht.paa"};
+		picture = "FP_UniformsEverywhereElse\ui\balaclava_wht_icon.paa";
+	};
+}; 		 

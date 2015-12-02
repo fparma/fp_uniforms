@@ -6,5 +6,19 @@ V1.0
 - Added new textures by diwako (M90, German Camos, M84, type 07, probably other ones I've forgotten)
 - Added RVMats (maybe?)
 
-V1.1
+V1.01
 - Fixed error regarding M05 CW icon
+
+V1.02
+- Merged tinter's rvmat fixes, they -should- work now
+
+V1.03 (Release)
+- Fixed remaining filepath errors (hopefully)
+
+V1.031
+- Fixed final white balaclava error (literally end of all the pbos so yeah)
+
+V1.1
+- Added some Niko Skins
+- Fixed some errors
+- Added Airman Battle Uniform (ABU) with uniform, helmet and boonie
