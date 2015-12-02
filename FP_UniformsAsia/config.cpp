@@ -185,7 +185,7 @@ class cfgWeapons
 		displayName = "FP SK MICH (Granite B)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_GraniteBHelmet.paa"};
 	};
-    class rhs_6b27m_digi;
+ /*   class rhs_6b27m_digi;
 	class FP_Helmet_Type07Uni: rhs_6b27m_digi
 	{
 		author = "FP Mod Team";
@@ -202,7 +202,7 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP CH Helmet (Type 07 Universal, Goggles)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_Type07UniversalHelmet.paa"};
-	};
+	};*/
     class H_Booniehat_mcamo;
 	class FP_Boonie_Auscam: H_Booniehat_mcamo
 	{

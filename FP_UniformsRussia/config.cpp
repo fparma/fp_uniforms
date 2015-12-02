@@ -125,7 +125,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class rhs_msv_rifleman_m88_patchless;
+/*	class rhs_msv_rifleman_m88_patchless;
 	class FP_Rifleman_GreenM88: rhs_msv_rifleman_m88_patchless
 	{
 		_generalMacro="B_Soldier_F";
@@ -209,7 +209,7 @@ class CfgVehicles
 		{
 			"FP_UniformsRussia\SkinsUniform\FP_KSOR.paa"
 		};
-	};
+	};*/
 };
 class cfgWeapons
 {
@@ -295,7 +295,7 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class rhs_uniform_m88_patchless;
+/*	class rhs_uniform_m88_patchless;
 	class FP_Uniform_GreenM88: rhs_uniform_m88_patchless
 	{
 		scope=2;
@@ -359,7 +359,7 @@ class cfgWeapons
 			containerClass="Supply20";
 			mass=40;
 		};
-	};
+	};*/
     class LOP_H_SSh68Helmet_OLV;
 	class FP_Helmet_VSRSSH68: LOP_H_SSh68Helmet_OLV
 	{

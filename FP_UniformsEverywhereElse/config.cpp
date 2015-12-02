@@ -747,7 +747,7 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class rhs_uniform_m88_patchless;
+/*	class rhs_uniform_m88_patchless;
 	class FP_Uniform_GreenM88: rhs_uniform_m88_patchless
 	{
 		scope=2;
@@ -763,7 +763,7 @@ class cfgWeapons
 			containerClass="Supply20";
 			mass=80;
 		};
-	};
+	};*/
     class U_B_CombatUniform_mcam;
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {
@@ -944,7 +944,7 @@ class cfgWeapons
 		displayName = "FP UN PASGT";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"};
 	};
-	class rhsusf_mich_bare_norotos_alt;
+/*	class rhsusf_mich_bare_norotos_alt;
     class ESP_Helmet_MICH: rhsusf_mich_bare_norotos_alt	
     {
         author = "CSLeader";
@@ -981,7 +981,7 @@ class cfgWeapons
         scope = 2;
         displayName = "ACVC-H (Black/ESS)";
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\ESP_PGAC_CVC.paa"};
-    };
+    };*/
     class H_Beret_blk;
 	class FP_Beret_Purple: H_Beret_blk
 	{

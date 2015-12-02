@@ -171,7 +171,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class rhs_msv_rifleman_m88_patchless;
+/*	class rhs_msv_rifleman_m88_patchless;
 	class FP_Rifleman_Alpenflage: rhs_msv_rifleman_m88_patchless
 	{
 		_generalMacro="B_Soldier_F";
@@ -192,7 +192,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEasternEurope\SkinsUniform\FP_Alpenflage.paa"
 		};
-	};
+	};*/
 };
 class cfgWeapons
 {
@@ -327,7 +327,7 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class rhs_uniform_m88_patchless;
+/*	class rhs_uniform_m88_patchless;
 	class FP_Uniform_Alpenflage: rhs_uniform_m88_patchless
 	{
 		scope=2;
@@ -343,7 +343,7 @@ class cfgWeapons
 			containerClass="Supply20";
 			mass=40;
 		};
-	};
+	};*/
     class H_HelmetIA;
 	class FP_Helmet_M84: H_HelmetIA
 	{
@@ -377,7 +377,7 @@ class cfgWeapons
 		displayName = "FP SWE MICH (M90 Desert)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_M90DesHelmet.paa"};
 	};
-    class rhs_6b27m_digi;
+/*    class rhs_6b27m_digi;
     class FP_Helmet_m05: rhs_6b27m_digi
 	{
 		author="FP Mod Team (Helari)";
@@ -386,7 +386,7 @@ class cfgWeapons
 		displayName="FP M05 Helmet";
 		hiddenSelectionsTextures[]=
 		{"FP_UniformsEasternEurope\SkinsHeadgear\FP_M05Helmet.paa"};
-	};
+	};*/
     class H_Booniehat_mcamo;
 	class FP_Boonie_M03: H_Booniehat_mcamo
 	{
