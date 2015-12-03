@@ -1259,6 +1259,102 @@ class cfgWeapons
 		displayName = "FP US MICH (ABU)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_ABUhelmet.paa"};
 	};
+	class FP_Helmet_6CD: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_6CD";
+		scope = 2;
+		displayName = "FP US MICH (6CD)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_6cd.paa"};
+	};
+	class FP_Helmet_ALPCAM: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_ALPCAM";
+		scope = 2;
+		displayName = "FP US MICH (Multicam Alpine)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_alpcam.paa"};
+	};
+	class FP_Helmet_AOR1: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_AOR1";
+		scope = 2;
+		displayName = "FP US MICH (AOR1)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_aor1.paa"};
+	};
+	class FP_Helmet_AOR2: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_AOR2";
+		scope = 2;
+		displayName = "FP US MICH (AOR2)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_aor2.paa"};
+	};
+	class FP_Helmet_DMRP: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_DMRP";
+		scope = 2;
+		displayName = "FP US MICH (Marpat Desert)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_dmrp.paa"};
+	};
+	class FP_Helmet_MCAM: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_MCAM";
+		scope = 2;
+		displayName = "FP US MICH (Multicam)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_mcam.paa"};
+	};
+	class FP_Helmet_SMRP: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_SMRP";
+		scope = 2;
+		displayName = "FP US MICH (Marpat Snow)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_smrp.paa"};
+	};
+	class FP_Helmet_TPAT: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_TPAT";
+		scope = 2;
+		displayName = "FP US MICH (TPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_tpat.paa"};
+	};
+	class FP_Helmet_UCP: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_UCP";
+		scope = 2;
+		displayName = "FP US MICH (UCP)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_ucp.paa"};
+	};
+	class FP_Helmet_UCPD: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_UCPD";
+		scope = 2;
+		displayName = "FP US MICH (UCP-D)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_ucpd.paa"};
+	};
+	class FP_Helmet_Tan: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_Tan";
+		scope = 2;
+		displayName = "FP MICH (Tan)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_tan.paa"};
+	};
+	class FP_Helmet_OD: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_OD";
+		scope = 2;
+		displayName = "FP MICH (OD)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_OD.paa"};
+	};
     class H_Booniehat_mcamo;
 	class FP_Boonie_CADPATAR: H_Booniehat_mcamo
 	{
