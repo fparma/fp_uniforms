@@ -125,91 +125,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-/*	class rhs_msv_rifleman_m88_patchless;
-	class FP_Rifleman_GreenM88: rhs_msv_rifleman_m88_patchless
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP M88 (Green)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_GreenM88";
-                author="FP Mod Team";
-		side = 0;
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camob",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsUniform\green_m88.paa"
-		};
-	};
-	class FP_Rifleman_KLMKM88: rhs_msv_rifleman_m88_patchless
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP RU KLMK (M88)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_KLMKM88";
-                author="FP Mod Team";
-		side = 0;
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camob",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsUniform\FP_KLMKM88.paa"
-		};
-	};
-	class FP_Rifleman_BerezkaM88: rhs_msv_rifleman_m88_patchless
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP RU Berezka (M88)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_BerezkaM88";
-                author="FP Mod Team";
-		side = 0;
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camob",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsUniform\FP_BerezkaM88.paa"
-		};
-	};
-	class FP_Rifleman_KSORM88: rhs_msv_rifleman_m88_patchless
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP RU KSOR (M88)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_KSORM88";
-                author="FP Mod Team";
-		side = 0;
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camob",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsUniform\FP_KSOR.paa"
-		};
-	};*/
 };
 class cfgWeapons
 {
@@ -295,76 +210,11 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-/*	class rhs_uniform_m88_patchless;
-	class FP_Uniform_GreenM88: rhs_uniform_m88_patchless
-	{
-		scope=2;
-		displayName="FP M88 (Green)";
-		picture="\A3\characters_f\data\ui\icon_u_b_combatuniform_mcam_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
-		side = 0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_GreenM88";
-			containerClass="Supply20";
-			mass=80;
-		};
-	};
-	class FP_Uniform_KLMKM88: rhs_uniform_m88_patchless
-	{
-		scope=2;
-		displayName="FP RU KLMK (M88)";
-		picture="\FP_UniformsRussia\UI\klmkicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
-		side = 0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_KLMKM88";
-			containerClass="Supply20";
-			mass=40;
-		};
-	};
-	class FP_Uniform_BerezkaM88: rhs_uniform_m88_patchless
-	{
-		scope=2;
-		displayName="FP RU Berezka (M88)";
-		picture="\FP_UniformsRussia\UI\berezkaicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
-		side = 0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_BerezkaM88";
-			containerClass="Supply20";
-			mass=40;
-		};
-	};
-	class FP_Uniform_KSOR: rhs_uniform_m88_patchless
-	{
-		scope=2;
-		displayName="FP RU KSOR (M88)";
-		picture="\FP_UniformsRussia\UI\ksoricon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-                author="FP Mod Team";
-		side = 0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_KSORM88";
-			containerClass="Supply20";
-			mass=40;
-		};
-	};*/
-    class LOP_H_SSh68Helmet_OLV;
-	class FP_Helmet_VSRSSH68: LOP_H_SSh68Helmet_OLV
+    class FP_Helmet_SSH68;
+	class FP_Helmet_VSRSSH68: FP_Helmet_SSH68
 	{
 		author = "FP Mod Team";
-		_generalMacro = "LOP_H_SSh68Helmet_OLV";
+		_generalMacro = "FP_Helmet_SSH68";
 		scope = 2;
 		displayName = "FP RU SSH68 (VSR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsRussia\SkinsHeadgear\FP_FloraSSH68.paa"};

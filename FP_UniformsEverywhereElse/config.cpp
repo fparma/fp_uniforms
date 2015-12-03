@@ -1874,11 +1874,11 @@ class cfgWeapons
 		displayName = "FP KY MICH (Winter Splinter)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_KyrelianWinterHelmet.paa"};
 	};
-    class LOP_H_PASGTHelmet_OLV;
-	class FP_Helmet_UNPASGT: LOP_H_PASGTHelmet_OLV
+    class FP_Helmet_PASGT;
+	class FP_Helmet_UNPASGT: FP_Helmet_PASGT
 	{
 		author = "FP Mod Team";
-		_generalMacro = "LOP_H_PASGTHelmet_OLV";
+		_generalMacro = "FP_Helmet_PASGT";
 		scope = 2;
 		displayName = "FP UN PASGT";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"};
