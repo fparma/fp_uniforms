@@ -675,7 +675,7 @@ class CfgVehicles
         uniformClass="ESP_PRAF_M90_ghillie";
         author="CSLeader";
         hiddenSelections[]={"Camo", "Camo3", "insignia"};
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_camonet.paa"};
     };
         class ESP_Rifleman_PGI: B_Soldier_F
         {
@@ -863,7 +863,7 @@ class CfgVehicles
                 author="CSLeader";
                 hiddenSelections[]=
                 {"Camo", "Camo3", "insignia"};
-                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_camonet.paa"};
         };		
 	class ESP_Rifleman_Voytek: I_soldier_F
 	{
