@@ -237,6 +237,28 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
+	class FP_Rifleman_Strich_OPFOR: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP EGER Strichtarn (BDU)";
+		uniformClass="FP_Uniform_egerstrich";
+		author="FP Mod Team";
+		side = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_Strichtarn.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
 	class FP_Rifleman_StrichTTsMKK: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -322,6 +344,7 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
+	class Armory;
 	class FP_Uniform_M05: U_I_CombatUniform
 	{
 		scope=2;
@@ -498,6 +521,26 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
+	};
+	class FP_Uniform_Strich_OPFOR: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP EGER Strichtarn (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_m05cw_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 0;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Strich_OPFOR";
+			containerClass="Supply40";
+			mass=40;
+		};
+	    class Armory: Armory
+        {
+            disabled = 0;
+        };
 	};
 	class FP_Uniform_StrichTTsMKK: U_O_OfficerUniform_ocamo
 	{

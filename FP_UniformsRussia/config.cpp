@@ -88,7 +88,7 @@ class CfgVehicles
 		displayName="FP RU VSR (BDU)";
 		uniformClass="FP_Uniform_VSR";
 		author="FP Mod Team";
-		side = 2;
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -110,7 +110,7 @@ class CfgVehicles
 		displayName="FP RU KLMK Winter";
 		uniformClass="FP_Uniform_klmkwinter";
 		author="FP Mod Team";
-		side = 2;
+		side = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -119,6 +119,71 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsRussia\SkinsUniform\officer_klmkwint.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_SovUniform_Private: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Soviet Uniform (Privjet)";
+		uniformClass="FP_Uniform_sovprivuniform";
+		author="FP Mod Team";
+		side = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsRussia\SkinsUniform\GSFG70privjet.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_SovUniform_Efreitor: FP_Rifleman_SovUniform_Private
+	{
+		scope=1;
+		displayName="FP Soviet Uniform (Efreitor)";
+		uniformClass="FP_Uniform_sovefriuniform";
+		author="FP Mod Team";
+		side = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsRussia\SkinsUniform\GSFG70efreitor.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_SovUniform_Sergeant: FP_Rifleman_SovUniform_Private
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Soviet Uniform (Sergeant)";
+		uniformClass="FP_Uniform_sovserguniform";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsRussia\SkinsUniform\GSFG70sergeant.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -206,6 +271,54 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_klmkwinter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_SovUniform_Private: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP Soviet Uniform (Private)";
+		picture="\FP_UniformsRussia\UI\u_klmk_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 0;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_SovUniform_Private";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_SovUniform_Efreitor: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP Soviet Uniform (Efreitor)";
+		picture="\FP_UniformsRussia\UI\u_klmk_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 0;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_SovUniform_Efreitor";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_SovUniform_Sergeant: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP Soviet Uniform (Sergeant)";
+		picture="\FP_UniformsRussia\UI\u_klmk_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 0;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_SovUniform_Sergeant";
 			containerClass="Supply40";
 			mass=40;
 		};
