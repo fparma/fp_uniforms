@@ -14,15 +14,6 @@ class CfgPatches
 class CfgVehicles
 {
 	class I_soldier_F;
-	class FP_Rifleman_BlkKhk: I_soldier_F
-	{
-		scope=1;
-		displayName="FP Black Khaki";
-		uniformClass="FP_Uniform_BlkKhk";
-		author="FP Mod Team";
-		side = 2;
-		hiddenSelectionsTextures[]={"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"};
-	};
 	class FP_Rifleman_RhodieBrush: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -550,14 +541,6 @@ class CfgVehicles
 		};
 	};
 	class B_soldier_F;
-    class FP_Rifleman_BlkKhkNato: B_Soldier_F
-    {
-        scope=1;
-        displayName="Black/Khaki Rifleman";
-        uniformClass="FP_Uniform_BlkKhkNato";
-		author="FP Mod Team";
-        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhkNato.paa"};
-    };
     class ESP_Rifleman_PGAC: B_Soldier_F
     {
         _generalMacro="B_Soldier_F";
@@ -694,19 +677,19 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "Camo3", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
     };
-	class ESP_Rifleman_PGI: B_Soldier_F
-	{
-			_generalMacro="B_Soldier_F";
-			scope=1;
-			displayName="PGI Rifleman";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_PGI_Digital";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
-	};
-	class ESP_Tee_PGI: B_Soldier_02_F
+        class ESP_Rifleman_PGI: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="PGI Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
+        };
+		class ESP_Tee_PGI: B_Soldier_02_F
     {
         _generalMacro="B_Soldier_02_F";
         scope=1;
@@ -717,42 +700,42 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa", "\A3\Characters_F\Common\Data\basicbody_black_co.paa"};
     };
-	class ESP_Recon_PGI: B_Soldier_03_F
-	{
-			_generalMacro="B_Soldier_03_F";
-			scope=1;
-			displayName="PGI Recon";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_PGI_Digital_recon";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
-	};
-	class ESP_Sniper_PGI: B_sniper_F
-	{
-			_generalMacro="B_sniper_F";
-			scope=1;
-			displayName="PGI Sniper";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_PGI_Digital_ghillie";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "Camo3", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_night_co.paa"};
-	};	
-	class ESP_Rifleman_CoG: B_Soldier_F
-	{
-			_generalMacro="B_Soldier_F";
-			scope=1;
-			displayName="CoG Cultist";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_CoG_TPAT";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
-	};
+		class ESP_Recon_PGI: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="PGI Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa"};
+        };
+		class ESP_Sniper_PGI: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="PGI Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_PGI_Digital_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PGIDigital.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_night_co.paa"};
+        };	
+        class ESP_Rifleman_CoG: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="CoG Cultist";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
+        };
 		class ESP_Tee_CoG: B_Soldier_02_F
     {
         _generalMacro="B_Soldier_02_F";
@@ -764,42 +747,42 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa", "\A3\Characters_F\Common\Data\basicbody_black_co.paa"};
     };
-	class ESP_Recon_CoG: B_Soldier_03_F
-	{
-			_generalMacro="B_Soldier_03_F";
-			scope=1;
-			displayName="CoG Recon";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_CoG_TPAT_recon";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
-	};
-	class ESP_Sniper_CoG: B_sniper_F
-	{
-			_generalMacro="B_sniper_F";
-			scope=1;
-			displayName="CoG Holy Sniper";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_CoG_TPAT_ghillie";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "Camo3", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_fishnet_co.paa"};
-	};	
-	class ESP_Rifleman_ISA: B_Soldier_F
-	{
-			_generalMacro="B_Soldier_F";
-			scope=1;
-			displayName="ISA Rifleman";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_ISA_Woodland";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
-	};
+		class ESP_Recon_CoG: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="CoG Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa"};
+        };
+		class ESP_Sniper_CoG: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="CoG Holy Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_CoG_TPAT_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_CoGTPAT.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_fishnet_co.paa"};
+        };	
+        class ESP_Rifleman_ISA: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="ISA Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+        };
 		class ESP_Tee_ISA: B_Soldier_02_F
     {
         _generalMacro="B_Soldier_02_F";
@@ -811,42 +794,42 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
     };
-	class ESP_Recon_ISA: B_Soldier_03_F
-	{
-			_generalMacro="B_Soldier_03_F";
-			scope=1;
-			displayName="ISA Recon";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_ISA_Woodland_recon";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
-	};
-	class ESP_Sniper_ISA: B_sniper_F
-	{
-			_generalMacro="B_sniper_F";
-			scope=1;
-			displayName="ISA Sniper";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_ISA_Woodland_ghillie";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "Camo3", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\characters_f\common\data\ghillie_woodland_co.paa"};
-	};
-	class ESP_Rifleman_VDF: B_Soldier_F
-	{
-			_generalMacro="B_Soldier_F";
-			scope=1;
-			displayName="VDF Rifleman";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_VDF_DPM";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
-	};
+		class ESP_Recon_ISA: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="ISA Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+        };
+		class ESP_Sniper_ISA: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="ISA Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_ISA_Woodland_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\characters_f\common\data\ghillie_woodland_co.paa"};
+        };
+        class ESP_Rifleman_VDF: B_Soldier_F
+        {
+                _generalMacro="B_Soldier_F";
+                scope=1;
+                displayName="VDF Rifleman";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
+        };
 		class ESP_Tee_VDF: B_Soldier_02_F
     {
         _generalMacro="B_Soldier_02_F";
@@ -858,30 +841,30 @@ class CfgVehicles
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
     };
-	class ESP_Recon_VDF: B_Soldier_03_F
-	{
-			_generalMacro="B_Soldier_03_F";
-			scope=1;
-			displayName="VDF Recon";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_VDF_DPM_recon";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
-	};
-	class ESP_Sniper_VDF: B_sniper_F
-	{
-			_generalMacro="B_sniper_F";
-			scope=1;
-			displayName="VDF Sniper";
-			nakedUniform="U_BasicBody";
-			uniformClass="ESP_VDF_DPM_ghillie";
-			author="CSLeader";
-			hiddenSelections[]=
-			{"Camo", "Camo3", "insignia"};
-			hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
-	};		
+		class ESP_Recon_VDF: B_Soldier_03_F
+        {
+                _generalMacro="B_Soldier_03_F";
+                scope=1;
+                displayName="VDF Recon";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM_recon";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
+        };
+		class ESP_Sniper_VDF: B_sniper_F
+        {
+                _generalMacro="B_sniper_F";
+                scope=1;
+                displayName="VDF Sniper";
+                nakedUniform="U_BasicBody";
+                uniformClass="ESP_VDF_DPM_ghillie";
+                author="CSLeader";
+                hiddenSelections[]=
+                {"Camo", "Camo3", "insignia"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "FP_UniformsEverywhereElse\SkinsUniform\ghillie_grass.paa"};
+        };		
 	class ESP_Rifleman_Voytek: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -911,7 +894,7 @@ class CfgVehicles
 		hiddenSelections[]=
 		{
 			"Camo",
-			"insignia"
+                        "insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -954,21 +937,6 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
-	class FP_Uniform_BlkKhk: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP Black/Khaki";
-		picture="\FP_UniformsEverywhereElse\UI\BlkKhkIcon.paa";
-		author="FP Mod Team";
-		side = 2;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_BlkKhk";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_RhodieBrush: U_I_CombatUniform
 	{
 		scope=2;
@@ -1389,19 +1357,6 @@ class cfgWeapons
 		};
 	};
     class U_B_CombatUniform_mcam;
-    class FP_Uniform_BlkKhkNato: U_B_CombatUniform_mcam
-    {
-        displayName="FP Black/Khaki Nato";
-        picture="\FP_UniformsEverywhereElse\UI\BlkKhkIcon.paa";
-		author="FP Mod Team";
-        class ItemInfo: UniformItem
-        {
-            uniformModel="-";
-            uniformClass="FP_Rifleman_BlkKhkNato";
-            containerClass="Supply40";
-            mass=40;
-        };
-    };
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {
         scope=2;
@@ -1585,36 +1540,38 @@ class cfgWeapons
             mass=40;
         };
     };
-	class ESP_Uniform_PGIDigital: U_B_CombatUniform_mcam
-	{
-		scope=2;
-		displayName="FP PGI Digital";
-		picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="CSLeader";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="ESP_Rifleman_PGI";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};     
-	class ESP_Uniform_PGIDigital_recon: U_B_CombatUniform_mcam_vest
-	{
-		scope=2;
-		displayName="FP PGI Digital (Rolled-up)";
-		picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="CSLeader";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="ESP_Recon_PGI";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
+        class ESP_Uniform_PGIDigital: U_B_CombatUniform_mcam
+  {
+                scope=2;
+                displayName="FP PGI Digital";
+                picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Rifleman_PGI";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+   };     
+        class ESP_Uniform_PGIDigital_recon: U_B_CombatUniform_mcam_vest
+	  {
+	  
+                scope=2;
+                displayName="FP PGI Digital (Rolled-up)";
+                picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
+                model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+                class ItemInfo: UniformItem
+                {
+                        uniformModel="-";
+                        uniformClass="ESP_Recon_PGI";
+                        containerClass="Supply40";
+                        mass=40;
+                };
+    };
+	
     class ESP_Uniform_PGIDigital_tee: U_B_CombatUniform_mcam_tshirt
 	{
         scope=2;
