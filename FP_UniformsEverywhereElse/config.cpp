@@ -428,6 +428,15 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_Ten's.paa"
 		};
+	};
+	class FP_Rifleman_BlkKhk: I_soldier_F
+	{
+		scope=1;
+		displayName="FP Black Khaki";
+		uniformClass="FP_Uniform_BlkKhk";
+		author="FP Mod Team";
+		side = 2;
+		hiddenSelectionsTextures[]={"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"};
 	};	
 	class O_officer_F;
 	class FP_Rifleman_grn: O_officer_F
@@ -541,6 +550,14 @@ class CfgVehicles
 		};
 	};
 	class B_soldier_F;
+    class FP_Rifleman_BlkKhkNato: B_Soldier_F
+    {
+        scope=1;
+        displayName="Black/Khaki Rifleman";
+        uniformClass="FP_Uniform_BlkKhkNato";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhkNato.paa"};
+    };
     class ESP_Rifleman_PGAC: B_Soldier_F
     {
         _generalMacro="B_Soldier_F";
@@ -1275,6 +1292,21 @@ class cfgWeapons
 			mass=40;
 		};
 	};		
+	class FP_Uniform_BlkKhk: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Black/Khaki";
+		picture="\FP_UniformsEverywhereElse\UI\BlkKhkIcon.paa";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BlkKhk";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
@@ -1357,6 +1389,19 @@ class cfgWeapons
 		};
 	};
     class U_B_CombatUniform_mcam;
+    class FP_Uniform_BlkKhkNato: U_B_CombatUniform_mcam
+    {
+        displayName="FP Black/Khaki Nato";
+        picture="\FP_UniformsEverywhereElse\UI\BlkKhkIcon.paa";
+		author="FP Mod Team";
+        class ItemInfo: UniformItem
+        {
+            uniformModel="-";
+            uniformClass="FP_Rifleman_BlkKhkNato";
+            containerClass="Supply40";
+            mass=40;
+        };
+    };
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {
         scope=2;
