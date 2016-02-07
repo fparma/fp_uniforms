@@ -2,9 +2,7 @@ class CfgPatches
 {
 	class FP_UniformsAmericas
 	{
-		units[]={
-			"B_APC_Wheeled_01_cannon_wd_F"
-		};
+		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
