@@ -19,7 +19,7 @@ class CfgVehicles
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP AU Auscam";
+		displayName="AU Auscam";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Auscam";
                 author="FP Mod Team";
@@ -38,7 +38,7 @@ class CfgVehicles
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP JP Jeitei";
+		displayName="JP Jeitei";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Jeitei";
                 author="FP Mod Team";
@@ -57,7 +57,7 @@ class CfgVehicles
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP SK Granite B";
+		displayName="SK Granite B";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_GraniteB";
                 author="FP Mod Team";
@@ -76,7 +76,7 @@ class CfgVehicles
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP CH Type 07 Universal";
+		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Jeitei";
         author="FP Mod Team";
@@ -89,6 +89,44 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa"
+		};
+	};
+	class FP_Rifleman_MECTiger: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MEC Tigerstripe (Sweater)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MECTiger";
+        author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\MECNormalfags.paa"
+		};
+	};
+	class FP_Rifleman_MECDigiDesert: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="MEC Recon Digital Desert (Sweater)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MECDigiDesert";
+        author="FP Mod Team";
+		side = 2;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\MECSpecialfag.paa"
 		};
 	};
 };
@@ -156,6 +194,38 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_Type07Universal";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_MECTiger: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (MEC Tiger)";
+		picture="\FP_UniformsAsia\UI\mectigericon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_MECTiger";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_MECDigiDesert: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Recon Digi Desert)";
+		picture="\FP_UniformsAsia\UI\mectigericon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_MECTiger";
 			containerClass="Supply40";
 			mass=40;
 		};
