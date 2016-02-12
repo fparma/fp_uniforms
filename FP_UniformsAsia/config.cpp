@@ -225,7 +225,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_MECTiger";
+			uniformClass="FP_Rifleman_MECDigiDesert";
 			containerClass="Supply40";
 			mass=40;
 		};
