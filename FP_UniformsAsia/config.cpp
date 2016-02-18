@@ -91,6 +91,42 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa"
 		};
 	};
+	class FP_Rifleman_MEC01: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="BF2 MEC";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_BF2_MEC01";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_MEC_01.paa"
+		};
+	};
+	class FP_Rifleman_MEC02: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="BF2 MEC (Jacket)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_BF2_MEC02";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_MEC_02.paa"
+		};
+	};	
 };
 class cfgWeapons
 {
@@ -160,6 +196,36 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_MEC01: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP BF2 MEC";
+		picture="\FP_UniformsEverywhereElse\UI\bf2mecicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_MEC01";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_MEC01: U_I_CombatUniform
+	{
+		scope=1;
+		displayName="FP BF2 MEC (Jacket)";
+		picture="\FP_UniformsEverywhereElse\UI\bf2mecicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_MEC02";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
     class H_HelmetIA;
 	class FP_Helmet_Auscam: H_HelmetIA
 	{
@@ -202,5 +268,5 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP AU Boonie (Auscam)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamBoonie.paa"};
-	};
+	};			
 };

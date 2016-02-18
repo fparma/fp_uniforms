@@ -279,7 +279,25 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_squares.paa"
 		};
-	};	
+	};
+	class FP_Rifleman_Sorrow: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="MGS3 Sorrow";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_MGS3_Sorrow";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_sorrow.paa"
+		};
+	};
 	class FP_Rifleman_DTS: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -920,6 +938,24 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\Voytek_M07_Woodland.paa", "\A3\characters_f\common\data\ghillie_woodland_co.paa"
 		};
 	};
+	class FP_Rifleman_Monolith: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Monolith Worshipper";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_SoC_Monolith";
+                author="CSLeader";
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\SoC_Monolith.paa"
+		};
+	};			
 	class B_Carryall_Base;
 	class B_Carryall_Inv: B_Carryall_Base
 	{
@@ -1161,8 +1197,21 @@ class cfgWeapons
 			mass=40;
 		};
 	};	
-
-
+	class FP_Uniform_Sorrow: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP MGS3 Sorrow";
+		picture="\FP_UniformsEverywhereElse\UI\mgs3crybabyicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Sorrow";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class FP_Uniform_DTS: U_I_CombatUniform
 	{
 		scope=2;
@@ -1359,7 +1408,7 @@ class cfgWeapons
     class U_B_CombatUniform_mcam;
     class ESP_Uniform_PGACM90: U_B_CombatUniform_mcam
     {
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Blue";
         picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1375,7 +1424,7 @@ class cfgWeapons
     class U_B_CombatUniform_mcam_vest;
     class ESP_Uniform_PGACM90_recon: U_B_CombatUniform_mcam_vest
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Blue (Rolled-up)";
         picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1391,7 +1440,7 @@ class cfgWeapons
     class U_B_CombatUniform_mcam_tshirt;
     class ESP_Uniform_PGACM90_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Blue (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1407,7 +1456,7 @@ class cfgWeapons
     class U_B_GhillieSuit;
     class ESP_Uniform_PGACM90_ghillie: U_B_GhillieSuit
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Blue (Ghillie)";
         picture="\FP_UniformsEverywhereElse\UI\m90pgacicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1422,7 +1471,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PDEFM90: U_B_CombatUniform_mcam
     {
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Desert";
         picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1437,7 +1486,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PDEFM90_recon: U_B_CombatUniform_mcam_vest
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Desert (Rolled-up)";
         picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1452,7 +1501,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PDEFM90_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Desert (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1467,7 +1516,7 @@ class cfgWeapons
 	};
     class ESP_Uniform_PDEFM90_ghillie: U_B_GhillieSuit
 	{
-	    scope=2;
+	    scope=1;
         displayName="FP PAAPMC Splitter Desert (Ghillie)";
         picture="\FP_UniformsEverywhereElse\UI\m90pdeficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1482,7 +1531,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
     {
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Woodland";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1497,7 +1546,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PRAFM90_recon: U_B_CombatUniform_mcam_vest
 	{
-	    scope=2;
+	    scope=1;
         displayName="FP PAAPMC Splitter Woodland (Rolled-up)";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1512,7 +1561,7 @@ class cfgWeapons
 	};	
     class ESP_Uniform_PRAFM90_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP PAAPMC Splitter Woodland (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1527,7 +1576,7 @@ class cfgWeapons
     };
     class ESP_Uniform_PRAFM90_ghillie: U_B_GhillieSuit
 	{
-	    scope=2;
+	    scope=1;
         displayName="FP PAAPMC Splitter Woodland (Ghillie)";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1542,7 +1591,7 @@ class cfgWeapons
     };
         class ESP_Uniform_PGIDigital: U_B_CombatUniform_mcam
   {
-                scope=2;
+                scope=1;
                 displayName="FP PGI Digital";
                 picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1558,7 +1607,7 @@ class cfgWeapons
         class ESP_Uniform_PGIDigital_recon: U_B_CombatUniform_mcam_vest
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP PGI Digital (Rolled-up)";
                 picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1574,7 +1623,7 @@ class cfgWeapons
 	
     class ESP_Uniform_PGIDigital_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP PGI Digital (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1590,7 +1639,7 @@ class cfgWeapons
         class ESP_Uniform_PGIDigital_ghillie: U_B_GhillieSuit
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP PGI Digital (Ghillie)";
                 picture="\FP_UniformsEverywhereElse\UI\DigitalPGIicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1605,7 +1654,7 @@ class cfgWeapons
     };		
         class ESP_Uniform_CoGTPAT: U_B_CombatUniform_mcam
   {
-                scope=2;
+                scope=1;
                 displayName="FP CoG TPAT";
                 picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1621,7 +1670,7 @@ class cfgWeapons
         class ESP_Uniform_CoGTPAT_recon: U_B_CombatUniform_mcam_vest
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP CoG TPAT (Rolled-up)";
                 picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1636,7 +1685,7 @@ class cfgWeapons
     };	
     class ESP_Uniform_CoGTPAT_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP CoG TPAT (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1652,7 +1701,7 @@ class cfgWeapons
         class ESP_Uniform_CoGTPAT_ghillie: U_B_GhillieSuit
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP CoG TPAT (Ghillie)";
                 picture="\FP_UniformsEverywhereElse\UI\tpatcogicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1667,7 +1716,7 @@ class cfgWeapons
     };
         class ESP_Uniform_ISAWoodland: U_B_CombatUniform_mcam
   {
-                scope=2;
+                scope=1;
                 displayName="FP ISA Woodland";
                 picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1698,7 +1747,7 @@ class cfgWeapons
     };	
     class ESP_Uniform_ISAWoodland_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP ISA Woodland (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1714,7 +1763,7 @@ class cfgWeapons
         class ESP_Uniform_ISAWoodland_ghillie: U_B_GhillieSuit
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP ISA Woodland (Ghillie)";
                 picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1731,7 +1780,7 @@ class cfgWeapons
 
         class ESP_Uniform_VDFDPM: U_B_CombatUniform_mcam
   {
-                scope=2;
+                scope=1;
                 displayName="FP VDF CoM DPM";
                 picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1747,7 +1796,7 @@ class cfgWeapons
         class ESP_Uniform_VDFDPM_recon: U_B_CombatUniform_mcam_vest
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP VDF CoM DPM (Rolled-up)";
                 picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1762,7 +1811,7 @@ class cfgWeapons
     };	
     class ESP_Uniform_VDFDPM_tee: U_B_CombatUniform_mcam_tshirt
 	{
-        scope=2;
+        scope=1;
         displayName="FP VDF CoM DPM (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1778,7 +1827,7 @@ class cfgWeapons
         class ESP_Uniform_VDFDPM_ghillie: U_B_GhillieSuit
 	  {
 	  
-                scope=2;
+                scope=1;
                 displayName="FP VDF CoM DPM (Ghillie)";
                 picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1795,7 +1844,7 @@ class cfgWeapons
 	
 	class ESP_Uniform_Voytek: U_I_CombatUniform
 	{
-		scope=2;
+		scope=1;
 		displayName="FP Voytek M07 Woodland";
 		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1811,7 +1860,7 @@ class cfgWeapons
     class U_I_CombatUniform_shortsleeve;
 	class ESP_Uniform_Voytek_recon: U_I_CombatUniform_shortsleeve
 	{
-		scope=2;
+		scope=1;
 		displayName="FP Voytek M07 Woodland (Rolled-Up)";
 		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1827,7 +1876,7 @@ class cfgWeapons
 	class U_I_GhillieSuit;
 	class ESP_Uniform_Voytek_ghillie: U_I_GhillieSuit
 	{
-		scope=2;
+		scope=1;
 		displayName="FP Voytek M07 Woodland (Ghillie)";
 		picture="\FP_UniformsEverywhereElse\UI\voytekicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -1839,8 +1888,82 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
-			
+	};
+    class FP_Uniform_Monolith: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP S.T.A.L.K.E.R. Monolith Camo";
+		picture="\FP_UniformsEverywhereElse\UI\spacerockworshippersicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Monolith";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_MtnDew: U_I_CombatUniform
+	{
+		scope=1;
+		displayName="FP Mountain Dew";
+		picture="\FP_UniformsEverywhereElse\UI\mtndewicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_GamerDrink";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Doritos: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP Doritos";
+		picture="\FP_UniformsEverywhereElse\UI\doritosicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_GamerChips";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_MtnDew: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP MGS3 Banana";
+		picture="\FP_UniformsEverywhereElse\UI\mgs3bananaicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Banana";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Catcamo: U_I_CombatUniform	
+	{
+		scope=1;
+		displayName="FP Cat Corner Camo";
+		picture="\FP_UniformsEverywhereElse\UI\catcamoicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_CatCorner";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
     class H_HelmetIA;
 	class FP_Helmet_RhodieBrush: H_HelmetIA
 	{
