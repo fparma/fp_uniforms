@@ -411,6 +411,25 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_Ten'.paa"
 		};
 	};
+			class FP_Rifleman_Monolith: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="FP Monolith";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_SoC_Monolith";
+                author="FP Mod Team";
+		side = 1;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\Fp_MonolithCamo.paa"
+		};
+	};
 	class FP_Recon_Ten: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1303,6 +1322,22 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_BlkKhk";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+		class FP_Uniform_Monolith: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Monolith Camo";
+		picture="\FP_UniformsEverywhereElse\UI\MonolithCamoIcon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Monolith";
 			containerClass="Supply40";
 			mass=40;
 		};
