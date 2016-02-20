@@ -1330,7 +1330,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="FP Monolith Camo";
-		picture="\FP_Uniforms\UI\FPMonolithCamoIcon.paa";
+		picture="\FP_UniformsEverywhereElse\UI\FPMonolithCamoIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
 		side = 1;
