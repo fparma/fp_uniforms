@@ -427,7 +427,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FpMonolithCamo.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\Fp_MonolithCamo.paa"
 		};
 	};
 	class FP_Recon_Ten: I_Soldier_02_F
@@ -1330,7 +1330,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="FP Monolith Camo";
-		picture="\FP_UniformsEverywhereElse\UI\FPMonolithCamoIcon.paa";
+		picture="\FP_UniformsEverywhereElse\UI\MonolithCamoIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
 		side = 1;
