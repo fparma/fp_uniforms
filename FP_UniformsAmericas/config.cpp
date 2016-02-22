@@ -2,7 +2,8 @@ class CfgPatches
 {
 	class FP_UniformsAmericas
 	{
-		units[]={
+		units[]=
+		{
 			"B_APC_Wheeled_01_cannon_wd_F"
 		};
 		weapons[]={};
