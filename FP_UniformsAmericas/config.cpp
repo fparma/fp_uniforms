@@ -55,25 +55,6 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\FP_CADPATAR.paa"
 		};
 	};
-	class FP_Rifleman_DualTex: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA DualTex";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_DualTex";
-                author="FP Mod Team";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\FP_DualTex.paa"
-		};
-	};
 	class FP_Rifleman_HECU: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -129,25 +110,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAmericas\SkinsUniform\aor2.paa"
-		};
-	};
-	class FP_Rifleman_AOR2od: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA AOR2/OD";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_AOR2od";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\aor2od.paa"
 		};
 	};
 	class FP_Rifleman_dmarpat: I_soldier_F
@@ -303,25 +265,7 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\mcamalpine.paa"
 		};
 	};
-	class FP_Rifleman_multicamarid: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA Multicam (Arid)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_multicamarid";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\mcamarid.paa"
-		};
-	};
+
 	class FP_Rifleman_multicampcu: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -358,44 +302,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAmericas\SkinsUniform\mcamtropic.paa"
-		};
-	};
-	class FP_Rifleman_multicamucp: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA Multicam/UCP";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_multicamucpd";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\multicamucp.paa"
-		};
-	};
-	class FP_Rifleman_multicamucpd: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA Multicam/UCP-D";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_multicamucpd";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\multicamucpd.paa"
 		};
 	};
 	class FP_Rifleman_wtiger: I_soldier_F
@@ -455,63 +361,6 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\ucpd.paa"
 		};
 	};
-	class FP_Rifleman_ucpdmulticam: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA UCP-D/Multicam";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_ucpdmcam";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\ucpdmulticam.paa"
-		};
-	};
-	class FP_Rifleman_ucpdpcu: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA UCP-D/PCU";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_ucpdpcu";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\ucpdpcu.paa"
-		};
-	};
-	class FP_Rifleman_ucpmulticam: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA UCP/Multicam";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_ucpmcam";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\ucpmulticam.paa"
-		};
-	};
 	class FP_Rifleman_ucppcu: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -529,25 +378,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAmericas\SkinsUniform\ucppcu.paa"
-		};
-	};
-	class FP_Rifleman_ABU: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP USA ABU";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_abu";
-                author="FP Mod Team (Niko)";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\FP_ABU.paa"
 		};
 	};
 	class O_officer_F;
@@ -611,28 +441,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAmericas\SkinsUniform\officer_m81.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
-		};
-	};
-	class FP_Rifleman_mrp: O_officer_F
-	{
-		_generalMacro="O_officer_F";
-		scope=1;
-		displayName="FP US Marpat Woodland (BDU)";
-		uniformClass="FP_Uniform_mrp";
-		author="FP Mod Team";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\officer_mrp.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -705,22 +513,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_DualTex: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA DualTex";
-		picture="\FP_UniformsAmericas\UI\dualtexicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_DualTex";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_HECU: U_I_CombatUniform
 	{
 		scope=2;
@@ -765,22 +557,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_AOR2";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_AOR2od: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA AOR2/OD";
-		picture="\FP_UniformsAmericas\UI\aor2odicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_AOR2od";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -849,22 +625,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};	
-	class FP_Uniform_wmarpat: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA Woodland MARPAT";
-		picture="\FP_UniformsAmericas\UI\marpaticon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_wmarpat";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_marpatm81: U_I_CombatUniform
 	{
 		scope=2;
@@ -913,22 +673,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_multicamarid: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA Multicam (Arid)";
-		picture="\FP_UniformsAmericas\UI\mcamaridicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_multicamarid";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_multicampcu: U_I_CombatUniform
 	{
 		scope=2;
@@ -957,38 +701,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_multicamtropic";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_multicamucp: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA Multicam/UCP";
-		picture="\FP_UniformsAmericas\UI\multicamucpicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_multicamucp";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_multicamucpd: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA Multicam/UCP-D";
-		picture="\FP_UniformsAmericas\UI\multicamucpd.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_multicamucpd";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1041,54 +753,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_ucpdmulticam: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA UCP-D/Multicam";
-		picture="\FP_UniformsAmericas\UI\ucpdmulticamicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_ucpdmulticam";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_ucpdpcu: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA UCP-D/PCU";
-		picture="\FP_UniformsAmericas\UI\ucpdpcuicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_ucpdpcu";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_ucpmulticam: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA UCP/Multicam";
-		picture="\FP_UniformsAmericas\UI\ucpmulticamicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_ucpmulticam";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_ucppcu: U_I_CombatUniform
 	{
 		scope=2;
@@ -1101,22 +765,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_ucppcu";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_ABU: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP USA ABU";
-		picture="\FP_UniformsAmericas\UI\ucpicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_ABU";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1166,22 +814,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_m81";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_mrp: U_O_OfficerUniform_ocamo
-	{
-		scope=2;
-		displayName="FP US MARPAT Woodland (BDU)";
-		picture="\FP_UniformsAmericas\UI\u_mrp_icon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_mrp";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1243,23 +875,6 @@ class cfgWeapons
 		displayName = "FP US MICH (M81)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_M81.paa"};
 		picture="\FP_UniformsAmericas\UI\u_m81_icon.paa";
-	};
-	class FP_Helmet_MRP: H_HelmetIA
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "FP US MICH (MARPAT)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_Mrp.paa"};
-		picture="\FP_UniformsAmericas\UI\u_mrp_icon.paa";
-	};
-	class FP_Helmet_ABU: H_HelmetIA
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "FP US MICH (ABU)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_ABUhelmet.paa"};
 	};
 	class FP_Helmet_6CD: H_HelmetIA
 	{
@@ -1365,14 +980,6 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP CAN Boonie (CADPAT AR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARBoonie.paa"};
-	};
-	class FP_Boonie_ABU: H_Booniehat_mcamo
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_Booniehat_mcamo";
-		scope = 2;
-		displayName = "FP USA Boonie (ABU)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_ABUboonie.paa"};
 	};
 	class H_mas_gue_HelmetI;
 	class fp_helmet_m1_camo: H_mas_gue_HelmetI

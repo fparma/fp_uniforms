@@ -225,7 +225,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_MECTiger";
+			uniformClass="FP_Rifleman_MECDigiDesert";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -263,6 +263,33 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP CH Helmet (Type 07 Universal)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_HelmetType07.paa"};
+	};
+	class CUP_H_RACS_Helmet_DPAT;
+	class FP_Helmet_MECTiger: CUP_H_RACS_Helmet_DPAT
+	{
+		author = "FP Mod Team";
+		_generalMacro = "CUP_H_RACS_Helmet_DPAT";
+		scope = 2;
+		displayName = "MEC Helmet (MEC Tiger)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Headset_DPAT;
+	class FP_Helmet_MECTiger_Headset: CUP_H_RACS_Helmet_Headset_DPAT
+	{
+		author = "FP Mod Team";
+		_generalMacro = "CUP_H_RACS_Helmet_Headset_DPAT";
+		scope = 2;
+		displayName = "MEC Helmet (MEC Tiger/Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Goggles_DPAT;
+	class FP_Helmet_MECTiger_Goggles: CUP_H_RACS_Helmet_Goggles_DPAT
+	{
+		author = "FP Mod Team";
+		_generalMacro = "CUP_H_RACS_Helmet_DPAT";
+		scope = 2;
+		displayName = "MEC Helmet (MEC Tiger/Goggles)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
 	};
     class H_Booniehat_mcamo;
 	class FP_Boonie_Auscam: H_Booniehat_mcamo
