@@ -982,6 +982,14 @@ class cfgWeapons
 		displayName = "FP CAN Boonie (CADPAT AR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARBoonie.paa"};
 	};
+	class CUP_H_RACS_Helmet_DPAT;
+	class FP_Helmet_USMCMARPATHelmet: CUP_H_RACS_Helmet_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+	};
 	class H_mas_gue_HelmetI;
 	class fp_helmet_m1_camo: H_mas_gue_HelmetI
 	{
