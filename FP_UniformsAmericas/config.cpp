@@ -852,14 +852,6 @@ class cfgWeapons
 		displayName = "FP CAN MICH (CADPAT AR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARHelmet.paa"};
 	};
-	class FP_Helmet_DualTex: H_HelmetIA
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "FP USA MICH (DualTex)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_DualTexHelmet.paa"};
-	};
 	class FP_Helmet_HECU: H_HelmetIA
 	{
 		author = "FP Mod Team";

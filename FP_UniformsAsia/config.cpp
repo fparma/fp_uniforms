@@ -53,25 +53,6 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Jeitei.paa"
 		};
 	};
-	class FP_Rifleman_GraniteB: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="SK Granite B";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_GraniteB";
-                author="FP Mod Team";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAsia\SkinsUniform\FP_GraniteB.paa"
-		};
-	};
 	class FP_Rifleman_Type07Universal: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -166,22 +147,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_GraniteB: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP SK Granite B";
-		picture="\FP_UniformsAsia\UI\granitebicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_GraniteB";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_Uniform_Type07Universal: U_I_CombatUniform
 	{
 		scope=2;
@@ -246,14 +211,6 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP JP MICH (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
-	};
-	class FP_Helmet_GraniteB: H_HelmetIA
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "FP SK MICH (Granite B)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_GraniteBHelmet.paa"};
 	};
     class FP_Helmet_PASGT_HelmetCoverM81;
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
