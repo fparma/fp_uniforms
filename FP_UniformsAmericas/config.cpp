@@ -470,6 +470,68 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
+	class CUP_B_USMC_Soldier_02;
+	class FP_Rifleman_DesMARPAT_CUP: CUP_B_USMC_Soldier_02
+	{
+		author="Community Upgrade Project";
+		scope=1;
+		scopeCurator=0;
+		displayName="Soldier";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesDown.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_Sleeves";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatam_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_03;
+	class FP_Rifleman_DesMARPAT_Rolled_CUP: CUP_B_USMC_Soldier_03
+	{
+		displayName="Rifleman";
+		scope=1;
+		scopeCurator=0;
+		author="Community Upgrade Project";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesUp.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_RolledUp";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatam_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_04;
+	class FP_Rifleman_DesMARPAT_Kneepad_CUP: CUP_B_USMC_Soldier_04
+	{
+		author="Community Upgrade Project";
+		scope=1;
+		scopeCurator=0;
+		displayName="Scout";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_Kneepad.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_Kneepad";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatwsfm_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_07;
+	class FP_Rifleman_DesMARPAT_KneepadRolled_CUP: CUP_B_USMC_Soldier_07
+	{
+		displayName="";
+		scope=1;
+		scopeCurator=0;
+		author="Community Upgrade Project";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesUpKP.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_RolledUp";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatwsfm_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
+		};
+	};
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
 	{
@@ -835,6 +897,95 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ItemCore;
+	class CUP_U_B_USMC_MARPAT_DES_Sleeves: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_RolledUp: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert Rolled up)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_rollup_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_Rolled_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_Kneepad: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert w/Kneepad)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_Kneepad_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_RollUpKneepad: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert Roll-Up w/kneepad)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_KneepadRolled_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
     class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
@@ -980,6 +1131,22 @@ class cfgWeapons
 		author = "FP Mod Team";
 		scope = 2;
 		displayName = "USMC Helmet (Desert MARPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Headset_DPAT;
+	class FP_Helmet_USMCMARPATHelmet_Headset: CUP_H_RACS_Helmet_Headset_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT/Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Goggles_DPAT;
+	class FP_Helmet_USMCMARPATHelmet_Goggles: CUP_H_RACS_Helmet_Goggles_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT/Goggles)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
 	};
 	class H_mas_gue_HelmetI;
