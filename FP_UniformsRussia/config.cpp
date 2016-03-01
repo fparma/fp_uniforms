@@ -23,6 +23,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_KLMK";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -45,6 +46,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_klmkvdv";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -67,6 +69,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_kmsh";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -89,6 +92,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_VSR";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -111,6 +115,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_klmkwinter";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -133,6 +138,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_sovprivuniform";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -154,6 +160,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_sovefriuniform";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -176,6 +183,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_sovserguniform";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",

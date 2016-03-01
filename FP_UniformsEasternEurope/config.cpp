@@ -24,6 +24,7 @@ class CfgVehicles
 		uniformClass="FP_M05";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -43,6 +44,7 @@ class CfgVehicles
 		uniformClass="FP_M84";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -62,6 +64,7 @@ class CfgVehicles
 		uniformClass="FP_M01Dane";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -81,6 +84,7 @@ class CfgVehicles
 		uniformClass="FP_M98";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -100,6 +104,7 @@ class CfgVehicles
 		uniformClass="FP_M03";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -119,6 +124,7 @@ class CfgVehicles
 		uniformClass="FP_M90";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -138,6 +144,7 @@ class CfgVehicles
 		uniformClass="FP_M90Des";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -157,6 +164,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_m05cw";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -179,6 +187,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_lith05opfor";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -201,6 +210,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_lith05opforstrich";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -223,6 +233,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_egerstrich";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -245,6 +256,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_egerstrich";
 		author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -267,6 +279,7 @@ class CfgVehicles
 		displayName="FP EGER Strichtarn/TTsMKK (BDU)";
 		uniformClass="FP_Uniform_egerstrichttsmkk";
 		author="FP Mod Team";
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -289,6 +302,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_ttsmkk";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -311,6 +325,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_ttsmkkolive";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",

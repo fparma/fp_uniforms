@@ -27,6 +27,7 @@ class CfgVehicles
 		uniformClass="FP_CADPAT";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -46,6 +47,7 @@ class CfgVehicles
 		uniformClass="FP_CADPATAR";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -65,6 +67,7 @@ class CfgVehicles
 		uniformClass="FP_HECU";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -84,6 +87,7 @@ class CfgVehicles
 		uniformClass="FP_AOR1";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -103,6 +107,7 @@ class CfgVehicles
 		uniformClass="FP_AOR2";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -122,6 +127,7 @@ class CfgVehicles
 		uniformClass="FP_dmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -141,6 +147,7 @@ class CfgVehicles
 		uniformClass="FP_dmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -160,6 +167,7 @@ class CfgVehicles
 		uniformClass="FP_m81marpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -179,6 +187,7 @@ class CfgVehicles
 		uniformClass="FP_marpatm81";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -199,6 +208,7 @@ class CfgVehicles
 		uniformClass="FP_tpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -218,6 +228,7 @@ class CfgVehicles
 		uniformClass="FP_wmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -237,6 +248,7 @@ class CfgVehicles
 		uniformClass="FP_multicam";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -256,6 +268,7 @@ class CfgVehicles
 		uniformClass="FP_multicamalpine";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -276,6 +289,7 @@ class CfgVehicles
 		uniformClass="FP_multicampcu";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -295,6 +309,7 @@ class CfgVehicles
 		uniformClass="FP_multicamtropic";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -314,6 +329,7 @@ class CfgVehicles
 		uniformClass="FP_wtiger";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -333,6 +349,7 @@ class CfgVehicles
 		uniformClass="FP_ucp";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -352,6 +369,7 @@ class CfgVehicles
 		uniformClass="FP_ucpd";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -371,6 +389,7 @@ class CfgVehicles
 		uniformClass="FP_ucp";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -390,6 +409,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_CCC";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -412,6 +432,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_DCU";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -434,6 +455,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_m81";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -456,6 +478,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_m81white";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",

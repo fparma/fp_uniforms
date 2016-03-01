@@ -23,6 +23,7 @@ class CfgVehicles
 		uniformClass="FP_KyrelianSplinter";
                 author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -42,6 +43,7 @@ class CfgVehicles
 		uniformClass="FP_KyrelianSplinterWinter";
                 author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -61,6 +63,7 @@ class CfgVehicles
 		uniformClass="FP_Black";
         author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -80,6 +83,7 @@ class CfgVehicles
 		uniformClass="FP_Grey";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -99,6 +103,7 @@ class CfgVehicles
 		uniformClass="FP_OD";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -118,6 +123,7 @@ class CfgVehicles
 		uniformClass="FP_Khaki";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -137,6 +143,7 @@ class CfgVehicles
 		uniformClass="FP_RangerGreen";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -156,6 +163,7 @@ class CfgVehicles
 		uniformClass="FP_KhakiBrown";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -175,6 +183,7 @@ class CfgVehicles
 		uniformClass="FP_OliveBrown";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -194,6 +203,7 @@ class CfgVehicles
 		uniformClass="FP_White";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -205,24 +215,6 @@ class CfgVehicles
 		};
 	};	
 	class I_Soldier_02_F;
-	class FP_Recon_Squares: I_Soldier_02_F
-	{
-		_generalMacro="I_Soldier_02_F";
-		scope=1;
-		displayName="MGS3 Squares Sleeves";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_MGS3_squares_recon";
-                author="CSLeader";
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsEverywhereElse\SkinsUniform\MGS3_squares.paa"
-		};
-	};	
 	class FP_Rifleman_DTS: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -232,6 +224,7 @@ class CfgVehicles
 		uniformClass="FP_MGS_DTS";
         author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -250,6 +243,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MGS_DTS_recon";
                 author="CSLeader";
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -270,6 +264,7 @@ class CfgVehicles
 		uniformClass="FP_MGS_JTS";
         author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -288,6 +283,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MGS_JTS_recon";
                 author="CSLeader";
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -307,6 +303,7 @@ class CfgVehicles
 		uniformClass="FP_MGO_OTS";
         author="FP Mod Team";
 		side = 1;
+	    scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -325,6 +322,7 @@ class CfgVehicles
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MGO_OTS_recon";
                 author="CSLeader";
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -344,6 +342,7 @@ class CfgVehicles
 		uniformClass="FP_SoC_Monolith";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -361,6 +360,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_BlkKhk";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelectionsTextures[]={"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"};
 	};	
 	class O_officer_F;
@@ -372,6 +372,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_grn";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -394,6 +395,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_gry";
 		author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -416,6 +418,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_khk";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -438,6 +441,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_WhiteOfficer";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -460,6 +464,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_1121";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -481,6 +486,7 @@ class CfgVehicles
         displayName="Black/Khaki Rifleman";
         uniformClass="FP_Uniform_BlkKhkNato";
 		author="FP Mod Team";
+		scopeCurator = 0;
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhkNato.paa"};
     };
     class ESP_Rifleman_PGAC: B_Soldier_F
@@ -491,6 +497,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa"};
     };
@@ -503,6 +510,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90_tee";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo","Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa", "\A3\Characters_F\Common\Data\basicbody_blue_co.paa"};
     };		
@@ -515,6 +523,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PGAC_M90_recon";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter.paa"};
     };
@@ -526,6 +535,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
     };
@@ -537,6 +547,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90_tee";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
     };		
@@ -548,6 +559,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_PRAF_M90_recon";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_PAAPMCSplinter_Woodland.paa"};
     };	
@@ -559,6 +571,7 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_ISA_Woodland";
                 author="CSLeader";
+				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
@@ -571,6 +584,7 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_ISA_Woodland_recon";
                 author="CSLeader";
+				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
@@ -583,6 +597,7 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_VDF_DPM";
                 author="CSLeader";
+				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
@@ -595,6 +610,7 @@ class CfgVehicles
         nakedUniform="U_BasicBody";
         uniformClass="ESP_ISA_Woodland_tee";
         author="CSLeader";
+		scopeCurator = 0;
         hiddenSelections[]={"Camo", "Camo2", "insignia"};
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
     };
@@ -606,6 +622,7 @@ class CfgVehicles
                 nakedUniform="U_BasicBody";
                 uniformClass="ESP_VDF_DPM_recon";
                 author="CSLeader";
+				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};

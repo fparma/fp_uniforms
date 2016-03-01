@@ -24,6 +24,7 @@ class CfgVehicles
 		uniformClass="FP_Auscam";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -43,6 +44,7 @@ class CfgVehicles
 		uniformClass="FP_Jeitei";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -62,6 +64,7 @@ class CfgVehicles
 		uniformClass="FP_Jeitei";
         author="FP Mod Team";
 		side = 0;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -81,6 +84,7 @@ class CfgVehicles
 		uniformClass="FP_MECTiger";
         author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -100,6 +104,7 @@ class CfgVehicles
 		uniformClass="FP_MECDigiDesert";
         author="FP Mod Team";
 		side = 2;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
