@@ -179,6 +179,78 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
+	class O_officer_F;
+	class FP_Rifleman_BulgSPLINT: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Bul Splinter (BDU)";
+		uniformClass="FP_uniform_SPLINTER-BUL";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_SPLINTER-BUL.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class O_officer_F;
+	class FP_Rifleman_HungWDL: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Hun Woodland (BDU)";
+		uniformClass="FP_uniform_WDLAND-BUL";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_HungWDL.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class O_officer_F;
+	class FP_Rifleman_YugOAK: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Yug Oak (BDU)";
+		uniformClass="FP_uniform_OAK-YUG";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_OAK-YUG.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
 	class FP_Rifleman_LithOPFOR: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -569,6 +641,38 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_StrichTTsMKK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_uniform_SPLINTER-BUL: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP BUL Splinter (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_bul-splinter_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BulgSPLINT";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_StrichTTsMKK: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP BUL Splinter (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_bul-splinter_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BulgSPLINT";
 			containerClass="Supply40";
 			mass=40;
 		};
