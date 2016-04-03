@@ -215,6 +215,26 @@ class CfgVehicles
 			"FP_UniformsWesternEurope\SkinsUniform\FP_CROPATW.paa"
 		};
 	};
+	class FP_Rifleman_CWD-KOS: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="FP Kos Cold Weather Digital";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_CWD";
+                author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsWesternEurope\SkinsUniform\FP_CWD-KOS.paa"
+		};
+	};
 	class O_officer_F;
 	class FP_Rifleman_GRY-BRD: O_officer_F
 	{
@@ -280,6 +300,22 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_CROPATW";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_CWD: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP KOS Cold Weather Digital";
+		picture="\FP_UniformsWesternEurope\UI\cwd_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team (Tomoe)";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_CWD-KOS";
 			containerClass="Supply40";
 			mass=40;
 		};
