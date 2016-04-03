@@ -209,7 +209,7 @@ class CfgVehicles
 		_generalMacro="O_officer_F";
 		scope=1;
 		displayName="FP Hun Woodland (BDU)";
-		uniformClass="FP_uniform_WDLAND-BUL";
+		uniformClass="FP_uniform_WDLAND-HUN";
 		author="FP Mod Team";
 		side = 1;
 		scopeCurator = 0;
@@ -661,10 +661,26 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_StrichTTsMKK: U_O_OfficerUniform_ocamo
+	class FP_uniform_WDLAND-HUN: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="FP BUL Splinter (BDU)";
+		displayName="FP HUN Woodland (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_bul-splinter_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_HungWD";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Rainscale-CZS: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP CZS Splinter (BDU)";
 		picture="\FP_UniformsEasternEurope\UI\u_bul-splinter_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
