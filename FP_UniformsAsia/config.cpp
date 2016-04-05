@@ -217,7 +217,23 @@ class cfgWeapons
 		displayName = "FP JP MICH (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
 	};
+	class FP_Helmet_AZ-TUR-ARID: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "FP MICH (Azer-Turk Arid)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZ-TUR-ARID.paa"};
+	};
     class FP_Helmet_PASGT_HelmetCoverM81;
+	class FP_Helmet_PASGT_HelmetCoverAAD: FP_Helmet_PASGT_HelmetCoverM81
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
+		scope = 2;
+		displayName = "FP PASGT (Cover/AAD)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_helm_AAD.paa"};
+	};
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
 	{
 		author = "FP Mod Team";
