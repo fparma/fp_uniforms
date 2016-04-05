@@ -132,7 +132,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsAsia\SkinsUniform\FP_AZ-TUR-ARID.paa"
+			"FP_UniformsAsia\SkinsUniform\FP_AZTURARID.paa"
 		};
 	};
 	class FP_Rifleman_MECTiger: I_soldier_F
@@ -263,7 +263,7 @@ class cfgWeapons
 	class FP_Uniform_AZTURARID: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Az-Tur Arid";
+		displayName="FP AzTur Arid";
 		picture="\FP_UniformsAsia\UI\AZTURARIDicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -325,13 +325,13 @@ class cfgWeapons
 		displayName = "FP JP MICH (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
 	};
-	class FP_Helmet_AZ-TUR-ARID: H_HelmetIA
+	class FP_Helmet_AZTURARID: H_HelmetIA
 	{
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "FP MICH (Azer-Turk Arid)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZ-TUR-ARID.paa"};
+		displayName = "FP MICH (Azeri Turkish Arid)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"};
 	};
     class FP_Helmet_PASGT_HelmetCoverM81;
 	class FP_Helmet_PASGT_HelmetCoverAAD: FP_Helmet_PASGT_HelmetCoverM81
@@ -339,8 +339,8 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
 		scope = 2;
-		displayName = "FP PASGT (Cover/AAD)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_helm_AAD.paa"};
+		displayName = "FP PASGT (Cover/Arm Arid Digi)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"};
 	};
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
 	{
