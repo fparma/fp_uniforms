@@ -215,7 +215,7 @@ class CfgVehicles
 			"FP_UniformsWesternEurope\SkinsUniform\FP_CROPATW.paa"
 		};
 	};
-	class FP_Rifleman_CWD-KOS: I_soldier_F
+	class FP_Rifleman_CWDKOS: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
@@ -232,11 +232,11 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsWesternEurope\SkinsUniform\FP_CWD-KOS.paa"
+			"FP_UniformsWesternEurope\SkinsUniform\FP_CWDKOS.paa"
 		};
 	};
 	class O_officer_F;
-	class FP_Rifleman_GRY-BRD: O_officer_F
+	class FP_Rifleman_GRY_BRD: O_officer_F
 	{
 		_generalMacro="O_officer_F";
 		scope=1;
@@ -259,7 +259,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class O_officer_F;
 	class FP_Rifleman_dpmwd: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -315,7 +314,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_CWD-KOS";
+			uniformClass="FP_Rifleman_CWDKOS";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -481,7 +480,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_GRYBRD: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
@@ -493,7 +491,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_GRY-BRD";
+			uniformClass="FP_Rifleman_GRY_BRD";
 			containerClass="Supply40";
 			mass=40;
 		};
