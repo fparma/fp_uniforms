@@ -75,6 +75,66 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa"
 		};
 	};
+	class FP_Rifleman_AAD: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="ARM Arid Digital";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_AAD";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_AAD.paa"
+		};
+	};
+	class FP_Rifleman_INDC: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="IND Indian Camo";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_INDC";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_INDIA.paa"
+		};
+	};
+	class FP_Rifleman_AZTURARID: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="AZ-TUR Arid Camo";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_AZTURARID";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_AZ-TUR-ARID.paa"
+		};
+	};
 	class FP_Rifleman_MECTiger: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -164,6 +224,54 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_Type07Universal";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_AAD: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Armenian Arid Digi";
+		picture="\FP_UniformsAsia\UI\AADicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_AAD";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_INDC: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Indian Camo";
+		picture="\FP_UniformsAsia\UI\INDIAicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_INDC";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_AZTURARID: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Az-Tur Arid";
+		picture="\FP_UniformsAsia\UI\AZTURARIDicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_AZTURARID";
 			containerClass="Supply40";
 			mass=40;
 		};
