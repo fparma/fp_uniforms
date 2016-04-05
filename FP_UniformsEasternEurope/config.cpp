@@ -846,4 +846,13 @@ class cfgWeapons
 		displayName = "FP SWE Boonie (M90 Desert)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_M90DesBoonie.paa"};
 	};
+    class FP_Helmet_PASGT_HelmetCoverM81;
+	class FP_Helmet_PASGT_HelmetCoverBulgSplinter: FP_Helmet_PASGT_HelmetCoverM81
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
+		scope = 2;
+		displayName = "FP PASGT (Cover/Bulgarian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsHeadgear\FP_helm_SPLINTER-BUL.paa"};
+	};
 };
