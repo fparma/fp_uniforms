@@ -75,6 +75,66 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa"
 		};
 	};
+	class FP_Rifleman_AAD: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="ARM Arid Digital";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_AAD";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_AAD.paa"
+		};
+	};
+	class FP_Rifleman_INDC: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="IND Indian Camo";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_INDC";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_INDIA.paa"
+		};
+	};
+	class FP_Rifleman_AZTURARID: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="AZ-TUR Arid Camo";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_AZTURARID";
+        author="FP Mod Team";
+		side = 0;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_AZTURARID.paa"
+		};
+	};
 	class FP_Rifleman_MECTiger: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -168,6 +228,54 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_AAD: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Armenian Arid Digi";
+		picture="\FP_UniformsAsia\UI\AADicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_AAD";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_INDC: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP Indian Camo";
+		picture="\FP_UniformsAsia\UI\INDIAicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_INDC";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_AZTURARID: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="FP AzTur Arid";
+		picture="\FP_UniformsAsia\UI\AZTURARIDicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+                author="FP Mod Team";
+		side = 1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_AZTURARID";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class FP_Uniform_MECTiger: U_I_CombatUniform
 	{
 		scope=2;
@@ -217,7 +325,23 @@ class cfgWeapons
 		displayName = "FP JP MICH (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
 	};
+	class FP_Helmet_AZTURARID: H_HelmetIA
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "FP MICH (Azeri Turkish Arid)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"};
+	};
     class FP_Helmet_PASGT_HelmetCoverM81;
+	class FP_Helmet_PASGT_HelmetCoverAAD: FP_Helmet_PASGT_HelmetCoverM81
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
+		scope = 2;
+		displayName = "FP PASGT (Cover/Arm Arid Digi)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"};
+	};
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
 	{
 		author = "FP Mod Team";

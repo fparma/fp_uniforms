@@ -179,6 +179,98 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
+	class FP_Rifleman_BulgSPLINT: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Bul Splinter (BDU)";
+		uniformClass="FP_uniform_SPLINTERBUL";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_SPLINTERBUL.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_HungWDL: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Hun Woodland (BDU)";
+		uniformClass="FP_uniform_WDLANDHUN";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_HungWDL.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_CzsRAINS: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Czs Rainscale (BDU)";
+		uniformClass="FP_Uniform_CZSRAINS";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_RAINSCALECZS.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_YugOAK: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="FP Yug Oak (BDU)";
+		uniformClass="FP_uniform_OAKYUG";
+		author="FP Mod Team";
+		side = 1;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEasternEurope\SkinsUniform\FP_OAKYUG.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
 	class FP_Rifleman_LithOPFOR: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -569,6 +661,70 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_StrichTTsMKK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_uniform_SPLINTERBUL: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP BUL Splinter (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_bul_splinter_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BulgSPLINT";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_uniform_WDLANDHUN: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP HUN Woodland (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_hun_wdland_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_HungWDL";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_CZSRAINS: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP Czs Rainscale (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_czs_rainscale_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_CzsRAINS";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_OAKYUG: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="FP Yug Oak (BDU)";
+		picture="\FP_UniformsEasternEurope\UI\u_yug_oak_icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_YugOAK";
 			containerClass="Supply40";
 			mass=40;
 		};
