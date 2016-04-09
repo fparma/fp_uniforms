@@ -647,7 +647,7 @@ class cfgWeapons
 	class FP_Uniform_KyrelianSplinter: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP KY Splinter";
+		displayName="Combat Fatigues (Kyrelian Splinter)";
 		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -663,7 +663,7 @@ class cfgWeapons
 	class FP_Uniform_KyrelianSplinterWinter: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP KY Winter Splinter";
+		displayName="Combat Fatigues (Winter Splinter)";
 		picture="\FP_UniformsEverywhereElse\UI\kyrelianwintersplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -679,7 +679,7 @@ class cfgWeapons
 	class FP_Uniform_Black: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Black";
+		displayName="Combat Fatigues (Black)";
 		picture="\FP_UniformsEverywhereElse\UI\blackicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -695,7 +695,7 @@ class cfgWeapons
 	class FP_Uniform_Grey: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Grey";
+		displayName="Combat Fatigues (Grey)";
 		picture="\FP_UniformsEverywhereElse\UI\greyicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -711,7 +711,7 @@ class cfgWeapons
 	class FP_Uniform_OD: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP OD";
+		displayName="Combat Fatigues (OD)";
 		picture="\FP_UniformsEverywhereElse\UI\olivedrabicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -727,7 +727,7 @@ class cfgWeapons
 	class FP_Uniform_Khaki: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Khaki";
+		displayName="Combat Fatigues (Khaki)";
 		picture="\FP_UniformsEverywhereElse\UI\khakiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -743,7 +743,7 @@ class cfgWeapons
 	class FP_Uniform_RangerGreen: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Ranger Green";
+		displayName="Combat Fatigues (Ranger Green)";
 		picture="\FP_UniformsEverywhereElse\UI\rgicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -759,7 +759,7 @@ class cfgWeapons
 	class FP_Uniform_KhakiBrown: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Khaki Brown";
+		displayName="Combat Fatigues (Khaki Brown)";
 		picture="\FP_UniformsEverywhereElse\UI\kbicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="FP Mod Team";
@@ -775,7 +775,7 @@ class cfgWeapons
 	class FP_Uniform_OliveBrown: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Olive Brown";
+		displayName="Combat Fatigues (Olive Brown)";
 		picture="\FP_UniformsEverywhereElse\UI\obicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="FP Mod Team";
@@ -791,7 +791,7 @@ class cfgWeapons
 	class FP_Uniform_White: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP White";
+		displayName="Combat Fatigues (White)";
 		picture="\FP_UniformsEverywhereElse\UI\whiteicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -807,7 +807,7 @@ class cfgWeapons
 	class FP_Uniform_DTS: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGS Desert Tiger Stripe";
+		displayName="Combat Fatigues (MGS Desert Tiger Stripe)";
 		picture="\FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -823,7 +823,7 @@ class cfgWeapons
 	class FP_Uniform_DTS_recon: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGS Desert Tiger Stripe (Sleeves)";
+		displayName="Combat Fatigues (MGS Desert Tiger Stripe, Sleeves)";
 		picture="\FP_UniformsEverywhereElse\UI\mgs5deserttsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -839,7 +839,7 @@ class cfgWeapons
 	class FP_Uniform_JTS: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGS Jungle Tiger Stripe";
+		displayName="Combat Fatigues (MGS Jungle Tiger Stripe)";
 		picture="\FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -855,7 +855,7 @@ class cfgWeapons
 	class FP_Uniform_JTS_recon: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGS Jungle Tiger Stripe (Sleeves)";
+		displayName="Combat Fatigues (MGS Jungle Tiger Stripe, Sleeves)";
 		picture="\FP_UniformsEverywhereElse\UI\mgs5jungletsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -871,7 +871,7 @@ class cfgWeapons
 	class FP_Uniform_OTS: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGO3 Tiger Stripe";
+		displayName="Combat Fatigues (MGO3 Tiger Stripe)";
 		picture="\FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -887,7 +887,7 @@ class cfgWeapons
 	class FP_Uniform_OTS_recon: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP MGO3 Tiger Stripe (Sleeves)";
+		displayName="Combat Fatigues (MGO3 Tiger Stripe, Sleeves)";
 		picture="\FP_UniformsEverywhereElse\UI\mgo3tsicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -903,7 +903,7 @@ class cfgWeapons
 	class FP_Uniform_BlkKhk: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Black/Khaki";
+		displayName="Combat Fatigues (Black/Khaki)";
 		picture="\FP_UniformsEverywhereElse\UI\BlkKhkIcon.paa";
 		author="FP Mod Team";
 		side = 2;
@@ -918,7 +918,7 @@ class cfgWeapons
 		class FP_Uniform_Monolith: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Monolith Camo";
+		displayName="Combat Fatigues (Monolith Camo)";
 		picture="\FP_UniformsEverywhereElse\UI\MonolithCamoIcon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";

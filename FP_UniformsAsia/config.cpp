@@ -183,7 +183,7 @@ class cfgWeapons
 	class FP_Uniform_Auscam: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP AU Auscam";
+		displayName="Combat Fatigues (Auscam)";
 		picture="\FP_UniformsAsia\UI\auscamicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -199,7 +199,7 @@ class cfgWeapons
 	class FP_Uniform_Jeitei: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP JP Jeitei";
+		displayName="Combat Fatigues (Jeitei)";
 		picture="\FP_UniformsAsia\UI\jeiteiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -215,7 +215,7 @@ class cfgWeapons
 	class FP_Uniform_Type07Universal: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP CH Type 07 Universal";
+		displayName="Combat Fatigues (Type 07 Universal)";
 		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -314,7 +314,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "FP AU MICH (Auscam)";
+		displayName = "MICH (Auscam)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamHelmet.paa"};
 	};
 	class FP_Helmet_Jeitei: H_HelmetIA
@@ -322,7 +322,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "FP JP MICH (Jeitei)";
+		displayName = "MICH (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
 	};
 	class FP_Helmet_AZTURARID: H_HelmetIA
@@ -347,7 +347,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
 		scope = 2;
-		displayName = "FP CH Helmet (Type 07 Universal)";
+		displayName = "PASGT (Type 07 Universal)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_HelmetType07.paa"};
 	};
 	class CUP_H_RACS_Helmet_DPAT;
@@ -383,7 +383,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_Booniehat_mcamo";
 		scope = 2;
-		displayName = "FP AU Boonie (Auscam)";
+		displayName = "Booniehat (Auscam)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamBoonie.paa"};
 	};
 };
