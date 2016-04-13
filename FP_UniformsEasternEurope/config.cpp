@@ -685,7 +685,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="FP HUN Woodland (BDU)";
-		picture="\FP_UniformsEasternEurope\UI\u_hun_wdland_icon.paa";
+		picture="\FP_UniformsEasternEurope\UI\u_hun_wdland.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side = 2;

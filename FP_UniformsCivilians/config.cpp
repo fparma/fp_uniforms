@@ -20,7 +20,7 @@ class CfgVehicles {
 	class LOP_AFR_CIV_01 : Civilian_F {
 		_generalMacro = "LOP_AFR_CIV_01";
 		scope = 1;
-		side = 3;
+		side = 2;
 		model = "\A3\characters_F\civil\c_poor";
 		hiddenSelections[] = {"camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_v2_co.paa"};
@@ -91,6 +91,7 @@ class cfgWeapons
 	{
 		author="LOP";
 		scope=2;
+		side=2;
 		displayName="African civ. fatigues 01";
 		picture="\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
