@@ -574,8 +574,20 @@ class CfgVehicles
 				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
-                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};				
         };
+		class ESP_Tee_ISA: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="ISA Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_ISA_Woodland_tee";
+        author="CSLeader";
+		scopeCurator = 0;
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
+    };
 		class ESP_Recon_ISA: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
@@ -588,7 +600,7 @@ class CfgVehicles
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
-        };
+        };		
         class ESP_Rifleman_VDF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
