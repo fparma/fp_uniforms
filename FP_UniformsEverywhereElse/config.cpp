@@ -14,13 +14,13 @@ class CfgPatches
 class CfgVehicles
 {
 	class I_soldier_F;
-	class FP_Rifleman_KyrelianSplinter: I_soldier_F
+	class FP_Rifleman_KyrelianFBSplinter: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP KY Splinter";
+		displayName="KY Splinter";
 		nakedUniform="U_BasicBody";
-		uniformClass="FP_KyrelianSplinter";
+		uniformClass="FP_KyrelianFBSplinter";
                 author="FP Mod Team";
 		side = 2;
 		scopeCurator = 0;
@@ -31,14 +31,14 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianSplinter.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFBSplinter.paa"
 		};
 	};
-	class FP_Rifleman_KyrelianSplinterWinter: I_soldier_F
+	class FP_Rifleman_KyrelianFB: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP KY Winter Splinter";
+		displayName="KY Field Blue";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KyrelianSplinterWinter";
                 author="FP Mod Team";
@@ -51,7 +51,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianSplinterWinter.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFB.paa"
 		};
 	};
 	class FP_Rifleman_Black: I_soldier_F
@@ -644,34 +644,34 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
-	class FP_Uniform_KyrelianSplinter: U_I_CombatUniform
+	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Kyrelian Splinter)";
+		displayName="Combat Fatigues (Kyrelian Field Blue Splinter)";
 		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_KyrelianSplinter";
+			uniformClass="FP_Rifleman_KyrelianFBSplinter";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class FP_Uniform_KyrelianSplinterWinter: U_I_CombatUniform
+	class FP_Uniform_KyrelianFB: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Winter Splinter)";
-		picture="\FP_UniformsEverywhereElse\UI\kyrelianwintersplintericon.paa";
+		displayName="Combat Fatigues (Kyrelian Field Blue)";
+		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_KyrelianSplinterWinter";
+			uniformClass="FP_Rifleman_KyrelianFB";
 			containerClass="Supply40";
 			mass=40;
 		};
