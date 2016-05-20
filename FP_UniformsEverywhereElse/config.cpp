@@ -1200,6 +1200,24 @@ class cfgWeapons
 		displayName = "Military Cap [Black]";
 		hiddenSelectionsTextures[] = {"\A3\characters_f_epb\Common\Data\cappatrol_blk_co.paa"};		
 	};
+	class H_HelmetB;
+	class FP_BluHelmet_KyrelianSplinter: H_HelmetB
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "ECH (Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+	};
+	class H_HelmetB_light;
+	class FP_BluHelmetLight_KyrelianSplinter: H_HelmetB_light
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "ECH (Light/Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+	};
     class LOP_H_PASGTHelmet_cover_TRI;
 	class LOP_H_PASGTHelmet_cover_BLK: LOP_H_PASGTHelmet_cover_TRI
 	{
@@ -1377,6 +1395,27 @@ class cfgWeapons
 		displayName = "FP Light Carrier (Ranger Green, Patchless)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\vests_rgr_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
+			containerClass = "Supply120";
+			mass = 60;
+			armor = 20;
+			passThrough = 0.5;
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	class FP_Carrier_KyrelianSplinter: V_PlateCarrier1_rgr
+	{
+		_generalMacro = "V_PlateCarrier1_rgr";
+		scope = 2;
+
+		author = "FP Mod Team (Tomoe)";
+		picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_2_CA.paa";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		displayName = "FP Light Carrier (Kyrelian Splinter)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\KY_Vest_L-H.paa"};
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
