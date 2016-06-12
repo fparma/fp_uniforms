@@ -14,13 +14,13 @@ class CfgPatches
 class CfgVehicles
 {
 	class I_soldier_F;
-	class FP_Rifleman_KyrelianSplinter: I_soldier_F
+	class FP_Rifleman_KyrelianFBSplinter: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP KY Splinter";
+		displayName="KY Splinter";
 		nakedUniform="U_BasicBody";
-		uniformClass="FP_KyrelianSplinter";
+		uniformClass="FP_KyrelianFBSplinter";
                 author="FP Mod Team";
 		side = 2;
 		scopeCurator = 0;
@@ -31,14 +31,14 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianSplinter.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFBSplinter.paa"
 		};
 	};
-	class FP_Rifleman_KyrelianSplinterWinter: I_soldier_F
+	class FP_Rifleman_KyrelianFB: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="FP KY Winter Splinter";
+		displayName="KY Field Blue";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KyrelianSplinterWinter";
                 author="FP Mod Team";
@@ -51,7 +51,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianSplinterWinter.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFB.paa"
 		};
 	};
 	class FP_Rifleman_Black: I_soldier_F
@@ -574,8 +574,20 @@ class CfgVehicles
 				scopeCurator = 0;
                 hiddenSelections[]=
                 {"Camo", "insignia"};
-                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
+                hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};				
         };
+		class ESP_Tee_ISA: B_Soldier_02_F
+    {
+        _generalMacro="B_Soldier_02_F";
+        scope=1;
+        displayName="ISA Tee";
+        nakedUniform="U_BasicBody";
+        uniformClass="ESP_ISA_Woodland_tee";
+        author="CSLeader";
+		scopeCurator = 0;
+        hiddenSelections[]={"Camo", "Camo2", "insignia"};
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa", "\A3\Characters_F\Common\Data\basicbody_green_co.paa"};
+    };
 		class ESP_Recon_ISA: B_Soldier_03_F
         {
                 _generalMacro="B_Soldier_03_F";
@@ -588,7 +600,7 @@ class CfgVehicles
                 hiddenSelections[]=
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_ISAWoodland.paa"};
-        };
+        };		
         class ESP_Rifleman_VDF: B_Soldier_F
         {
                 _generalMacro="B_Soldier_F";
@@ -644,34 +656,34 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
-	class FP_Uniform_KyrelianSplinter: U_I_CombatUniform
+	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Kyrelian Splinter)";
+		displayName="Combat Fatigues (Kyrelian Field Blue Splinter)";
 		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_KyrelianSplinter";
+			uniformClass="FP_Rifleman_KyrelianFBSplinter";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class FP_Uniform_KyrelianSplinterWinter: U_I_CombatUniform
+	class FP_Uniform_KyrelianFB: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Winter Splinter)";
-		picture="\FP_UniformsEverywhereElse\UI\kyrelianwintersplintericon.paa";
+		displayName="Combat Fatigues (Kyrelian Field Blue)";
+		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
+                author="FP Mod Team (Tomoe)";
 		side = 2;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_KyrelianSplinterWinter";
+			uniformClass="FP_Rifleman_KyrelianFB";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1200,6 +1212,24 @@ class cfgWeapons
 		displayName = "Military Cap [Black]";
 		hiddenSelectionsTextures[] = {"\A3\characters_f_epb\Common\Data\cappatrol_blk_co.paa"};		
 	};
+	class H_HelmetB;
+	class FP_BluHelmet_KyrelianSplinter: H_HelmetB
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "ECH (Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+	};
+	class H_HelmetB_light;
+	class FP_BluHelmetLight_KyrelianSplinter: H_HelmetB_light
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "ECH (Light/Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+	};
     class LOP_H_PASGTHelmet_cover_TRI;
 	class LOP_H_PASGTHelmet_cover_BLK: LOP_H_PASGTHelmet_cover_TRI
 	{
@@ -1377,6 +1407,27 @@ class cfgWeapons
 		displayName = "FP Light Carrier (Ranger Green, Patchless)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\vests_rgr_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
+			containerClass = "Supply120";
+			mass = 60;
+			armor = 20;
+			passThrough = 0.5;
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	class FP_Carrier_KyrelianSplinter: V_PlateCarrier1_rgr
+	{
+		_generalMacro = "V_PlateCarrier1_rgr";
+		scope = 2;
+
+		author = "FP Mod Team (Tomoe)";
+		picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_2_CA.paa";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		displayName = "FP Light Carrier (Kyrelian Splinter)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\KY_Vest_L-H.paa"};
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
