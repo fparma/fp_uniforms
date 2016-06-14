@@ -18,7 +18,7 @@ class CfgVehicles
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
-		displayName="KY Splinter";
+		displayName="KY SPM-93";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_KyrelianFBSplinter";
                 author="FP Mod Team";
@@ -31,27 +31,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFBSplinter.paa"
-		};
-	};
-	class FP_Rifleman_KyrelianFB: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="KY Field Blue";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_KyrelianSplinterWinter";
-                author="FP Mod Team";
-		side = 2;
-		scopeCurator = 0;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsEverywhereElse\SkinsUniform\FP_KyrelianFB.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\Kyrelian_SPM_93.paa"
 		};
 	};
 	class FP_Rifleman_Black: I_soldier_F
@@ -639,6 +619,26 @@ class CfgVehicles
                 {"Camo", "insignia"};
                 hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ESP_VDFDPM.paa"};
         };
+	class FP_Rifleman_KyrelianFBSplinterRolled: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="KY SPM-93";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_KyrelianFBSplinter";
+        author="FP Mod Team";
+		side = 2;
+		scopeCurator = 0;
+		hiddenSelections[]=
+		{
+			"Camo",
+                        "insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\Kyrelian_SPM_93.paa"
+		};
+	};
 	class B_Carryall_Base;
 	class B_Carryall_Inv: B_Carryall_Base
 	{
@@ -659,7 +659,7 @@ class cfgWeapons
 	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Kyrelian Field Blue Splinter)";
+		displayName="Combat Fatigues (Kyrelian SPM-93)";
 		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team (Tomoe)";
@@ -672,10 +672,10 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class FP_Uniform_KyrelianFB: U_I_CombatUniform
+	class FP_Uniform_KyrelianFBSplinterRolled: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Combat Fatigues (Kyrelian Field Blue)";
+		displayName="Combat Fatigues (Kyrelian SPM-93/Rolled)";
 		picture="\FP_UniformsEverywhereElse\UI\kyreliansplintericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team (Tomoe)";
@@ -683,7 +683,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_Rifleman_KyrelianFB";
+			uniformClass="FP_Rifleman_KyrelianFBSplinterRolled";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1218,8 +1218,25 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "ECH (Kyrelian Splinter)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+		displayName = "Combat Helmet (Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"};
+	};
+	class FP_BluHelmet_KyrelianBlack: H_HelmetB
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "Combat Helmet (Kyrelian)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_NORM.paa"};
+	};
+	class H_HelmetSpecB;
+	class FP_BluHelmetECH_KyrelianSplinter: H_HelmetSpecB
+	{
+		author = "FP Mod Team";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "Enhanced Combat Helmet (Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"};
 	};
 	class H_HelmetB_light;
 	class FP_BluHelmetLight_KyrelianSplinter: H_HelmetB_light
@@ -1227,8 +1244,8 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "ECH (Light/Kyrelian Splinter)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helmet_L-H.paa"};
+		displayName = "Light Combat Helmet (Kyrelian Splinter)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"};
 	};
     class LOP_H_PASGTHelmet_cover_TRI;
 	class LOP_H_PASGTHelmet_cover_BLK: LOP_H_PASGTHelmet_cover_TRI
@@ -1417,7 +1434,7 @@ class cfgWeapons
 			hiddenSelections[] = {"camo"};
 		};
 	};
-	class FP_Carrier_KyrelianSplinter: V_PlateCarrier1_rgr
+	class FP_Carrier_Kyrelian: V_PlateCarrier1_rgr
 	{
 		_generalMacro = "V_PlateCarrier1_rgr";
 		scope = 2;
@@ -1425,9 +1442,9 @@ class cfgWeapons
 		author = "FP Mod Team (Tomoe)";
 		picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_2_CA.paa";
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-		displayName = "FP Light Carrier (Kyrelian Splinter)";
+		displayName = "FP Light Carrier (Kyrelian)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\KY_Vest_L-H.paa"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\KY_Vest_GRN.paa"};
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
@@ -1437,6 +1454,48 @@ class cfgWeapons
 			passThrough = 0.5;
 			hiddenSelections[] = {"camo"};
 		};
+	};
+	class FP_Carrier_KyrelianBlack: V_PlateCarrier1_rgr
+	{
+		_generalMacro = "V_PlateCarrier1_rgr";
+		scope = 2;
+
+		author = "FP Mod Team (Tomoe)";
+		picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_2_CA.paa";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		displayName = "FP Light Carrier (Kyrelian/Black)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\FP_KyrelianBlackPC.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
+			containerClass = "Supply120";
+			mass = 60;
+			armor = 20;
+			passThrough = 0.5;
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	class V_PlateCarrierSpec_blk;
+	class FP_Carrier_KyrelianHeavyBlack: V_PlateCarrierSpec_blk
+	{
+		_generalMacro = "V_PlateCarrierSpec_blk;";
+		scope = 2;
+
+		author = "FP Mod Team (Tomoe)";
+		displayName = "FP Heavy Carrier (Kyrelian/Black)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\blk_hvy.paa"};
+	};
+	class FP_Carrier_KyrelianHeavyGreen: V_PlateCarrierSpec_blk
+	{
+		_generalMacro = "V_PlateCarrierSpec_blk;";
+		scope = 2;
+
+		author = "FP Mod Team (Tomoe)";
+		displayName = "FP Heavy Carrier (Kyrelian/Ranger Green)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsCarrier\grn_hvy.paa"};
 	};
 	class V_HarnessO_gry;
 	class FP_Vest_HarnessGreen: V_HarnessO_gry
