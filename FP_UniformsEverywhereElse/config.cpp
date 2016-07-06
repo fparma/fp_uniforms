@@ -1043,7 +1043,7 @@ class cfgWeapons
     class ESP_Uniform_PRAFM90: U_B_CombatUniform_mcam
     {
         scope=2;
-        displayName="FP PAAPMC Splitter Woodland";
+        displayName="FP EW Penumbra SPW";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
@@ -1058,7 +1058,7 @@ class cfgWeapons
     class ESP_Uniform_PRAFM90_recon: U_B_CombatUniform_mcam_vest
 	{
 	    scope=2;
-        displayName="FP PAAPMC Splitter Woodland (Rolled-up)";
+        displayName="FP EW Penumbra SPW(Rolled-up)";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
@@ -1073,7 +1073,7 @@ class cfgWeapons
     class ESP_Uniform_PRAFM90_tee: U_B_CombatUniform_mcam_tshirt
 	{
         scope=2;
-        displayName="FP PAAPMC Splitter Woodland (Tee)";
+        displayName="FP EW Penumbra SPW (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\m90praficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
@@ -1088,7 +1088,7 @@ class cfgWeapons
         class ESP_Uniform_ISAWoodland: U_B_CombatUniform_mcam
   {
                 scope=2;
-                displayName="FP ISA Woodland";
+                displayName="FP EW DNH Woodland";
                 picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -1104,7 +1104,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="FP ISA Woodland (Rolled-up)";
+                displayName="FP EW DNH Woodland (Rolled-up)";
                 picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -1119,7 +1119,7 @@ class cfgWeapons
     class ESP_Uniform_ISAWoodland_tee: U_B_CombatUniform_mcam_tshirt
 	{
         scope=2;
-        displayName="FP ISA Woodland (Tee)";
+        displayName="FP EW DNH Woodland (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\wdlisaicon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
@@ -1134,7 +1134,7 @@ class cfgWeapons
         class ESP_Uniform_VDFDPM: U_B_CombatUniform_mcam
   {
                 scope=2;
-                displayName="FP VDF CoM DPM";
+                displayName="FP CoM DPM";
                 picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -1150,7 +1150,7 @@ class cfgWeapons
 	  {
 	  
                 scope=2;
-                displayName="FP VDF CoM DPM (Rolled-up)";
+                displayName="FP CoM DPM (Rolled-up)";
                 picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
                 model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="CSLeader";
@@ -1165,7 +1165,7 @@ class cfgWeapons
     class ESP_Uniform_VDFDPM_tee: U_B_CombatUniform_mcam_tshirt
 	{
         scope=2;
-        displayName="FP VDF CoM DPM (Tee)";
+        displayName="FP CoM DPM (Tee)";
         picture="\FP_UniformsEverywhereElse\UI\dpmvdficon.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         author="CSLeader";
