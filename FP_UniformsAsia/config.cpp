@@ -231,7 +231,7 @@ class cfgWeapons
 	class FP_Uniform_AAD: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Armenian Arid Digi";
+		displayName="Combat Fatigues (Armenian Arid)";
 		picture="\FP_UniformsAsia\UI\AADicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -247,7 +247,7 @@ class cfgWeapons
 	class FP_Uniform_INDC: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP Indian Camo";
+		displayName="Combat Fatigues (Indian)";
 		picture="\FP_UniformsAsia\UI\INDIAicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -263,7 +263,7 @@ class cfgWeapons
 	class FP_Uniform_AZTURARID: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="FP AzTur Arid";
+		displayName="Combat Fatigues (AzTur Arid)";
 		picture="\FP_UniformsAsia\UI\AZTURARIDicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
                 author="FP Mod Team";
@@ -314,7 +314,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "MICH (Auscam)";
+		displayName = "Modular Helmet (Auscam)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamHelmet.paa"};
 	};
 	class FP_Helmet_Jeitei: H_HelmetIA
@@ -322,7 +322,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "MICH (Jeitei)";
+		displayName = "Modular Helmet (Jeitei)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
 	};
 	class FP_Helmet_AZTURARID: H_HelmetIA
@@ -330,7 +330,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
-		displayName = "FP MICH (Azeri Turkish Arid)";
+		displayName = "Modular Helmet (Azeri Turkish Arid)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"};
 	};
     class FP_Helmet_PASGT_HelmetCoverM81;
@@ -339,7 +339,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
 		scope = 2;
-		displayName = "FP PASGT (Cover/Arm Arid Digi)";
+		displayName = "PASGT (Cover/Arm Arid Digi)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"};
 	};
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
