@@ -36,9 +36,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+						"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
 	};
 	class FP_Rifleman_NATO_WDL_Sleeves : B_Soldier_03_F
 	{
@@ -56,9 +54,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+						"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
 	};
 	class FP_Rifleman_NATO_WDL_Tee : B_Soldier_02_F
 	{
@@ -76,9 +72,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+						"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
 	};
 	class FP_Rifleman_NATO_Sage : B_Soldier_F
 	{
@@ -96,9 +90,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+						"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
 	};
 	class FP_Rifleman_NATO_Sage_Sleeves : B_Soldier_03_F
 	{
@@ -116,9 +108,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+						"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
 	};
 	class FP_Rifleman_NATO_Sage_Tee : B_Soldier_02_F
 	{
@@ -136,9 +126,7 @@ class CfgVehicles
 					};
 					hiddenSelectionsTextures[] =
 					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+						"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
 	};
 	class I_soldier_F;
 	class FP_Rifleman_CADPAT: I_soldier_F
@@ -692,23 +680,6 @@ class cfgWeapons
 			mass=20;
 		};
 	};
-	class CUP_H_FR_ECH
-	class FP_USMC_ECH_RGR: CUP_H_FR_ECH
-	{
-		author = "FP Mod Team";
-		_generalMacro = "CUP_H_FR_ECH";
-		scope = 2;
-		displayName = "USMC ECH (Woodland)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_USMC_ECH_RGR.paa"};
-	};	
-	class FP_USMC_ECH_BLK: CUP_H_FR_ECH
-	{
-		author = "FP Mod Team";
-		_generalMacro = "CUP_H_FR_ECH";
-		scope = 2;
-		displayName = "USMC ECH (Black)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_USMC_ECH_BLK.paa"};
-	};	
     class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
