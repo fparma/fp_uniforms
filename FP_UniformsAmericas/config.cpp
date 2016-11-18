@@ -37,8 +37,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
 	};
 	class FP_Rifleman_NATO_WDL_Sleeves : B_Soldier_03_F
 	{
@@ -57,8 +58,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
 	};
 	class FP_Rifleman_NATO_WDL_Tee : B_Soldier_02_F
 	{
@@ -77,8 +79,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};						
 	};
 	class FP_Rifleman_NATO_Sage : B_Soldier_F
 	{
@@ -97,8 +100,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
 	};
 	class FP_Rifleman_NATO_Sage_Sleeves : B_Soldier_03_F
 	{
@@ -117,8 +121,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};						
 	};
 	class FP_Rifleman_NATO_Sage_Tee : B_Soldier_02_F
 	{
@@ -137,8 +142,9 @@ class CfgVehicles
 					hiddenSelectionsTextures[] =
 					{
 						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = {
-						"FP_UniformsAmericas\Misc\clothing2.rvmat"};
+					hiddenSelectionsMaterials[] = 
+					{
+						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
 	};
 	class I_soldier_F;
 	class FP_Rifleman_CADPAT: I_soldier_F
