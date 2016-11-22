@@ -205,8 +205,8 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-    class CUP_H_TK_Helmet;
-	class FP_Helmet_VSRSSH68: CUP_H_TK_Helmet
+    class FP_Helmet_SSH68;
+	class FP_Helmet_VSRSSH68: FP_Helmet_SSH68
 	{
 		author = "FP Mod Team";
 		_generalMacro = "FP_Helmet_SSH68";

@@ -362,18 +362,6 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
 		};
 	};
-	class CUP_B_US_Soldier;
-	class FP_Rifleman_USArmy_OCP: CUP_B_US_Soldier
-	{
-		displayName="";
-		scope=2;
-		author="Community Upgrade Project";
-		uniformClass="CUP_U_B_USArmy_Base_OCP";
-        hiddenSelectionsTextures[] = {
-		    "FP_UniformsAmericas\SkinsUniform\ocp2_cupusarmy.paa",
-		    "FP_UniformsAmericas\SkinsUniform\ocp_cupusarmy.paa"
-		};
-	};	
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
 	{
@@ -675,6 +663,7 @@ class cfgWeapons
 			mass=20;
 		};
 	};
+<<<<<<< HEAD
 	class CUP_U_B_USArmy_Base;
 	class CUP_U_B_USArmy_Base_OCP: CUP_U_B_USArmy_Base
 	{
@@ -698,6 +687,8 @@ class cfgWeapons
 			mass=20;
 		};
 	};	
+=======
+>>>>>>> parent of 5c4c129... major changes
     class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
@@ -776,7 +767,7 @@ class cfgWeapons
 	class fp_helmet_m1_camo: H_mas_gue_HelmetI
 	{
 		author="FP Mod Team";
-		displayName="M1 Helmet (Mitchell Pattern)";
+		displayName="FP US M1 Helmet (Mitchell Pattern)";
 		picture="\FP_UniformsAmericas\ui\m1_camo_icon.paa";
 		hiddenSelectionsTextures[]=
 		{

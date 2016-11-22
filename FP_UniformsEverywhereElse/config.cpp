@@ -615,7 +615,7 @@ class cfgWeapons
 		author = "FP Mod Team";
 		_generalMacro = "H_Beret_blk";
 		scope = 2;
-		displayName = "Beret (Tan)";
+		displayName = "FP Beret (Tan)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\FP_BeretTan.paa"};
 	};
     class Vest_NoCamo_Base;
