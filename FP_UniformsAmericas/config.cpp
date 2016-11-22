@@ -5,12 +5,6 @@ class CfgPatches
 		units[]=
 		{
 			"B_APC_Wheeled_01_cannon_wd_F",
-			"FP_Rifleman_NATO_WDL",
-			"FP_Rifleman_NATO_WDL_Sleeves",
-			"FP_Rifleman_NATO_WDL_Tee",
-			"FP_Rifleman_NATO_Sage",
-			"FP_Rifleman_NATO_Sage_Sleeves",
-			"FP_Rifleman_NATO_Sage_Tee",
 			"FP_Rifleman_CADPAT",
 			"FP_Rifleman_CADPATAR",
 			"FP_Rifleman_HECU",
@@ -26,12 +20,6 @@ class CfgPatches
 		};
 		weapons[]=
 		{
-			"FP_U_B_CombatUniform_WDL",
-			"FP_U_B_CombatUniform_WDL_Sleeves",
-			"FP_U_B_CombatUniform_WDL_Tee",
-			"FP_U_B_CombatUniform_Sage",
-			"FP_U_B_CombatUniform_Sage_Sleeves",
-			"FP_U_B_CombatUniform_Sage_Tee",
 			"FP_Uniform_CADPAT",
 			"FP_Uniform_CADPATAR",
 			"FP_Uniform_HECU",
@@ -67,120 +55,61 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
-	class FP_Rifleman_NATO_WDL: B_Soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="Rifleman (WDL)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_WDL";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
-		};
-	};
-	class FP_Rifleman_NATO_WDL_Sleeves: B_Soldier_03_F
-	{
-		_generalMacro="B_Soldier_03_F";
-		scope=1;
-		displayName="Rifleman (WDL, Sleeves)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_WDL_Sleeves";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
-		};
-	};
-	class FP_Rifleman_NATO_WDL_Tee: B_Soldier_02_F
-	{
-		_generalMacro="B_Soldier_02_F";
-		scope=1;
-		displayName="Rifleman (WDL, Tee)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_WDL_Tee";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
-		};
-	};
-	class FP_Rifleman_NATO_Sage: B_Soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="Rifleman (Sage)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_Sage";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
-		};
-	};
-	class FP_Rifleman_NATO_Sage_Sleeves: B_Soldier_03_F
-	{
-		_generalMacro="B_Soldier_03_F";
-		scope=1;
-		displayName="Rifleman (Sage, Sleeves)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_Sage_Sleeves";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
-		};
-	};
-	class FP_Rifleman_NATO_Sage_Tee: B_Soldier_02_F
-	{
-		_generalMacro="B_Soldier_02_F";
-		scope=1;
-		displayName="Rifleman (Sage, Tee)";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_U_B_CombatUniform_Sage_Tee";
-		author="Bohemia Interactive";
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
-		};
-	};
+    class B_soldier_S_F: B_soldier_F
+    {
+        scope=1;
+        displayName="Rifleman (Sage)";
+        uniformClass="U_B_CombatUniform_sgg_s";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_co.paa"};
+    };
+ 
+    class B_soldier_AR_F;
+    class B_soldier_AR_S_F: B_soldier_AR_F
+    {
+        scope=1;
+        displayName="Autorifleman (Sage)";
+        uniformClass="U_B_CombatUniform_sgg_tshirt_s";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_co.paa"};
+    };
+ 
+    class B_soldier_SL_F;
+    class B_soldier_SL_S_F: B_soldier_SL_F
+    {
+        scope=1;
+        displayName="Squad Leader (Sage)";
+        uniformClass="U_B_CombatUniform_sgg_vest_s";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_co.paa"};
+    };
+ 
+    class B_soldier_W_F: B_soldier_F
+    {
+        scope=1;
+        displayName="Rifleman (Woodland)";
+        uniformClass="U_B_CombatUniform_wdl_w";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+    };
+ 
+    class B_soldier_AR_W_F: B_soldier_AR_F
+    {
+        scope=1;
+        displayName="Autorifleman (Woodland)";
+        uniformClass="U_B_CombatUniform_wdl_tshirt_w";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+    };
+ 
+    class B_soldier_SL_W_F: B_soldier_SL_F
+    {
+        scope=1;
+        displayName="Squad Leader (Woodland)";
+        uniformClass="U_B_CombatUniform_wdl_vest_w";
+        author="Bohemia Interactive";
+        hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+    };
 	class I_soldier_F;
 	class FP_Rifleman_CADPAT: I_soldier_F
 	{
@@ -426,94 +355,80 @@ class CfgVehicles
 class cfgWeapons
 {
 	class U_I_CombatUniform;
-	class U_B_CombatUniform_mcam;
-	class U_B_CombatUniform_mcam_vest;
-	class U_B_CombatUniform_mcam_tshirt;
 	class UniformItem;
-	class FP_U_B_CombatUniform_WDL: U_B_CombatUniform_mcam
-	{
-		scope=2;
-		displayName="Combat Fatigues (Woodland)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_WDL";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_U_B_CombatUniform_WDL_Sleeves: U_B_CombatUniform_mcam_vest
-	{
-		scope=2;
-		displayName="Combat Fatigues (Woodland, Slv.)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_WDL_Sleeves";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_U_B_CombatUniform_WDL_Tee: U_B_CombatUniform_mcam_tshirt
-	{
-		scope=2;
-		displayName="Combat Fatigues (Woodland, Tee)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_WDL_Tee";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_U_B_CombatUniform_Sage: U_B_CombatUniform_mcam
-	{
-		scope=2;
-		displayName="Combat Fatigues (Sage)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_Sage";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_U_B_CombatUniform_Sage_Sleeves: U_B_CombatUniform_mcam_vest
-	{
-		scope=2;
-		displayName="Combat Fatigues (Sage, Slv.)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_Sage_Sleeves";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_U_B_CombatUniform_Sage_Tee: U_B_CombatUniform_mcam_tshirt
-	{
-		scope=2;
-		displayName="Combat Fatigues (Sage, Tee)";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="Bohemia Interactive";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_NATO_Sage_Tee";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
+    class Uniform_Base;
+    class U_B_CombatUniform_mcam: Uniform_Base
+    {
+            class ItemInfo;
+    };
+    class U_B_CombatUniform_sgg_s: U_B_CombatUniform_mcam
+    {
+        displayName="Combat Fatigues (Sage)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_S_F";
+        };
+    };
+ 
+    class U_B_CombatUniform_mcam_tshirt: Uniform_Base
+    {
+            class ItemInfo;
+    };
+    class U_B_CombatUniform_sgg_tshirt_s: U_B_CombatUniform_mcam_tshirt
+    {
+        displayName="Combat Fatigues (Sage) (Tee)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_AR_S_F";
+        };
+    };
+ 
+    class U_B_CombatUniform_mcam_vest: Uniform_Base
+    {
+            class ItemInfo;
+    };
+    class U_B_CombatUniform_sgg_vest_s: U_B_CombatUniform_mcam_vest
+    {
+        displayName="Recon Fatigues (Sage)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_SL_S_F";
+        };
+    };
+ 
+    class U_B_CombatUniform_wdl_w: U_B_CombatUniform_mcam
+    {
+        displayName="Combat Fatigues (Woodland)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_W_F";
+        };
+    };
+ 
+    class U_B_CombatUniform_wdl_tshirt_w: U_B_CombatUniform_mcam_tshirt
+    {
+        displayName="Combat Fatigues (Woodland) (Tee)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_AR_W_F";
+        };
+    };
+ 
+    class U_B_CombatUniform_wdl_vest_w: U_B_CombatUniform_mcam_vest
+    {
+        displayName="Recon Fatigues (Woodland)";
+        author="Bohemia Interactive";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="B_soldier_SL_W_F";
+        };
+    };
+
 	class FP_Uniform_CADPAT: U_I_CombatUniform
 	{
 		scope=2;

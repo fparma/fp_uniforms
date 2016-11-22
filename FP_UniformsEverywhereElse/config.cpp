@@ -344,6 +344,69 @@ class CfgVehicles
 		picture="";
 		scope=2;
 	};
+    class B_Kitbag_Base;
+    class B_Kitbag_rgr: B_Kitbag_Base
+    {
+        class ItemInfo;
+    };
+    class B_Kitbag_digi: B_Kitbag_rgr
+    {
+        displayName="Kitbag (Digi)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_fast_digi_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"Camo"};
+        };
+    };
+ 
+    class B_Kitbag_blk: B_Kitbag_rgr
+    {
+        displayName="Kitbag (Black)";
+         author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_fast_blk_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"Camo"};
+        };
+    };
+ 
+    class B_Carryall_Base;
+    class B_Carryall_oli: B_Carryall_Base
+    {
+        class ItemInfo;
+    };
+    class B_Carryall_blk: B_Carryall_oli
+    {
+        displayName="Carryall Backpack (Black)";
+         author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_tortila_blk_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"Camo"};
+        };
+    };
 };
 class cfgWeapons
 {
@@ -542,19 +605,6 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	class H_HelmetIA;
-	class FP_Helmet_PASGT;
-	class FP_Helmet_UNPASGT: FP_Helmet_PASGT
-	{
-		author="FP Mod Team";
-		_generalMacro="FP_Helmet_PASGT";
-		scope=2;
-		displayName="PASGT (UN)";
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsEverywhereElse\SkinsHeadgear\FP_UNHelmet.paa"
-		};
-	};
 	class H_MilCap_gry;
 	class H_MilCap_blk: H_MilCap_gry
 	{
@@ -612,21 +662,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"
-		};
-	};
-	class LOP_H_PASGTHelmet_cover_TRI;
-	class LOP_H_PASGTHelmet_cover_BLK: LOP_H_PASGTHelmet_cover_TRI
-	{
-		author="Leights OPFOR Pack";
-		scope=2;
-		displayName="PASGT Helmet cover (black)";
-		hiddenSelections[]=
-		{
-			"Camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsEverywhereElse\SkinsHeadgear\pasgt_helmet_co_voytek.paa"
 		};
 	};
 	class H_Beret_blk;
@@ -718,6 +753,124 @@ class cfgWeapons
 			"FP_UniformsEverywhereElse\SkinsHeadgear\FP_BeretTan.paa"
 		};
 	};
+    class H_Beret_Colonel;
+    class H_Beret_Colonel_Eagle: H_Beret_Colonel
+    {
+        displayName="Beret [NATO] (Eagle)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "A3\Characters_F_EPC\BLUFOR\Data\headgear_beret02_colonel_eagle_co.paa"
+        };
+    };
+ 
+    class H_Cap_oli;
+    class H_Cap_sero: H_Cap_oli
+    {
+        displayName="Cap (Sero)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\Data\capb_sero_co.paa"
+        };
+    };
+ 
+    class H_MilCap_gry;
+    class H_MilCap_pattern: H_MilCap_gry
+    {
+        displayName="Military Cap (Pattern)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\Data\cappatrol_check1_co.paa"
+        };
+    };
+   
+    class H_MilCap_plaid: H_MilCap_gry
+    {
+        displayName="Military Cap (Plaid)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\Data\cappatrol_check2_co.paa"
+        };
+    };
+   
+    class H_MilCap_checker: H_MilCap_gry
+    {
+        displayName="Military Cap (Checker)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\Data\cappatrol_check3_co.paa"
+        };
+    };
+   
+    class H_MilCap_tan: H_MilCap_gry
+    {
+        displayName="Military Cap (Tan)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\Data\cappatrol_tan_co.paa"
+        };
+    };
+ 
+    class H_HelmetO_ocamo;
+    class H_HelmetO_blk: H_HelmetO_ocamo
+    {
+        displayName="Protector Helmet (Black)";
+        author="Bohemia Interactive";
+        picture="\A3\Characters_F\data\ui\icon_H_HelmetO_spec_CA.paa";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\characters_f\OPFOR\data\tech_rus_CO.paa"
+        };
+    };
+ 
+    class H_HelmetLeaderO_ocamo;
+    class H_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo
+    {
+        displayName="Defender Helmet (Black)";
+        author="Bohemia Interactive";
+        picture="\A3\Characters_F\data\ui\icon_H_HelmetO_spec_CA.paa";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\characters_f\OPFOR\data\tech_rus_CO.paa"
+        };
+    };
 	class Vest_NoCamo_Base;
 	class V_PlateCarrier1_rgr: Vest_NoCamo_Base
 	{
