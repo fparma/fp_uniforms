@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=FP_UniformsAsia
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '7EFBBF6B2D06998DE8255ADB3ADF016B8028CD34'
+//////</HEADER>//////

@@ -2,8 +2,37 @@ class CfgPatches
 {
 	class FP_UniformsAsia
 	{
-		units[]={};
-		weapons[]={};
+		units[]=
+		{
+			"FP_Rifleman_Auscam",
+			"FP_Rifleman_Jeitei",
+			"FP_Rifleman_Type07Universal",
+			"FP_Rifleman_AAD",
+			"FP_Rifleman_INDC",
+			"FP_Rifleman_AZTURARID",
+			"FP_Rifleman_MECTiger",
+			"FP_Rifleman_MECDigiDesert"
+		};
+		weapons[]=
+		{
+			"FP_Uniform_Auscam",
+			"FP_Uniform_Jeitei",
+			"FP_Uniform_Type07Universal",
+			"FP_Uniform_AAD",
+			"FP_Uniform_INDC",
+			"FP_Uniform_AZTURARID",
+			"FP_Uniform_MECTiger",
+			"FP_Uniform_MECDigiDesert",
+			"FP_Helmet_Auscam",
+			"FP_Helmet_Jeitei",
+			"FP_Helmet_AZTURARID",
+			"FP_Helmet_PASGT_HelmetCoverAAD",
+			"FP_Helmet_Type07Uni",
+			"FP_Helmet_MECTiger",
+			"FP_Helmet_MECTiger_Headset",
+			"FP_Helmet_MECTiger_Goggles",
+			"FP_Boonie_Auscam"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -22,13 +51,13 @@ class CfgVehicles
 		displayName="AU Auscam";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Auscam";
-                author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -42,13 +71,13 @@ class CfgVehicles
 		displayName="JP Jeitei";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Jeitei";
-                author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -62,13 +91,13 @@ class CfgVehicles
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Jeitei";
-        author="FP Mod Team";
-		side = 0;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -82,13 +111,13 @@ class CfgVehicles
 		displayName="ARM Arid Digital";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Uniform_AAD";
-        author="FP Mod Team";
-		side = 0;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -102,13 +131,13 @@ class CfgVehicles
 		displayName="IND Indian Camo";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Uniform_INDC";
-        author="FP Mod Team";
-		side = 0;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -122,13 +151,13 @@ class CfgVehicles
 		displayName="AZ-TUR Arid Camo";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_Uniform_AZTURARID";
-        author="FP Mod Team";
-		side = 0;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -142,13 +171,13 @@ class CfgVehicles
 		displayName="MEC Tigerstripe (Sweater)";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MECTiger";
-        author="FP Mod Team";
-		side = 2;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=2;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -162,13 +191,13 @@ class CfgVehicles
 		displayName="MEC Recon Digital Desert (Sweater)";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_MECDigiDesert";
-        author="FP Mod Team";
-		side = 2;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=2;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -186,8 +215,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Auscam)";
 		picture="\FP_UniformsAsia\UI\auscamicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -202,8 +231,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Jeitei)";
 		picture="\FP_UniformsAsia\UI\jeiteiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -218,8 +247,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Type 07 Universal)";
 		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -234,8 +263,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Armenian Arid)";
 		picture="\FP_UniformsAsia\UI\AADicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -250,8 +279,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Indian)";
 		picture="\FP_UniformsAsia\UI\INDIAicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -266,8 +295,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (AzTur Arid)";
 		picture="\FP_UniformsAsia\UI\AZTURARIDicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -282,8 +311,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (MEC Tiger)";
 		picture="\FP_UniformsAsia\UI\mectigericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -298,8 +327,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Recon Digi Desert)";
 		picture="\FP_UniformsAsia\UI\mectigericon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -308,82 +337,109 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-    class H_HelmetIA;
+	class H_HelmetIA;
 	class FP_Helmet_Auscam: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (Auscam)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamHelmet.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (Auscam)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_AuscamHelmet.paa"
+		};
 	};
 	class FP_Helmet_Jeitei: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (Jeitei)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (Jeitei)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_JeiteiHelmet.paa"
+		};
 	};
 	class FP_Helmet_AZTURARID: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (Azeri Turkish Arid)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (Azeri Turkish Arid)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"
+		};
 	};
-    class FP_Helmet_PASGT_HelmetCoverM81;
+	class FP_Helmet_PASGT_HelmetCoverM81;
 	class FP_Helmet_PASGT_HelmetCoverAAD: FP_Helmet_PASGT_HelmetCoverM81
 	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
-		scope = 2;
-		displayName = "PASGT (Cover/Arm Arid Digi)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"};
+		author="FP Mod Team";
+		_generalMacro="FP_Helmet_PASGT_HelmetCoverM81";
+		scope=2;
+		displayName="PASGT (Cover/Arm Arid Digi)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"
+		};
 	};
 	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
 	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Helmet_PASGT_HelmetCoverM81";
-		scope = 2;
-		displayName = "PASGT (Type 07 Universal)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_HelmetType07.paa"};
+		author="FP Mod Team";
+		_generalMacro="FP_Helmet_PASGT_HelmetCoverM81";
+		scope=2;
+		displayName="PASGT (Type 07 Universal)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_HelmetType07.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_DPAT;
 	class FP_Helmet_MECTiger: CUP_H_RACS_Helmet_DPAT
 	{
-		author = "FP Mod Team";
-		_generalMacro = "CUP_H_RACS_Helmet_DPAT";
-		scope = 2;
-		displayName = "MEC Helmet (MEC Tiger)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
+		author="FP Mod Team";
+		_generalMacro="CUP_H_RACS_Helmet_DPAT";
+		scope=2;
+		displayName="MEC Helmet (MEC Tiger)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_Headset_DPAT;
 	class FP_Helmet_MECTiger_Headset: CUP_H_RACS_Helmet_Headset_DPAT
 	{
-		author = "FP Mod Team";
-		_generalMacro = "CUP_H_RACS_Helmet_Headset_DPAT";
-		scope = 2;
-		displayName = "MEC Helmet (MEC Tiger/Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
+		author="FP Mod Team";
+		_generalMacro="CUP_H_RACS_Helmet_Headset_DPAT";
+		scope=2;
+		displayName="MEC Helmet (MEC Tiger/Headset)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_Goggles_DPAT;
 	class FP_Helmet_MECTiger_Goggles: CUP_H_RACS_Helmet_Goggles_DPAT
 	{
-		author = "FP Mod Team";
-		_generalMacro = "CUP_H_RACS_Helmet_DPAT";
-		scope = 2;
-		displayName = "MEC Helmet (MEC Tiger/Goggles)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"};
+		author="FP Mod Team";
+		_generalMacro="CUP_H_RACS_Helmet_DPAT";
+		scope=2;
+		displayName="MEC Helmet (MEC Tiger/Goggles)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\racs_helmet_desert_co.paa"
+		};
 	};
-    class H_Booniehat_mcamo;
+	class H_Booniehat_mcamo;
 	class FP_Boonie_Auscam: H_Booniehat_mcamo
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_Booniehat_mcamo";
-		scope = 2;
-		displayName = "Booniehat (Auscam)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAsia\SkinsHeadgear\FP_AuscamBoonie.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_Booniehat_mcamo";
+		scope=2;
+		displayName="Booniehat (Auscam)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_AuscamBoonie.paa"
+		};
 	};
 };

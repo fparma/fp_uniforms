@@ -4,9 +4,56 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"B_APC_Wheeled_01_cannon_wd_F"
+			"B_APC_Wheeled_01_cannon_wd_F",
+			"FP_Rifleman_NATO_WDL",
+			"FP_Rifleman_NATO_WDL_Sleeves",
+			"FP_Rifleman_NATO_WDL_Tee",
+			"FP_Rifleman_NATO_Sage",
+			"FP_Rifleman_NATO_Sage_Sleeves",
+			"FP_Rifleman_NATO_Sage_Tee",
+			"FP_Rifleman_CADPAT",
+			"FP_Rifleman_CADPATAR",
+			"FP_Rifleman_HECU",
+			"FP_Rifleman_ccc",
+			"FP_Rifleman_dcu",
+			"FP_Rifleman_m81",
+			"FP_Rifleman_m81white",
+			"FP_Rifleman_DesMARPAT_CUP",
+			"FP_Rifleman_DesMARPAT_Rolled_CUP",
+			"FP_Rifleman_DesMARPAT_Kneepad_CUP",
+			"FP_Rifleman_DesMARPAT_KneepadRolled_CUP",
+			"FP_Rifleman_USArmy_OCP"
 		};
-		weapons[]={};
+		weapons[]=
+		{
+			"FP_U_B_CombatUniform_WDL",
+			"FP_U_B_CombatUniform_WDL_Sleeves",
+			"FP_U_B_CombatUniform_WDL_Tee",
+			"FP_U_B_CombatUniform_Sage",
+			"FP_U_B_CombatUniform_Sage_Sleeves",
+			"FP_U_B_CombatUniform_Sage_Tee",
+			"FP_Uniform_CADPAT",
+			"FP_Uniform_CADPATAR",
+			"FP_Uniform_HECU",
+			"FP_Uniform_ccc",
+			"FP_Uniform_DCU",
+			"FP_Uniform_m81",
+			"FP_Uniform_m81white",
+			"CUP_U_B_USMC_MARPAT_DES_Sleeves",
+			"CUP_U_B_USMC_MARPAT_DES_RolledUp",
+			"CUP_U_B_USMC_MARPAT_DES_Kneepad",
+			"CUP_U_B_USMC_MARPAT_DES_RollUpKneepad",
+			"CUP_U_B_USArmy_Base_OCP",
+			"FP_Helmet_CADPAT",
+			"FP_Helmet_CADPATAR",
+			"FP_Helmet_HECU",
+			"FP_Helmet_M81",
+			"FP_Helmet_6CD",
+			"FP_Helmet_ALPCAM",
+			"FP_Helmet_USMCMARPATHelmet",
+			"FP_Helmet_USMCMARPATHelmet_Headset",
+			"FP_Helmet_USMCMARPATHelmet_Goggles"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -20,131 +67,119 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
-	class FP_Rifleman_NATO_WDL : B_Soldier_F
+	class FP_Rifleman_NATO_WDL: B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (WDL)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_WDL";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="Rifleman (WDL)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_WDL";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
+		};
 	};
-	class FP_Rifleman_NATO_WDL_Sleeves : B_Soldier_03_F
+	class FP_Rifleman_NATO_WDL_Sleeves: B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (WDL, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_WDL_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
+		_generalMacro="B_Soldier_03_F";
+		scope=1;
+		displayName="Rifleman (WDL, Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_WDL_Sleeves";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
+		};
 	};
-	class FP_Rifleman_NATO_WDL_Tee : B_Soldier_02_F
+	class FP_Rifleman_NATO_WDL_Tee: B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (WDL, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_WDL_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_wdl_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+		_generalMacro="B_Soldier_02_F";
+		scope=1;
+		displayName="Rifleman (WDL, Tee)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_WDL_Tee";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
+		};
 	};
-	class FP_Rifleman_NATO_Sage : B_Soldier_F
+	class FP_Rifleman_NATO_Sage: B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (Sage)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_Sage";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="Rifleman (Sage)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_Sage";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
+		};
 	};
-	class FP_Rifleman_NATO_Sage_Sleeves : B_Soldier_03_F
+	class FP_Rifleman_NATO_Sage_Sleeves: B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (Sage, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_Sage_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};						
+		_generalMacro="B_Soldier_03_F";
+		scope=1;
+		displayName="Rifleman (Sage, Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_Sage_Sleeves";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
+		};
 	};
-	class FP_Rifleman_NATO_Sage_Tee : B_Soldier_02_F
+	class FP_Rifleman_NATO_Sage_Tee: B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (Sage, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "FP_U_B_CombatUniform_Sage_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsAmericas\SkinsUniform\clothing_sage_co.paa"};
-					hiddenSelectionsMaterials[] = 
-					{
-						"\FP_UniformsAmericas\Misc\clothing2.rvmat"};
+		_generalMacro="B_Soldier_02_F";
+		scope=1;
+		displayName="Rifleman (Sage, Tee)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_B_CombatUniform_Sage_Tee";
+		author="Bohemia Interactive";
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
+		};
 	};
 	class I_soldier_F;
 	class FP_Rifleman_CADPAT: I_soldier_F
@@ -154,13 +189,13 @@ class CfgVehicles
 		displayName="FP CAN CADPAT TW";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_CADPAT";
-                author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -174,13 +209,13 @@ class CfgVehicles
 		displayName="FP CAN CADPAT AR";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_CADPATAR";
-                author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -194,13 +229,13 @@ class CfgVehicles
 		displayName="FP USA Urban Splinter";
 		nakedUniform="U_BasicBody";
 		uniformClass="FP_HECU";
-                author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		author="FP Mod Team";
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
-                        "insignia"
+			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -215,8 +250,8 @@ class CfgVehicles
 		displayName="FP US DCU 6-Colour (BDU)";
 		uniformClass="FP_Uniform_CCC";
 		author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -238,8 +273,8 @@ class CfgVehicles
 		displayName="FP US DCU 3-Colour (BDU)";
 		uniformClass="FP_Uniform_DCU";
 		author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -261,8 +296,8 @@ class CfgVehicles
 		displayName="FP US M81 (BDU)";
 		uniformClass="FP_Uniform_m81";
 		author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -284,8 +319,8 @@ class CfgVehicles
 		displayName="FP US M81/White (BDU)";
 		uniformClass="FP_Uniform_m81white";
 		author="FP Mod Team";
-		side = 1;
-		scopeCurator = 0;
+		side=1;
+		scopeCurator=0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -362,12 +397,30 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
 		};
 	};
+	class CUP_B_US_Soldier;
+	class FP_Rifleman_USArmy_OCP: CUP_B_US_Soldier
+	{
+		displayName="";
+		scope=2;
+		author="Community Upgrade Project";
+		uniformClass="CUP_U_B_USArmy_Base_OCP";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\ocp2_cupusarmy.paa",
+			"FP_UniformsAmericas\SkinsUniform\ocp_cupusarmy.paa"
+		};
+	};
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
 	{
 		author="FP Mod Team";
-		displayName = "Patria AMV Woodland";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_base_wd_co.paa","FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_adds_wd_co.paa","FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_tows_wd_co.paa"};
+		displayName="Patria AMV Woodland";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_base_wd_co.paa",
+			"FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_adds_wd_co.paa",
+			"FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_tows_wd_co.paa"
+		};
 	};
 };
 class cfgWeapons
@@ -377,7 +430,7 @@ class cfgWeapons
 	class U_B_CombatUniform_mcam_vest;
 	class U_B_CombatUniform_mcam_tshirt;
 	class UniformItem;
-	class FP_U_B_CombatUniform_WDL : U_B_CombatUniform_mcam
+	class FP_U_B_CombatUniform_WDL: U_B_CombatUniform_mcam
 	{
 		scope=2;
 		displayName="Combat Fatigues (Woodland)";
@@ -385,13 +438,13 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_WDL";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_WDL";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class FP_U_B_CombatUniform_WDL_Sleeves : U_B_CombatUniform_mcam_vest
+	class FP_U_B_CombatUniform_WDL_Sleeves: U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
 		displayName="Combat Fatigues (Woodland, Slv.)";
@@ -399,13 +452,13 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_WDL_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_WDL_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class FP_U_B_CombatUniform_WDL_Tee : U_B_CombatUniform_mcam_tshirt
+	class FP_U_B_CombatUniform_WDL_Tee: U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
 		displayName="Combat Fatigues (Woodland, Tee)";
@@ -413,13 +466,13 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_WDL_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_WDL_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class FP_U_B_CombatUniform_Sage : U_B_CombatUniform_mcam
+	class FP_U_B_CombatUniform_Sage: U_B_CombatUniform_mcam
 	{
 		scope=2;
 		displayName="Combat Fatigues (Sage)";
@@ -427,13 +480,13 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_Sage";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_Sage";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class FP_U_B_CombatUniform_Sage_Sleeves : U_B_CombatUniform_mcam_vest
+	class FP_U_B_CombatUniform_Sage_Sleeves: U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
 		displayName="Combat Fatigues (Sage, Slv.)";
@@ -441,13 +494,13 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_Sage_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_Sage_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
-	class FP_U_B_CombatUniform_Sage_Tee : U_B_CombatUniform_mcam_tshirt
+	class FP_U_B_CombatUniform_Sage_Tee: U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
 		displayName="Combat Fatigues (Sage, Tee)";
@@ -455,10 +508,10 @@ class cfgWeapons
 		author="Bohemia Interactive";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="FP_Rifleman_NATO_Sage_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="FP_Rifleman_NATO_Sage_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class FP_Uniform_CADPAT: U_I_CombatUniform
@@ -467,8 +520,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (CADPAT TW)";
 		picture="\FP_UniformsAmericas\UI\cadpaticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -483,8 +536,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (CADPAT AR)";
 		picture="\FP_UniformsAmericas\UI\cadpataricon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -499,8 +552,8 @@ class cfgWeapons
 		displayName="Combat Fatigues (Urban Splinter)";
 		picture="\FP_UniformsAmericas\UI\hecuicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
+		author="FP Mod Team";
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -517,7 +570,7 @@ class cfgWeapons
 		picture="\FP_UniformsAmericas\UI\u_ccc_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
-		side = 1;
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -533,7 +586,7 @@ class cfgWeapons
 		picture="\FP_UniformsAmericas\UI\u_dcu_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
-		side = 1;
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -549,7 +602,7 @@ class cfgWeapons
 		picture="\FP_UniformsAmericas\UI\u_m81_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
-		side = 1;
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -565,7 +618,7 @@ class cfgWeapons
 		picture="\FP_UniformsAmericas\UI\u_m81wht_icon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
-		side = 1;
+		side=1;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -663,7 +716,6 @@ class cfgWeapons
 			mass=20;
 		};
 	};
-<<<<<<< HEAD
 	class CUP_U_B_USArmy_Base;
 	class CUP_U_B_USArmy_Base_OCP: CUP_U_B_USArmy_Base
 	{
@@ -672,7 +724,7 @@ class cfgWeapons
 		scope=1;
 		allowedSlots[]={901};
 		displayName="US Army (OCP)";
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[]=
 		{
@@ -686,88 +738,113 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=20;
 		};
-	};	
-=======
->>>>>>> parent of 5c4c129... major changes
-    class H_HelmetIA;
+	};
+	class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (CADPAT TW)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATHelmet.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (CADPAT TW)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATHelmet.paa"
+		};
 	};
 	class FP_Helmet_CADPATAR: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (CADPAT AR)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARHelmet.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (CADPAT AR)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARHelmet.paa"
+		};
 	};
 	class FP_Helmet_HECU: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (Urban Splinter)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_HECUHelmet.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (Urban Splinter)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\FP_HECUHelmet.paa"
+		};
 	};
 	class FP_Helmet_M81: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "Modular Helmet (M81)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_M81.paa"};
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (M81)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\h_M81.paa"
+		};
 		picture="\FP_UniformsAmericas\UI\u_m81_icon.paa";
 	};
 	class FP_Helmet_6CD: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Helmet_6CD";
-		scope = 2;
-		displayName = "Modular Helmet (6CD)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_6cd.paa"};
+		author="FP Mod Team";
+		_generalMacro="FP_Helmet_6CD";
+		scope=2;
+		displayName="Modular Helmet (6CD)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\h_6cd.paa"
+		};
 	};
 	class FP_Helmet_ALPCAM: H_HelmetIA
 	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Helmet_ALPCAM";
-		scope = 2;
-		displayName = "Modular Helmet (Multicam Alpine)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\h_alpcam.paa"};
+		author="FP Mod Team";
+		_generalMacro="FP_Helmet_ALPCAM";
+		scope=2;
+		displayName="Modular Helmet (Multicam Alpine)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\h_alpcam.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_DPAT;
 	class FP_Helmet_USMCMARPATHelmet: CUP_H_RACS_Helmet_DPAT
 	{
-		author = "FP Mod Team";
-		scope = 2;
-		displayName = "USMC Helmet (Desert MARPAT)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+		author="FP Mod Team";
+		scope=2;
+		displayName="USMC Helmet (Desert MARPAT)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_Headset_DPAT;
 	class FP_Helmet_USMCMARPATHelmet_Headset: CUP_H_RACS_Helmet_Headset_DPAT
 	{
-		author = "FP Mod Team";
-		scope = 2;
-		displayName = "USMC Helmet (Desert MARPAT/Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+		author="FP Mod Team";
+		scope=2;
+		displayName="USMC Helmet (Desert MARPAT/Headset)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"
+		};
 	};
 	class CUP_H_RACS_Helmet_Goggles_DPAT;
 	class FP_Helmet_USMCMARPATHelmet_Goggles: CUP_H_RACS_Helmet_Goggles_DPAT
 	{
-		author = "FP Mod Team";
-		scope = 2;
-		displayName = "USMC Helmet (Desert MARPAT/Goggles)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+		author="FP Mod Team";
+		scope=2;
+		displayName="USMC Helmet (Desert MARPAT/Goggles)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"
+		};
 	};
 	class H_mas_gue_HelmetI;
 	class fp_helmet_m1_camo: H_mas_gue_HelmetI
 	{
 		author="FP Mod Team";
-		displayName="FP US M1 Helmet (Mitchell Pattern)";
+		displayName="M1 Helmet (Mitchell Pattern)";
 		picture="\FP_UniformsAmericas\ui\m1_camo_icon.paa";
 		hiddenSelectionsTextures[]=
 		{
