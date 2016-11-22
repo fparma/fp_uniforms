@@ -412,20 +412,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};	
-	class LOP_CDF_Soldier : I_Soldier_F {
-		_generalMacro = "LOP_CDF_Soldier";
-		scope = 1;
-		side = 1;
-		uniformClass = "LOP_U_CDF_Fatigue_01";
-		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"FP_UniformsEasternEurope\SkinsUniform\u_cdf_cdf.paa"};
-	};	
-	class LOP_CDF_Soldier_R : LOP_CDF_Soldier {
-		_generalMacro = "LOP_CDF_Soldier_R";
-		uniformClass = "LOP_U_CDF_Fatigue_01_slv";
-		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
-	};
 };
 class cfgWeapons
 {
@@ -706,37 +692,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_TTsMKKOlive";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class Uniform_Base;
-	class LOP_U_CDF_Fatigue_01: Uniform_Base
-	{
-		author="LOP";
-		scope=2;
-		displayName="CDF Fatigues";
-		picture="\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="LOP_CDF_Soldier";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class LOP_U_CDF_Fatigue_01_slv: Uniform_Base
-	{
-		author="LOP";
-		scope=2;
-		displayName="CDF Fatigues (Rolled)";
-		picture="\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="LOP_CDF_Soldier_R";
 			containerClass="Supply40";
 			mass=40;
 		};
