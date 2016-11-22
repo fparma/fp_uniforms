@@ -371,27 +371,16 @@ class cfgWeapons
 			"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"
 		};
 	};
-	class FP_Helmet_PASGT_HelmetCoverM81;
-	class FP_Helmet_PASGT_HelmetCoverAAD: FP_Helmet_PASGT_HelmetCoverM81
+    class CUP_H_CDF_H_PASGT_MNT;
+	class FP_Helmet_Type07Uni: CUP_H_CDF_H_PASGT_MNT
 	{
 		author="FP Mod Team";
-		_generalMacro="FP_Helmet_PASGT_HelmetCoverM81";
-		scope=2;
-		displayName="PASGT (Cover/Arm Arid Digi)";
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAsia\SkinsHeadgear\FP_helm_AAD.paa"
-		};
-	};
-	class FP_Helmet_Type07Uni: FP_Helmet_PASGT_HelmetCoverM81
-	{
-		author="FP Mod Team";
-		_generalMacro="FP_Helmet_PASGT_HelmetCoverM81";
+		_generalMacro="class CUP_H_CDF_H_PASGT_MNT";
 		scope=2;
 		displayName="PASGT (Type 07 Universal)";
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsAsia\SkinsHeadgear\FP_HelmetType07.paa"
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07_PASGT.paa"
 		};
 	};
 	class CUP_H_RACS_Helmet_DPAT;
