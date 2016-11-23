@@ -384,8 +384,6 @@ class CfgVehicles
             hiddenSelections[] = {"Camo"};
         };
     };
- 
-    class B_Carryall_Base;
     class B_Carryall_oli: B_Carryall_Base
     {
         class ItemInfo;
