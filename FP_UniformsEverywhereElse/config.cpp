@@ -765,7 +765,6 @@ class cfgWeapons
             "A3\Characters_F_EPC\BLUFOR\Data\headgear_beret02_colonel_eagle_co.paa"
         };
     };
- 
     class H_Cap_oli;
     class H_Cap_sero: H_Cap_oli
     {
@@ -780,8 +779,6 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\capb_sero_co.paa"
         };
     };
- 
-    class H_MilCap_gry;
     class H_MilCap_pattern: H_MilCap_gry
     {
         displayName="Military Cap (Pattern)";
