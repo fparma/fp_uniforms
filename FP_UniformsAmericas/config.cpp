@@ -110,6 +110,218 @@ class CfgVehicles
         author="Bohemia Interactive";
         hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
     };
+	
+	//VanSchmoozin Camos (Crye G3s)
+	
+	class VSM_AOR1_Crye_Uniform: B_Soldier_F
+    {
+        scope=1;
+        displayName="Crye G3 (AOR1)";
+        uniformClass="VSM_AOR1_Crye_Camo";
+        author="VanSchmoozin";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_AOR1_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_AOR1_Crye_Uniform_Rolled: VSM_AOR1_Crye_Uniform	
+    {
+        scope=1;
+        displayName="Crye G3 (AOR1/Rolled)";
+        uniformClass="VSM_AOR1_Crye_Uniform_Rolled";
+        author="VanSchmoozin";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_AOR1_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_Multicam_Crye_Uniform: B_Soldier_F
+    {
+        scope=1;
+        displayName="Crye G3 (Multicam)";
+        uniformClass="VSM_Multicam_Crye_Uniform_Camo";
+        author="VanSchmoozin";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_multicam_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_Multicam_Crye_Uniform_Rolled: VSM_AOR1_Crye_Uniform	
+    {
+        scope=1;
+        displayName="Crye G3 (Multicam/Rolled)";
+        uniformClass="VSM_Multicam_Crye_Uniform_Rolled";
+        author="VanSchmoozin";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_multicam_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_MulticamGrey_Crye_Uniform: B_Soldier_F
+    {
+        scope=1;
+        displayName="Crye G3 (Multicam/Grey)";
+        uniformClass="VSM_MulticamGrey_Crye_Uniform_Camo";
+        author="VanSchmoozin";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_multicam_grey_shirt_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_MulticamGrey_Crye_Uniform_Rolled: VSM_AOR1_Crye_Uniform	
+    {
+        scope=1;
+        displayName="Crye G3 (Multicam/Grey/Rolled)";
+        uniformClass="VSM_MulticamGrey_Crye_Uniform_Rolled";
+        author="VanSchmoozin";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_multicam_grey_shirt_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_Grey_Crye_Uniform: B_Soldier_F
+    {
+        scope=1;
+        displayName="Crye G3 (Grey)";
+        uniformClass="VSM_Grey_Crye_Uniform_Camo";
+        author="VanSchmoozin";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_OGA_grey_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_Grey_Crye_Uniform_Rolled: VSM_AOR1_Crye_Uniform	
+    {
+        scope=1;
+        displayName="Crye G3 (Grey/Rolled)";
+        uniformClass="VSM_Grey_Crye_Uniform_Rolled";
+        author="VanSchmoozin";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_OGA_grey_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };
+	class VSM_OD_Crye_Uniform: B_Soldier_F
+    {
+        scope=1;
+        displayName="Crye G3 (OD)";
+        uniformClass="VSM_OD_Crye_Uniform_Camo";
+        author="VanSchmoozin";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_OGA_OD_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };	
+	class VSM_OD_Crye_Uniform_Rolled: VSM_AOR1_Crye_Uniform	
+    {
+        scope=1;
+        displayName="Crye G3 (OD/Rolled)";
+        uniformClass="VSM_OD_Crye_Uniform_Rolled";
+        author="VanSchmoozin";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD_OGA_OD_1.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\VSM_ARD.RVMAT"
+		};
+    };
+
+
+
+	
 	class I_soldier_F;
 	class FP_Rifleman_CADPAT: I_soldier_F
 	{
@@ -426,6 +638,108 @@ class cfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass="B_soldier_SL_W_F";
+        };
+    };
+	
+	//VanSchmoozin Crye G3s
+    class VSM_AOR1_Crye_Camo: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (AOR1)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_AOR1.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_AOR1_Crye_Uniform";
+        };
+    };
+    class VSM_AOR1_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (AOR1/Rolled)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_AOR1.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_AOR1_Crye_Uniform_Rolled";
+        };
+    };
+    class VSM_Multicam_Crye_Camo: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Multicam)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_Multicam.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_Multicam_Crye_Uniform";
+        };
+    };
+    class VSM_Multicam_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Multicam/Rolled)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_Multicam.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_Multicam_Crye_Uniform_Rolled";
+        };
+    };
+    class VSM_MulticamGrey_Crye_Camo: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Multicam/Grey)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_Multicam.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_MulticamGrey_Crye_Uniform";
+        };
+    };
+    class VSM_MulticamGrey_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Multicam/Grey/Rolled)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_Multicam.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_MulticamGrey_Crye_Uniform_Rolled";
+        };
+    };
+    class VSM_Grey_Crye_Uniform_Camo: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Grey)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_OGA_grey.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_Grey_Crye_Uniform";
+        };
+    };
+    class VSM_Multicam_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (Grey/Rolled)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_OGA_grey.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_Grey_Crye_Uniform_Rolled";
+        };
+    };
+    class VSM_Multicam_Crye_Camo: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (OD)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_OGA_OD.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_OD_Crye_Uniform";
+        };
+    };
+    class VSM_OD_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    {
+        displayName="Crye G3 (OD/Rolled)";
+        author="VanSchmoozin";
+		picture="\FP_UniformsAmericas\UI\VSM_OGA_OD.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="VSM_OD_Crye_Uniform_Rolled";
         };
     };
 
