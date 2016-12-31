@@ -411,6 +411,7 @@ class cfgWeapons
 	class U_I_CombatUniform;
 	class UniformItem;
 	class ItemInfo;
+	class ItemVest;
 	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
 		scope=2;
@@ -887,7 +888,7 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsCarrier\FP_PC_CoyotePatchless"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: VestItem
 		{
 			hiddenSelections[]=
 			{
@@ -910,7 +911,7 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsCarrier\vests_cbr_co.paa"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: VestItem
 		{
 			hiddenSelections[]=
 			{
@@ -933,7 +934,7 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsCarrier\vests_khk_co.paa"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: VestItem
 		{
 			hiddenSelections[]=
 			{
@@ -956,7 +957,7 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsCarrier\KY_Vest_GRN.paa"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: VestItem
 		{
 			hiddenSelections[]=
 			{
@@ -979,7 +980,7 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsCarrier\FP_KyrelianBlackPC.paa"
 		};
-		class ItemInfo: ItemInfo
+		class ItemInfo: VestItem
 		{
 			hiddenSelections[]=
 			{
