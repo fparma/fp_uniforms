@@ -712,7 +712,7 @@ class cfgWeapons
             uniformClass="VSM_Grey_Crye_Uniform";
         };
     };
-    class VSM_Multicam_Crye_Camo_Rolled: U_B_CombatUniform_mcam
+    class VSM_Grey_Crye_Camo_Rolled: U_B_CombatUniform_mcam
     {
         displayName="Crye G3 (Grey/Rolled)";
         author="VanSchmoozin";
@@ -722,7 +722,7 @@ class cfgWeapons
             uniformClass="VSM_Grey_Crye_Uniform_Rolled";
         };
     };
-    class VSM_Multicam_Crye_Camo: U_B_CombatUniform_mcam
+    class VSM_OD_Crye_Camo: U_B_CombatUniform_mcam
     {
         displayName="Crye G3 (OD)";
         author="VanSchmoozin";

@@ -417,7 +417,6 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
-	class Armory;
 	class FP_Uniform_M84: U_I_CombatUniform
 	{
 		scope=2;
@@ -579,10 +578,6 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	    class Armory: Armory
-        {
-            disabled = 0;
-        };
 	};
 	class FP_Uniform_StrichTTsMKK: U_O_OfficerUniform_ocamo
 	{

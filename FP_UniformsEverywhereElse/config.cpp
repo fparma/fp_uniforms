@@ -410,7 +410,6 @@ class cfgWeapons
 {
 	class U_I_CombatUniform;
 	class UniformItem;
-	class ItemInfo;
 	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
 		scope=2;
