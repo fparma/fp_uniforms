@@ -41,7 +41,7 @@ class CfgPatches
 			"FP_Helmet_USMCMARPATHelmet",
 			"FP_Helmet_USMCMARPATHelmet_Headset",
 			"FP_Helmet_USMCMARPATHelmet_Goggles",
-			"FP_Helmet_M1_Mitchell"
+			"fp_helmet_m1_vine_nam"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
