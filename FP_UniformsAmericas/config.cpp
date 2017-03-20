@@ -40,7 +40,8 @@ class CfgPatches
 			"FP_Helmet_ALPCAM",
 			"FP_Helmet_USMCMARPATHelmet",
 			"FP_Helmet_USMCMARPATHelmet_Headset",
-			"FP_Helmet_USMCMARPATHelmet_Goggles"
+			"FP_Helmet_USMCMARPATHelmet_Goggles",
+			"fp_helmet_m1_vine_nam"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1085,5 +1086,11 @@ class cfgWeapons
 			"\FP_UniformsAmericas\Misc\m1_camo.rvmat",
 			"\mas_gue_rebl\hats\Data\tak_soldier_equip.rvmat"
 		};
+	};
+	class CUP_H_USArmy_Helmet_M1_Vine;
+	class fp_helmet_m1_vine_nam : CUP_H_USArmy_Helmet_M1_Vine {
+		author = "FP Mod Team";
+		displayName = "M1 (Mitchell)";
+		hiddenSelectionsTextures[] = {"\FP_UniformsAmericas\SkinsHeadgear\m1_mitchell.paa"};
 	};
 };
