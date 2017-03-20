@@ -564,6 +564,15 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsVehicle\APC_Wheeled_01_tows_wd_co.paa"
 		};
 	};
+	class CUP_O_TK_Soldier_03;
+	class FP_O_TK_Soldier_03_USNam: CUP_O_TK_Soldier_03
+	{
+		uniformClass="FP_Uniform_USARMY_Fatigues";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\us_vietnam.paa"
+		};
+	};  
 };
 class cfgWeapons
 {
@@ -1085,6 +1094,31 @@ class cfgWeapons
 		{
 			"\FP_UniformsAmericas\Misc\m1_camo.rvmat",
 			"\mas_gue_rebl\hats\Data\tak_soldier_equip.rvmat"
+		};
+	};
+	class fp_helmet_m1_medic: H_mas_gue_HelmetI
+	{
+		author="FP Mod Team";
+		displayName="M1 Helmet (Medic)";
+		picture="\FP_UniformsAmericas\ui\m1_camo_icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsAmericas\SkinsHeadgear\m1_medic.paa",
+			"\mas_gue_rebl\hats\Data\tak_soldier_equip_co.paa"
+		};
+	};
+	class CUP_U_O_TK_Green;
+	class FP_Uniform_USARMY_Fatigues: CUP_U_O_TK_Green
+	{
+		author="FP Mod Team";
+		allowedSlots[]={901};
+		displayName="US Army Fatigues";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_O_TK_Soldier_03_USNam";
+			containerClass="Supply40";
+			mass=20;
 		};
 	};
 	class CUP_H_USArmy_Helmet_M1_Vine;
