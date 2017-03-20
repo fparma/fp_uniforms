@@ -567,6 +567,7 @@ class CfgVehicles
 	class CUP_O_TK_Soldier_03;
 	class FP_O_TK_Soldier_03_USNam: CUP_O_TK_Soldier_03
 	{
+    scope=1;
 		uniformClass="FP_Uniform_USARMY_Fatigues";
 		hiddenSelectionsTextures[]=
 		{
