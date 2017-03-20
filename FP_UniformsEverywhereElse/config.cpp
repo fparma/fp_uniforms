@@ -17,6 +17,8 @@ class CfgPatches
 			"FP_Rifleman_gry",
 			"FP_Rifleman_khk",
 			"FP_Rifleman_KyrelianFBSplinterRolled",
+			"FP_Rifleman_Tak_TigerStripe",
+			"FP_Rifleman_Tak_OD",
 			"B_Carryall_Inv"
 		};
 		weapons[]=
@@ -33,6 +35,8 @@ class CfgPatches
 			"FP_Uniform_grn",
 			"FP_Uniform_GRY",
 			"FP_Uniform_KHK",
+			"FP_Uniform_Tak_TigerStripe",
+			"FP_Uniform_Tak_OD",
 			"FP_Helmet_UNPASGT",
 			"H_MilCap_blk",
 			"FP_BluHelmet_KyrelianSplinter",
@@ -239,6 +243,19 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"
 		};
+	};
+	class CUP_O_TK_Soldier_03;
+	class FP_Rifleman_Tak_TigerStripe : CUP_O_TK_Soldier_03 {
+		scope = 1;
+		displayName = "FP Tak Tiger Stripe";
+		uniformClass = "FP_Uniform_Tak_TigerStripe";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\fp_tak_soldier_ts_co.paa"};
+	};
+	class FP_Rifleman_Tak_OD : CUP_O_TK_Soldier_03 {
+		scope = 1;
+		displayName = "FP Tak Olive Drab";
+		uniformClass = "FP_Uniform_Tak_OD";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\fp_tak_soldier_od_co.paa"};
 	};
 	class O_officer_F;
 	class FP_Rifleman_grn: O_officer_F
@@ -600,6 +617,31 @@ class cfgWeapons
 			uniformClass="FP_Rifleman_khk";
 			containerClass="Supply40";
 			mass=40;
+		};
+	};
+	class CUP_U_O_TK_Green;
+	class FP_Uniform_Tak_TigerStripe : CUP_U_O_TK_Green {
+		author = "BIS, CUP, FPArma";
+		scope = 2;
+		displayName = "BDU Clothes (Tiger Stripe)";
+		class ItemInfo: UniformItem 
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Tak_TigerStripe";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class FP_Uniform_Tak_OD : CUP_U_O_TK_Green {
+		author = "BIS, CUP, FPArma";
+		scope = 2;
+		displayName = "BDU Clothes (Olive Drab)";
+		class ItemInfo: UniformItem 
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Tak_OD";
+			containerClass="Supply40";
+			mass=20;
 		};
 	};
 	class H_MilCap_gry;
