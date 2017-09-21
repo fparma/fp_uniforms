@@ -16,6 +16,8 @@ class CfgPatches
 			"FP_Rifleman_grn",
 			"FP_Rifleman_gry",
 			"FP_Rifleman_khk",
+			"FP_Rifleman_FP",
+			"FP_Rifleman_02_FP",
 			"FP_Rifleman_KyrelianFBSplinterRolled",
 			"FP_Rifleman_Tak_TigerStripe",
 			"FP_Rifleman_Tak_OD",
@@ -35,15 +37,19 @@ class CfgPatches
 			"FP_Uniform_grn",
 			"FP_Uniform_GRY",
 			"FP_Uniform_KHK",
+			"FP_I_CombatUniform_FP",
+			"FP_I_CombatUniform_02_FP",
 			"FP_Uniform_Tak_TigerStripe",
 			"FP_Uniform_Tak_OD",
-			"FP_Helmet_UNPASGT",
 			"H_MilCap_blk",
 			"FP_BluHelmet_KyrelianSplinter",
 			"FP_BluHelmet_KyrelianBlack",
 			"FP_BluHelmetECH_KyrelianSplinter",
 			"FP_BluHelmetLight_KyrelianSplinter",
 			"LOP_H_PASGTHelmet_cover_BLK",
+			"FP_Helmet_FP",
+			"FP_Booniehat_FP",
+			"FP_Booniehat_FP_hs",
 			"FP_Beret_Purple",
 			"FP_Beret_Brown",
 			"FP_Beret_Blue",
@@ -242,6 +248,46 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"
+		};
+	};
+	class FP_Rifleman_FP: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="FP Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_I_CombatUniform_FP";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
+		};
+	}; 
+	class FP_Rifleman_02_FP: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Rifleman (Sleeves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_I_CombatUniform_02_FP";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
 		};
 	};
 	class CUP_O_TK_Soldier_03;
@@ -570,6 +616,38 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+
+	class FP_I_CombatUniform_FP: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Facepunch)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_FP";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class FP_I_CombatUniform_02_FP: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Facepunch, Sleeves)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_FP";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	
 	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
@@ -702,6 +780,30 @@ class cfgWeapons
 		{
 			"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"
 		};
+	};
+	class FP_Helmet_FP: H_HelmetIA
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_HelmetIA";
+		scope = 2;
+		displayName = "FP Redstone Helmet";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp.paa"};		
+	};
+class FP_Booniehat_FP: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (FP, Redstone)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
+	};
+	class FP_Booniehat_FP_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (FP, Redstone)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
 	};
 	class H_Beret_blk;
 	class FP_Beret_Purple: H_Beret_blk
@@ -1057,6 +1159,28 @@ class cfgWeapons
 			"FP_UniformsEverywhereElse\SkinsCarrier\grn_hvy.paa"
 		};
 	};
+	class V_PlateCarrierGL_khk: V_PlateCarrierGL_rgr
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierGL_khk";
+		scope = 2;
+		displayName = "Carrier GL Rig (Khaki)";
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsEverywhereElse\SkinsCarrier\carrier_gl_rig_khk_co.paa"
+		};
+	};
+	class V_PlateCarrierSpec_khk: V_PlateCarrierSpec_rgr
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierGL_khk";
+		scope = 2;
+		displayName = "Carrier Special Rig (Khaki)";
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsEverywhereElse\SkinsCarrier\carrier_gl_rig_khk_co.paa"
+		};
+	};
 	class V_HarnessO_gry;
 	class FP_Vest_HarnessGreen: V_HarnessO_gry
 	{
@@ -1069,6 +1193,62 @@ class cfgWeapons
 		};
 		picture="\FP_UniformsEverywhereElse\UI\icon_V_HarnessOU_grn_CA.paa";
 		author="FP Mod Team";
+	};
+	class V_PlateCarrierIA1_dgtl: Vest_NoCamo_Base
+    {
+        class ItemInfo;
+    };
+	class V_PlateCarrierIA2_dgtl: Vest_NoCamo_Base
+    {
+        class ItemInfo;
+    };
+	class V_PlateCarrierIA1_oli: V_PlateCarrierIA1_dgtl
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierIA1_oli";
+		scope = 2;
+		displayName = "GA Carrier Lite (Olive)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"\A3\Characters_F_Mark\INDEP\Data\equip_ia_vest01_oli_co.paa"
+		};		
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};
+	};	
+	class V_PlateCarrierIA2_oli: V_PlateCarrierIA2_dgtl
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "GA Carrier Rig (Olive)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"\A3\Characters_F_Mark\INDEP\Data\equip_ia_vest01_oli_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};		
 	};
 };
 class cfgGlasses
