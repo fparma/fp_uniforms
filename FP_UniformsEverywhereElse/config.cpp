@@ -781,6 +781,7 @@ class cfgWeapons
 			"FP_UniformsEverywhereElse\SkinsHeadgear\KY_Helm_SPM.paa"
 		};
 	};
+	class H_HelmetIA;
 	class FP_Helmet_FP: H_HelmetIA
 	{
 		author = "Espionage Wars Team | Rusty";
@@ -789,7 +790,8 @@ class cfgWeapons
 		displayName = "FP Redstone Helmet";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp.paa"};		
 	};
-class FP_Booniehat_FP: H_Booniehat_khk
+	class H_Booniehat_khk;
+    class FP_Booniehat_FP: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | Rusty";
 		_generalMacro = "H_Booniehat_khk";
@@ -797,6 +799,7 @@ class FP_Booniehat_FP: H_Booniehat_khk
 		displayName = "Booniehat (FP, Redstone)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
 	};
+	class H_Booniehat_khk_hs;
 	class FP_Booniehat_FP_hs: H_Booniehat_khk_hs
 	{
 		author = "Espionage Wars Team | Rusty";
@@ -1159,6 +1162,7 @@ class FP_Booniehat_FP: H_Booniehat_khk
 			"FP_UniformsEverywhereElse\SkinsCarrier\grn_hvy.paa"
 		};
 	};
+	class V_PlateCarrierGL_rgr;
 	class V_PlateCarrierGL_khk: V_PlateCarrierGL_rgr
 	{
 		author = "$STR_A3_Bohemia_Interactive";
@@ -1170,6 +1174,7 @@ class FP_Booniehat_FP: H_Booniehat_khk
 			"FP_UniformsEverywhereElse\SkinsCarrier\carrier_gl_rig_khk_co.paa"
 		};
 	};
+	class V_PlateCarrierSpec_rgr;
 	class V_PlateCarrierSpec_khk: V_PlateCarrierSpec_rgr
 	{
 		author = "$STR_A3_Bohemia_Interactive";
