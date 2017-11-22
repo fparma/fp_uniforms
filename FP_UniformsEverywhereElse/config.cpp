@@ -290,6 +290,30 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
 		};
 	};
+    class I_soldier_O_F: I_soldier_F
+    {
+        scope=1;
+        displayName="Rifleman (Olive)";
+        uniformClass="U_I_CombatUniform_oli";
+        author="Diwako & Taggart";
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_clothing_oli_co"};
+    };
+    class I_soldier_M_J_F: I_soldier_F
+    {
+        scope=1;
+        displayName="Squad Leader (Olive, Jumper)";
+        uniformClass="U_I_CombatUniform_oli_J";
+        author="Diwako & Taggart";
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_jumper_clothing_oli_co.paa"};
+    };
+    class I_soldier_LAT_J_F: I_soldier_F
+    {
+        scope=1;
+        displayName="Marksman (Jumper)";
+        uniformClass="U_I_CombatUniform_J";
+        author="Diwako & Taggart";
+        hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_jumper_clothing_co.paa"};
+    };
 	class CUP_O_TK_Soldier_03;
 	class FP_Rifleman_Tak_TigerStripe : CUP_O_TK_Soldier_03 {
 		scope = 1;
@@ -648,6 +672,43 @@ class cfgWeapons
 		};
 	};	
 	
+    class U_B_CombatUniform_oli: U_I_CombatUniform
+    {
+        displayName="Combat Fatigues [AAF] (Olive)";
+        author="Diwako & Taggart";
+        class ItemInfo: UniformItem
+        {
+			uniformModel="-"; 
+            uniformClass="I_soldier_O_F";
+			containerClass="Supply40";
+			mass=40;
+        };
+    };
+    class U_I_CombatUniform_oli_J: U_I_CombatUniform
+    {
+        displayName="Combat Fatigues [AAF] (Olive, Jumper)";
+        author="Diwako & Taggart";
+        class ItemInfo: UniformItem
+        {
+			uniformModel="-";
+            uniformClass="I_soldier_M_J_F";
+			containerClass="Supply40";
+			mass=40;
+        };
+    };
+    class U_I_CombatUniform_J: U_I_CombatUniform
+    {
+        displayName="Combat Fatigues [AAF] (Jumper)";
+        author="Diwako & Taggart";
+        class ItemInfo: UniformItem
+        {
+			uniformModel="-";
+            uniformClass="I_soldier_LAT_J_F";
+			containerClass="Supply40";
+			mass=40;
+        };
+    };
+	
 	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
@@ -790,6 +851,19 @@ class cfgWeapons
 		displayName = "FP Redstone Helmet";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp.paa"};		
 	};
+    class H_HelmetIA_oli: H_HelmetIA
+    {
+        displayName="Modular Helmet (Olive)";
+        author="Diwako & Taggart";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\headgear_helmet_canvas_oli_co.paa"
+        };
+    };
 	class H_Booniehat_khk;
     class FP_Booniehat_FP: H_Booniehat_khk
 	{
@@ -808,6 +882,35 @@ class cfgWeapons
 		displayName = "Booniehat (FP, Redstone)(Headset)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
 	};
+    class H_Booniehat_oli_hs: H_Booniehat_khk_hs
+    {
+        displayName="Booniehat (Olive, Headset)";
+        author="Diwako & Taggart";
+        picture="\A3\Characters_F_Bootcamp\Data\UI\icon_H_Booniehat_oli_ca.paa";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F_Bootcamp\civil\data\booniehat_grn_co.paa"
+        };
+    };
+
+    class H_Booniehat_dgtl_hs: H_Booniehat_khk_hs
+    {
+        displayName="Booniehat [AAF] (Headset)";
+        author="Diwako & Taggart";
+        picture="\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\A3\Characters_F\Common\data\booniehat_indp_co.paa"
+        };
+    };
 	class H_Beret_blk;
 	class FP_Beret_Purple: H_Beret_blk
 	{
@@ -978,6 +1081,20 @@ class cfgWeapons
         hiddenSelectionsTextures[]=
         {
             "\A3\Characters_F\Common\Data\cappatrol_tan_co.paa"
+        };
+    };
+    class H_MilCap_dgtl;
+    class H_MilCap_oli: H_MilCap_dgtl
+    {
+        displayName="Military Cap (Olive)";
+        author="Diwako & Taggart";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_oli_co.paa"
         };
     };
  
