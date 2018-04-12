@@ -15,8 +15,7 @@ class CfgPatches
 			"FP_Rifleman_DesMARPAT_CUP",
 			"FP_Rifleman_DesMARPAT_Rolled_CUP",
 			"FP_Rifleman_DesMARPAT_Kneepad_CUP",
-			"FP_Rifleman_DesMARPAT_KneepadRolled_CUP",
-			"FP_Rifleman_USArmy_OCP"
+			"FP_Rifleman_DesMARPAT_KneepadRolled_CUP"
 		};
 		weapons[]=
 		{
@@ -539,19 +538,6 @@ class CfgVehicles
 			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
 		};
 	};
-	class CUP_B_US_Soldier;
-	class FP_Rifleman_USArmy_OCP: CUP_B_US_Soldier
-	{
-		displayName="";
-		scope=2;
-		author="Community Upgrade Project";
-		uniformClass="CUP_U_B_USArmy_Base_OCP";
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsAmericas\SkinsUniform\ocp2_cupusarmy.paa",
-			"FP_UniformsAmericas\SkinsUniform\ocp_cupusarmy.paa"
-		};
-	};
 	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Wheeled_01_cannon_wd_F: B_APC_Wheeled_01_cannon_F
 	{
@@ -956,29 +942,304 @@ class cfgWeapons
 			mass=20;
 		};
 	};
-	class CUP_U_B_USArmy_Base;
-	class CUP_U_B_USArmy_Base_OCP: CUP_U_B_USArmy_Base
+	
+    class CUP_V_B_IOTV_Rifleman;
+	class CUP_V_B_IOTV_Rifleman_OCP: CUP_V_B_IOTV_Rifleman
 	{
-		dlc="CUP_Units";
-		author="Community Upgrade Project";
-		scope=1;
-		allowedSlots[]={901};
-		displayName="US Army (OCP)";
-		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		displayName="IOTV (Rifleman/OCP)";
+		author="FP Mod Team";
+		scope=2;
 		hiddenSelections[]=
 		{
-			"Camo1",
-			"Camo2"
+			"camo",
+			"camo1"
 		};
-		class ItemInfo: UniformItem
+		hiddenSelectionsTextures[]=
 		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_USArmy_OCP";
-			containerClass="Supply40";
-			mass=20;
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_Medic;
+	class CUP_V_B_IOTV_Medic_OCP: CUP_V_B_IOTV_Medic
+	{
+		displayName="IOTV (Medic/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_AT;
+	class CUP_V_B_IOTV_AT_OCP: CUP_V_B_IOTV_AT
+	{
+		displayName="IOTV (Rifleman/Pauldrons/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_MG;
+	class CUP_V_B_IOTV_MG_OCP: CUP_V_B_IOTV_MG
+	{
+		displayName="IOTV (Machinegunner/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_saw;
+	class CUP_V_B_IOTV_saw_OCP: CUP_V_B_IOTV_saw
+	{
+		displayName="IOTV (SAW Gunner/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_tl;
+	class CUP_V_B_IOTV_tl_OCP: CUP_V_B_IOTV_tl
+	{
+		displayName="IOTV (Team Leader/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+    class CUP_V_B_IOTV_gl;
+	class CUP_V_B_IOTV_gl_OCP: CUP_V_B_IOTV_gl
+	{
+		displayName="IOTV (Grenadier/OCP)";
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\tex3_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex1.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat",
+			"FP_UniformsAmericas\SkinsUniform\tex3.rvmat"
+		};				
+	};
+	
+	class CUP_H_USArmy_HelmetMICH;
+	class CUP_H_USArmy_HelmetMICH_OCP: CUP_H_USArmy_HelmetMICH
+	{
+	    displayName = "MICH 2000 (OCP)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
 		};
 	};
+	
+	class CUP_H_USArmy_HelmetMICH_ESS;
+	class CUP_H_USArmy_HelmetMICH_ESS_OCP: CUP_H_USArmy_HelmetMICH_ESS
+	{
+	    displayName = "MICH 2000 (OCP - ESS)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};
+	};
+	
+	class CUP_H_USArmy_HelmetMICH_earpro;
+	class CUP_H_USArmy_HelmetMICH_earpro_OCP: CUP_H_USArmy_HelmetMICH_earpro
+	{
+	    displayName = "MICH 2000 (OCP - Ear Pro)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};
+	};
+	
+	class CUP_H_USArmy_HelmetMICH_earpro_ess;
+	class CUP_H_USArmy_HelmetMICH_earpro_ess_OCP: CUP_H_USArmy_HelmetMICH_earpro_ess
+	{
+	    displayName = "MICH 2000 (OCP - Ear Pro - ESS)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};
+	};
+	
+	class CUP_H_USArmy_HelmetMICH_headset;
+	class CUP_H_USArmy_HelmetMICH_headset_OCP: CUP_H_USArmy_HelmetMICH_headset
+	{
+	    displayName = "MICH 2000 (OCP - Headset)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};
+	};
+	
+	class CUP_H_USArmy_HelmetMICH_headset_ess;
+	class CUP_H_USArmy_HelmetMICH_headset_ess_OCP: CUP_H_USArmy_HelmetMICH_headset_ess
+	{
+	    displayName = "MICH 2000 (OCP - Headset - ESS)";
+	    author = "FP Mod Team";
+		scope = 2;
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2_co.paa"
+		};	
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\tex2.rvmat"
+		};
+	};
+	
+
+	
+	
+	
 	class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
