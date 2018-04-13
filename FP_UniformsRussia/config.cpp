@@ -5,20 +5,14 @@ class CfgPatches
 		units[]=
 		{
 			"FP_Rifleman_klmk",
-			"FP_Rifleman_klmkwinter",
 			"FP_Rifleman_SovUniform_Private",
-			"FP_Rifleman_SovUniform_Sergeant",
-			"fp_usm_base_digiflora"
+			"FP_Rifleman_SovUniform_Sergeant"
 		};
 		weapons[]=
 		{
 			"FP_Uniform_klmk",
-			"FP_Uniform_klmkwinter",
 			"FP_Uniform_SovUniform_Private",
-			"FP_Uniform_SovUniform_Sergeant",
-			"FP_usm_bdu_digiflora",
-			"FP_Helmet_VSRSSH68",
-			"FP_Helmet_PASGT_HelmetCoverDigiFlora"
+			"FP_Uniform_SovUniform_Sergeant"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -48,29 +42,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsRussia\SkinsUniform\officer_klmk.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
-		};
-	};
-	class FP_Rifleman_klmkwinter: O_officer_F
-	{
-		_generalMacro="O_officer_F";
-		scope=1;
-		displayName="FP RU KLMK Winter";
-		uniformClass="FP_Uniform_klmkwinter";
-		author="FP Mod Team";
-		side=0;
-		scopeCurator=0;
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsUniform\officer_klmkwint.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -123,31 +94,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};
-	class usm_base_odg;
-	class fp_usm_base_digiflora: usm_base_odg
-	{
-		_generalMacro="fp_usm_base_digiflora";
-		scope=1;
-		displayName="Rifleman";
-		uniformClass="FP_usm_bdu_digiflora";
-		author="FP Mod Team";
-		side=2;
-		hiddenSelections[]=
-		{
-			"2_nametapes",
-			"2_unitpatches",
-			"camo",
-			"gasmaskcarrier",
-			"kneepads"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"",
-			"",
-			"FP_UniformsRussia\SkinsUniform\uniform_bdu_digiflora_co.paa",
-			""
-		};
-	};
 };
 class cfgWeapons
 {
@@ -165,22 +111,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_klmk";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_klmkwinter: U_O_OfficerUniform_ocamo
-	{
-		scope=2;
-		displayName="Combat Fatigues (KLMK/Reversed/BDU)";
-		picture="\FP_UniformsRussia\UI\u_klmkwint_icon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="FP Mod Team";
-		side=0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_klmkwinter";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -215,46 +145,6 @@ class cfgWeapons
 			uniformClass="FP_Rifleman_SovUniform_Sergeant";
 			containerClass="Supply40";
 			mass=40;
-		};
-	};
-	class usm_bdu_odg;
-	class FP_usm_bdu_digiflora: usm_bdu_odg
-	{
-		scope=2;
-		displayName="BDUs, blouse/trousers, Digi Flora";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		author="FP Mod Team";
-		side=0;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="fp_usm_base_digiflora";
-			containerClass="Supply10";
-			mass=40;
-		};
-	};
-	class CUP_H_TK_Helmet;
-	class FP_Helmet_VSRSSH68: CUP_H_TK_Helmet
-	{
-		author="FP Mod Team";
-		_generalMacro="FP_Helmet_SSH68";
-		scope=2;
-		displayName="SSH68 (VSR)";
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsHeadgear\FP_FloraSSH68.paa"
-		};
-	};
-	class FP_Helmet_PASGT_HelmetCoverM81;
-	class FP_Helmet_PASGT_HelmetCoverDigiFlora: FP_Helmet_PASGT_HelmetCoverM81
-	{
-		author="FP Mod Team";
-		_generalMacro="FP_Helmet_PASGT_HelmetCoverDigiFlora";
-		scope=2;
-		displayName="PASGT (Cover/DigiFlora)";
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsRussia\SkinsHeadgear\pasgt_helmet_digiflora_co.paa"
 		};
 	};
 };

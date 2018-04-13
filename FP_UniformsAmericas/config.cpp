@@ -4,43 +4,13 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"B_APC_Wheeled_01_cannon_wd_F",
-			"FP_Rifleman_CADPAT",
-			"FP_Rifleman_CADPATAR",
-			"FP_Rifleman_HECU",
 			"FP_Rifleman_ccc",
 			"FP_Rifleman_dcu",
-			"FP_Rifleman_m81",
-			"FP_Rifleman_m81white",
-			"FP_Rifleman_DesMARPAT_CUP",
-			"FP_Rifleman_DesMARPAT_Rolled_CUP",
-			"FP_Rifleman_DesMARPAT_Kneepad_CUP",
-			"FP_Rifleman_DesMARPAT_KneepadRolled_CUP"
 		};
 		weapons[]=
 		{
-			"FP_Uniform_CADPAT",
-			"FP_Uniform_CADPATAR",
-			"FP_Uniform_HECU",
 			"FP_Uniform_ccc",
-			"FP_Uniform_DCU",
-			"FP_Uniform_m81",
-			"FP_Uniform_m81white",
-			"CUP_U_B_USMC_MARPAT_DES_Sleeves",
-			"CUP_U_B_USMC_MARPAT_DES_RolledUp",
-			"CUP_U_B_USMC_MARPAT_DES_Kneepad",
-			"CUP_U_B_USMC_MARPAT_DES_RollUpKneepad",
-			"CUP_U_B_USArmy_Base_OCP",
-			"FP_Helmet_CADPAT",
-			"FP_Helmet_CADPATAR",
-			"FP_Helmet_HECU",
-			"FP_Helmet_M81",
-			"FP_Helmet_6CD",
-			"FP_Helmet_ALPCAM",
-			"FP_Helmet_USMCMARPATHelmet",
-			"FP_Helmet_USMCMARPATHelmet_Headset",
-			"FP_Helmet_USMCMARPATHelmet_Goggles",
-			"fp_helmet_m1_vine_nam"
+			"FP_Uniform_DCU"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
