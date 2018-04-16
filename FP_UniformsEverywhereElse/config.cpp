@@ -774,18 +774,6 @@ class cfgWeapons
 			"FP_UniformsEverywhereElse\SkinsCarrier\grn_hvy.paa"
 		};
 	};
-	class V_PlateCarrierGL_rgr;
-	class V_PlateCarrierGL_khk: V_PlateCarrierGL_rgr
-	{
-		author = "$STR_A3_Bohemia_Interactive";
-		_generalMacro="V_PlateCarrierGL_khk";
-		scope = 2;
-		displayName = "Carrier GL Rig (Khaki)";
-		hiddenSelectionstextures[] = 
-		{
-			"FP_UniformsEverywhereElse\SkinsCarrier\carrier_gl_rig_khk_co.paa"
-		};
-	};
 	class V_PlateCarrierIA1_dgtl: Vest_NoCamo_Base
     {
         class ItemInfo;
