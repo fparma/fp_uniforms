@@ -5,7 +5,7 @@ for /d %%G in ("FP_*") do (
 	echo.
 	echo Building %%G...
 	echo.
-	makepbo -p %%G build/%%G || goto error
+	makepbo -p -@=%%G %%G build/%%G || goto error
 )
 
 echo.
