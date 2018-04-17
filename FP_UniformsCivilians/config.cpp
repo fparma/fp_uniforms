@@ -17,14 +17,14 @@ class CfgVehicles {
 	class I_Officer_F;	
 	class Civilian_F;	
 	class I_Soldier_F;
-	class LOP_AFR_CIV_01 : Civilian_F {
-		_generalMacro = "LOP_AFR_CIV_01";
+	class FP_AFR_CIV_01 : Civilian_F {
+		_generalMacro = "FP_AFR_CIV_01";
 		scope = 1;
 		side = 2;
 		model = "\A3\characters_F\civil\c_poor";
 		hiddenSelections[] = {"camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_v2_co.paa"};
-		uniformClass = "LOP_U_Civ_01";
+		uniformClass = "FP_U_Civ_01";
 		class Wounds {
 			tex[] = {};
 			mat[] = {
@@ -52,30 +52,30 @@ class CfgVehicles {
 			};
 		};
 	};	
-	class LOP_AFR_CIV_02 : LOP_AFR_CIV_01 {
-		_generalMacro = "LOP_AFR_CIV_02";
+	class FP_AFR_CIV_02 : FP_AFR_CIV_01 {
+		_generalMacro = "FP_AFR_CIV_02";
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_v3_co.paa"};
-		uniformClass = "LOP_U_Civ_02";
+		uniformClass = "FP_U_Civ_02";
 	};	
-	class LOP_AFR_CIV_03 : LOP_AFR_CIV_01 {
-		_generalMacro = "LOP_AFR_CIV_03";
+	class FP_AFR_CIV_03 : FP_AFR_CIV_01 {
+		_generalMacro = "FP_AFR_CIV_03";
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_kabeiroi_co.paa"};
-		uniformClass = "LOP_U_Civ_03";
+		uniformClass = "FP_U_Civ_03";
 	};	
-	class LOP_AFR_CIV_04 : LOP_AFR_CIV_01 {
-		_generalMacro = "LOP_AFR_CIV_04";
+	class FP_AFR_CIV_04 : FP_AFR_CIV_01 {
+		_generalMacro = "FP_AFR_CIV_04";
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_bandit_co.paa"};
-		uniformClass = "LOP_U_Civ_04";
+		uniformClass = "FP_U_Civ_04";
 	};	
-	class LOP_AFR_CIV_05 : LOP_AFR_CIV_01 {
-		_generalMacro = "LOP_AFR_CIV_05";
+	class FP_AFR_CIV_05 : FP_AFR_CIV_01 {
+		_generalMacro = "FP_AFR_CIV_05";
 		hiddenSelectionsTextures[] = {"\A3\characters_f\civil\data\c_cloth1_co.paa"};
-		uniformClass = "LOP_U_Civ_05";
+		uniformClass = "FP_U_Civ_05";
 	};	
-	class LOP_AFR_CIV_06 : LOP_AFR_CIV_01 {
-		_generalMacro = "LOP_AFR_CIV_06";
+	class FP_AFR_CIV_06 : FP_AFR_CIV_01 {
+		_generalMacro = "FP_AFR_CIV_06";
 		hiddenSelectionsTextures[] = {"\a3\characters_f_bootcamp\Guerrilla\data\c_cloth1_kabeiroi_co.paa"};
-		uniformClass = "LOP_U_Civ_06";
+		uniformClass = "FP_U_Civ_06";
 	};
 };
 
@@ -87,9 +87,9 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class LOP_U_Civ_01: Uniform_Base
+	class FP_U_Civ_01: Uniform_Base
 	{
-		author="LOP";
+		author="FP";
 		scope=2;
 		side=2;
 		displayName="African civ. fatigues 01";
@@ -106,67 +106,67 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_01";
+			uniformClass="FP_AFR_CIV_01";
 			containerClass="Supply20";
 			mass=20;
 		};
 	};
-	class LOP_U_Civ_02: LOP_U_Civ_01
+	class FP_U_Civ_02: FP_U_Civ_01
 	{
 		displayName="African civ. fatigues 02";
 		hiddenSelectionsTextures[]={"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_02";
+			uniformClass="FP_AFR_CIV_02";
 			containerClass="Supply20";
 			mass=20;
 		};
 	};
-	class LOP_U_Civ_03: LOP_U_Civ_01
+	class FP_U_Civ_03: FP_U_Civ_01
 	{
 		displayName="African civ. fatigues 03";
 		hiddenSelectionsTextures[]={"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_03";
+			uniformClass="FP_AFR_CIV_03";
 			containerClass="Supply20";
 			mass=20;
 		};
 	};
-	class LOP_U_Civ_04: LOP_U_Civ_01
+	class FP_U_Civ_04: FP_U_Civ_01
 	{
 		displayName="African civ. fatigues 04";
 		hiddenSelectionsTextures[]={"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_04";
+			uniformClass="FP_AFR_CIV_04";
 			containerClass="Supply20";
 			mass=20;
 		};
 	};
-	class LOP_U_Civ_05: LOP_U_Civ_01
+	class FP_U_Civ_05: FP_U_Civ_01
 	{
 		displayName="African civ. fatigues 05";
 		hiddenSelectionsTextures[]={"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_05";
+			uniformClass="FP_AFR_CIV_05";
 			containerClass="Supply20";
 			mass=20;
 		};
 	};
-	class LOP_U_Civ_06: LOP_U_Civ_01
+	class FP_U_Civ_06: FP_U_Civ_01
 	{
 		displayName="African civ. fatigues 06";
 		hiddenSelectionsTextures[]={"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="LOP_AFR_CIV_06";
+			uniformClass="FP_AFR_CIV_06";
 			containerClass="Supply20";
 			mass=20;
 		};

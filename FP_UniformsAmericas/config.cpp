@@ -25,7 +25,7 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
-    class B_soldier_S_F: B_soldier_F
+    class FP_B_soldier_S_F: B_soldier_F
     {
         scope=1;
         displayName="Rifleman (Sage)";
@@ -35,7 +35,7 @@ class CfgVehicles
     };
  
     class B_soldier_AR_F;
-    class B_soldier_AR_S_F: B_soldier_AR_F
+    class FP_B_soldier_AR_S_F: B_soldier_AR_F
     {
         scope=1;
         displayName="Autorifleman (Sage)";
@@ -45,7 +45,7 @@ class CfgVehicles
     };
  
     class B_soldier_SL_F;
-    class B_soldier_SL_S_F: B_soldier_SL_F
+    class FP_B_soldier_SL_S_F: B_soldier_SL_F
     {
         scope=1;
         displayName="Squad Leader (Sage)";
@@ -54,7 +54,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_co.paa"};
     };
  
-    class B_soldier_W_F: B_soldier_F
+    class FP_B_soldier_W_F: B_soldier_F
     {
         scope=1;
         displayName="Rifleman (Woodland)";
@@ -63,7 +63,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
     };
  
-    class B_soldier_AR_W_F: B_soldier_AR_F
+    class FP_B_soldier_AR_W_F: B_soldier_AR_F
     {
         scope=1;
         displayName="Autorifleman (Woodland)";
@@ -72,7 +72,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
     };
  
-    class B_soldier_SL_W_F: B_soldier_SL_F
+    class FP_B_soldier_SL_W_F: B_soldier_SL_F
     {
         scope=1;
         displayName="Squad Leader (Woodland)";
@@ -346,13 +346,13 @@ class cfgWeapons
     {
             class ItemInfo;
     };
-    class U_B_CombatUniform_sgg_s: U_B_CombatUniform_mcam
+    class FP_U_B_CombatUniform_sgg_s: U_B_CombatUniform_mcam
     {
         displayName="Combat Fatigues (Sage)";
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_S_F";
+            uniformClass="FP_B_soldier_S_F";
         };
     };
  
@@ -360,13 +360,13 @@ class cfgWeapons
     {
             class ItemInfo;
     };
-    class U_B_CombatUniform_sgg_tshirt_s: U_B_CombatUniform_mcam_tshirt
+    class FP_U_B_CombatUniform_sgg_tshirt_s: U_B_CombatUniform_mcam_tshirt
     {
         displayName="Combat Fatigues (Sage) (Tee)";
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_AR_S_F";
+            uniformClass="FP_B_soldier_AR_S_F";
         };
     };
  
@@ -374,23 +374,23 @@ class cfgWeapons
     {
             class ItemInfo;
     };
-    class U_B_CombatUniform_sgg_vest_s: U_B_CombatUniform_mcam_vest
+    class FP_U_B_CombatUniform_sgg_vest_s: U_B_CombatUniform_mcam_vest
     {
         displayName="Recon Fatigues (Sage)";
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_SL_S_F";
+            uniformClass="FP_B_soldier_SL_S_F";
         };
     };
  
-    class U_B_CombatUniform_wdl_w: U_B_CombatUniform_mcam
+    class FP_U_B_CombatUniform_wdl_w: U_B_CombatUniform_mcam
     {
         displayName="Combat Fatigues (Woodland)";
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_W_F";
+            uniformClass="FP_B_soldier_W_F";
         };
     };
  
@@ -400,17 +400,17 @@ class cfgWeapons
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_AR_W_F";
+            uniformClass="FP_B_soldier_AR_W_F";
         };
     };
  
-    class U_B_CombatUniform_wdl_vest_w: U_B_CombatUniform_mcam_vest
+    class FP_U_B_CombatUniform_wdl_vest_w: U_B_CombatUniform_mcam_vest
     {
         displayName="Recon Fatigues (Woodland)";
         author="Bohemia Interactive";
         class ItemInfo: ItemInfo
         {
-            uniformClass="B_soldier_SL_W_F";
+            uniformClass="FP_B_soldier_SL_W_F";
         };
     };
 	

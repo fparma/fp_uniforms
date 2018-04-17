@@ -11,7 +11,7 @@ class CfgPatches
 			"FP_Rifleman_FP",
 			"FP_Rifleman_02_FP",
 			"FP_Rifleman_KyrelianFBSplinterRolled",
-			"B_Carryall_Inv"
+			"FP_B_Carryall_Inv"
 		};
 		weapons[]=
 		{
@@ -22,7 +22,7 @@ class CfgPatches
 			"FP_Uniform_KHK",
 			"FP_I_CombatUniform_FP",
 			"FP_I_CombatUniform_02_FP",
-			"H_MilCap_blk",
+			"FP_H_MilCap_blk",
 			"FP_BluHelmet_KyrelianSplinter",
 			"FP_BluHelmet_KyrelianBlack",
 			"FP_BluHelmetECH_KyrelianSplinter",
@@ -106,7 +106,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
 		};
 	};
-    class I_soldier_O_F: I_soldier_F
+    class FP_I_soldier_O_F: I_soldier_F
     {
         scope=1;
         displayName="Rifleman (Olive)";
@@ -114,7 +114,7 @@ class CfgVehicles
         author="Diwako & Taggart";
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_clothing_oli_co"};
     };
-    class I_soldier_M_J_F: I_soldier_F
+    class FP_I_soldier_M_J_F: I_soldier_F
     {
         scope=1;
         displayName="Squad Leader (Olive, Jumper)";
@@ -122,7 +122,7 @@ class CfgVehicles
         author="Diwako & Taggart";
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_jumper_clothing_oli_co.paa"};
     };
-    class I_soldier_LAT_J_F: I_soldier_F
+    class FP_I_soldier_LAT_J_F: I_soldier_F
     {
         scope=1;
         displayName="Marksman (Jumper)";
@@ -221,7 +221,7 @@ class CfgVehicles
 		};
 	};
 	class B_Carryall_Base;
-	class B_Carryall_Inv: B_Carryall_Base
+	class FP_B_Carryall_Inv: B_Carryall_Base
 	{
 		armor=0;
 		author="FP Mod Team";
@@ -239,7 +239,7 @@ class CfgVehicles
     {
         class ItemInfo;
     };
-    class B_Kitbag_digi: B_Kitbag_rgr
+    class FP_B_Kitbag_digi: B_Kitbag_rgr
     {
         displayName="Kitbag (Digi)";
         author="Bohemia Interactive";
@@ -257,7 +257,7 @@ class CfgVehicles
         };
     };
  
-    class B_Kitbag_blk: B_Kitbag_rgr
+    class FP_B_Kitbag_blk: B_Kitbag_rgr
     {
         displayName="Kitbag (Black)";
          author="Bohemia Interactive";
@@ -278,7 +278,7 @@ class CfgVehicles
     {
         class ItemInfo;
     };
-    class B_Carryall_blk: B_Carryall_oli
+    class FP_B_Carryall_blk: B_Carryall_oli
     {
         displayName="Carryall Backpack (Black)";
          author="Bohemia Interactive";
@@ -363,38 +363,38 @@ class cfgWeapons
 		};
 	};	
 	
-    class U_B_CombatUniform_oli: U_I_CombatUniform
+    class FP_U_B_CombatUniform_oli: U_I_CombatUniform
     {
         displayName="Combat Fatigues [AAF] (Olive)";
         author="Diwako & Taggart";
         class ItemInfo: UniformItem
         {
 			uniformModel="-"; 
-            uniformClass="I_soldier_O_F";
+            uniformClass="FP_I_soldier_O_F";
 			containerClass="Supply40";
 			mass=40;
         };
     };
-    class U_I_CombatUniform_oli_J: U_I_CombatUniform
+    class FP_U_I_CombatUniform_oli_J: U_I_CombatUniform
     {
         displayName="Combat Fatigues [AAF] (Olive, Jumper)";
         author="Diwako & Taggart";
         class ItemInfo: UniformItem
         {
 			uniformModel="-";
-            uniformClass="I_soldier_M_J_F";
+            uniformClass="FP_I_soldier_M_J_F";
 			containerClass="Supply40";
 			mass=40;
         };
     };
-    class U_I_CombatUniform_J: U_I_CombatUniform
+    class FP_U_I_CombatUniform_J: U_I_CombatUniform
     {
         displayName="Combat Fatigues [AAF] (Jumper)";
         author="Diwako & Taggart";
         class ItemInfo: UniformItem
         {
 			uniformModel="-";
-            uniformClass="I_soldier_LAT_J_F";
+            uniformClass="FP_I_soldier_LAT_J_F";
 			containerClass="Supply40";
 			mass=40;
         };
@@ -450,7 +450,7 @@ class cfgWeapons
 		};
 	};
 	class H_MilCap_gry;
-	class H_MilCap_blk: H_MilCap_gry
+	class FP_H_MilCap_blk: H_MilCap_gry
 	{
 		author="Bohemia Interactive";
 		_generalMacro="H_Beret_blk";
@@ -535,7 +535,7 @@ class cfgWeapons
 		displayName = "Booniehat (FP, Redstone)(Headset)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
 	};
-    class H_Booniehat_oli_hs: H_Booniehat_khk_hs
+    class FP_H_Booniehat_oli_hs: H_Booniehat_khk_hs
     {
         displayName="Booniehat (Olive, Headset)";
         author="Diwako & Taggart";
@@ -550,7 +550,7 @@ class cfgWeapons
         };
     };
 
-    class H_Booniehat_dgtl_hs: H_Booniehat_khk_hs
+    class FP_H_Booniehat_dgtl_hs: H_Booniehat_khk_hs
     {
         displayName="Booniehat [AAF] (Headset)";
         author="Diwako & Taggart";
@@ -565,7 +565,7 @@ class cfgWeapons
         };
     };
     class H_Beret_Colonel;
-    class H_Beret_Colonel_Eagle: H_Beret_Colonel
+    class FP_H_Beret_Colonel_Eagle: H_Beret_Colonel
     {
         displayName="Beret [NATO] (Eagle)";
         author="Bohemia Interactive";
@@ -579,7 +579,7 @@ class cfgWeapons
         };
     };
     class H_Cap_oli;
-    class H_Cap_sero: H_Cap_oli
+    class FP_H_Cap_sero: H_Cap_oli
     {
         displayName="Cap (Sero)";
         author="Bohemia Interactive";
@@ -592,7 +592,7 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\capb_sero_co.paa"
         };
     };
-    class H_MilCap_pattern: H_MilCap_gry
+    class FP_H_MilCap_pattern: H_MilCap_gry
     {
         displayName="Military Cap (Pattern)";
         author="Bohemia Interactive";
@@ -606,7 +606,7 @@ class cfgWeapons
         };
     };
    
-    class H_MilCap_plaid: H_MilCap_gry
+    class FP_H_MilCap_plaid: H_MilCap_gry
     {
         displayName="Military Cap (Plaid)";
         author="Bohemia Interactive";
@@ -620,7 +620,7 @@ class cfgWeapons
         };
     };
    
-    class H_MilCap_checker: H_MilCap_gry
+    class FP_H_MilCap_checker: H_MilCap_gry
     {
         displayName="Military Cap (Checker)";
         author="Bohemia Interactive";
@@ -634,7 +634,7 @@ class cfgWeapons
         };
     };
    
-    class H_MilCap_tan: H_MilCap_gry
+    class FP_H_MilCap_tan: H_MilCap_gry
     {
         displayName="Military Cap (Tan)";
         author="Bohemia Interactive";
@@ -648,7 +648,7 @@ class cfgWeapons
         };
     };
     class H_MilCap_dgtl;
-    class H_MilCap_oli: H_MilCap_dgtl
+    class FP_H_MilCap_oli: H_MilCap_dgtl
     {
         displayName="Military Cap (Olive)";
         author="Diwako & Taggart";
@@ -663,7 +663,7 @@ class cfgWeapons
     };
  
     class H_HelmetO_ocamo;
-    class H_HelmetO_blk: H_HelmetO_ocamo
+    class FP_H_HelmetO_blk: H_HelmetO_ocamo
     {
         displayName="Protector Helmet (Black)";
         author="Bohemia Interactive";
@@ -679,7 +679,7 @@ class cfgWeapons
     };
  
     class H_HelmetLeaderO_ocamo;
-    class H_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo
+    class FP_H_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo
     {
         displayName="Defender Helmet (Black)";
         author="Bohemia Interactive";
@@ -782,7 +782,7 @@ class cfgWeapons
     {
         class ItemInfo;
     };
-	class V_PlateCarrierIA1_oli: V_PlateCarrierIA1_dgtl
+	class FP_V_PlateCarrierIA1_oli: V_PlateCarrierIA1_dgtl
 	{
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro="V_PlateCarrierIA1_oli";
@@ -805,7 +805,7 @@ class cfgWeapons
 			};
 		};
 	};	
-	class V_PlateCarrierIA2_oli: V_PlateCarrierIA2_dgtl
+	class FP_V_PlateCarrierIA2_oli: V_PlateCarrierIA2_dgtl
 	{
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro="V_PlateCarrierIA2_oli";
