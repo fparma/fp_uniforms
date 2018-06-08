@@ -50,7 +50,6 @@ class CfgPatches
 		};
 	};
 };
-class DefaultEventHandlers;
 class CfgVehicles
 {
 	class C_man_1;
