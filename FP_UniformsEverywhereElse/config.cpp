@@ -3210,4 +3210,27 @@ class cfgWeapons
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa"
 		};		
 	};
+	
+	class rhs_6b27m;
+	class rhs_6b27m_ess;
+	class rhs_6b27m_MEC_tiger : rhs_6b27m
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "6B27M MEC Tigerstripe";
+		hiddenSelectionsTextures[] = 
+		{ 	
+		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
+		};		
+	};
+	class rhs_6b27m_ess_MEC_tiger : rhs_6b27m_ess
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "6B27M MEC Tigerstripe (ESS)";
+		hiddenSelectionsTextures[] = 
+		{ 	
+		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
+		};		
+	};
 };
