@@ -26,7 +26,19 @@ class CfgPatches
 			"flak_rifleman",
 			"flak_basic",
 			"flak_pistol",
-			"flak_MG"
+			"flak_MG",
+			"sciv_tshirtjeans1",
+			"sciv_tshirtjeans2",
+			"sciv_tshirtjeans3",
+			"sciv_tshirtjeans4",
+			"sciv_buttonshirt1",
+			"sciv_buttonshirt2",
+			"sciv_buttonshirt3",
+			"sciv_buttonshirt4",
+			"sciv_tropicshirt1",
+			"sciv_tropicshirt2",
+			"sciv_tropicshirt3",
+			"sciv_tropicshirt4"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -687,6 +699,273 @@ class CfgVehicles
 		linkedItems[]={};
 		respawnLinkedItems[]={};
 	};
+	class sciv_tshirtjeans1: C_man_1
+	{
+		author="simkas";
+		_generalMacro="sciv_tshirtjeans1";
+		scope=1;
+		displayName="Civilian T-shirt and Jeans 1";
+		nakedUniform="U_BasicBody";
+		uniformClass="sciv_tshirtjeans1";
+		model="sim_extra_gear\tshirt_jeans.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_co.paa",
+			"sim_extra_gear\tex\jeans_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class sciv_tshirtjeans2: sciv_tshirtjeans1
+	{
+		_generalMacro="sciv_tshirtjeans2";
+		displayName="Civilian T-shirt and Jeans 2";
+		uniformClass="sciv_tshirtjeans2";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_black.paa",
+			"sim_extra_gear\tex\jeans_dark.paa"
+		};
+	};
+	class sciv_tshirtjeans3: sciv_tshirtjeans1
+	{
+		_generalMacro="sciv_tshirtjeans3";
+		displayName="Civilian T-shirt and Jeans 3";
+		uniformClass="sciv_tshirtjeans3";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_blue.paa",
+			"sim_extra_gear\tex\jeans_black.paa"
+		};
+	};
+	class sciv_tshirtjeans4: sciv_tshirtjeans1
+	{
+		_generalMacro="sciv_tshirtjeans4";
+		displayName="Civilian T-shirt and Jeans 4";
+		uniformClass="sciv_tshirtjeans4";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_red.paa",
+			"sim_extra_gear\tex\jeans_grey.paa"
+		};
+	};
+	class sciv_buttonshirt1: C_man_1
+	{
+		author="simkas";
+		_generalMacro="sciv_buttonshirt1";
+		scope=1;
+		displayName="Civilian Button Shirt 1";
+		nakedUniform="U_BasicBody";
+		uniformClass="sciv_buttonshirt1";
+		model="sim_extra_gear\button_shirt.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_co.paa",
+			"sim_extra_gear\tex\longpants_blue.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class sciv_buttonshirt2: sciv_buttonshirt1
+	{
+		_generalMacro="sciv_buttonshirt2";
+		displayName="Civilian Button Shirt 2";
+		uniformClass="sciv_buttonshirt2";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_blue.paa",
+			"sim_extra_gear\tex\longpants_co.paa"
+		};
+	};
+	class sciv_buttonshirt3: sciv_buttonshirt1
+	{
+		_generalMacro="sciv_buttonshirt3";
+		displayName="Civilian Button Shirt 3";
+		uniformClass="sciv_buttonshirt3";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_black.paa",
+			"sim_extra_gear\tex\longpants_grey.paa"
+		};
+	};
+	class sciv_buttonshirt4: sciv_buttonshirt1
+	{
+		_generalMacro="sciv_buttonshirt4";
+		displayName="Civilian Button Shirt 4";
+		uniformClass="sciv_buttonshirt4";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_plaid.paa",
+			"sim_extra_gear\tex\longpants_jeans.paa"
+		};
+	};
+	class sciv_tropicshirt1: C_man_1
+	{
+		author="simkas";
+		_generalMacro="sciv_tropicshirt1";
+		scope=1;
+		displayName="Civilian Tropical Shirt 1";
+		nakedUniform="U_BasicBody";
+		uniformClass="sciv_tropicshirt1";
+		model="sim_extra_gear\tropic_shirt.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_co.paa",
+			"sim_extra_gear\tex\chinos_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class sciv_tropicshirt2: sciv_tropicshirt1
+	{
+		_generalMacro="sciv_tropicshirt2";
+		displayName="Civilian Tropical Shirt 2";
+		uniformClass="sciv_tropicshirt2";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_white.paa",
+			"sim_extra_gear\tex\chinos_dark.paa"
+		};
+	};
+	class sciv_tropicshirt3: sciv_tropicshirt1
+	{
+		_generalMacro="sciv_tropicshirt3";
+		displayName="Civilian Tropical Shirt 3";
+		uniformClass="sciv_tropicshirt3";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_red.paa",
+			"sim_extra_gear\tex\chinos_brown.paa"
+		};
+	};
+	class sciv_tropicshirt4: sciv_tropicshirt1
+	{
+		_generalMacro="sciv_tropicshirt4";
+		displayName="Civilian Tropical Shirt 4";
+		uniformClass="sciv_tropicshirt4";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_floral.paa",
+			"sim_extra_gear\tex\chinos_cream.paa"
+		};
+	};
 };
 class CfgWeapons
 {
@@ -694,6 +973,231 @@ class CfgWeapons
 	class UniformItem;
 	class Vest_Camo_Base;
 	class VestItem;
+	class sciv_tshirtjeans1: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Civilian T-shirt and Jeans 1";
+		picture="\sim_extra_gear\icons\civilians\ico_tshirt1.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_co.paa",
+			"sim_extra_gear\tex\jeans_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tshirtjeans1";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tshirtjeans2: sciv_tshirtjeans1
+	{
+		displayName="Civilian T-shirt and Jeans 2";
+		picture="\sim_extra_gear\icons\civilians\ico_tshirt2.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_black.paa",
+			"sim_extra_gear\tex\jeans_dark.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tshirtjeans2";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tshirtjeans3: sciv_tshirtjeans1
+	{
+		displayName="Civilian T-shirt and Jeans 3";
+		picture="\sim_extra_gear\icons\civilians\ico_tshirt3.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_blue.paa",
+			"sim_extra_gear\tex\jeans_black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tshirtjeans3";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tshirtjeans4: sciv_tshirtjeans1
+	{
+		displayName="Civilian T-shirt and Jeans 4";
+		picture="\sim_extra_gear\icons\civilians\ico_tshirt4.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tshirt_red.paa",
+			"sim_extra_gear\tex\jeans_grey.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tshirtjeans4";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_buttonshirt1: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Civilian Button Shirt 1";
+		picture="\sim_extra_gear\icons\civilians\ico_longshirt1.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_co.paa",
+			"sim_extra_gear\tex\longpants_blue.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_buttonshirt1";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_buttonshirt2: sciv_buttonshirt1
+	{
+		displayName="Civilian Button Shirt 2";
+		picture="\sim_extra_gear\icons\civilians\ico_longshirt2.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_blue.paa",
+			"sim_extra_gear\tex\longpants_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_buttonshirt2";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_buttonshirt3: sciv_buttonshirt1
+	{
+		displayName="Civilian Button Shirt 3";
+		picture="\sim_extra_gear\icons\civilians\ico_longshirt3.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_black.paa",
+			"sim_extra_gear\tex\longpants_grey.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_buttonshirt3";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_buttonshirt4: sciv_buttonshirt1
+	{
+		displayName="Civilian Button Shirt 4";
+		picture="\sim_extra_gear\icons\civilians\ico_longshirt4.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\longsleeve_plaid.paa",
+			"sim_extra_gear\tex\longpants_jeans.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_buttonshirt4";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tropicshirt1: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Civilian Tropical Shirt 1";
+		picture="\sim_extra_gear\icons\civilians\ico_tropic1.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_co.paa",
+			"sim_extra_gear\tex\chinos_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tropicshirt1";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tropicshirt2: sciv_tropicshirt1
+	{
+		displayName="Civilian Tropical Shirt 2";
+		picture="\sim_extra_gear\icons\civilians\ico_tropic2.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_white.paa",
+			"sim_extra_gear\tex\chinos_dark.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tropicshirt2";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tropicshirt3: sciv_tropicshirt1
+	{
+		displayName="Civilian Tropical Shirt 3";
+		picture="\sim_extra_gear\icons\civilians\ico_tropic3.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_red.paa",
+			"sim_extra_gear\tex\chinos_brown.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tropicshirt3";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_tropicshirt4: sciv_tropicshirt1
+	{
+		displayName="Civilian Tropical Shirt 4";
+		picture="\sim_extra_gear\icons\civilians\ico_tropic4.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\tropshirt_floral.paa",
+			"sim_extra_gear\tex\chinos_cream.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_tropicshirt4";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
 	class jungle_unif_od: U_C_Poloshirt_blue
 	{
 		author="simkas";
