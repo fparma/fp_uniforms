@@ -38,7 +38,9 @@ class CfgPatches
 			"sciv_tropicshirt1",
 			"sciv_tropicshirt2",
 			"sciv_tropicshirt3",
-			"sciv_tropicshirt4"
+			"sciv_tropicshirt4",
+			"58_pat_web",
+			"58_pat_flak"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -1741,6 +1743,80 @@ class CfgWeapons
 		{
 			uniformModel="\sim_extra_gear\flak_MG.p3d";
 			containerClass="Supply140";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+			};
+		};
+	};
+	class 58_pat_web: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="58_pat_web";
+		scope=2;
+		displayName="58 Pattern Webbing";
+		picture="\sim_extra_gear\icons\vests\58pat_web.paa";
+		model="\sim_extra_gear\58_webbing.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\58_webbing.p3d";
+			containerClass="Supply120";
+			mass=10;
+		};
+	};
+	class 58_pat_flak: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="58_pat_flak";
+		scope=2;
+		displayName="58 Pattern Webbing (Flak Jacket)";
+		picture="\sim_extra_gear\icons\vests\58pat_flak.paa";
+		model="\sim_extra_gear\58_webbing_flak.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\58_webbing_flak.p3d";
+			containerClass="Supply120";
 			mass=40;
 			class HitpointsProtectionInfo
 			{
