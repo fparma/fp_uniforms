@@ -8,6 +8,9 @@ class CfgPatches
 			"jungle_unif_od",
 			"jungle_unif_od_roll",
 			"jungle_unif_od_short",
+			"jungle_unif_M81",
+			"jungle_unif_M81_roll",
+			"jungle_unif_M81_short",
 			"jungle_unif_bl",
 			"jungle_unif_bl_roll",
 			"jungle_unif_bl_short",
@@ -178,6 +181,168 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"sim_extra_gear\tex\jungle_uniform_co.paa",
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_M81: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_M81";
+		scope=1;
+		displayName="Tropical combat uniform (M81)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_M81";
+		model="sim_extra_gear\jungle_uniform.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_M81_roll: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_M81_roll";
+		scope=1;
+		displayName="Tropical combat uniform rolled (M81)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_M81_roll";
+		model="sim_extra_gear\jungle_uniform_rolled.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_M81_short: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_M81_short";
+		scope=1;
+		displayName="Tropical combat uniform short (M81)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_M81_short";
+		model="sim_extra_gear\jungle_uniform_short.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -1262,6 +1427,72 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="jungle_unif_od_short";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_M81: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform (M81)";
+		picture="\sim_extra_gear\icons\uniforms\ico_long_od.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_M81";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_M81_roll: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform rolled (M81)";
+		picture="\sim_extra_gear\icons\uniforms\ico_roll_od.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_M81_roll";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_M81_short: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform short (M81)";
+		picture="\sim_extra_gear\icons\uniforms\ico_short_od.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_M81_short";
 			containerClass="Supply40";
 			mass=40;
 		};
