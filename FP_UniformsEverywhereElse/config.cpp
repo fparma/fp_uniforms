@@ -226,7 +226,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\Kyrelian_SPM_93.paa"
 		};
-		
+	};	
 	class ESPW_O_Officer_Boli_Green: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -720,7 +720,7 @@ class CfgVehicles
 					scope = 1;
 					displayName = "Rifleman (PGAC Desert)";
 					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPW";
+					uniformClass = "ESPW_U_PGAC_CombatUniform_SPD";
 					author = "Bohemia Interactive";
 					scopeCurator = 0;
 					hiddenSelections[] =
@@ -1565,8 +1565,6 @@ class CfgVehicles
 					{
 						"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
 					};						
-	};		
-				
 	};
 	class B_Carryall_Base;
 	class FP_B_Carryall_Inv: B_Carryall_Base
@@ -1802,11 +1800,10 @@ class cfgWeapons
 			mass=40;
 		};
 	};
-	
 	class ESPW_U_O_Boliveria_Uniform_Green: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="Boliveria Uniform (Olive Drab)";
+		displayName="E.W. Boliveria Uniform (Olive Drab)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=1;
@@ -1821,7 +1818,7 @@ class cfgWeapons
 	class ESPW_U_O_Boliveria_Uniform_Camo: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="Boliveria Uniform (DPM)";
+		displayName="E.W. Boliveria Uniform (DPM)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=1;
@@ -1836,7 +1833,7 @@ class cfgWeapons
 	class ESPW_U_O_Karaq_Uniform: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="Karaq Uniform M03";
+		displayName="E.W. Karaq Uniform M03";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=1;
@@ -1851,7 +1848,7 @@ class cfgWeapons
 	class ESPW_U_Firebrand_Para_3_F: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
-		displayName="Test Garb (M81)";
+		displayName="E.W. Test Garb (M81)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=1;
@@ -1866,7 +1863,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_NM1: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
-		displayName="Firebrand Mercenary Outfit (Blue)";
+		displayName="E.W. Firebrand Mercenary Outfit (Blue)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1881,7 +1878,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_NM2: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
-		displayName="Firebrand Mercenary Outfit (Green)";
+		displayName="E.W. Firebrand Mercenary Outfit (Green)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1896,7 +1893,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_Militia_1:U_I_C_Soldier_Para_1_F
 	{
 		scope=2;
-		displayName="Firebrand Militia Garb (Tee, Brown)";
+		displayName="E.W. Firebrand Militia Garb (Tee, Brown)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1911,7 +1908,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_Militia_2 : U_I_C_Soldier_Para_1_F
 	{
 		scope=2;
-		displayName="Firebrand Militia Garb (Tee, Blue)";
+		displayName="E.W. Firebrand Militia Garb (Tee, Blue)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1926,7 +1923,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_Militia_3 : U_O_OfficerUniform_ocamo
 	{
 		scope=2;
-		displayName="Firebrand Militia Uniform";
+		displayName="E.W. Firebrand Militia Uniform";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=1;
@@ -1941,7 +1938,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_M81: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Test Fatigues (M81)";
+		displayName="E.W. Test Fatigues (M81)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1956,7 +1953,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_02_M81: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Test Fatigues (M81, Sleeves)";
+		displayName="E.W. Test Fatigues (M81, Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1971,7 +1968,7 @@ class cfgWeapons
 	class ESPW_U_CGM_CombatUniform_CCE: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="CGM Fatigues CCE";
+		displayName="E.W. CGM Fatigues CCE";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1986,7 +1983,7 @@ class cfgWeapons
 	class ESPW_U_CGM_CombatUniform_02_CCE: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="CGM Fatigues CCE (Sleeves)";
+		displayName="E.W. CGM Fatigues CCE (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2001,7 +1998,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_CSATG: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Arcadia Fatigues GHex";
+		displayName="E.W. Arcadia Fatigues GHex";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2016,7 +2013,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_02_CSATG: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Arcadia Fatigues GHex (Sleeves)";
+		displayName="E.W. Arcadia Fatigues GHex (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2031,7 +2028,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_WSP: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Fregata Fatigues WSP";
+		displayName="E.W. Fregata Fatigues WSP";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2046,7 +2043,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_02_WSP: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Fregata Fatigues WSP (Sleeves)";
+		displayName="E.W. Fregata Fatigues WSP (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2061,7 +2058,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Penumbra Fatigues";
+		displayName="E.W. Penumbra Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2075,7 +2072,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Penumbra Fatigues (Sleeves)";
+		displayName="E.W. Penumbra Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2089,7 +2086,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Penumbra Fatigues (Tee)";
+		displayName="E.W. Penumbra Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2103,7 +2100,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Falt";
+		displayName="E.W. Penumbra Fatigues Falt";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2117,7 +2114,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Falt (Sleeves)";
+		displayName="E.W. Penumbra Fatigues Falt (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2131,7 +2128,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Falt (Tee)";
+		displayName="E.W. Penumbra Fatigues Falt (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2145,7 +2142,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Oken";
+		displayName="E.W. Penumbra Fatigues Oken";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2159,7 +2156,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Oken (Sleeves)";
+		displayName="E.W. Penumbra Fatigues Oken (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2173,7 +2170,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Penumbra Fatigues Oken (Tee)";
+		displayName="E.W. Penumbra Fatigues Oken (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2187,7 +2184,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="CoG Fatigues";
+		displayName="E.W. CoG Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2201,7 +2198,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="CoG Fatigues (Sleeves)";
+		displayName="E.W. CoG Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2215,7 +2212,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="CoG Fatigues (Tee)";
+		displayName="E.W. CoG Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2229,7 +2226,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="CoG Fatigues Naval";
+		displayName="E.W. CoG Fatigues Naval";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2243,7 +2240,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="CoG Fatigues Naval (Sleeves)";
+		displayName="E.W. CoG Fatigues Naval (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2257,7 +2254,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="CoG Fatigues Naval (Tee)";
+		displayName="E.W. CoG Fatigues Naval (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2271,7 +2268,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="CoG Fatigues Desert";
+		displayName="E.W. CoG Fatigues Desert";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2285,7 +2282,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="CoG Fatigues Desert (Sleeves)";
+		displayName="E.W. CoG Fatigues Desert (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2299,7 +2296,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="CoG Fatigues Desert (Tee)";
+		displayName="E.W. CoG Fatigues Desert (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2313,7 +2310,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="CoG Fatigues Woodland";
+		displayName="E.W. CoG Fatigues Woodland";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2327,7 +2324,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="CoG Fatigues Woodland (Sleeves)";
+		displayName="E.W. CoG Fatigues Woodland (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2341,7 +2338,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="CoG Fatigues Woodland (Tee)";
+		displayName="E.W. CoG Fatigues Woodland (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2355,7 +2352,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2 : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Hererra Fatigues SW2";
+		displayName="E.W. Hererra Fatigues SW2";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2369,7 +2366,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Hererra Fatigues SW2 (Sleeves)";
+		displayName="E.W. Hererra Fatigues SW2 (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2383,7 +2380,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Hererra Fatigues SW2 (Tee)";
+		displayName="E.W. Hererra Fatigues SW2 (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2397,7 +2394,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpcam : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Hererra Fatigues Alpinecam";
+		displayName="E.W. Hererra Fatigues Alpinecam";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2411,7 +2408,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Hererra Fatigues Alpinecam (Sleeves)";
+		displayName="E.W. Hererra Fatigues Alpinecam (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2425,7 +2422,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Hererra Fatigues Alpinecam (Tee)";
+		displayName="E.W. Hererra Fatigues Alpinecam (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2439,7 +2436,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RBS";
+		displayName="E.W. Kraaviuur Fatigues RBS";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2453,7 +2450,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RBS (Sleeves)";
+		displayName="E.W. Kraaviuur Fatigues RBS (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2467,7 +2464,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RBS (Tee)";
+		displayName="E.W. Kraaviuur Fatigues RBS (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2481,7 +2478,7 @@ class cfgWeapons
 		class ESPW_U_KI_CombatUniform_RPAT : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RHOPAT";
+		displayName="E.W. Kraaviuur Fatigues RHOPAT";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2495,7 +2492,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RPAT_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RHOPAT (Sleeves)";
+		displayName="E.W. Kraaviuur Fatigues RHOPAT (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2509,7 +2506,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RPAT_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Kraaviuur Fatigues RHOPAT (Tee)";
+		displayName="E.W. Kraaviuur Fatigues RHOPAT (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2523,7 +2520,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="PGI Fatigues Grey Digital";
+		displayName="E.W. PGI Fatigues Grey Digital";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2537,7 +2534,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="PGI Fatigues Grey Digital (Sleeves)";
+		displayName="E.W. PGI Fatigues Grey Digital (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2551,7 +2548,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="PGI Fatigues Grey Digital (Tee)";
+		displayName="E.W. PGI Fatigues Grey Digital (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2565,7 +2562,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="PGI Fatigues Red Digital";
+		displayName="E.W. PGI Fatigues Red Digital";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2579,7 +2576,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="PGI Fatigues Red Digital (Sleeves)";
+		displayName="E.W. PGI Fatigues Red Digital (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2593,7 +2590,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="PGI Fatigues Red Digital (Tee)";
+		displayName="E.W. PGI Fatigues Red Digital (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2607,7 +2604,7 @@ class cfgWeapons
 	class ESPW_U_Elios_CombatUniform : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="Elios Fatigues";
+		displayName="E.W. Elios Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2621,7 +2618,7 @@ class cfgWeapons
 	class ESPW_U_Elios_CombatUniform_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="Elios Fatigues (Sleeves)";
+		displayName="E.W. Elios Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2635,7 +2632,7 @@ class cfgWeapons
 	class ESPW_U_Elios_CombatUniform_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="Elios Fatigues (Tee)";
+		displayName="E.W. Elios Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2645,7 +2642,7 @@ class cfgWeapons
 				containerClass="Supply40";
 				mass=40;
 		};
-	};	
+	};
 	class H_MilCap_gry;
 	class FP_H_MilCap_blk: H_MilCap_gry
 	{
@@ -3208,6 +3205,29 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{ 	
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa"
+		};		
+	};
+	
+	class rhs_6b27m;
+	class rhs_6b27m_ess;
+	class rhs_6b27m_MEC_tiger : rhs_6b27m
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "6B27M MEC Tigerstripe";
+		hiddenSelectionsTextures[] = 
+		{ 	
+		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
+		};		
+	};
+	class rhs_6b27m_ess_MEC_tiger : rhs_6b27m_ess
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "6B27M MEC Tigerstripe (ESS)";
+		hiddenSelectionsTextures[] = 
+		{ 	
+		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
 		};		
 	};
 };
