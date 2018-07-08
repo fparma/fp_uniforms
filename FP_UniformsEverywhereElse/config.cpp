@@ -3024,6 +3024,106 @@ class cfgWeapons
 			};
 		};		
 	};
+	class V_PlateCarrier1_rgr: Vest_NoCamo_Base
+	{
+		class ItemInfo;
+	};
+	class V_PlateCarrier2_rgr: Vest_NoCamo_Base
+	{
+		class ItemInfo;
+	};	
+	class FP_V_PlateCarrier1_cbr: V_PlateCarrier1_rgr
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrier1_cbr";
+		scope=2;
+		displayName="Carrier Lite (Coyote Brown)";
+		picture="\A3\Characters_F\data\ui\icon_V_plate_carrier_1_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\BLUFOR\Data\vests_cbr_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};
+	};
+	class FP_V_PlateCarrier2_cbr: V_PlateCarrier2_rgr
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrier2_cbr";
+		scope=2;
+		displayName="Carrier Rig (Coyote Brown)";
+		picture="\A3\Characters_F\data\ui\icon_V_plate_carrier_2_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\BLUFOR\Data\vests_cbr_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};
+	};
+	class FP_V_PlateCarrier1_khk: V_PlateCarrier1_rgr
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrier1_khk";
+		scope=2;
+		displayName="Carrier Lite (Khaki)";
+		picture="\A3\Characters_F\data\ui\icon_V_plate_carrier_1_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\BLUFOR\Data\vests_khk_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};			
+	};
+	class FP_V_PlateCarrier2_khk: V_PlateCarrier2_rgr
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrier2_khk";
+		scope=2;
+		displayName="Carrier Rig (Khaki)";
+		picture="\A3\Characters_F\data\ui\icon_V_plate_carrier_2_CA.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\BLUFOR\Data\vests_khk_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};
+	};	
 	class HelmetBase;
 	class H_Cap_headphones: HelmetBase
 		{
