@@ -2,6 +2,7 @@ class CfgPatches
 {
 	class sim_extra_gear
 	{
+		requiredAddons[]={"fpa_main"};
 		units[]={};
 		weapons[]=
 		{
@@ -20,6 +21,9 @@ class CfgPatches
 			"jungle_unif_tiger",
 			"jungle_unif_tiger_roll",
 			"jungle_unif_tiger_short",
+			"jungle_unif_urban",
+			"jungle_unif_urban_roll",
+			"jungle_unif_urban_short",
 			"M67_gear_rifleman",
 			"M67_gear_rifleman_band",
 			"M67_gear_pistol",
@@ -42,6 +46,10 @@ class CfgPatches
 			"sciv_tropicshirt2",
 			"sciv_tropicshirt3",
 			"sciv_tropicshirt4",
+			"sciv_cargotshirt1",
+			"sciv_cargotshirt2",
+			"sciv_cargotshirt3",
+			"sciv_cargotshirt4",
 			"58_pat_web",
 			"58_pat_flak"
 		};
@@ -49,6 +57,7 @@ class CfgPatches
 		requiredVersion=1;
 	};
 };
+
 class CfgVehicles
 {
 	class Civilian_F;
@@ -72,7 +81,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -126,7 +135,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -180,7 +189,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -234,7 +243,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -288,7 +297,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -342,7 +351,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -396,7 +405,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -450,7 +459,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -504,7 +513,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -558,7 +567,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -612,7 +621,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -666,7 +675,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -720,7 +729,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -774,7 +783,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -828,7 +837,169 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_urban: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_urban";
+		scope=1;
+		displayName="Tropical combat uniform (Urban)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_urban";
+		model="sim_extra_gear\jungle_uniform.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_urban_roll: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_urban_roll";
+		scope=1;
+		displayName="Tropical combat uniform rolled (Urban)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_urban_roll";
+		model="sim_extra_gear\jungle_uniform_rolled.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class jungle_unif_urban_short: C_man_1
+	{
+		author="simkas";
+		_generalMacro="jungle_unif_urban_short";
+		scope=1;
+		displayName="Tropical combat uniform short (Urban)";
+		nakedUniform="U_BasicBody";
+		uniformClass="jungle_unif_urban_short";
+		model="sim_extra_gear\jungle_uniform_short.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -1133,6 +1304,90 @@ class CfgVehicles
 			"sim_extra_gear\tex\chinos_cream.paa"
 		};
 	};
+	class sciv_cargotshirt1: C_man_1
+	{
+		author="simkas";
+		_generalMacro="sciv_cargotshirt1";
+		scope=1;
+		displayName="Civilian T-shirt & Cargo pants 1";
+		nakedUniform="U_BasicBody";
+		uniformClass="sciv_cargotshirt1";
+		model="sim_extra_gear\cargo_tshirt.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_blue.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class sciv_cargotshirt2: sciv_cargotshirt1
+	{
+		_generalMacro="sciv_cargotshirt2";
+		displayName="Civilian T-shirt & Cargo pants 2";
+		uniformClass="sciv_cargotshirt2";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_black.paa"
+		};
+	};
+	class sciv_cargotshirt3: sciv_cargotshirt1
+	{
+		_generalMacro="sciv_cargotshirt3";
+		displayName="Civilian T-shirt & Cargo pants 3";
+		uniformClass="sciv_cargotshirt3";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_camo.paa"
+		};
+	};
+	class sciv_cargotshirt4: sciv_cargotshirt1
+	{
+		_generalMacro="sciv_cargotshirt4";
+		displayName="Civilian T-shirt & Cargo pants 4";
+		uniformClass="sciv_cargotshirt4";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
+		};
+	};
 };
 class CfgWeapons
 {
@@ -1365,6 +1620,76 @@ class CfgWeapons
 			mass=20;
 		};
 	};
+	class sciv_cargotshirt1: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Civilian T-shirt & Cargo pants 1";
+		picture="\sim_extra_gear\icons\civilians\ico_cargotee1.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_blue.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_cargotshirt1";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_cargotshirt2: sciv_cargotshirt1
+	{
+		displayName="Civilian T-shirt & Cargo pants 2";
+		picture="\sim_extra_gear\icons\civilians\ico_cargotee2.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_black.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_cargotshirt2";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_cargotshirt3: sciv_cargotshirt1
+	{
+		displayName="Civilian T-shirt & Cargo pants 3";
+		picture="\sim_extra_gear\icons\civilians\ico_cargotee3.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_camo.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_cargotshirt3";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class sciv_cargotshirt4: sciv_cargotshirt1
+	{
+		displayName="Civilian T-shirt & Cargo pants 4";
+		picture="\sim_extra_gear\icons\civilians\ico_cargotee4.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="sciv_cargotshirt4";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
 	class jungle_unif_od: U_C_Poloshirt_blue
 	{
 		author="simkas";
@@ -1377,7 +1702,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1399,7 +1724,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1421,7 +1746,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1443,7 +1768,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1465,7 +1790,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1487,7 +1812,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1509,7 +1834,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1531,7 +1856,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1553,7 +1878,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1575,7 +1900,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1597,7 +1922,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1619,7 +1944,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1641,7 +1966,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1663,7 +1988,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1685,12 +2010,78 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="jungle_unif_tiger_short";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_urban: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform (Urban)";
+		picture="\sim_extra_gear\icons\uniforms\ico_long_urban.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_urban";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_urban_roll: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform rolled (Urban)";
+		picture="\sim_extra_gear\icons\uniforms\ico_roll_urban.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_urban_roll";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class jungle_unif_urban_short: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Tropical combat uniform short (Urban)";
+		picture="\sim_extra_gear\icons\uniforms\ico_short_urban.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="jungle_unif_urban_short";
 			containerClass="Supply40";
 			mass=40;
 		};

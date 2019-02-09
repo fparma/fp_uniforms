@@ -83,7 +83,7 @@ class CfgVehicles
 		hiddenSelections[]=
 		{
 			"camo1",
-			"camo2",
+			"camo2"
 		};
 		hiddenSelectionsTextures[]=
 		{
@@ -299,7 +299,7 @@ class CfgVehicles
 		displayName="Paramilitary";
 		hiddenSelections[]=
 		{
-			"camo",
+			"camo"
 		};
 	};
 };
