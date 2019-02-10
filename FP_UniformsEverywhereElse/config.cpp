@@ -784,7 +784,78 @@ class CfgVehicles
 					{
 						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
 					};
-	};	
+	};		
+	class ESPW_Rifleman_PGAC_kor : B_Soldier_F
+	{
+					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+					scope = 1;
+					displayName = "Rifleman (PGAC Desert)";
+					nakedUniform = "U_BasicBody";
+					uniformClass = "ESPW_U_PGAC_CombatUniform_SPK";
+					author = "Bohemia Interactive";
+					scopeCurator = 0;
+					hiddenSelections[] =
+					{
+						"Camo",
+						"insignia"
+					};
+					hiddenSelectionsTextures[] =
+					{
+						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa"
+					};
+					hiddenSelectionsMaterials[] = 
+					{
+						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+					};
+	};
+	class ESPW_Rifleman_PGAC_kor_Sleeves : B_Soldier_03_F
+	{
+					_generalMacro = "B_Soldier_03_F";
+					scope = 1;
+					displayName = "Rifleman (PGAC Desert, Sleeves)";
+					nakedUniform = "U_BasicBody";
+					uniformClass = "ESPW_U_PGAC_CombatUniform_SPK_Sleeves";
+					author = "Bohemia Interactive";
+					scopeCurator = 0;
+					hiddenSelections[] =
+					{
+						"Camo",
+						"insignia"
+					};
+					hiddenSelectionsTextures[] =
+					{
+						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa"
+					};
+					hiddenSelectionsMaterials[] = 
+					{
+						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+					};					
+	};
+	class ESPW_Rifleman_PGAC_kor_Tee : B_Soldier_02_F
+	{
+					_generalMacro = "B_Soldier_02_F";
+					scope = 1;
+					displayName = "Rifleman (PGAC Desert, Tee)";
+					nakedUniform = "U_BasicBody";
+					uniformClass = "ESPW_U_PGAC_CombatUniform_SPK_Tee";
+					author = "Bohemia Interactive";
+					scopeCurator = 0;
+					hiddenSelections[] =
+					{
+						"Camo",
+						"Camo2",
+						"insignia"
+					};
+					hiddenSelectionsTextures[] =
+					{
+						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa",
+						"\A3\Characters_F_EXP\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_co.paa"
+					};
+					hiddenSelectionsMaterials[] = 
+					{
+						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+					};
+	};		
 	class ESPW_Rifleman_CoG : B_Soldier_F
 	{
 					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
@@ -2058,7 +2129,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues";
+		displayName="E.W. Penumbra SPC-M Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2072,7 +2143,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues (Sleeves)";
+		displayName="E.W. Penumbra SPC-M Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2086,7 +2157,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues (Tee)";
+		displayName="E.W. Penumbra SPC-M Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2100,7 +2171,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt";
+		displayName="E.W. Penumbra SPC-F Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2114,7 +2185,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt (Sleeves)";
+		displayName="E.W. Penumbra SPC-F Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2128,7 +2199,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt (Tee)";
+		displayName="E.W. Penumbra SPC-F Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2142,7 +2213,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken";
+		displayName="E.W. Penumbra SPC-O Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2156,7 +2227,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken (Sleeves)";
+		displayName="E.W. Penumbra SPC-O Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2170,13 +2241,55 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken (Tee)";
+		displayName="E.W. Penumbra SPC-O Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
 				uniformModel="-";
 				uniformClass="ESPW_Rifleman_PGAC_des_Tee";
+				containerClass="Supply40";
+				mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK : U_B_CombatUniform_mcam
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+				uniformModel="-";
+				uniformClass="ESPW_Rifleman_PGAC_kor";
+				containerClass="Supply40";
+				mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK_Sleeves : U_B_CombatUniform_mcam_vest
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues (Sleeves)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+				uniformModel="-";
+				uniformClass="ESPW_Rifleman_PGAC_kor_Sleeves";
+				containerClass="Supply40";
+				mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK_Tee : U_B_CombatUniform_mcam_tshirt
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues (Tee)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+				uniformModel="-";
+				uniformClass="ESPW_Rifleman_PGAC_kor_Tee";
 				containerClass="Supply40";
 				mass=40;
 		};
