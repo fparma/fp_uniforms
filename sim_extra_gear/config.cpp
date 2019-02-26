@@ -2,7 +2,6 @@ class CfgPatches
 {
 	class sim_extra_gear
 	{
-		requiredAddons[]={"fpa_main"};
 		units[]={};
 		weapons[]=
 		{
@@ -50,14 +49,22 @@ class CfgPatches
 			"sciv_cargotshirt2",
 			"sciv_cargotshirt3",
 			"sciv_cargotshirt4",
+			"PMC_garb_1",
+			"PMC_garb_2",
+			"PMC_garb_3",
+			"PMC_garb_4",
+			"PMC_garb_5",
 			"58_pat_web",
 			"58_pat_flak"
 		};
 		magazines[]={};
 		requiredVersion=1;
+		requiredAddons[]=
+		{
+			"A3_Characters_F"		
+		};
 	};
 };
-
 class CfgVehicles
 {
 	class Civilian_F;
@@ -81,7 +88,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -135,7 +142,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -189,7 +196,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -243,7 +250,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -297,7 +304,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -351,7 +358,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -405,7 +412,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -459,7 +466,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -513,7 +520,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -567,7 +574,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -621,7 +628,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -675,7 +682,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -729,7 +736,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -783,7 +790,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -837,7 +844,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -891,7 +898,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -945,7 +952,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -999,7 +1006,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -1092,6 +1099,100 @@ class CfgVehicles
 		};
 		linkedItems[]={};
 		respawnLinkedItems[]={};
+	};
+	class PMC_garb_1: C_man_1
+	{
+		author="simkas, Bohemia";
+		_generalMacro="PMC_garb_1";
+		scope=1;
+		displayName="PMC Garb 1";
+		nakedUniform="U_BasicBody";
+		uniformClass="PMC_garb_1";
+		model="sim_extra_gear\PMC_garb.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_1_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\gracenko.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class PMC_garb_2: PMC_garb_1
+	{
+		_generalMacro="PMC_garb_2";
+		displayName="PMC Garb 2";
+		uniformClass="PMC_garb_2";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_2_co.paa"
+		};
+	};
+	class PMC_garb_3: PMC_garb_1
+	{
+		_generalMacro="PMC_garb_3";
+		displayName="PMC Garb 3";
+		uniformClass="PMC_garb_3";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_3_co.paa"
+		};
+	};
+	class PMC_garb_4: PMC_garb_1
+	{
+		_generalMacro="PMC_garb_4";
+		displayName="PMC Garb 4";
+		uniformClass="PMC_garb_4";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_4_co.paa"
+		};
+	};
+	class PMC_garb_5: PMC_garb_1
+	{
+		_generalMacro="PMC_garb_5";
+		displayName="PMC Garb 5";
+		uniformClass="PMC_garb_5";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_5_co.paa"
+		};
 	};
 	class sciv_tshirtjeans2: sciv_tshirtjeans1
 	{
@@ -1316,11 +1417,11 @@ class CfgVehicles
 		modelSides[]={0,1,2,3};
 		hiddenSelections[]=
 		{
-			"camo"
+			"camo",
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_blue.paa"
+			"sim_extra_gear\tex\cargo_tshirt_blue.paa",
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -1365,7 +1466,7 @@ class CfgVehicles
 		uniformClass="sciv_cargotshirt2";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_black.paa"
+			"sim_extra_gear\tex\cargo_tshirt_black.paa",
 		};
 	};
 	class sciv_cargotshirt3: sciv_cargotshirt1
@@ -1375,7 +1476,7 @@ class CfgVehicles
 		uniformClass="sciv_cargotshirt3";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_camo.paa"
+			"sim_extra_gear\tex\cargo_tshirt_camo.paa",
 		};
 	};
 	class sciv_cargotshirt4: sciv_cargotshirt1
@@ -1385,16 +1486,1242 @@ class CfgVehicles
 		uniformClass="sciv_cargotshirt4";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
+			"sim_extra_gear\tex\cargo_tshirt_olive.paa",
 		};
 	};
 };
 class CfgWeapons
 {
+	class NVGoggles;
+	class ItemCore;
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 	class Vest_Camo_Base;
 	class VestItem;
+	class Glove_base: NVGoggles
+	{
+		scope=0;
+		modelOptics="\A3\Weapons_F\empty";
+		visionMode[]=
+		{
+			"Normal",
+			"Normal"
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="";
+			modelOff="";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves (coyote)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_coyote.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_cut_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves Cut";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_cut.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves Cut";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_cut_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves Cut (coyote)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_coyote.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves Cut";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_flightglove_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Short-Cuff Flight Gloves";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_green.paa";
+		class Library
+		{
+			libTextDesc="Flight Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_flightglove_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Short-Cuff Flight Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_coyote.paa";
+		class Library
+		{
+			libTextDesc="Flight Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_coyote.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_black_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (black)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_black.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_od_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (OD)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_od.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_green.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_SPLAV_flightglove_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="SPLAV Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_SPLAV.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_coyote.paa";
+		class Library
+		{
+			libTextDesc="SPLAV Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_SPLAV_flightglove_od_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="SPLAV Gloves (OD)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_SPLAV_OD.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_green.paa";
+		class Library
+		{
+			libTextDesc="SPLAV Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (coyote)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_coyote.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_black_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (black)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_black.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_od_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (OD)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_green.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_coyote_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (coyote)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_coyote.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_black_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (black)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_black.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_od_standalone_NVG: NVGoggles
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (OD)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_green.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves (no NV)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves (coyote)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_coyote.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_cut_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves Cut (no NV)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_cut.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves Cut (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_magpul_flightglove_cut_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Flight Gloves Cut (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_coyote.paa";
+		class Library
+		{
+			libTextDesc="Magpul Flight Gloves Cut (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_flightglove_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Short-Cuff Flight Gloves (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_green.paa";
+		class Library
+		{
+			libTextDesc="Flight Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_flightglove_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="Magpul Short-Cuff Flight Gloves (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_coyote.paa";
+		class Library
+		{
+			libTextDesc="Flight Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_coyote.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_black_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (black) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_black.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_511_flightglove_od_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="511 Gloves (OD) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_od.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_green.paa";
+		class Library
+		{
+			libTextDesc="511 Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_SPLAV_flightglove_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="SPLAV Gloves (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_SPLAV.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_coyote.paa";
+		class Library
+		{
+			libTextDesc="SPLAV Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_SPLAV_flightglove_od_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="SPLAV Gloves (OD) (no NV)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_SPLAV_OD.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_green.paa";
+		class Library
+		{
+			libTextDesc="SPLAV Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MagpulGloves"
+			};
+			modelOff="\sim_extra_gear\VSM_511_flightglove_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_coyote.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_black_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (black) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_black.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_od_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves (OD) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_green.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_coyote_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (coyote) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_coyote.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_black_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (black) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_black.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class VSM_MPACT_gloves_cut_od_standalone_noNVG: Glove_base
+	{
+		author="VanSchmoozin";
+		scope=2;
+		displayName="MPACT Gloves Cut (OD) (no NV)";
+		model="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_green.paa";
+		class Library
+		{
+			libTextDesc="MPACT Gloves (no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			hiddenSelections[]=
+			{
+				"_MPACT"
+			};
+			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class PMC_garb_1: U_C_Poloshirt_blue
+	{
+		author="simkas, Bohemia";
+		scope=2;
+		displayName="PMC Garb 1";
+		picture="\sim_extra_gear\icons\uniforms\ico_pmc_1.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_1_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PMC_garb_1";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class PMC_garb_2: PMC_garb_1
+	{
+		displayName="PMC Garb 2";
+		picture="\sim_extra_gear\icons\uniforms\ico_pmc_2.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_2_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PMC_garb_2";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class PMC_garb_3: PMC_garb_1
+	{
+		displayName="PMC Garb 3";
+		picture="\sim_extra_gear\icons\uniforms\ico_pmc_3.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_3_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PMC_garb_3";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class PMC_garb_4: PMC_garb_1
+	{
+		displayName="PMC Garb 4";
+		picture="\sim_extra_gear\icons\uniforms\ico_pmc_4.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_4_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PMC_garb_4";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class PMC_garb_5: PMC_garb_1
+	{
+		displayName="PMC Garb 5";
+		picture="\sim_extra_gear\icons\uniforms\ico_pmc_5.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gracenko_5_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PMC_garb_5";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
 	class sciv_tshirtjeans1: U_C_Poloshirt_blue
 	{
 		author="simkas";
@@ -1628,11 +2955,11 @@ class CfgWeapons
 		picture="\sim_extra_gear\icons\civilians\ico_cargotee1.paa";
 		hiddenSelections[]=
 		{
-			"camo"
+			"camo",
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_blue.paa"
+			"sim_extra_gear\tex\cargo_tshirt_blue.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1648,7 +2975,7 @@ class CfgWeapons
 		picture="\sim_extra_gear\icons\civilians\ico_cargotee2.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_black.paa"
+			"sim_extra_gear\tex\cargo_tshirt_black.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1664,7 +2991,7 @@ class CfgWeapons
 		picture="\sim_extra_gear\icons\civilians\ico_cargotee3.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_camo.paa"
+			"sim_extra_gear\tex\cargo_tshirt_camo.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1680,7 +3007,7 @@ class CfgWeapons
 		picture="\sim_extra_gear\icons\civilians\ico_cargotee4.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
+			"sim_extra_gear\tex\cargo_tshirt_olive.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1702,7 +3029,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1724,7 +3051,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1746,7 +3073,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa"
+			"sim_extra_gear\tex\jungle_uniform_co.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1768,7 +3095,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1790,7 +3117,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1812,7 +3139,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa"
+			"sim_extra_gear\tex\jungle_uniform_m81.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1834,7 +3161,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1856,7 +3183,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1878,7 +3205,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa"
+			"sim_extra_gear\tex\jungle_uniform_black.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1900,7 +3227,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1922,7 +3249,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1944,7 +3271,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1966,7 +3293,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1988,7 +3315,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -2010,7 +3337,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -2032,7 +3359,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -2054,7 +3381,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -2076,7 +3403,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa"
+			"sim_extra_gear\tex\jungle_uniform_urban.paa",
 		};
 		class ItemInfo: UniformItem
 		{
@@ -2537,5 +3864,820 @@ class CfgGlasses
 			20
 		};
 		mass=2;
+	};
+	class VSM_magpul_flightglove_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Magpul Flight Gloves";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_magpul_flightglove_coyote_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Magpul Flight Gloves (coyote)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_magpul_flightglove_cut_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Magpul Flight Gloves Cut";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_cut.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_magpul_flightglove_cut_coyote_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Magpul Flight Gloves Cut (coyote)";
+		model="\sim_extra_gear\VSM_magpul_flightglove_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_magpul_green_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_flightglove_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Flight Gloves";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_flightglove_coyote_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="Flight Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_magpul_coyote_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_flight_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_511_flightglove_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="511 Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_511_flightglove_OD_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="511 Gloves (OD) ";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_511_flightglove_Black_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="511 Gloves (Black) ";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_511_Black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_511_black.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_SPLAV_flightglove_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="SPLAV Gloves (coyote)";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_splav_flightglove_OD_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="SPLAV Gloves (OD) ";
+		model="\sim_extra_gear\VSM_511_flightglove_standalone";
+		hiddenSelections[]=
+		{
+			"_MagpulGloves"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_SPLAV_OD.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_flightgloves_splav.rvmat"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_splav_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_OD_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves (OD) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_coyote_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves (coyote) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_black_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves (black) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_black.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_cut_OD_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves Cut (OD) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_OD.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_green.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_cut_coyote_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves Cut (coyote) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_coyote.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_coyote.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
+	};
+	class VSM_MPACT_Gloves_cut_black_standalone
+	{
+		scope=2;
+		author="VanSchmoozin";
+		displayname="MPACT Gloves Cut (black) ";
+		model="\sim_extra_gear\VSM_MPACT_Gloves_cut_standalone";
+		hiddenSelections[]=
+		{
+			"_MPACT"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\gloves\VSM_MPACT_gloves_black.paa"
+		};
+		picture="\sim_extra_gear\icons\gloves\ico_mpact_cut_black.paa";
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			0,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			0,
+			"G_HAF_default",
+			0,
+			"G_CIVIL_female",
+			0,
+			"G_CIVIL_male",
+			0
+		};
 	};
 };
