@@ -88,7 +88,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -142,7 +142,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -196,7 +196,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -250,7 +250,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -304,7 +304,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -358,7 +358,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -412,7 +412,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -466,7 +466,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -520,7 +520,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -574,7 +574,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -628,7 +628,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -682,7 +682,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -736,7 +736,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -790,7 +790,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -844,7 +844,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -898,7 +898,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa",
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -952,7 +952,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa",
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -1006,7 +1006,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_urban.paa",
+			"sim_extra_gear\tex\jungle_uniform_urban.paa"
 		};
 		headgearList[]={};
 		identityTypes[]=
@@ -3029,7 +3029,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3051,7 +3051,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3073,7 +3073,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_co.paa",
+			"sim_extra_gear\tex\jungle_uniform_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3095,7 +3095,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3117,7 +3117,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3139,7 +3139,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_m81.paa",
+			"sim_extra_gear\tex\jungle_uniform_m81.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3161,7 +3161,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3183,7 +3183,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3205,7 +3205,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_black.paa",
+			"sim_extra_gear\tex\jungle_uniform_black.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3227,7 +3227,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3249,7 +3249,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3271,7 +3271,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_erdl.paa",
+			"sim_extra_gear\tex\jungle_uniform_erdl.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3293,7 +3293,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3315,7 +3315,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -3337,7 +3337,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"sim_extra_gear\tex\jungle_uniform_tiger.paa",
+			"sim_extra_gear\tex\jungle_uniform_tiger.paa"
 		};
 		class ItemInfo: UniformItem
 		{
