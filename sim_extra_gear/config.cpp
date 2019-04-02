@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class sim_extra_gear
 	{
-		requiredAddons[]={"fpa_main"};
+		requiredAddons[]={"fpa_main","A3_Characters_F"};
 		units[]={};
 		weapons[]=
 		{
@@ -60,10 +60,6 @@ class CfgPatches
 		};
 		magazines[]={};
 		requiredVersion=1;
-		requiredAddons[]=
-		{
-			"A3_Characters_F"		
-		};
 	};
 };
 
