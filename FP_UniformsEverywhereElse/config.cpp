@@ -3085,7 +3085,7 @@ class cfgWeapons
     {
         class ItemInfo;
     };
-	class V_PlateCarrierIA2_dgtl: Vest_NoCamo_Base
+	class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl
     {
         class ItemInfo;
     };
@@ -3139,9 +3139,9 @@ class cfgWeapons
 	};
 	class HelmetBase;
 	class H_Cap_headphones: HelmetBase
-		{
+	{
         class ItemInfo;
-		};
+	};
 	class ESPW_H_Cap_headphones_blk: H_Cap_headphones
 	{
 		author = "Espionage Wars Team | CSLeader";
