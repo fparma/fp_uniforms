@@ -51,9 +51,11 @@ class CfgVehicles
 	class B_Soldier_03_F;	
 	class I_soldier_F;
 	class I_Soldier_02_F;
+	class I_officer_F;
 	class O_officer_F;
 	class I_C_Soldier_Para_1_F;
 	class I_C_Soldier_Para_3_F;
+	class I_C_Soldier_Para_7_F;
 	class FP_Rifleman_KyrelianFBSplinter: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -91,7 +93,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp_co.paa"
 		};
 	}; 
 	class FP_Rifleman_02_FP: I_Soldier_02_F
@@ -111,7 +113,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp_co.paa"
 		};
 	};
     class FP_I_soldier_O_F: I_soldier_F
@@ -289,7 +291,30 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_03.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_03_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class ESPW_O_Officer_FBCMilitia_02: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="Firebrand BDU 2";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_4";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_04_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -319,6 +344,54 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
 	};	
+	class ESPW_O_Officer_Kuril: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="Kuril BDU (K-Flora)";
+		uniformClass="ESPW_U_I_OfficerUniform_Kuril";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
+
+	class ESPW_Rifleman_Light_Kuril: I_officer_F
+	{
+		_generalMacro="I_officer_F";
+		scope=1;
+		displayName="Kuril Light BDU (K-Flora)";
+		uniformClass="ESPW_U_I_CombatUniform_Light_Kuril";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa" 
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};		
 	class ESPW_I_Test_Soldier_M81_F: I_C_Soldier_Para_3_F
 	{
 		_generalMacro="I_C_Soldier_Para_3_F";
@@ -354,7 +427,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\fbc_notmerc_blu_co.paa", "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_notmerc_choco_co.paa", "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
 		};
 	};
 	class ESPW_I_G_Mercenary_2: I_C_Soldier_Para_3_F
@@ -373,7 +446,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\fbc_notmerc_grn_co.paa", "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_notmerc_lumberjack_co.paa", "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
 		};
 	};	
 	class ESPW_I_G_FBCMilitia_1: I_C_Soldier_Para_1_F
@@ -414,6 +487,165 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_02_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_02_bottom_co.paa"
 		};
 	};
+	class ESPW_I_G_FBCMilitia_3: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_5";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_bottom_co.paa"
+		};
+	};
+	class ESPW_I_G_FBCMilitia_4: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_5_S";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_bottom_co.paa"
+		};
+	};
+	class ESPW_I_G_FBCMilitia_5: I_C_Soldier_Para_7_F
+	{
+		_generalMacro="I_C_Soldier_Para_7_F";
+		scope=1;
+		displayName="Militia Light";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_5_TT";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_bottom_co.paa"
+		};
+	};	
+	class ESPW_I_G_FBCMilitia_6: I_Soldier_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_6";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_bottom_co.paa"
+		};
+	};
+	class ESPW_I_G_FBCMilitia_7: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="FP Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_6_S";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_bottom_co.paa"
+		};
+	};
+	class ESPW_I_G_FBCMilitia_8: I_C_Soldier_Para_7_F
+	{
+		_generalMacro="I_C_Soldier_Para_7_F";
+		scope=1;
+		displayName="Militia Light";
+		uniformClass="ESPW_U_I_G_Firebrand_Militia_6_TT";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_bottom_co.paa"
+		};
+	};	
+	class ESPW_Rifleman_Kuril: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Kuril Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_Kuril";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_Kuril: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="Kuril Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_Kuril";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
+		};
+	};		
+
 	class ESPW_I_Rifleman_M81: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -431,7 +663,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81_co.paa"
 		};
 	}; 
 	class ESPW_I_Rifleman_02_M81: I_Soldier_02_F
@@ -451,7 +683,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81_co.paa"
 		};
 	};
 	class ESPW_I_Rifleman_CCE: I_soldier_F
@@ -471,7 +703,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce_co.paa"
 		};
 	}; 
 	class ESPW_I_Rifleman_02_CCE: I_Soldier_02_F
@@ -491,7 +723,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce_co.paa"
 		};
 	};
 	class ESPW_I_Rifleman_Arcadia: I_soldier_F
@@ -511,7 +743,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
 		};		
 	};
 	class ESPW_I_Rifleman_02_Arcadia: I_soldier_02_F
@@ -531,7 +763,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
 		};		
 	};
 	class ESPW_I_Rifleman_Fregata: I_soldier_F
@@ -551,7 +783,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp_co.paa"
 		};		
 	};
 	class ESPW_I_Rifleman_02_Fregata: I_soldier_02_F
@@ -571,7 +803,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp.paa"
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp_co.paa"
 		};		
 	};
 	class ESPW_Rifleman_PGAC : B_Soldier_F
@@ -1637,6 +1869,595 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
 		};						
 	};
+	class ESPW_Rifleman_GDS_W: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="GDS Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_GDS_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_GDS_W: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="GDS Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_GDS_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
+		};
+	};		
+	class ESPW_O_Officer_GDS_W: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="GDS BDU (Woodland)";
+		uniformClass="ESPW_U_I_OfficerUniform_GDS_W";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
+	class ESPW_Rifleman_Light_GDS_W: I_officer_F
+	{
+		_generalMacro="I_officer_F";
+		scope=1;
+		displayName="GDS Light BDU (Woodland)";
+		uniformClass="ESPW_U_I_CombatUniform_Light_GDS_W";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa" 
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_Rifleman_GDS_D: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="GDS Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_GDS_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_GDS_D: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="GDS Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_GDS_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
+		};
+	};		
+	class ESPW_O_Officer_GDS_D: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="GDS BDU (Woodland)";
+		uniformClass="ESPW_U_I_OfficerUniform_GDS_D";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
+	class ESPW_Rifleman_Light_GDS_D: I_officer_F
+	{
+		_generalMacro="I_officer_F";
+		scope=1;
+		displayName="GDS Light BDU (Woodland)";
+		uniformClass="ESPW_U_I_CombatUniform_Light_GDS_D";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa" 
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_Rifleman_GSAF: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="GSAF Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_GSAF";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gsaf_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_GSAF: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="GSAF Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_GSAF";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gsaf_co.paa"
+		};
+	};
+	class ESPW_Rifleman_RNH_W: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="RNH Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_RNH_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_RNH_W: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="RNH Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_RNH_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
+		};
+	};		
+	class ESPW_O_Officer_RNH_W: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="RNH BDU (Woodland)";
+		uniformClass="ESPW_U_I_OfficerUniform_RNH_W";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
+	class ESPW_Rifleman_Light_RNH_W: I_officer_F
+	{
+		_generalMacro="I_officer_F";
+		scope=1;
+		displayName="RNH Light BDU (Woodland)";
+		uniformClass="ESPW_U_I_CombatUniform_Light_RNH_W";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa" 
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_Rifleman_RNH_D: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="RNH Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_RNH_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_RNH_D: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="RNH Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_RNH_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
+		};
+	};		
+	class ESPW_O_Officer_RNH_D: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="RNH BDU (Woodland)";
+		uniformClass="ESPW_U_I_OfficerUniform_RNH_D";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
+	class ESPW_Rifleman_Light_RNH_D: I_officer_F
+	{
+		_generalMacro="I_officer_F";
+		scope=1;
+		displayName="RNH Light BDU (Woodland)";
+		uniformClass="ESPW_U_I_CombatUniform_Light_RNH_D";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa" 
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_Rifleman_CoA_D: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Asana Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_CoA_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_dst_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_CoA_D: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="Asana Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_CoA_D";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_dst_co.paa"
+		};
+	};
+	class ESPW_Rifleman_CoA_W: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Asana Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_CoA_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_wld_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_CoA_W: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="Asana Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_CoA_W";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_wld_co.paa"
+		};
+	};
+	class ESPW_Rifleman_RGC: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="RGC Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_RGC";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rgc_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_RGC: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="RGC Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_RGC";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rgc_co.paa"
+		};
+	};
+	class ESPW_Rifleman_Trinity: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="Trinity Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_Trinity";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_trinity_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_Trinity: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="Trinity Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_Trinity";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_trinity_co.paa"
+		};
+	};
+	class ESPW_Rifleman_RoK: I_soldier_F
+	{
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		displayName="ROK Rifleman";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_SKor";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rok_granite_co.paa"
+		};
+	}; 
+	class ESPW_Rifleman_02_RoK: I_Soldier_02_F
+	{
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		displayName="ROK Rifleman (Rolled-Up)";
+		nakedUniform="U_BasicBody";
+		uniformClass="ESPW_I_CombatUniform_02_SKor";
+		author="CSLeader";
+		side=2;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rok_granite_co.paa"
+		};
+	};	
+
 	class B_Carryall_Base;
 	class FP_B_Carryall_Inv: B_Carryall_Base
 	{
@@ -1715,12 +2536,16 @@ class CfgVehicles
 };
 class cfgWeapons
 {
-	class U_I_CombatUniform;
 	class U_B_CombatUniform_mcam;
 	class U_B_CombatUniform_mcam_vest;
 	class U_B_CombatUniform_mcam_tshirt;
+	class U_O_OfficerUniform_ocamo;
+	class U_I_CombatUniform;
+	class U_I_CombatUniform_shortsleeve;
+	class U_I_OfficerUniform;
 	class U_I_C_Soldier_Para_1_F;
 	class U_I_C_Soldier_Para_3_F;
+	class U_I_C_Soldier_Para_4_F;
 	class UniformItem;
 	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
@@ -1769,7 +2594,7 @@ class cfgWeapons
 			mass=40;
 		};
 	};	
-	class FP_I_CombatUniform_02_FP: U_I_CombatUniform
+	class FP_I_CombatUniform_02_FP: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
 		displayName="Combat Fatigues (Facepunch, Sleeves)";
@@ -1822,7 +2647,6 @@ class cfgWeapons
         };
     };
 	
-	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
@@ -1901,6 +2725,66 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ESPW_I_CombatUniform_Kuril: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Kuril Combat Fatigues (Kurile-Flora)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_Kuril: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Kuril Combat Fatigues (Kurile-Flora)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_I_OfficerUniform_Kuril: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. Kuril Officer Uniform (Kurile-Flora)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_U_I_CombatUniform_Light_Kuril: U_I_OfficerUniform
+	{
+		scope=2;
+		displayName="E.W. Kuril Light Fatigues (Kurile-Flora)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Light_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class ESPW_U_O_Karaq_Uniform: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
@@ -1934,7 +2818,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_NM1: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
-		displayName="E.W. Firebrand Mercenary Outfit (Blue)";
+		displayName="E.W. Firebrand Mercenary Outfit (Blue, Choco-Chip)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -1949,7 +2833,7 @@ class cfgWeapons
 	class ESPW_U_I_G_Firebrand_NM2: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
-		displayName="E.W. Firebrand Mercenary Outfit (Green)";
+		displayName="E.W. Firebrand Mercenary Outfit (Flannel, M81)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2006,6 +2890,111 @@ class cfgWeapons
 			mass=40;
 		};	
 	};
+	class ESPW_U_I_G_Firebrand_Militia_4 : U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Uniform (Full Camo)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_FBCMilitia_02";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};	
+	class ESPW_U_I_G_Firebrand_Militia_5 : U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_3";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};
+	class ESPW_U_I_G_Firebrand_Militia_5_S : U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Fatigues (Desert)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_4";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};	
+	class ESPW_U_I_G_Firebrand_Militia_5_TT : U_I_C_Soldier_Para_4_F
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Garb (Desert)(Tank Top)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_5";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};	
+	class ESPW_U_I_G_Firebrand_Militia_6 : U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Fatigues (Woodland)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_6";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};
+	class ESPW_U_I_G_Firebrand_Militia_6_S : U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Fatigues (Woodland)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_7";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};
+	class ESPW_U_I_G_Firebrand_Militia_6_TT : U_I_C_Soldier_Para_4_F
+	{
+		scope=2;
+		displayName="E.W. Firebrand Militia Garb (Woodland)(Tank Top)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_I_G_FBCMilitia_8";
+			containerClass="Supply40";
+			mass=40;
+		};	
+	};	
 	class ESPW_U_I_CombatUniform_M81: U_I_CombatUniform
 	{
 		scope=2;
@@ -2039,7 +3028,7 @@ class cfgWeapons
 	class ESPW_U_CGM_CombatUniform_CCE: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. CGM Fatigues CCE";
+		displayName="E.W. CGM Combat Fatigues (CCE)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2054,7 +3043,7 @@ class cfgWeapons
 	class ESPW_U_CGM_CombatUniform_02_CCE: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. CGM Fatigues CCE (Sleeves)";
+		displayName="E.W. CGM Combat Fatigues (CCE)(Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2069,7 +3058,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_CSATG: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. Arcadia Fatigues GHex";
+		displayName="E.W. Arcadia Combat Fatigues (GHex)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2084,7 +3073,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_02_CSATG: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. Arcadia Fatigues GHex (Sleeves)";
+		displayName="E.W. Arcadia Combat Fatigues (GHex)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2099,7 +3088,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_WSP: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. Fregata Fatigues WSP";
+		displayName="E.W. Fregata Combat Fatigues (WSP)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2114,7 +3103,7 @@ class cfgWeapons
 	class ESPW_U_I_CombatUniform_02_WSP: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="E.W. Fregata Fatigues WSP (Sleeves)";
+		displayName="E.W. Fregata Combat Fatigues (WSP)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | Rusty";
 		side=2;
@@ -2129,7 +3118,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-M Fatigues";
+		displayName="E.W. PGAC Urban Fatigues (SPC-M)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2143,7 +3132,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-M Fatigues (Sleeves)";
+		displayName="E.W. PGAC Urban Fatigues (SPC-M) (Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2157,7 +3146,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-M Fatigues (Tee)";
+		displayName="E.W. PGAC Urban Fatigues (SPC-M) (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2171,7 +3160,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-F Fatigues";
+		displayName="E.W. PGAC Combat Fatigues (SPC-F)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2185,7 +3174,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-F Fatigues (Sleeves)";
+		displayName="E.W. PGAC Combat Fatigues (SPC-F) (Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2199,7 +3188,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPW_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-F Fatigues (Tee)";
+		displayName="E.W. PGAC Combat Fatigues (SPC-F) (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2213,7 +3202,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-O Fatigues";
+		displayName="E.W. PGAC Combat Fatigues (SPC-O)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2227,7 +3216,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-O Fatigues (Sleeves)";
+		displayName="E.W. PGAC Combat Fatigues (SPC-O) (Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2241,7 +3230,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPD_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-O Fatigues (Tee)";
+		displayName="E.W. PGAC Combat Fatigues (SPC-O) (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2255,7 +3244,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPK : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-TY Fatigues";
+		displayName="E.W. PGAC Urban Fatigues (SPC-TY)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2269,7 +3258,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPK_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-TY Fatigues (Sleeves)";
+		displayName="E.W. PGAC Urban Fatigues (SPC-TY) (Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2283,7 +3272,7 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPK_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra SPC-TY Fatigues (Tee)";
+		displayName="E.W. PGAC Urban Fatigues (SPC-TY) (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2297,7 +3286,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues";
+		displayName="E.W. CoG Combat Fatigues (TPAT)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2311,7 +3300,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues (Sleeves)";
+		displayName="E.W. CoG Combat Fatigues (TPAT)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2325,7 +3314,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues (Tee)";
+		displayName="E.W. CoG Fatigues(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2339,7 +3328,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Naval";
+		displayName="E.W. CoG Combat Fatigues (TPAT Naval)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2353,7 +3342,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Naval (Sleeves)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Naval)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2367,7 +3356,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Naval (Tee)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Naval)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2381,7 +3370,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Desert";
+		displayName="E.W. CoG Combat Fatigues (TPAT Desert)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2395,7 +3384,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Desert (Sleeves)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Desert)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2409,7 +3398,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Desert (Tee)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Desert)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2423,7 +3412,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Woodland";
+		displayName="E.W. CoG Combat Fatigues (TPAT Woodland)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2437,7 +3426,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Woodland (Sleeves)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Woodland)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2451,7 +3440,7 @@ class cfgWeapons
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. CoG Fatigues Woodland (Tee)";
+		displayName="E.W. CoG Combat Fatigues (TPAT Woodland)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2465,7 +3454,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2 : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues SW2";
+		displayName="E.W. Hererra Combat Fatigues (SW2)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2479,7 +3468,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues SW2 (Sleeves)";
+		displayName="E.W. Hererra Combat Fatigues (SW2)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2493,7 +3482,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_SW2_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues SW2 (Tee)";
+		displayName="E.W. Hererra Combat Fatigues (SW2)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2507,7 +3496,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpcam : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues Alpinecam";
+		displayName="E.W. Hererra Combat Fatigues (Alpinecam)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2521,7 +3510,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues Alpinecam (Sleeves)";
+		displayName="E.W. Hererra Combat Fatigues (Alpinecam)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2535,7 +3524,7 @@ class cfgWeapons
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Hererra Fatigues Alpinecam (Tee)";
+		displayName="E.W. Hererra Combat Fatigues (Alpinecam)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2549,7 +3538,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RBS";
+		displayName="E.W. Kraaviuur Combat Fatigues (RBS)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2563,7 +3552,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RBS (Sleeves)";
+		displayName="E.W. Kraaviuur Combat Fatigues (RBS)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2577,7 +3566,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RBS_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RBS (Tee)";
+		displayName="E.W. Kraaviuur Combat Fatigues (RBS)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2591,7 +3580,7 @@ class cfgWeapons
 		class ESPW_U_KI_CombatUniform_RPAT : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RHOPAT";
+		displayName="E.W. Kraaviuur Combat Fatigues (RHOPAT)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2605,7 +3594,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RPAT_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RHOPAT (Sleeves)";
+		displayName="E.W. Kraaviuur Combat Fatigues (RHOPAT)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2619,7 +3608,7 @@ class cfgWeapons
 	class ESPW_U_KI_CombatUniform_RPAT_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Kraaviuur Fatigues RHOPAT (Tee)";
+		displayName="E.W. Kraaviuur Combat Fatigues (RHOPAT)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2633,7 +3622,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Grey Digital";
+		displayName="E.W. PGI Urban Fatigues (Digital Grey)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2647,7 +3636,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Grey Digital (Sleeves)";
+		displayName="E.W. PGI Urban Fatigues (Digital Grey)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2661,7 +3650,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_GryDigi_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Grey Digital (Tee)";
+		displayName="E.W. PGI Urban Fatigues (Digital Grey)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2675,7 +3664,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Red Digital";
+		displayName="E.W. PGI Elite Fatigues (Digital Red)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2689,7 +3678,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Red Digital (Sleeves)";
+		displayName="E.W. PGI Elite Fatigues (Digital Red)(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2703,7 +3692,7 @@ class cfgWeapons
 	class ESPW_U_PGI_CombatUniform_RedDigi_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. PGI Fatigues Red Digital (Tee)";
+		displayName="E.W. PGI Elite Fatigues (Digital Red)(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2731,7 +3720,7 @@ class cfgWeapons
 	class ESPW_U_Elios_CombatUniform_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Elios Fatigues (Sleeves)";
+		displayName="E.W. Elios Fatigues(Rolled-Up)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2745,7 +3734,7 @@ class cfgWeapons
 	class ESPW_U_Elios_CombatUniform_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Elios Fatigues (Tee)";
+		displayName="E.W. Elios Fatigues(Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
@@ -2756,6 +3745,427 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ESPW_I_CombatUniform_GDS_W: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. GDS Combat Fatigues (Forest)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_GDS_W: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. GDS Combat Fatigues (Forest)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_I_OfficerUniform_GDS_W: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. GDS Officer Uniform (Forest)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_U_I_CombatUniform_Light_GDS_W: U_I_OfficerUniform
+	{
+		scope=2;
+		displayName="E.W. GDS Light Fatigues (Forest)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Light_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_GDS_D: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. GDS Combat Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_GDS_D: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. GDS Combat Fatigues (Desert)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_I_OfficerUniform_GDS_D: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. GDS Officer Uniform (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_U_I_CombatUniform_Light_GDS_D: U_I_OfficerUniform
+	{
+		scope=2;
+		displayName="E.W. GDS Light Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Light_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_GSAF: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. GSAF Combat Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_GSAF";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_GSAF: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. GSAF Combat Fatigues (Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_GSAF";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_RNH_W: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. RNH Combat Fatigues (Woodland)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_RNH_W: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. RNH Combat Fatigues (Woodland)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_I_OfficerUniform_RNH_W: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. RNH Officer Uniform (Woodland)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_U_I_CombatUniform_Light_RNH_W: U_I_OfficerUniform
+	{
+		scope=2;
+		displayName="E.W. RNH Light Fatigues (Woodland)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Light_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_RNH_D: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. RNH Combat Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_RNH_D: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. RNH Combat Fatigues (Desert)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_I_OfficerUniform_RNH_D: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="E.W. RNH Officer Uniform (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_O_Officer_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_U_I_CombatUniform_Light_RNH_D: U_I_OfficerUniform
+	{
+		scope=2;
+		displayName="E.W. RNH Light Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Light_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_CoA_D: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Asana Combat Fatigues (Desert)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoA_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_CoA_D: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Asana Combat Fatigues (Desert)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_CoA_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_CoA_W: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Asana Combat Fatigues (Woodland)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoA_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_CoA_W: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Asana Combat Fatigues (Woodland)(Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_CoA_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_RGC: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. RGC Combat Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RGC";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_RGC: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. RGC Combat Fatigues (Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_RGC";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_Trinity: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Trinity Combat Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Trinity";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_Trinity: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Trinity Combat Fatigues (Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_Trinity";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_CombatUniform_SKor: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. South Korean Combat Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	class ESPW_I_CombatUniform_02_SKor: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. South Korean Combat Fatigues (Rolled-Up)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | Rusty";
+		side=2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_02_RoK";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
+	
 	class H_MilCap_gry;
 	class FP_H_MilCap_blk: H_MilCap_gry
 	{
@@ -2768,6 +4178,73 @@ class cfgWeapons
 			"\A3\characters_f_epb\Common\Data\cappatrol_blk_co.paa"
 		};
 	};
+
+    class ESPW_H_MilCap_FBC_wld: H_MilCap_gry
+    {
+        displayName="Military Cap (FBC Woodland)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_fbc_woodland_co.paa"
+        };
+	};	
+    class ESPW_H_MilCap_FBC_dst: H_MilCap_gry
+    {
+        displayName="Military Cap (FBC Desert)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_fbc_desert_co.paa"
+        };
+	};
+    class ESPW_H_MilCap_RNH_wld: H_MilCap_gry
+    {
+        displayName="Military Cap (RNH Woodland)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_rnh_woodland_co.paa"
+        };
+	};	
+    class ESPW_H_MilCap_RNH_dst: H_MilCap_gry
+    {
+        displayName="Military Cap (RNH Desert)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_rnh_desert_co.paa"
+        };
+	};
+    class ESPW_H_MilCap_RGC: H_MilCap_gry
+    {
+        displayName="Military Cap (RGC)";
+        author="Bohemia Interactive";
+        hiddenSelections[]=
+        {
+            "Camo"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_rgc_co.paa"
+        };
+	};		
+	
 	class H_HelmetB;
 	class FP_BluHelmet_KyrelianSplinter: H_HelmetB
 	{
@@ -2822,7 +4299,7 @@ class cfgWeapons
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
 		displayName = "FP Redstone Helmet";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp_co.paa"};		
 	};
 	class H_Booniehat_khk;
     class FP_Booniehat_FP: H_Booniehat_khk
@@ -2842,6 +4319,264 @@ class cfgWeapons
 		displayName = "Booniehat (FP, Redstone)(Headset)";
 		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
 	};
+
+	class ESPW_H_Booniehat_PGAC_B: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (SPC-M)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_B_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (SPC-M)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_D: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (SPC-O)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_D_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (SPC-O)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_W: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (SPC-F)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_W_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (SPC-F)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};		
+	};	
+	class ESPW_H_Booniehat_PGAC_TY: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (SPC-TY)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spty_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGAC_TY_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (SPC-TY)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spty_co.paa"};		
+	};		
+	class ESPW_H_Booniehat_COG_TPAT: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (TPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (TPAT)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_D: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (TPAT Desert)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_D_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (TPAT Desert)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_W: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (TPAT Woodland)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_W_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (TPAT Woodland)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};		
+	};	
+	class ESPW_H_Booniehat_COG_TPAT_N: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (TPAT Naval)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};		
+	};
+	class ESPW_H_Booniehat_COG_TPAT_N_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (TPAT Naval)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};		
+	};
+	class ESPW_H_Booniehat_KI_RBS: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (RBS)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};		
+	};
+	class ESPW_H_Booniehat_KI_RBS_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (RBS)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};		
+	};
+	class ESPW_H_Booniehat_KI_RHO: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (RHOPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};		
+	};
+	class ESPW_H_Booniehat_KI_RHO_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (RHOPAT)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};		
+	};
+	class ESPW_H_Booniehat_ROH_ALPS: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (Alpinecam)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};		
+	};
+	class ESPW_H_Booniehat_ROH_ALPS_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (Alpinecam)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};		
+	};
+	class ESPW_H_Booniehat_ROH_SW2: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (SW2)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};		
+	};
+	class ESPW_H_Booniehat_ROH_SW2S_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (SW2)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGI_DG: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (Digital Grey)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGI_DG_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (Digital Grey)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGI_DR: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (Digital Red)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};		
+	};
+	class ESPW_H_Booniehat_PGI_DR_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | CSLeader";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (Digital Red)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};		
+	};	
+    class ESPW_Booniehat_FBC_D: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (Firebrand, Desert)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};		
+	};
+	class ESPW_Booniehat_FBC_D_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (Firebrand, Desert)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};		
+	};	
+    class ESPW_Booniehat_FBC_W: H_Booniehat_khk
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk";
+		scope = 2;
+		displayName = "Booniehat (Firebrand, Woodland)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};		
+	};
+	class ESPW_Booniehat_FBC_W_hs: H_Booniehat_khk_hs
+	{
+		author = "Espionage Wars Team | Rusty";
+		_generalMacro = "H_Booniehat_khk_hs";
+		scope = 2;
+		displayName = "Booniehat (Firebrand, Woodland)(Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};		
+	};
+
     class FP_H_Booniehat_oli_hs: H_Booniehat_khk_hs
     {
         displayName="Booniehat (Olive, Headset)";
@@ -3137,6 +4872,7 @@ class cfgWeapons
 			};
 		};		
 	};
+
 	class HelmetBase;
 	class H_Cap_headphones: HelmetBase
 	{
@@ -3190,7 +4926,7 @@ class cfgWeapons
 		_generalMacro = " H_HelmetIA";
 		scope = 2;
 		displayName = "CGM Modular Helmet (M67 CCE)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_cce.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_cce_co.paa"};		
 	};
 	class rhsusf_mich_bare_norotos;
 	class rhsusf_mich_bare_norotos_alt;
