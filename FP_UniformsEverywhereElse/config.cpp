@@ -576,995 +576,1066 @@ class CfgVehicles
 	};
 	class ESPW_Rifleman_PGAC : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (PGAC)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPB";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGAC)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPB";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+			{
+				"Camo",
+				"insignia"
+			};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGAC_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPB_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPB_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGAC_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPB_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPB_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGAC_wld : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (PGAC WLD)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPW";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGAC WLD)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPW";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGAC_wld_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC WLD, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPW_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC WLD, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPW_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGAC_wld_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC WLD, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPW_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC WLD, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPW_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGAC_des : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (PGAC Desert)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPD";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPD";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGAC_des_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC Desert, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPD_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPD_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGAC_des_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (PGAC Desert, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGAC_CombatUniform_SPD_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa",
-						"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
-	};	
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPD_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa",
+			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
+	};		
+	class ESPW_Rifleman_PGAC_kor : B_Soldier_F
+	{
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPK";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
+	};
+	class ESPW_Rifleman_PGAC_kor_Sleeves : B_Soldier_03_F
+	{
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPK_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
+	};
+	class ESPW_Rifleman_PGAC_kor_Tee : B_Soldier_02_F
+	{
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGAC Desert, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGAC_CombatUniform_SPK_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spk_co.paa",
+			"\A3\Characters_F_EXP\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
+	};		
 	class ESPW_Rifleman_CoG : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (CoG)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (CoG)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Navy : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (CoG, Naval)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (CoG, Naval)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Navy_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Naval, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Naval, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Navy_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Naval, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Naval, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Navy_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Des : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (CoG, Desert)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (CoG, Desert)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Des_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Desert, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Desert, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Des_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Desert, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Desert, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Desert_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Wld : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (CoG, Woodland)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "U_CoG_CombatUniform_TPAT_Woodland";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (CoG, Woodland)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "U_CoG_CombatUniform_TPAT_Woodland";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Wld_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Woodland, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Woodland_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Woodland, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Woodland_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_CoG_Wld_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (CoG, Woodland, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Woodland_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (CoG, Woodland, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_CoG_CombatUniform_TPAT_Woodland_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_RoH : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (RoH)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_SW2";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (RoH)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_SW2";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_RoH_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (RoH, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_SW2_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (RoH, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_SW2_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_RoH_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (RoH, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_SW2_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (RoH, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_SW2_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_RoH_Alps : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (RoH)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (RoH)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_RoH_Alps_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (RoH, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (RoH, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_RoH_Alps_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (RoH, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_grey_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (RoH, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_RoH_CombatUniform_Alpcam_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_grey_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_KI : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (KI)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RBS";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (KI)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RBS";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_KI_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (KI, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RBS_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (KI, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RBS_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_KI_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (KI, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RBS_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (KI, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RBS_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_KI_PAT : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (KI)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RPAT";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (KI)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RPAT";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_KI_PAT_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (KI, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RPAT_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (KI, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RPAT_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_KI_PAT_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (KI, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_KI_CombatUniform_RPAT_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_green_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (KI, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_KI_CombatUniform_RPAT_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_digi_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_green_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGI : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (PGI)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGI)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGI_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (PGI, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGI, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGI_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (PGI, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGI, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_GryDigi_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGI_Red : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (PGI, Red)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (PGI, Red)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_PGI_Red_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (PGI, Red, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi_Sleeves";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};					
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (PGI, Red, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi_Sleeves";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};					
 	};
 	class ESPW_Rifleman_PGI_Red_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (PGI, Red, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi_Tee";
-					author = "Bohemia Interactive";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa", 
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-					};
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (PGI, Red, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_PGI_CombatUniform_RedDigi_Tee";
+		author = "Bohemia Interactive";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa", 
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
+		};
 	};
 	class ESPW_Rifleman_Elios : B_Soldier_F
 	{
-					_generalMacro = "B_Soldier_F"; // This is legitimately useless.
-					scope = 1;
-					displayName = "Rifleman (Elios)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_Elios_CombatUniform";
-					author = "Espionage Wars Team | CSLeader";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{	
-						"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
-					};
+		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
+		scope = 1;
+		displayName = "Rifleman (Elios)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_Elios_CombatUniform";
+		author = "Espionage Wars Team | CSLeader";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{	
+			"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
+		};
 	};
 	class ESPW_Rifleman_Elios_Sleeves : B_Soldier_03_F
 	{
-					_generalMacro = "B_Soldier_03_F";
-					scope = 1;
-					displayName = "Rifleman (Elios, Sleeves)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_Elios_CombatUniform_Sleeves";
-					author = "Espionage Wars Team | CSLeader";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
-					};
+		_generalMacro = "B_Soldier_03_F";
+		scope = 1;
+		displayName = "Rifleman (Elios, Sleeves)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_Elios_CombatUniform_Sleeves";
+		author = "Espionage Wars Team | CSLeader";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
+		};
 	};
 	class ESPW_Rifleman_Elios_Tee : B_Soldier_02_F
 	{
-					_generalMacro = "B_Soldier_02_F";
-					scope = 1;
-					displayName = "Rifleman (Elios, Tee)";
-					nakedUniform = "U_BasicBody";
-					uniformClass = "ESPW_U_Elios_CombatUniform_Tee";
-					author = "Espionage Wars Team | CSLeader";
-					scopeCurator = 0;
-					hiddenSelections[] =
-					{
-						"Camo",
-						"Camo2",
-						"insignia"
-					};
-					hiddenSelectionsTextures[] =
-					{
-						"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa",
-						"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-					};
-					hiddenSelectionsMaterials[] = 
-					{
-						"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
-					};						
+		_generalMacro = "B_Soldier_02_F";
+		scope = 1;
+		displayName = "Rifleman (Elios, Tee)";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "ESPW_U_Elios_CombatUniform_Tee";
+		author = "Espionage Wars Team | CSLeader";
+		scopeCurator = 0;
+		hiddenSelections[] =
+		{
+			"Camo",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_elios_co.paa",
+			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"FP_UniformsEverywhereElse\Misc\clothing_espw2.rvmat"
+		};						
 	};
 	class B_Carryall_Base;
 	class FP_B_Carryall_Inv: B_Carryall_Base
@@ -2058,127 +2129,169 @@ class cfgWeapons
 	class ESPW_U_PGAC_CombatUniform_SPB : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues";
+		displayName="E.W. Penumbra SPC-M Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPB_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues (Sleeves)";
+		displayName="E.W. Penumbra SPC-M Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPB_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues (Tee)";
+		displayName="E.W. Penumbra SPC-M Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPW : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt";
+		displayName="E.W. Penumbra SPC-F Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_wld";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_wld";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPW_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt (Sleeves)";
+		displayName="E.W. Penumbra SPC-F Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_wld_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_wld_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPW_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Falt (Tee)";
+		displayName="E.W. Penumbra SPC-F Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_wld_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_wld_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPD : U_B_CombatUniform_mcam
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken";
+		displayName="E.W. Penumbra SPC-O Fatigues";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_des";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_des";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPD_Sleeves : U_B_CombatUniform_mcam_vest
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken (Sleeves)";
+		displayName="E.W. Penumbra SPC-O Fatigues (Sleeves)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_des_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_des_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGAC_CombatUniform_SPD_Tee : U_B_CombatUniform_mcam_tshirt
 	{
 		scope=2;
-		displayName="E.W. Penumbra Fatigues Oken (Tee)";
+		displayName="E.W. Penumbra SPC-O Fatigues (Tee)";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGAC_des_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_des_Tee";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK : U_B_CombatUniform_mcam
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_kor";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK_Sleeves : U_B_CombatUniform_mcam_vest
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues (Sleeves)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_kor_Sleeves";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_U_PGAC_CombatUniform_SPK_Tee : U_B_CombatUniform_mcam_tshirt
+	{
+		scope=2;
+		displayName="E.W. Penumbra SPC-TY Fatigues (Tee)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="Espionage Wars Team | CSLeader";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGAC_kor_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT : U_B_CombatUniform_mcam
@@ -2189,10 +2302,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2203,10 +2316,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2217,10 +2330,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy : U_B_CombatUniform_mcam
@@ -2231,10 +2344,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Navy";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Navy";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2245,10 +2358,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Navy_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Navy_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Navy_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2259,10 +2372,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Navy_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Navy_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert : U_B_CombatUniform_mcam
@@ -2273,10 +2386,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Des";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Des";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2287,10 +2400,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Des_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Des_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Desert_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2301,10 +2414,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Des_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Des_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland : U_B_CombatUniform_mcam
@@ -2315,10 +2428,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Wld";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Wld";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2329,10 +2442,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Wld_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Wld_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_CoG_CombatUniform_TPAT_Woodland_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2343,10 +2456,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_CoG_Wld_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_CoG_Wld_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_SW2 : U_B_CombatUniform_mcam
@@ -2357,10 +2470,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_SW2_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2371,10 +2484,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_SW2_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2385,10 +2498,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_Alpcam : U_B_CombatUniform_mcam
@@ -2399,10 +2512,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH_Alps";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH_Alps";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2413,10 +2526,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH_Alps_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH_Alps_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_RoH_CombatUniform_Alpinecam_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2427,10 +2540,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_RoH_Alps_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_RoH_Alps_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_KI_CombatUniform_RBS : U_B_CombatUniform_mcam
@@ -2441,10 +2554,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_KI_CombatUniform_RBS_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2455,10 +2568,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_KI_CombatUniform_RBS_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2469,10 +2582,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 		class ESPW_U_KI_CombatUniform_RPAT : U_B_CombatUniform_mcam
@@ -2483,10 +2596,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI_PAT";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI_PAT";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_KI_CombatUniform_RPAT_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2497,10 +2610,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI_PAT_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI_PAT_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_KI_CombatUniform_RPAT_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2511,10 +2624,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_KI_PAT_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_KI_PAT_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_GryDigi : U_B_CombatUniform_mcam
@@ -2525,10 +2638,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_GryDigi_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2539,10 +2652,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_GryDigi_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2553,10 +2666,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_RedDigi : U_B_CombatUniform_mcam
@@ -2567,10 +2680,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI_Red";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI_Red";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_RedDigi_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2581,10 +2694,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI_Red_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI_Red_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_PGI_CombatUniform_RedDigi_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2595,10 +2708,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_PGI_Red_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_PGI_Red_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_Elios_CombatUniform : U_B_CombatUniform_mcam
@@ -2609,10 +2722,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_Elios";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Elios";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_Elios_CombatUniform_Sleeves : U_B_CombatUniform_mcam_vest
@@ -2623,10 +2736,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_Elios_Sleeves";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Elios_Sleeves";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class ESPW_U_Elios_CombatUniform_Tee : U_B_CombatUniform_mcam_tshirt
@@ -2637,10 +2750,10 @@ class cfgWeapons
 		author="Espionage Wars Team | CSLeader";
 		class ItemInfo: UniformItem
 		{
-				uniformModel="-";
-				uniformClass="ESPW_Rifleman_Elios_Tee";
-				containerClass="Supply40";
-				mass=40;
+			uniformModel="-";
+			uniformClass="ESPW_Rifleman_Elios_Tee";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 	class H_MilCap_gry;
@@ -2972,7 +3085,7 @@ class cfgWeapons
     {
         class ItemInfo;
     };
-	class V_PlateCarrierIA2_dgtl: Vest_NoCamo_Base
+	class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl
     {
         class ItemInfo;
     };
@@ -3026,9 +3139,9 @@ class cfgWeapons
 	};
 	class HelmetBase;
 	class H_Cap_headphones: HelmetBase
-		{
+	{
         class ItemInfo;
-		};
+	};
 	class ESPW_H_Cap_headphones_blk: H_Cap_headphones
 	{
 		author = "Espionage Wars Team | CSLeader";
