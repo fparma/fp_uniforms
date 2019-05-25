@@ -14,7 +14,8 @@ echo Building sim_extra_gear
 echo .
 makepbo -p -W -u -@=sim_extra_gear sim_extra_gear build/sim_extra_gear
 
-makepbo -p -W -u -@=3cb_unhidden 3cb_unhidden build/3cb_unhidden
+# makepbo -p -W -u -@=3cb_unhidden 3cb_unhidden build/3cb_unhidden
+makepbo -p -W -u -@=garr_acp_variants garr_acp_variants build/garr_acp_variants
 
 echo .
 echo Build done
