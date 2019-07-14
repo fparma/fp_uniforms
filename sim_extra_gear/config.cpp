@@ -3917,7 +3917,7 @@ class CfgWeapons
 		author="simkas";
 		_generalMacro="IBA_rifle_m81";
 		scope=2;
-		displayName="IBA Rifleman (M81)";
+		displayName="IBA M81 Rifleman";
 		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
 		model="sim_extra_gear\IBA_vest.p3d";
 		hiddenSelections[]=
@@ -3933,6 +3933,32 @@ class CfgWeapons
 			uniformModel="\sim_extra_gear\IBA_vest.p3d";
 			containerClass="Supply120";
 			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 			hiddenSelections[]=
 			{
 				"camo"
@@ -3953,7 +3979,7 @@ class CfgWeapons
 		author="simkas";
 		_generalMacro="IBA_alice_m81";
 		scope=2;
-		displayName="IBA LC-2 Web gear (M81)";
+		displayName="IBA M81 LC-2 Web gear";
 		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
 		model="sim_extra_gear\IBA_vest_alice.p3d";
 		hiddenSelections[]=
@@ -3969,6 +3995,32 @@ class CfgWeapons
 			uniformModel="\sim_extra_gear\IBA_vest_alice.p3d";
 			containerClass="Supply120";
 			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 			hiddenSelections[]=
 			{
 				"camo"
@@ -3989,7 +4041,7 @@ class CfgWeapons
 		author="simkas";
 		_generalMacro="IBA_MG_m81";
 		scope=2;
-		displayName="IBA Machinegunner (M81)";
+		displayName="IBA M81 Machinegunner";
 		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
 		model="sim_extra_gear\IBA_vest_MG.p3d";
 		hiddenSelections[]=
@@ -4005,6 +4057,32 @@ class CfgWeapons
 			uniformModel="\sim_extra_gear\IBA_vest_MG.p3d";
 			containerClass="Supply140";
 			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 			hiddenSelections[]=
 			{
 				"camo"
@@ -4025,7 +4103,7 @@ class CfgWeapons
 		author="simkas";
 		_generalMacro="IBA_blank_m81";
 		scope=2;
-		displayName="IBA Blank (M81)";
+		displayName="IBA M81 Blank";
 		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
 		model="sim_extra_gear\IBA_vest_blank.p3d";
 		hiddenSelections[]=
@@ -4041,6 +4119,32 @@ class CfgWeapons
 			uniformModel="\sim_extra_gear\IBA_vest_blank.p3d";
 			containerClass="Supply60";
 			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 			hiddenSelections[]=
 			{
 				"camo"
@@ -4060,7 +4164,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_rifle_usmc";
 		scope=2;
-		displayName="IBA Rifleman (USMC)";
+		displayName="IBA USMC Rifleman";
 		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
 		hiddenSelections[]=
 		{
@@ -4075,7 +4179,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_alice_usmc";
 		scope=2;
-		displayName="IBA LC-2 Web gear (USMC)";
+		displayName="IBA USMC LC-2 Web gear";
 		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
 		hiddenSelections[]=
 		{
@@ -4090,7 +4194,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_MG_usmc";
 		scope=2;
-		displayName="IBA Machinegunner (USMC)";
+		displayName="IBA USMC Machinegunner";
 		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
 		hiddenSelections[]=
 		{
@@ -4105,7 +4209,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_blank_usmc";
 		scope=2;
-		displayName="IBA Blank (USMC)";
+		displayName="IBA USMC Blank";
 		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
 		hiddenSelections[]=
 		{
@@ -4120,7 +4224,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_rifle_black";
 		scope=2;
-		displayName="IBA Rifleman (black)";
+		displayName="IBA Black Rifleman";
 		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
 		hiddenSelections[]=
 		{
@@ -4135,7 +4239,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_alice_black";
 		scope=2;
-		displayName="IBA LC-2 Web gear (black)";
+		displayName="IBA Black LC-2 Web gear";
 		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
 		hiddenSelections[]=
 		{
@@ -4150,7 +4254,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_MG_black";
 		scope=2;
-		displayName="IBA Machinegunner (black)";
+		displayName="IBA Black Machinegunner";
 		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
 		hiddenSelections[]=
 		{
@@ -4165,7 +4269,7 @@ class CfgWeapons
 	{
 		_generalMacro="IBA_blank_black";
 		scope=2;
-		displayName="IBA Blank (black)";
+		displayName="IBA Black Blank";
 		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
 		hiddenSelections[]=
 		{
