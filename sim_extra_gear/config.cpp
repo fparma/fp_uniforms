@@ -71,7 +71,23 @@ class CfgPatches
 			"IBA_rifle_usmc",
 			"IBA_MG_usmc",
 			"IBA_blank_usmc",
-			"IBA_alice_usmc"
+			"IBA_alice_usmc",
+			"IBA_rifle_brushd",
+			"IBA_alice_brushd",
+			"IBA_MG_brushd",
+			"IBA_blank_brushd",
+			"IBA_rifle_brushwd",
+			"IBA_alice_brushwd",
+			"IBA_MG_brushwd",
+			"IBA_blank_brushwd",
+			"IBA_rifle_dcu",
+			"IBA_alice_dcu",
+			"IBA_MG_dcu",
+			"IBA_blank_dcu",
+			"IBA_rifle_ERDL",
+			"IBA_alice_ERDL",
+			"IBA_MG_ERDL",
+			"IBA_blank_ERDL"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -4278,6 +4294,246 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"sim_extra_gear\tex\IBA_black_co.paa"
+		};		
+	};
+	class IBA_rifle_brushd: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_alice_brushd: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_brushd";
+		scope=2;
+		displayName="IBA Desert Brush LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_MG_brushd: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_blank_brushd: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_rifle_brushwd: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_alice_brushwd: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_MG_brushwd: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_blank_brushwd: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_rifle_dcu: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_dcu";
+		scope=2;
+		displayName="IBA DCU Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_DCU_co.paa"
+		};		
+	};
+	class IBA_alice_dcu: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_dcu";
+		scope=2;
+		displayName="IBA DCU LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_MG_dcu: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_dcu";
+		scope=2;
+		displayName="IBA DCU Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_blank_dcu: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_dcu";
+		scope=2;
+		displayName="IBA DCU Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_rifle_ERDL: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_alice_ERDL: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_MG_ERDL: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_blank_ERDL: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
 		};		
 	};
 };
