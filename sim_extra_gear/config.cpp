@@ -87,7 +87,11 @@ class CfgPatches
 			"IBA_rifle_ERDL",
 			"IBA_alice_ERDL",
 			"IBA_MG_ERDL",
-			"IBA_blank_ERDL"
+			"IBA_blank_ERDL",
+			"NVA_unif",
+			"NVA_unif_VC",
+			"NVA_helmet",
+			"viet_strawhat"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -1516,6 +1520,70 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
+		};
+	};
+	class NVA_unif: C_man_1
+	{
+		author="simkas, Antimatter Games";
+		_generalMacro="NVA_unif";
+		scope=1;
+		displayName="North Vietnamese Uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="NVA_unif";
+		model="sim_extra_gear\NVA_uniform.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_uniform_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\nva_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class NVA_unif_VC: NVA_unif
+	{
+		_generalMacro="NVA_unif_VC";
+		displayName="North Vietnamese Uniform (Viet Cong)";
+		uniformClass="NVA_unif_VC";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_unif_VC.paa"
 		};
 	};
 };
@@ -3483,6 +3551,80 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class NVA_unif: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="North Vietnamese Uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_nva.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_uniform_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class NVA_unif_VC: NVA_unif
+	{
+		displayName="North Vietnamese Uniform (Viet Cong)";
+		picture="\sim_extra_gear\icons\uniforms\ico_vc.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_unif_VC.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif_VC";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class NVA_helmet: ItemCore
+	{
+		author="simkas, Antimatter Games";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "North Vietnamese Helmet";
+		picture = "\sim_extra_gear\icons\ico_nva_helm.paa";
+		model = "\sim_extra_gear\NVA_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\NVA_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
+	class viet_strawhat: ItemCore
+	{
+		author="simkas, Antimatter Games";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Vietnamese Straw Hat";
+		picture = "\sim_extra_gear\icons\ico_strawhat.paa";
+		model = "\sim_extra_gear\viet_hat";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\viet_hat";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
 	class M67_gear_rifleman: Vest_Camo_Base
 	{
 		author="simkas";
@@ -4555,6 +4697,48 @@ class CfgGlasses
 		{
 			"\a3\characters_f\heads\glasses\data\spectacles_brown_ca.paa"
 		};
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			5,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			10,
+			"G_HAF_default",
+			10,
+			"G_CIVIL_female",
+			10,
+			"G_CIVIL_male",
+			20
+		};
+		mass=2;
+	};
+	class NVA_scarf: None
+	{
+		author="simkas, Antimatter Games";
+		_generalMacro="NVA_scarf";
+		displayname="Vietnamese Khan Ran Scarf";
+		model="\sim_extra_gear\NVA_scarf";
+		picture="\sim_extra_gear\icons\ico_viet_scarf.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
 		identityTypes[]=
 		{
 			"NoGlasses",
