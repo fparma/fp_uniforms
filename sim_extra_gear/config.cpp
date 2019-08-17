@@ -90,7 +90,9 @@ class CfgPatches
 			"IBA_blank_ERDL",
 			"NVA_unif",
 			"NVA_unif_VC",
+			"NVA_unif_tan",
 			"NVA_helmet",
+			"NVA_helmet_tan",
 			"viet_strawhat"
 		};
 		magazines[]={};
@@ -1584,6 +1586,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"sim_extra_gear\tex\nva_unif_VC.paa"
+		};
+	};
+	class NVA_unif_tan: NVA_unif
+	{
+		_generalMacro="NVA_unif_tan";
+		displayName="North Vietnamese Uniform (Tan)";
+		uniformClass="NVA_unif_tan";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\NVA_unif_tan.paa"
 		};
 	};
 };
@@ -3589,6 +3601,22 @@ class CfgWeapons
 			mass=20;
 		};
 	};
+	class NVA_unif_tan: NVA_unif
+	{
+		displayName="North Vietnamese Uniform (Tan)";
+		picture="\sim_extra_gear\icons\uniforms\ico_nva_tan.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\NVA_unif_tan.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif_tan";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
 	class NVA_helmet: ItemCore
 	{
 		author="simkas, Antimatter Games";
@@ -3606,6 +3634,13 @@ class CfgWeapons
 			modelSides[]={0,1,2,3};
 			hiddenSelections[] = { "camo" };
 		};
+	};
+	class NVA_helmet_tan: NVA_helmet
+	{
+		displayName = "North Vietnamese Helmet (Tan)";
+		picture = "\sim_extra_gear\icons\ico_nva_helm_tan.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_tan.paa" };
 	};
 	class viet_strawhat: ItemCore
 	{
