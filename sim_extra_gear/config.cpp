@@ -1603,6 +1603,7 @@ class CfgWeapons
 {
 	class NVGoggles;
 	class ItemCore;
+	class HeadgearItem;
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 	class Vest_Camo_Base;
