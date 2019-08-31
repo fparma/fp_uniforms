@@ -56,7 +56,44 @@ class CfgPatches
 			"PMC_garb_4",
 			"PMC_garb_5",
 			"58_pat_web",
-			"58_pat_flak"
+			"58_pat_flak",
+			"chestrig_chic",
+			"chestrig_SOG",
+			"chestrig_RHS",
+			"IBA_rifle_m81",
+			"IBA_MG_m81",
+			"IBA_blank_m81",
+			"IBA_alice_m81",
+			"IBA_rifle_black",
+			"IBA_MG_black",
+			"IBA_blank_black",
+			"IBA_alice_black",
+			"IBA_rifle_usmc",
+			"IBA_MG_usmc",
+			"IBA_blank_usmc",
+			"IBA_alice_usmc",
+			"IBA_rifle_brushd",
+			"IBA_alice_brushd",
+			"IBA_MG_brushd",
+			"IBA_blank_brushd",
+			"IBA_rifle_brushwd",
+			"IBA_alice_brushwd",
+			"IBA_MG_brushwd",
+			"IBA_blank_brushwd",
+			"IBA_rifle_dcu",
+			"IBA_alice_dcu",
+			"IBA_MG_dcu",
+			"IBA_blank_dcu",
+			"IBA_rifle_ERDL",
+			"IBA_alice_ERDL",
+			"IBA_MG_ERDL",
+			"IBA_blank_ERDL",
+			"NVA_unif",
+			"NVA_unif_VC",
+			"NVA_unif_tan",
+			"NVA_helmet",
+			"NVA_helmet_tan",
+			"viet_strawhat"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -1487,15 +1524,91 @@ class CfgVehicles
 			"sim_extra_gear\tex\cargo_tshirt_olive.paa"
 		};
 	};
+	class NVA_unif: C_man_1
+	{
+		author="simkas, Antimatter Games";
+		_generalMacro="NVA_unif";
+		scope=1;
+		displayName="North Vietnamese Uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="NVA_unif";
+		model="sim_extra_gear\NVA_uniform.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_uniform_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\nva_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class NVA_unif_VC: NVA_unif
+	{
+		_generalMacro="NVA_unif_VC";
+		displayName="North Vietnamese Uniform (Viet Cong)";
+		uniformClass="NVA_unif_VC";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_unif_VC.paa"
+		};
+	};
+	class NVA_unif_tan: NVA_unif
+	{
+		_generalMacro="NVA_unif_tan";
+		displayName="North Vietnamese Uniform (Tan)";
+		uniformClass="NVA_unif_tan";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\NVA_unif_tan.paa"
+		};
+	};
 };
 class CfgWeapons
 {
 	class NVGoggles;
 	class ItemCore;
+	class HeadgearItem;
 	class U_C_Poloshirt_blue;
 	class UniformItem;
 	class Vest_Camo_Base;
 	class VestItem;
+	class V_PlateCarrier1_rgr;
 	class Glove_base: NVGoggles
 	{
 		scope=0;
@@ -2071,6 +2184,46 @@ class CfgWeapons
 				"_MPACT"
 			};
 			modelOff="\sim_extra_gear\VSM_MPACT_gloves_cut_standalone.p3d";
+			mass=1;
+		};
+	};
+	class gluv_AAF_NVG: NVGoggles
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		scope=2;
+		displayname="Gloves (AAF)";
+		model="\sim_extra_gear\gloves_AAF.p3d";
+		picture="\sim_extra_gear\icons\gloves.paa";
+		class Library
+		{
+			libTextDesc="Gloves (AAF)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\gloves_AAF.p3d";
+			modelOff="\sim_extra_gear\gloves_AAF.p3d";
+			mass=1;
+		};
+	};
+	class gluv_AAF_noNVG: Glove_base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		scope=2;
+		displayname="Gloves (AAF, no NV)";
+		model="\sim_extra_gear\gloves_AAF.p3d";
+		picture="\sim_extra_gear\icons\gloves.paa";
+		class Library
+		{
+			libTextDesc="Gloves (AAF, no NV)";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\gloves_AAF.p3d";
+			modelOff="\sim_extra_gear\gloves_AAF.p3d";
 			mass=1;
 		};
 	};
@@ -3411,6 +3564,103 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class NVA_unif: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="North Vietnamese Uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_nva.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_uniform_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class NVA_unif_VC: NVA_unif
+	{
+		displayName="North Vietnamese Uniform (Viet Cong)";
+		picture="\sim_extra_gear\icons\uniforms\ico_vc.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\nva_unif_VC.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif_VC";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class NVA_unif_tan: NVA_unif
+	{
+		displayName="North Vietnamese Uniform (Tan)";
+		picture="\sim_extra_gear\icons\uniforms\ico_nva_tan.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\NVA_unif_tan.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="NVA_unif_tan";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class NVA_helmet: ItemCore
+	{
+		author="simkas, Antimatter Games";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "North Vietnamese Helmet";
+		picture = "\sim_extra_gear\icons\ico_nva_helm.paa";
+		model = "\sim_extra_gear\NVA_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\NVA_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
+	class NVA_helmet_tan: NVA_helmet
+	{
+		displayName = "North Vietnamese Helmet (Tan)";
+		picture = "\sim_extra_gear\icons\ico_nva_helm_tan.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_tan.paa" };
+	};
+	class viet_strawhat: ItemCore
+	{
+		author="simkas, Antimatter Games";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Vietnamese Straw Hat";
+		picture = "\sim_extra_gear\icons\ico_strawhat.paa";
+		model = "\sim_extra_gear\viet_hat";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\viet_hat";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
 	class M67_gear_rifleman: Vest_Camo_Base
 	{
 		author="simkas";
@@ -3482,6 +3732,51 @@ class CfgWeapons
 		class ItemInfo: VestItem
 		{
 			uniformModel="\sim_extra_gear\M67_MG.p3d";
+			containerClass="Supply180";
+			mass=10;
+		};
+	};
+	class chestrig_SOG: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="chestrig_SOG";
+		scope=2;
+		displayName="Chestrig (MACV SOG)";
+		picture="\sim_extra_gear\icons\vests\chestrig_sog.paa";
+		model="\sim_extra_gear\chestrig_SOG.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\chestrig_SOG.p3d";
+			containerClass="Supply180";
+			mass=10;
+		};
+	};
+	class chestrig_chic: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="chestrig_chic";
+		scope=2;
+		displayName="Chestrig (Type 56)";
+		picture="\sim_extra_gear\icons\vests\chestrig.paa";
+		model="\sim_extra_gear\chestrig.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\chestrig.p3d";
+			containerClass="Supply180";
+			mass=10;
+		};
+	};
+	class chestrig_RHS: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="chestrig_RHS";
+		scope=2;
+		displayName="Chestrig (Type 56, RHS)";
+		picture="\sim_extra_gear\icons\vests\chestrig.paa";
+		model="\sim_extra_gear\chestrig_RHS.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\chestrig_RHS.p3d";
 			containerClass="Supply180";
 			mass=10;
 		};
@@ -3811,6 +4106,614 @@ class CfgWeapons
 			};
 		};
 	};
+	class IBA_rifle_m81: V_PlateCarrier1_rgr
+	{
+		author="simkas";
+		_generalMacro="IBA_rifle_m81";
+		scope=2;
+		displayName="IBA M81 Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
+		model="sim_extra_gear\IBA_vest.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_m81_co.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\IBA_vest.p3d";
+			containerClass="Supply120";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81_co.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81.rvmat"
+			};
+		};
+		
+	};
+	class IBA_alice_m81: V_PlateCarrier1_rgr
+	{
+		author="simkas";
+		_generalMacro="IBA_alice_m81";
+		scope=2;
+		displayName="IBA M81 LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
+		model="sim_extra_gear\IBA_vest_alice.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_m81_co.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\IBA_vest_alice.p3d";
+			containerClass="Supply120";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81_co.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81.rvmat"
+			};
+		};
+		
+	};
+	class IBA_MG_m81: V_PlateCarrier1_rgr
+	{
+		author="simkas";
+		_generalMacro="IBA_MG_m81";
+		scope=2;
+		displayName="IBA M81 Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
+		model="sim_extra_gear\IBA_vest_MG.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_m81_co.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\IBA_vest_MG.p3d";
+			containerClass="Supply140";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81_co.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81.rvmat"
+			};
+		};
+		
+	};
+	class IBA_blank_m81: V_PlateCarrier1_rgr
+	{
+		author="simkas";
+		_generalMacro="IBA_blank_m81";
+		scope=2;
+		displayName="IBA M81 Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_m81.paa";
+		model="sim_extra_gear\IBA_vest_blank.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_m81_co.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\IBA_vest_blank.p3d";
+			containerClass="Supply60";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81_co.paa"
+			};
+			hiddenSelectionsMaterials[]=
+			{
+				"\sim_extra_gear\tex\IBA_m81.rvmat"
+			};
+		};
+		
+	};
+	class IBA_rifle_usmc: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_usmc";
+		scope=2;
+		displayName="IBA USMC Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_usmc_co.paa"
+		};		
+	};
+	class IBA_alice_usmc: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_usmc";
+		scope=2;
+		displayName="IBA USMC LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_usmc_co.paa"
+		};		
+	};
+	class IBA_MG_usmc: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_usmc";
+		scope=2;
+		displayName="IBA USMC Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_usmc_co.paa"
+		};		
+	};
+	class IBA_blank_usmc: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_usmc";
+		scope=2;
+		displayName="IBA USMC Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_usmc.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_usmc_co.paa"
+		};		
+	};
+	class IBA_rifle_black: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_black";
+		scope=2;
+		displayName="IBA Black Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_black_co.paa"
+		};		
+	};
+	class IBA_alice_black: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_black";
+		scope=2;
+		displayName="IBA Black LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_black_co.paa"
+		};		
+	};
+	class IBA_MG_black: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_black";
+		scope=2;
+		displayName="IBA Black Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_black_co.paa"
+		};		
+	};
+	class IBA_blank_black: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_black";
+		scope=2;
+		displayName="IBA Black Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_black.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_black_co.paa"
+		};		
+	};
+	class IBA_rifle_brushd: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_alice_brushd: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_brushd";
+		scope=2;
+		displayName="IBA Desert Brush LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_MG_brushd: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_blank_brushd: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_brushd";
+		scope=2;
+		displayName="IBA Desert Brush Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_brushd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushd_co.paa"
+		};		
+	};
+	class IBA_rifle_brushwd: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_alice_brushwd: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_MG_brushwd: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_blank_brushwd: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_brushwd";
+		scope=2;
+		displayName="IBA Woodland Brush Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_brushwd.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_brushwd_co.paa"
+		};		
+	};
+	class IBA_rifle_dcu: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_dcu";
+		scope=2;
+		displayName="IBA DCU Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_DCU_co.paa"
+		};		
+	};
+	class IBA_alice_dcu: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_dcu";
+		scope=2;
+		displayName="IBA DCU LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_MG_dcu: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_dcu";
+		scope=2;
+		displayName="IBA DCU Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_blank_dcu: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_dcu";
+		scope=2;
+		displayName="IBA DCU Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_dcu.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_dcu_co.paa"
+		};		
+	};
+	class IBA_rifle_ERDL: IBA_rifle_m81
+	{
+		_generalMacro="IBA_rifle_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Rifleman";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_alice_ERDL: IBA_alice_m81
+	{
+		_generalMacro="IBA_alice_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL LC-2 Web gear";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_MG_ERDL: IBA_MG_m81
+	{
+		_generalMacro="IBA_MG_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Machinegunner";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
+	class IBA_blank_ERDL: IBA_blank_m81
+	{
+		_generalMacro="IBA_blank_ERDL";
+		scope=2;
+		displayName="IBA Low ERDL Blank";
+		picture="\sim_extra_gear\icons\vests\IBA_ERDL.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\IBA_ERDL_co.paa"
+		};		
+	};
 };
 class CfgGlasses
 {
@@ -3830,6 +4733,48 @@ class CfgGlasses
 		{
 			"\a3\characters_f\heads\glasses\data\spectacles_brown_ca.paa"
 		};
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			5,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			10,
+			"G_HAF_default",
+			10,
+			"G_CIVIL_female",
+			10,
+			"G_CIVIL_male",
+			20
+		};
+		mass=2;
+	};
+	class NVA_scarf: None
+	{
+		author="simkas, Antimatter Games";
+		_generalMacro="NVA_scarf";
+		displayname="Vietnamese Khan Ran Scarf";
+		model="\sim_extra_gear\NVA_scarf";
+		picture="\sim_extra_gear\icons\ico_viet_scarf.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
 		identityTypes[]=
 		{
 			"NoGlasses",
