@@ -8,7 +8,8 @@ class CfgPatches
 			"FP_Rifleman_INDC",
 			"FP_Rifleman_AZTURARID",
 			"FP_Rifleman_MECTiger",
-			"FP_Rifleman_MECDigiDesert"
+			"FP_Rifleman_MECDigiDesert",
+			"FP_Helipilot_PLA"
 		};
 		weapons[]=
 		{
@@ -17,7 +18,8 @@ class CfgPatches
 			"FP_Uniform_AZTURARID",
 			"FP_Uniform_MECTiger",
 			"FP_Uniform_MECDigiDesert",
-			"FP_Helmet_Type07Uni"
+			"FP_Helmet_Type07Uni",
+			"FP_HeliPilotCoveralls_PLA"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -130,6 +132,27 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\MECSpecialfag.paa"
 		};
 	};
+	class B_Helipilot_F;
+	class FP_Helipilot_PLA: B_Helipilot_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="Helicopter Pilot";
+		nakedUniform="U_BasicBody";
+		uniformClass = "FP_HeliPilotCoveralls_PLA";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Coveralls_PLA.paa"
+		};
+	};	
 };
 class cfgWeapons
 {
@@ -211,6 +234,22 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_MECDigiDesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_B_HeliPilotCoveralls;
+	class FP_HeliPilotCoveralls_PLA: U_B_HeliPilotCoveralls
+		{
+		scope=2;
+		displayName = "Heli Pilot Coveralls [PLA]";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		author="FP Mod Team";
+		side=0;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Helipilot_PLA";
 			containerClass="Supply40";
 			mass=40;
 		};
