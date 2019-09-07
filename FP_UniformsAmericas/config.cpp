@@ -5,7 +5,7 @@ class CfgPatches
 		units[]=
 		{
 			"FP_Rifleman_ccc",
-			"FP_Rifleman_dcu",
+			"FP_Rifleman_dcu"
 		};
 		weapons[]=
 		{
