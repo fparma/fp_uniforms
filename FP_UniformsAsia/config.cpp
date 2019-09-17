@@ -130,6 +130,86 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Desert.paa"
 		};
 	};
+	class FP_Rifleman_Type07Woodland: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Type07Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Woodland.paa"
+		};
+	};
+	class FP_Rifleman_02_Type07Woodland: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Type07Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Woodland.paa"
+		};
+	};
+	class FP_Rifleman_Type07Oceanic: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Type07Oceanic";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Oceanic.paa"
+		};
+	};
+	class FP_Rifleman_02_Type07Oceanic: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Type07Oceanic";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Oceanic.paa"
+		};
+	};
 	class I_E_Uniform_01_F;
 	class I_E_Uniform_01_shortsleeve_F;
 	class FP_Rifleman_BDU_Type07Universal: I_E_Uniform_01_F
@@ -178,6 +258,86 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Universal.paa",
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa",
 			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_Jietai: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="JP Jietai";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Jietai";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa"
+		};
+	};
+	class FP_Rifleman_02_Jietai: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="JP Jietai";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Jietai";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa"
+		};
+	};
+	class FP_Rifleman_Jietai_Desert: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="JP Jietai Desert";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Jietai_Desert";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai_Desert.paa"
+		};
+	};
+	class FP_Rifleman_02_Jietai_Desert: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="JP Jietai Desert";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Jietai_Desert";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai_Desert.paa"
 		};
 	};
 	class B_Helipilot_F;
@@ -372,6 +532,70 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_Type07Woodland: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Woodland)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Type07Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Type07Woodland: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Woodland, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Type07Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Type07Oceanic: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Oceanic)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Type07Oceanic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Type07Oceanic: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Oceanic, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Type07Oceanic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_I_E_Uniform_01_F;
 	class U_I_E_Uniform_01_shortsleeve_F;
 	class FP_Uniform_BDU_Type07Universal: U_I_E_Uniform_01_F
@@ -408,6 +632,70 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_BDU_02_Type07Universal";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Jietai: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Jietai";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Jietai: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Jietai";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Jietai_Desert: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai Desert)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Jietai_Desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Jietai_Desert: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai Desert, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Jietai_Desert";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -564,6 +852,50 @@ class cfgWeapons
 			"FP_UniformsAsia\SkinsHeadgear\FP_Type07DesertHelmet.paa"
 		};
 	};
+	class FP_Helmet_Type07Woodland: rhs_6b27m_digi
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_6b27m_digi";
+		scope=2;
+		displayName="FP CH Helmet (Type 07 Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07WoodlandHelmet.paa"
+		};
+	};
+	class FP_Helmet_Type07WoodlandESS: rhs_6b27m_ess
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_6b27m_ess";
+		scope=2;
+		displayName="FP CH Helmet (Type 07 Woodland, Goggles)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07WoodlandHelmet.paa"
+		};
+	};
+	class FP_Helmet_Type07Oceanic: rhs_6b27m_digi
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_6b27m_digi";
+		scope=2;
+		displayName="FP CH Helmet (Type 07 Oceanic)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07OceanicHelmet.paa"
+		};
+	};
+	class FP_Helmet_Type07OceanicESS: rhs_6b27m_ess
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_6b27m_ess";
+		scope=2;
+		displayName="FP CH Helmet (Type 07 Oceanic, Goggles)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07OceanicHelmet.paa"
+		};
+	};
 	class rhs_fieldcap;
 	class FP_fieldcap_PLA_Type07Uni: rhs_fieldcap
 	{
@@ -585,6 +917,268 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAsia\SkinsHeadgear\FP_Type07DesertHelmet.paa"
+		};
+	};
+	class FP_fieldcap_PLA_Type07Woodland: rhs_fieldcap
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_fieldcap";
+		scope=2;
+		displayName="FP CH Field Cap (Type 07 Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07WoodlandHelmet.paa"
+		};
+	};
+	class FP_fieldcap_PLA_Type07Oceanic: rhs_fieldcap
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_fieldcap";
+		scope=2;
+		displayName="FP CH Field Cap (Type 07 Oceanic)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Type07OceanicHelmet.paa"
+		};
+	};
+	class rhsgref_helmet_pasgt_woodland;
+	class rhsgref_helmet_pasgt_woodland_rhino;
+	class FP_PASGT_Jietai: rhsgref_helmet_pasgt_woodland
+	{
+		author="FP Mod Team";
+		_generalMacro="rhsgref_helmet_pasgt_woodland";
+		scope=2;
+		displayName="FP PASGT (Jietai)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Jietai_PASGT.paa"
+		};
+	};
+	class FP_PASGT_Jietai_Rhino: rhsgref_helmet_pasgt_woodland_rhino
+	{
+		author="FP Mod Team";
+		_generalMacro="rhsgref_helmet_pasgt_woodland_rhino";
+		scope=2;
+		displayName="FP PASGT (Jietai, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Jietai_PASGT.paa"
+		};
+	};
+	class FP_PASGT_Jietai_Desert: rhsgref_helmet_pasgt_woodland
+	{
+		author="FP Mod Team";
+		_generalMacro="rhsgref_helmet_pasgt_woodland";
+		scope=2;
+		displayName="FP PASGT (Jietai Desert)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Jietai_Desert_PASGT.paa"
+		};
+	};
+	class FP_PASGT_Jietai_Desert_Rhino: rhsgref_helmet_pasgt_woodland_rhino
+	{
+		author="FP Mod Team";
+		_generalMacro="rhsgref_helmet_pasgt_woodland_rhino";
+		scope=2;
+		displayName="FP PASGT (Jietai Desert, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_Jietai_Desert_PASGT.paa"
+		};
+	};
+	class Vest_NoCamo_Base;
+	class V_PlateCarrier1_rgr: Vest_NoCamo_Base
+	{
+		class ItemInfo;
+	};
+	class VestItem;
+	class V_PlateCarrierIA1_dgtl: Vest_NoCamo_Base
+    {
+        class ItemInfo;
+    };
+	class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl
+    {
+        class ItemInfo;
+    };
+	class FP_V_PlateCarrierIA1_Type07Uni: V_PlateCarrierIA1_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA1_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Lite (Universal)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Uni.paa"
+		};		
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};
+	};	
+	class FP_V_PlateCarrierIA2_Type07Uni: V_PlateCarrierIA2_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Rig (Universal)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Uni.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};		
+	};	
+	class IBA_blank_m81;
+	class IBA_rifle_m81;
+	class IBA_alice_m81;
+	class IBA_MG_m81;
+	class IBA_alice_Jietai: IBA_alice_m81
+	{
+		displayName="IBA Jietai LC-2 Web gear";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_blank_Jietai: IBA_blank_m81
+	{
+		displayName="IBA Jietai Blank";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_rifle_Jietai: IBA_rifle_m81
+	{
+		displayName="IBA Jietai Rifleman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_MG_Jietai: IBA_MG_m81
+	{
+		displayName="IBA Jietai Machinegunner";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};	
+	class IBA_alice_Jietai_Desert: IBA_alice_m81
+	{
+		displayName="IBA Jietai Desert LC-2 Web gear";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_Desert_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_blank_Jietai_Desert: IBA_blank_m81
+	{
+		displayName="IBA Jietai Desert Blank";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_Desert_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_rifle_Jietai_Desert: IBA_rifle_m81
+	{
+		displayName="IBA Jietai Desert Rifleman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_Desert_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
+		};
+	};
+	class IBA_MG_Jietai_Desert: IBA_MG_m81
+	{
+		displayName="IBA Jietai Desert Machinegunner";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA_JSDF_Desert_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
 		};
 	};	
 };
