@@ -340,6 +340,53 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Jietai_Desert.paa"
 		};
 	};
+	class O_officer_F;
+	class FP_Rifleman_KPA_Brown: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="KPA BDU (Brown)";
+		uniformClass="FP_Uniform_KPA_Brown";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Brown.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class FP_Rifleman_KPA_Duckhunter: O_officer_F
+	{
+		_generalMacro="O_officer_F";
+		scope=1;
+		displayName="KPA BDU (Duckhunter)";
+		uniformClass="FP_Uniform_KPA_Duckhunter";
+		author="CSLeader";
+		side=1;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Duckhunter.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};	
 	class B_Helipilot_F;
 	class FP_Helipilot_PLA: B_Helipilot_F
 	{
@@ -700,6 +747,37 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class U_O_OfficerUniform_ocamo;
+	class FP_Uniform_KPA_Brown: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="North Korean BDU";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_KPA_Brown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_KPA_Duckhunter: U_O_OfficerUniform_ocamo
+	{
+		scope=2;
+		displayName="North Korean BDU (Duckhunter)";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_KPA_Duckhunter";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};	
 	class U_B_HeliPilotCoveralls;
 	class FP_HeliPilotCoveralls_PLA: U_B_HeliPilotCoveralls
 		{
@@ -1001,6 +1079,10 @@ class cfgWeapons
     {
         class ItemInfo;
     };
+	class V_PlateCarrierIAGL_dgtl: V_PlateCarrierIA2_dgtl
+    {
+        class ItemInfo;
+    };	
 	class FP_V_PlateCarrierIA1_Type07Uni: V_PlateCarrierIA1_dgtl
 	{
 		author = "FP Mod Team";
@@ -1049,6 +1131,112 @@ class cfgWeapons
 			};
 		};		
 	};	
+	class FP_V_PlateCarrierIAGL_Type07Uni: V_PlateCarrierIAGL_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier GL Rig (Universal)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Uni.paa", 
+			"FP_UniformsAsia\SkinsCarrier\ga_carrier_gl_rig_Type07Uni.paa" 
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo1",
+				"camo2"
+			};
+		};		
+	};
+	
+	class FP_V_PlateCarrierIA1_blk: V_PlateCarrierIA1_dgtl
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierIA1_oli";
+		scope = 2;
+		displayName = "GA Carrier Lite (Black)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\equip_ia_vest01_blk_co.paa"
+		};		
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};
+	};	
+	class FP_V_PlateCarrierIA2_blk: V_PlateCarrierIA2_dgtl
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "GA Carrier Rig (Black)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\equip_ia_vest01_blk_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};		
+	};	
+	class FP_V_PlateCarrierIAGL_blk: V_PlateCarrierIAGL_dgtl
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro="V_PlateCarrierIAGL_oli";
+		scope = 2;
+		displayName = "GA Carrier GL Rig (Black)";
+		picture = "\A3\Characters_F_Mark\Data\UI\icon_ga_carrier_gl_rig_digi.paa";
+		model = "\A3\Characters_F_Beta\INDEP\equip_ia_ga_carrier_gl_rig.p3d";
+		descriptionShort = "Explosive Resistant";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\equip_ia_vest01_blk_co.paa",
+			"FP_UniformsAsia\SkinsCarrier\ga_carrier_gl_rig_blk_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo1",
+				"camo2"
+			};
+		};		
+	};	
+	
 	class IBA_blank_m81;
 	class IBA_rifle_m81;
 	class IBA_alice_m81;
