@@ -551,7 +551,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Desert)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07deserticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -567,7 +567,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Desert, Rolled-Up)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07deserticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -583,7 +583,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Woodland)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07woodlandicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -599,7 +599,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Woodland, Rolled-Up)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07woodlandicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -615,7 +615,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Oceanic)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07oceanicicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -631,7 +631,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Type 07 Oceanic, Rolled-Up)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\type07oceanicicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -687,7 +687,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Jietai)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\jietaiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -703,7 +703,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Jietai, Rolled-Up)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\jietaiicon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -719,7 +719,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Jietai Desert)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\jietaideserticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
@@ -735,7 +735,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Jietai Desert, Rolled-Up)";
-		picture="\FP_UniformsAsia\UI\type07universalicon.paa";
+		picture="\FP_UniformsAsia\UI\jietaideserticon.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		author="FP Mod Team";
 		side=1;
