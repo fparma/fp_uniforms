@@ -24,6 +24,7 @@ class CfgPatches
 			"jungle_unif_urban",
 			"jungle_unif_urban_roll",
 			"jungle_unif_urban_short",
+			"rhod_unif_short",
 			"M67_gear_rifleman",
 			"M67_gear_rifleman_band",
 			"M67_gear_pistol",
@@ -1056,6 +1057,60 @@ class CfgVehicles
 			mat[]=
 			{
 				"sim_extra_gear\tex\jungle_uniform.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class rhod_unif_short: C_man_1
+	{
+		author="simkas";
+		_generalMacro="rhod_unif_short";
+		scope=1;
+		displayName="Rhodesian army uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="rhod_unif_short";
+		model="sim_extra_gear\rhod_uniform.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\rhod_uniform_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\rhod_uniform.rvmat",
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -3560,6 +3615,28 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="jungle_unif_urban_short";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class rhod_unif_short: U_C_Poloshirt_blue
+	{
+		author="simkas";
+		scope=2;
+		displayName="Rhodesian army uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_rhod.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\rhod_uniform_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="rhod_unif_short";
 			containerClass="Supply40";
 			mass=40;
 		};
