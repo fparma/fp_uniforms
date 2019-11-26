@@ -300,6 +300,77 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa"
 		};
 	};
+	class I_Sniper_F;
+	class FP_Sniper_Jietai: I_Sniper_F
+	{
+		_generalMacro="I_Sniper_F";
+		scope=1;
+		displayName="JP Jietai";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_GhillieSuit_Jietai";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa",
+			"\A3\Characters_F\Common\Data\ghillie_woodland_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Jietai: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Jietai";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Jietai.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Jietai: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Universal";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Jietai";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Jietai.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
 	class FP_Rifleman_Jietai_Desert: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -711,6 +782,53 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_02_Jietai";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_Jietai: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai, BDU)";
+		picture="\FP_UniformsAsia\UI\jietaiicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Jietai";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Jietai: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\jietaiicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Jietai";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_I_GhillieSuit;
+	class FP_GhillieSuit_Jietai: U_I_GhillieSuit
+	{
+		scope=2;
+		displayName="Combat Fatigues (Jietai, Ghillie)";
+		picture="\FP_UniformsAsia\UI\jietaiicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Sniper_Jietai";
 			containerClass="Supply40";
 			mass=40;
 		};
