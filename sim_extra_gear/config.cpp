@@ -120,7 +120,10 @@ class CfgPatches
 			"patrolcap_desert",
 			"patrolcap_cuban",
 			"patrolcap_duck",
-			"patrolcap_black"
+			"patrolcap_black",
+			"M2_helmet_net",
+			"M38_tanker_helmet",
+			"ssh40_helmet"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -4712,6 +4715,77 @@ class CfgWeapons
 		{
 			"sim_extra_gear\tex\IBA_ERDL_co.paa"
 		};		
+	};
+	class M2_helmet_net: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "M2 Paratrooper Helmet";
+		picture = "\sim_extra_gear\icons\ico_m2para.paa";
+		model = "\sim_extra_gear\M2_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\M2_Helmet_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\M2_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+			class HitpointsProtectionInfo {
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 2;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class M38_tanker_helmet: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "M38 Tanker Helmet";
+		picture = "\sim_extra_gear\icons\ico_m38tanker.paa";
+		model = "\sim_extra_gear\M38_tank_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\M38_tanker_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\M38_tank_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
+	class ssh40_helmet: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "SSh-40 Helmet";
+		picture = "\sim_extra_gear\icons\ico_ssh40.paa";
+		model = "\sim_extra_gear\ssh40_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\ssh40_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\ssh40_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"camo"};			
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 2;
+					passThrough = 0.5;
+				};
+			};
+		};
 	};
 };
 class CfgGlasses
