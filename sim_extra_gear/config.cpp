@@ -123,7 +123,11 @@ class CfgPatches
 			"patrolcap_black",
 			"M2_helmet_net",
 			"M38_tanker_helmet",
-			"ssh40_helmet"
+			"ssh40_helmet",
+			"unif_sov_m69",
+			"vest_sov_webgear",
+			"vest_sov_chestrig",
+			"vest_sov_holster"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -1900,6 +1904,60 @@ class CfgVehicles
 		{
 			"sim_extra_gear\tex\NVA_unif_tan.paa"
 		};
+	};
+	class unif_sov_m69: C_man_1
+	{
+		author="simkas";
+		_generalMacro="unif_sov_m69";
+		scope=1;
+		displayName="Soviet M69 Uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="unif_sov_m69";
+		model="sim_extra_gear\sov_m69.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\sov_m69_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\sov_m69.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
 	};
 };
 class CfgWeapons
@@ -4785,6 +4843,73 @@ class CfgWeapons
 					passThrough = 0.5;
 				};
 			};
+		};
+	};
+	class unif_sov_m69: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="Soviet M69 Uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_sov_m69.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\sov_m69_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_sov_m69";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class vest_sov_webgear: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="vest_sov_webgear";
+		scope=2;
+		displayName="Soviet AK web gear";
+		picture="\sim_extra_gear\icons\vests\ico_sov_webgear.paa";
+		model="\sim_extra_gear\sov_webbing.p3d";
+		class ItemInfo: VestItem		
+		{
+			uniformModel="\sim_extra_gear\sov_webbing.p3d";
+			containerClass="Supply120";
+			mass=10;
+		};
+	};
+	class vest_sov_chestrig: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="vest_sov_chestrig";
+		scope=2;
+		displayName="Soviet AK Chestrig";
+		picture="\sim_extra_gear\icons\vests\chestrig.paa";
+		model="\sim_extra_gear\sov_chestrig.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\sov_chestrig.p3d";
+			containerClass="Supply180";
+			mass=10;
+		};
+	};
+	class vest_sov_holster: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="vest_sov_holster";
+		scope=2;
+		displayName="Soviet Officer Belt";
+		picture="\sim_extra_gear\icons\vests\ico_sov_pistol.paa";
+		model="\sim_extra_gear\sov_pistolgear.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\sov_pistolgear.p3d";
+			containerClass="Supply60";
+			mass=10;
 		};
 	};
 };
