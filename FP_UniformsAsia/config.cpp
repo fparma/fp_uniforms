@@ -25,6 +25,8 @@ class CfgPatches
 			"FP_Uniform_02_Type07Desert",
 			"FP_Uniform_BDU_Type07Universal",
 			"FP_Uniform_BDU_02_Type07Universal",
+			"FP_Uniform_BDU_Type07Desert",
+			"FP_Uniform_BDU_02_Type07Desert",
 			"FP_HeliPilotCoveralls_PLA",
 			"FP_PilotCoveralls_PLA",
 			"FP_Uniform_INDC",
@@ -257,6 +259,150 @@ class CfgVehicles
 		{
 			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Universal.paa",
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Type07Desert: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Desert";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Type07Desert";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Desert.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Desert.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Type07Desert: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Desert";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Type07Desert";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Desert.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Desert.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Type07Woodland: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Type07Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Woodland.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Woodland.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Type07Woodland: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Type07Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Woodland.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Woodland.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Type07Oceanic: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Oceanic";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Type07Oceanic";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Oceanic.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Oceanic.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Type07Oceanic: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="CH Type 07 Oceanic";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Type07Oceanic";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Oceanic.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type07Oceanic.paa",
 			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
 		};
 	};
@@ -754,6 +900,120 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_BDU_Type07Desert: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Desert, BDU)";
+		picture="\FP_UniformsAsia\UI\type07deserticon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Desert.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Type07Desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Type07Desert: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Desert, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\type07deserticon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Desert.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Type07Desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_Type07Woodland: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Woodland, BDU)";
+		picture="\FP_UniformsAsia\UI\type07woodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Woodland.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Type07Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Type07Woodland: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Woodland, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\type07woodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Woodland.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Type07Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_Type07Oceanic: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Oceanic, BDU)";
+		picture="\FP_UniformsAsia\UI\type07oceanicicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Oceanic.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Type07Oceanic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Type07Oceanic: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type 07 Oceanic, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\type07oceanicicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+        hiddenSelectionsTextures[]=
+        {
+            "FP_UniformsAsia\SkinsUniform\FP_Officer_Type07Oceanic.paa"
+        };
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Type07Oceanic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class FP_Uniform_Jietai: U_I_CombatUniform
 	{
 		scope=2;
@@ -1231,7 +1491,6 @@ class cfgWeapons
 		scope = 2;
 		displayName = "Type-15 Carrier Rig (Universal)";
 		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
-		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 		descriptionShort="$STR_A3_SP_AL_III";
 		hiddenSelections[] = 
 		{
@@ -1256,7 +1515,6 @@ class cfgWeapons
 		scope = 2;
 		displayName = "Type-15 Carrier GL Rig (Universal)";
 		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
-		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 		descriptionShort="$STR_A3_SP_AL_III";
 		hiddenSelections[] = 
 		{
@@ -1277,7 +1535,154 @@ class cfgWeapons
 			};
 		};		
 	};
-	
+	class FP_V_PlateCarrierIA1_Type07Desert: V_PlateCarrierIA1_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA1_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Lite (Desert)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Desert.paa"
+		};		
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};
+	};	
+	class FP_V_PlateCarrierIA2_Type07Desert: V_PlateCarrierIA2_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Rig (Desert)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Desert.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};		
+	};	
+	class FP_V_PlateCarrierIAGL_Type07Desert: V_PlateCarrierIAGL_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier GL Rig (Desert)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Desert.paa", 
+			"FP_UniformsAsia\SkinsCarrier\ga_carrier_gl_rig_Type07Desert.paa" 
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo1",
+				"camo2"
+			};
+		};		
+	};
+	class FP_V_PlateCarrierIA1_Type07Woodland: V_PlateCarrierIA1_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA1_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Lite (Woodland)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Woodland.paa"
+		};		
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};
+	};	
+	class FP_V_PlateCarrierIA2_Type07Woodland: V_PlateCarrierIA2_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier Rig (Woodland)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Woodland.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo"
+			};
+		};		
+	};	
+	class FP_V_PlateCarrierIAGL_Type07Woodland: V_PlateCarrierIAGL_dgtl
+	{
+		author = "FP Mod Team";
+		_generalMacro="V_PlateCarrierIA2_oli";
+		scope = 2;
+		displayName = "Type-15 Carrier GL Rig (Woodland)";
+		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+		descriptionShort="$STR_A3_SP_AL_III";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionstextures[] = 
+		{
+			"FP_UniformsAsia\SkinsCarrier\ia_vest_Type07Woodland.paa", 
+			"FP_UniformsAsia\SkinsCarrier\ga_carrier_gl_rig_Type07Woodland.paa" 
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = 
+			{
+				"camo1",
+				"camo2"
+			};
+		};		
+	};	
 	class FP_V_PlateCarrierIA1_blk: V_PlateCarrierIA1_dgtl
 	{
 		author = "$STR_A3_Bohemia_Interactive";
