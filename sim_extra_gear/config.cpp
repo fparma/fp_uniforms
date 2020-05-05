@@ -125,9 +125,15 @@ class CfgPatches
 			"M38_tanker_helmet",
 			"ssh40_helmet",
 			"unif_sov_m69",
+			"unif_chi_type65",
+			"cap_chi_type65",
 			"vest_sov_webgear",
 			"vest_sov_chestrig",
-			"vest_sov_holster"
+			"vest_sov_holster",
+			"vest_SADF_pat83",
+			"unif_PCU_jacket",
+			"unif_PCU_jacket_arctic",
+			"unif_PCU_jacket_wood"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -1958,6 +1964,146 @@ class CfgVehicles
 		};
 		linkedItems[]={};
 		respawnLinkedItems[]={};
+	};
+	class unif_chi_type65: C_man_1
+	{
+		author="simkas";
+		_generalMacro="unif_chi_type65";
+		scope=1;
+		displayName="Chinese Type 65 Uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="unif_chi_type65";
+		model="sim_extra_gear\chi_type65.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\type65.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class unif_PCU_jacket: C_man_1
+	{
+		author="simkas, Infinity Ward";
+		_generalMacro="unif_PCU_jacket";
+		scope=1;
+		displayName="PCU Softshell Jacket (Desert)";
+		nakedUniform="U_BasicBody";
+		uniformClass="unif_PCU_jacket";
+		model="sim_extra_gear\PCU_jacket.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_co.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_co.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"sim_extra_gear\tex\pcu_jacket_top.rvmat",
+				"sim_extra_gear\tex\pcu_jacket_bottom.rvmat",
+				"sim_extra_gear\tex\pcu_jacket_scarf.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class unif_PCU_jacket_arctic: unif_PCU_jacket
+	{
+		author="simkas, Infinity Ward";
+		_generalMacro="unif_PCU_jacket_arctic";
+		displayName="PCU Softshell Jacket (Arctic)";
+		uniformClass="unif_PCU_jacket_arctic";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_arctic.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_arctic.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_white.paa"
+		};
+	};
+	class unif_PCU_jacket_wood: unif_PCU_jacket
+	{
+		author="simkas, Infinity Ward";
+		_generalMacro="unif_PCU_jacket_wood";
+		displayName="PCU Softshell Jacket (Woodland)";
+		uniformClass="unif_PCU_jacket_wood";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_gray.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_multi.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_green.paa"
+		};
 	};
 };
 class CfgWeapons
@@ -4818,6 +4964,24 @@ class CfgWeapons
 			hiddenSelections[] = { "camo" };
 		};
 	};
+	class cap_chi_type65: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Chinese Type 65 Field Cap";
+		picture = "\sim_extra_gear\icons\ico_chicap.paa";
+		model = "\sim_extra_gear\chi_cap";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\type65_cap_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\chi_cap";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
 	class ssh40_helmet: ItemCore
 	{
 		author="FPA";
@@ -4867,6 +5031,28 @@ class CfgWeapons
 			mass=20;
 		};
 	};
+	class unif_chi_type65: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="Chinese Type 65 Uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_type65.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_chi_type65";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
 	class vest_sov_webgear: Vest_Camo_Base
 	{
 		author="simkas";
@@ -4910,6 +5096,85 @@ class CfgWeapons
 			uniformModel="\sim_extra_gear\sov_pistolgear.p3d";
 			containerClass="Supply60";
 			mass=10;
+		};
+	};
+	class vest_SADF_pat83: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="vest_SADF_pat83";
+		scope=2;
+		displayName="Pattern 83 LBV";
+		picture="\sim_extra_gear\icons\vests\ico_SADF_LBV.paa";
+		model="\sim_extra_gear\SADF_LBV.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\SADF_LBV.p3d";
+			containerClass="Supply160";
+			mass=10;
+		};
+	};
+	class unif_PCU_jacket: U_C_Poloshirt_blue
+	{
+		author="simkas, Infinity Ward";
+		scope=2;
+		displayName="PCU Softshell Jacket (Desert)";
+		picture="\sim_extra_gear\icons\uniforms\ico_pcu_desert.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_co.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_co.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_PCU_jacket";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class unif_PCU_jacket_arctic: unif_PCU_jacket
+	{
+		author="simkas, Infinity Ward";
+		displayName="PCU Softshell Jacket (Arctic)";
+		picture="\sim_extra_gear\icons\uniforms\ico_pcu_arctic.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_arctic.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_arctic.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_white.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_PCU_jacket_arctic";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class unif_PCU_jacket_wood: unif_PCU_jacket
+	{
+		author="simkas, Infinity Ward";
+		displayName="PCU Softshell Jacket (Woodland)";
+		picture="\sim_extra_gear\icons\uniforms\ico_pcu_wood.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\pcu_jacket_top_gray.paa",
+			"sim_extra_gear\tex\pcu_jacket_bottom_multi.paa",
+			"sim_extra_gear\tex\pcu_jacket_scarf_green.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_PCU_jacket_wood";
+			containerClass="Supply40";
+			mass=20;
 		};
 	};
 };
