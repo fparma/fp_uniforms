@@ -11,7 +11,16 @@ class CfgPatches
 			"FP_Rifleman_FP",
 			"FP_Rifleman_02_FP",
 			"FP_Rifleman_KyrelianFBSplinterRolled",
-			"FP_B_Carryall_Inv"
+			"FP_B_Carryall_Inv",
+			"FP_B_RadioBag_117_Black",
+			"FP_B_RadioBag_117_Digi",
+			"FP_B_RadioBag_117_Geo",
+			"FP_B_RadioBag_117_Ghex",
+			"FP_B_RadioBag_117_Hex",
+			"FP_B_RadioBag_117_Mtp",
+			"FP_B_RadioBag_117_Tropic",
+			"FP_B_RadioBag_117_Urban",
+			"FP_B_RadioBag_117_Wood"
 		};
 		weapons[]=
 		{
@@ -2176,6 +2185,69 @@ class CfgVehicles
         {
             hiddenSelections[] = {"Camo"};
         };
+    };
+    class B_RadioBag_01_black_F;
+    class B_RadioBag_01_digi_F;
+    class B_RadioBag_01_eaf_F;
+    class B_RadioBag_01_ghex_F;
+    class B_RadioBag_01_hex_F;
+    class B_RadioBag_01_mtp_F;
+    class B_RadioBag_01_oucamo_F;
+    class B_RadioBag_01_tropic_F;
+    class B_RadioBag_01_wdl_F;
+    class FP_B_RadioBag_117_Black: B_RadioBag_01_black_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Black | AN/PRC-117)";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Digi: B_RadioBag_01_digi_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Digital | AN/PRC-117) [AAF]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Geo: B_RadioBag_01_eaf_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Geometric | AN/PRC-117) [LDF]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Ghex: B_RadioBag_01_ghex_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Green Hex | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Hex: B_RadioBag_01_hex_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Hex | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Mtp: B_RadioBag_01_mtp_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (MTP | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Tropic: B_RadioBag_01_tropic_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Tropic | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Urban: B_RadioBag_01_oucamo_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Urban | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Wood: B_RadioBag_01_wdl_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Woodland | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
     };
 };
 class cfgWeapons
