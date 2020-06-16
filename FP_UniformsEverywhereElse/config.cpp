@@ -56,6 +56,8 @@ class CfgVehicles
 	class I_C_Soldier_Para_1_F;
 	class I_C_Soldier_Para_3_F;
 	class I_C_Soldier_Para_7_F;
+	class I_E_Uniform_01_F;
+	class I_E_Uniform_01_shortsleeve_F;
 	class FP_Rifleman_KyrelianFBSplinter: I_soldier_F
 	{
 		_generalMacro="B_Soldier_F";
@@ -645,7 +647,35 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
 		};
 	};		
-
+	class ESPW_RiflemanJacket_Kuril: I_E_Uniform_01_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_Kuril";
+		displayName="Kuril Jacket 01";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class ESPW_RiflemanJacket_02_Kuril: I_E_Uniform_01_shortsleeve_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_shortsleeve_Kuril";
+		displayName="Kuril Jacket 02";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
+		};
+	};
 	class ESPW_I_Rifleman_M81: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -1512,10 +1542,6 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa", 
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
-		hiddenSelectionsMaterials[] = 
-		{
-			"FP_UniformsEverywhereElse\Misc\clothing_espw1.rvmat"
-		};
 	};
 	class ESPW_Rifleman_GDS_W: I_soldier_F
 	{
@@ -1604,6 +1630,35 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
 		};
 	};
+	class ESPW_RiflemanJacket_GDS_W: I_E_Uniform_01_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_GDS_W";
+		displayName="GDS Jacket (Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class ESPW_RiflemanJacket_02_GDS_W: I_E_Uniform_01_shortsleeve_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_shortsleeve_GDS_W";
+		displayName="GDS Jacket (Woodland, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
+		};
+	};
 	class ESPW_Rifleman_GDS_D: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -1689,6 +1744,35 @@ class CfgVehicles
 		hiddenSelectionsMaterials[]=
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_RiflemanJacket_GDS_D: I_E_Uniform_01_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_GDS_W";
+		displayName="GDS Jacket (Desert)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class ESPW_RiflemanJacket_02_GDS_D: I_E_Uniform_01_shortsleeve_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_shortsleeve_GDS_W";
+		displayName="GDS Jacket (Desert, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
 		};
 	};
 	class ESPW_Rifleman_GSAF: I_soldier_F
@@ -1818,6 +1902,35 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
 		};
 	};
+	class ESPW_RiflemanJacket_RNH_W: I_E_Uniform_01_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_GDS_W";
+		displayName="RNH Jacket (Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class ESPW_RiflemanJacket_02_RNH_W: I_E_Uniform_01_shortsleeve_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_shortsleeve_GDS_W";
+		displayName="RNH Jacket (Woodland, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
+		};
+	};
 	class ESPW_Rifleman_RNH_D: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -1903,6 +2016,35 @@ class CfgVehicles
 		hiddenSelectionsMaterials[]=
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
+		};
+	};
+	class ESPW_RiflemanJacket_RNH_D: I_E_Uniform_01_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_GDS_W";
+		displayName="RNH Jacket (Desert)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class ESPW_RiflemanJacket_02_RNH_D: I_E_Uniform_01_shortsleeve_F
+	{
+		author="CSLeader";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="ESPW_I_E_Uniform_01_shortsleeve_GDS_W";
+		displayName="RNH Jacket (Desert, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa",
+			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
 		};
 	};
 	class ESPW_Rifleman_CoA_D: I_soldier_F
@@ -2194,6 +2336,8 @@ class cfgWeapons
 	class U_I_C_Soldier_Para_1_F;
 	class U_I_C_Soldier_Para_3_F;
 	class U_I_C_Soldier_Para_4_F;
+	class U_I_E_Uniform_01_F;
+	class U_I_E_Uniform_01_shortsleeve_F;
 	class UniformItem;
 	class FP_Uniform_KyrelianFBSplinter: U_I_CombatUniform
 	{
@@ -2429,6 +2573,34 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="ESPW_Rifleman_Light_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_Kuril: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. Kuril BDU Fatigues (Kurile-Flora)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_Kuril";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_shortsleeve_Kuril: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. Kuril BDU Fatigues (Kurile-Flora, sleeves)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_02_Kuril";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -3327,6 +3499,34 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ESPW_I_E_Uniform_01_GDS_W: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. GDS BDU Fatigues (Forest)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_shortsleeve_GDS_W: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. GDS BDU Fatigues (Forest, sleeves)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_02_GDS_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class ESPW_I_CombatUniform_GDS_D: U_I_CombatUniform
 	{
 		scope=2;
@@ -3383,6 +3583,34 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="ESPW_Rifleman_Light_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_GDS_D: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. GDS BDU Fatigues (Desert)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_GDS_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_shortsleeve_GDS_D: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. GDS BDU Fatigues (Desert, sleeves)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_02_GDS_D";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -3477,6 +3705,34 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ESPW_I_E_Uniform_01_RNH_W: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. RNH BDU Fatigues (Woodland)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_shortsleeve_RNH_W: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. RNH BDU Fatigues (Woodland, sleeves)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_02_RNH_W";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class ESPW_I_CombatUniform_RNH_D: U_I_CombatUniform
 	{
 		scope=2;
@@ -3533,6 +3789,34 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="ESPW_Rifleman_Light_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_RNH_D: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="E.W. RNH BDU Fatigues (Desert)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_RNH_D";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class ESPW_I_E_Uniform_01_shortsleeve_RNH_D: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="E.W. RNH BDU Fatigues (Desert, sleeves)";
+		author="CSLeader";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="ESPW_RiflemanJacket_02_RNH_D";
 			containerClass="Supply40";
 			mass=40;
 		};
