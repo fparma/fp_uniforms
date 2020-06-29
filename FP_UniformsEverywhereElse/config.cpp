@@ -11,7 +11,16 @@ class CfgPatches
 			"FP_Rifleman_FP",
 			"FP_Rifleman_02_FP",
 			"FP_Rifleman_KyrelianFBSplinterRolled",
-			"FP_B_Carryall_Inv"
+			"FP_B_Carryall_Inv",
+			"FP_B_RadioBag_117_Black",
+			"FP_B_RadioBag_117_Digi",
+			"FP_B_RadioBag_117_Geo",
+			"FP_B_RadioBag_117_Ghex",
+			"FP_B_RadioBag_117_Hex",
+			"FP_B_RadioBag_117_Mtp",
+			"FP_B_RadioBag_117_Tropic",
+			"FP_B_RadioBag_117_Urban",
+			"FP_B_RadioBag_117_Wood"
 		};
 		weapons[]=
 		{
@@ -40,7 +49,8 @@ class CfgPatches
 		{
 			"A3_Characters_F_Beta",
 			"A3_Characters_F",
-			"A3_Characters_F_BLUFOR"
+			"A3_Characters_F_BLUFOR",
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };
@@ -48,7 +58,7 @@ class CfgVehicles
 {
 	class B_Soldier_F;
 	class B_Soldier_02_F;
-	class B_Soldier_03_F;	
+	class B_Soldier_03_F;
 	class I_soldier_F;
 	class I_Soldier_02_F;
 	class I_officer_F;
@@ -97,7 +107,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp_co.paa"
 		};
-	}; 
+	};
 	class FP_Rifleman_02_FP: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -230,7 +240,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\Kyrelian_SPM_93.paa"
 		};
-	};	
+	};
 	class ESPW_O_Officer_Boli_Green: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -345,7 +355,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 	class ESPW_O_Officer_Kuril: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -368,7 +378,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 
 	class ESPW_Rifleman_Light_Kuril: I_officer_F
 	{
@@ -387,13 +397,13 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa" 
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_kuril_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat", "\A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat"
 		};
-	};		
+	};
 	class ESPW_I_Test_Soldier_M81_F: I_C_Soldier_Para_3_F
 	{
 		_generalMacro="I_C_Soldier_Para_3_F";
@@ -450,7 +460,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\fbc_notmerc_lumberjack_co.paa", "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
 		};
-	};	
+	};
 	class ESPW_I_G_FBCMilitia_1: I_C_Soldier_Para_1_F
 	{
 		_generalMacro="I_C_Soldier_Para_1_F";
@@ -547,7 +557,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_desert_bottom_co.paa"
 		};
-	};	
+	};
 	class ESPW_I_G_FBCMilitia_6: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -606,7 +616,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_bottom_co.paa"
 		};
-	};	
+	};
 	class ESPW_Rifleman_Kuril: I_soldier_F
 	{
 		_generalMacro="I_Soldier_F";
@@ -626,7 +636,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_Kuril: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -695,7 +705,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81_co.paa"
 		};
-	}; 
+	};
 	class ESPW_I_Rifleman_02_M81: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -735,7 +745,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce_co.paa"
 		};
-	}; 
+	};
 	class ESPW_I_Rifleman_02_CCE: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -774,7 +784,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
-		};		
+		};
 	};
 	class ESPW_I_Rifleman_02_Arcadia: I_soldier_02_F
 	{
@@ -794,7 +804,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
-		};		
+		};
 	};
 	class ESPW_I_Rifleman_Fregata: I_soldier_F
 	{
@@ -814,7 +824,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp_co.paa"
-		};		
+		};
 	};
 	class ESPW_I_Rifleman_02_Fregata: I_soldier_02_F
 	{
@@ -834,7 +844,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp_co.paa"
-		};		
+		};
 	};
 	class ESPW_Rifleman_PGAC : B_Soldier_F
 	{
@@ -872,7 +882,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_PGAC_Tee : B_Soldier_02_F
 	{
@@ -891,9 +901,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spb_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_PGAC_wld : B_Soldier_F
 	{
@@ -931,7 +941,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spw_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_PGAC_wld_Tee : B_Soldier_02_F
 	{
@@ -989,7 +999,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_PGAC_des_Tee : B_Soldier_02_F
 	{
@@ -1011,7 +1021,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgac_spd_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
 		};
-	};			
+	};
 	class ESPW_Rifleman_CoG : B_Soldier_F
 	{
 		_generalMacro = "B_Soldier_F"; // This is legitimately useless.
@@ -1029,7 +1039,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_CoG_Sleeves : B_Soldier_03_F
 	{
@@ -1048,7 +1058,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_CoG_Tee : B_Soldier_02_F
 	{
@@ -1067,9 +1077,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_CoG_Navy : B_Soldier_F
 	{
@@ -1088,7 +1098,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_CoG_Navy_Sleeves : B_Soldier_03_F
 	{
@@ -1107,7 +1117,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa"
-		};					
+		};
 	};
 	class ESPW_Rifleman_CoG_Navy_Tee : B_Soldier_02_F
 	{
@@ -1126,9 +1136,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_navy_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_CoG_Des : B_Soldier_F
 	{
@@ -1147,7 +1157,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_CoG_Des_Sleeves : B_Soldier_03_F
 	{
@@ -1166,7 +1176,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_CoG_Des_Tee : B_Soldier_02_F
 	{
@@ -1185,9 +1195,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_desert_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_CoG_Wld : B_Soldier_F
 	{
@@ -1206,7 +1216,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_CoG_Wld_Sleeves : B_Soldier_03_F
 	{
@@ -1225,7 +1235,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa"
-		};			
+		};
 	};
 	class ESPW_Rifleman_CoG_Wld_Tee : B_Soldier_02_F
 	{
@@ -1244,9 +1254,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_cog_tpat_woodland_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_RoH : B_Soldier_F
 	{
@@ -1265,7 +1275,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_RoH_Sleeves : B_Soldier_03_F
 	{
@@ -1284,7 +1294,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_RoH_Tee : B_Soldier_02_F
 	{
@@ -1303,7 +1313,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_sw2_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
 		};
 	};
@@ -1324,7 +1334,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_RoH_Alps_Sleeves : B_Soldier_03_F
 	{
@@ -1343,7 +1353,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_RoH_Alps_Tee : B_Soldier_02_F
 	{
@@ -1362,7 +1372,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_roh_alpinecam_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_grey_co.paa"
 		};
 	};
@@ -1402,7 +1412,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_KI_Tee : B_Soldier_02_F
 	{
@@ -1421,7 +1431,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_kraaivuur_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_brown_co.paa"
 		};
 	};
@@ -1461,7 +1471,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa"
-		};		
+		};
 	};
 	class ESPW_Rifleman_PGI_Tee : B_Soldier_02_F
 	{
@@ -1480,7 +1490,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digital_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
 	};
@@ -1520,7 +1530,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa"
-		};				
+		};
 	};
 	class ESPW_Rifleman_PGI_Red_Tee : B_Soldier_02_F
 	{
@@ -1539,7 +1549,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa", 
+			"FP_UniformsEverywhereElse\SkinsUniform\clothing_pgi_digitalred_co.paa",
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
 	};
@@ -1562,7 +1572,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_GDS_W: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1582,7 +1592,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
 		};
-	};		
+	};
 	class ESPW_O_Officer_GDS_W: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -1605,7 +1615,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 	class ESPW_Rifleman_Light_GDS_W: I_officer_F
 	{
 		_generalMacro="I_officer_F";
@@ -1623,7 +1633,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa" 
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_fst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -1678,7 +1688,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_GDS_D: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1698,7 +1708,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
 		};
-	};		
+	};
 	class ESPW_O_Officer_GDS_D: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -1721,7 +1731,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 	class ESPW_Rifleman_Light_GDS_D: I_officer_F
 	{
 		_generalMacro="I_officer_F";
@@ -1739,7 +1749,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa" 
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_gds_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -1794,7 +1804,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gsaf_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_GSAF: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1834,7 +1844,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_RNH_W: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1854,7 +1864,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
 		};
-	};		
+	};
 	class ESPW_O_Officer_RNH_W: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -1877,7 +1887,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 	class ESPW_Rifleman_Light_RNH_W: I_officer_F
 	{
 		_generalMacro="I_officer_F";
@@ -1895,7 +1905,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa" 
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_wld_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -1950,7 +1960,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_RNH_D: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -1970,7 +1980,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
 		};
-	};		
+	};
 	class ESPW_O_Officer_RNH_D: O_officer_F
 	{
 		_generalMacro="O_officer_F";
@@ -1993,7 +2003,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
 		};
-	};	
+	};
 	class ESPW_Rifleman_Light_RNH_D: I_officer_F
 	{
 		_generalMacro="I_officer_F";
@@ -2011,7 +2021,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa" 
+			"FP_UniformsEverywhereElse\SkinsUniform\officer_rnh_dst_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -2066,7 +2076,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_dst_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_CoA_D: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -2106,7 +2116,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_wld_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_CoA_W: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -2146,7 +2156,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rgc_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_RGC: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -2186,7 +2196,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_trinity_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_Trinity: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -2226,7 +2236,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rok_granite_co.paa"
 		};
-	}; 
+	};
 	class ESPW_Rifleman_02_RoK: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
@@ -2246,7 +2256,7 @@ class CfgVehicles
 		{
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rok_granite_co.paa"
 		};
-	};	
+	};
 
 	class B_Carryall_Base;
 	class FP_B_Carryall_Inv: B_Carryall_Base
@@ -2284,7 +2294,7 @@ class CfgVehicles
             hiddenSelections[] = {"Camo"};
         };
     };
- 
+
     class FP_B_Kitbag_blk: B_Kitbag_rgr
     {
         displayName="Kitbag (Black)";
@@ -2322,6 +2332,69 @@ class CfgVehicles
         {
             hiddenSelections[] = {"Camo"};
         };
+    };
+    class B_RadioBag_01_black_F;
+    class B_RadioBag_01_digi_F;
+    class B_RadioBag_01_eaf_F;
+    class B_RadioBag_01_ghex_F;
+    class B_RadioBag_01_hex_F;
+    class B_RadioBag_01_mtp_F;
+    class B_RadioBag_01_oucamo_F;
+    class B_RadioBag_01_tropic_F;
+    class B_RadioBag_01_wdl_F;
+    class FP_B_RadioBag_117_Black: B_RadioBag_01_black_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Black | AN/PRC-117)";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Digi: B_RadioBag_01_digi_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Digital | AN/PRC-117) [AAF]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Geo: B_RadioBag_01_eaf_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Geometric | AN/PRC-117) [LDF]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Ghex: B_RadioBag_01_ghex_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Green Hex | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Hex: B_RadioBag_01_hex_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Hex | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Mtp: B_RadioBag_01_mtp_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (MTP | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Tropic: B_RadioBag_01_tropic_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Tropic | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Urban: B_RadioBag_01_oucamo_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Urban | AN/PRC-117) [CSAT]";
+        maximumLoad = 120;
+    };
+    class FP_B_RadioBag_117_Wood: B_RadioBag_01_wdl_F
+    {
+        author = "O'Dette | FPArma";
+        displayName = "Radio Pack (Woodland | AN/PRC-117) [NATO]";
+        maximumLoad = 120;
     };
 };
 class cfgWeapons
@@ -2385,7 +2458,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class FP_I_CombatUniform_02_FP: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -2400,15 +2473,15 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
-	
+	};
+
     class FP_U_B_CombatUniform_oli: U_I_CombatUniform
     {
         displayName="Combat Fatigues [AAF] (Olive)";
         author="Diwako & Taggart";
         class ItemInfo: UniformItem
         {
-			uniformModel="-"; 
+			uniformModel="-";
             uniformClass="FP_I_soldier_O_F";
 			containerClass="Supply40";
 			mass=40;
@@ -2438,7 +2511,7 @@ class cfgWeapons
 			mass=40;
         };
     };
-	
+
 	class FP_Uniform_grn: U_O_OfficerUniform_ocamo
 	{
 		scope=2;
@@ -2531,7 +2604,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_Kuril: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -2561,7 +2634,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_Light_Kuril: U_I_OfficerUniform
 	{
 		scope=2;
@@ -2633,7 +2706,7 @@ class cfgWeapons
 			uniformClass="ESPW_I_Test_Soldier_M81_F";
 			containerClass="Supply40";
 			mass=40;
-		};				
+		};
 	};
 	class ESPW_U_I_G_Firebrand_NM1: U_I_C_Soldier_Para_3_F
 	{
@@ -2649,7 +2722,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_G_Firebrand_NM2: U_I_C_Soldier_Para_3_F
 	{
 		scope=2;
@@ -2708,7 +2781,7 @@ class cfgWeapons
 			uniformClass="ESPW_O_Officer_FBCMilitia";
 			containerClass="Supply40";
 			mass=40;
-		};	
+		};
 	};
 	class ESPW_U_I_G_Firebrand_Militia_4 : U_O_OfficerUniform_ocamo
 	{
@@ -2723,8 +2796,8 @@ class cfgWeapons
 			uniformClass="ESPW_O_Officer_FBCMilitia_02";
 			containerClass="Supply40";
 			mass=40;
-		};	
-	};	
+		};
+	};
 	class ESPW_U_I_G_Firebrand_Militia_5 : U_I_CombatUniform
 	{
 		scope=2;
@@ -2738,7 +2811,7 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_3";
 			containerClass="Supply40";
 			mass=40;
-		};	
+		};
 	};
 	class ESPW_U_I_G_Firebrand_Militia_5_S : U_I_CombatUniform_shortsleeve
 	{
@@ -2753,8 +2826,8 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_4";
 			containerClass="Supply40";
 			mass=40;
-		};	
-	};	
+		};
+	};
 	class ESPW_U_I_G_Firebrand_Militia_5_TT : U_I_C_Soldier_Para_4_F
 	{
 		scope=2;
@@ -2768,8 +2841,8 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_5";
 			containerClass="Supply40";
 			mass=40;
-		};	
-	};	
+		};
+	};
 	class ESPW_U_I_G_Firebrand_Militia_6 : U_I_CombatUniform
 	{
 		scope=2;
@@ -2783,7 +2856,7 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_6";
 			containerClass="Supply40";
 			mass=40;
-		};	
+		};
 	};
 	class ESPW_U_I_G_Firebrand_Militia_6_S : U_I_CombatUniform_shortsleeve
 	{
@@ -2798,7 +2871,7 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_7";
 			containerClass="Supply40";
 			mass=40;
-		};	
+		};
 	};
 	class ESPW_U_I_G_Firebrand_Militia_6_TT : U_I_C_Soldier_Para_4_F
 	{
@@ -2813,8 +2886,8 @@ class cfgWeapons
 			uniformClass="ESPW_I_G_FBCMilitia_8";
 			containerClass="Supply40";
 			mass=40;
-		};	
-	};	
+		};
+	};
 	class ESPW_U_I_CombatUniform_M81: U_I_CombatUniform
 	{
 		scope=2;
@@ -2829,7 +2902,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_02_M81: U_I_CombatUniform
 	{
 		scope=2;
@@ -2874,7 +2947,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_CSATG: U_I_CombatUniform
 	{
 		scope=2;
@@ -2889,7 +2962,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_02_CSATG: U_I_CombatUniform
 	{
 		scope=2;
@@ -2919,7 +2992,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_02_WSP: U_I_CombatUniform
 	{
 		scope=2;
@@ -3453,7 +3526,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_GDS_W: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3483,7 +3556,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_Light_GDS_W: U_I_OfficerUniform
 	{
 		scope=2;
@@ -3541,7 +3614,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_GDS_D: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3571,7 +3644,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_Light_GDS_D: U_I_OfficerUniform
 	{
 		scope=2;
@@ -3629,7 +3702,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_GSAF: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3659,7 +3732,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_RNH_W: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3689,7 +3762,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_Light_RNH_W: U_I_OfficerUniform
 	{
 		scope=2;
@@ -3747,7 +3820,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_RNH_D: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3777,7 +3850,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_U_I_CombatUniform_Light_RNH_D: U_I_OfficerUniform
 	{
 		scope=2;
@@ -3835,7 +3908,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_CoA_D: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3865,7 +3938,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_CoA_W: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3895,7 +3968,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_RGC: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3925,7 +3998,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_Trinity: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3955,7 +4028,7 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
+	};
 	class ESPW_I_CombatUniform_02_SKor: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
@@ -3970,8 +4043,8 @@ class cfgWeapons
 			containerClass="Supply40";
 			mass=40;
 		};
-	};	
-	
+	};
+
 	class H_MilCap_gry;
 	class FP_H_MilCap_blk: H_MilCap_gry
 	{
@@ -3997,7 +4070,7 @@ class cfgWeapons
         {
             "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_fbc_woodland_co.paa"
         };
-	};	
+	};
     class ESPW_H_MilCap_FBC_dst: H_MilCap_gry
     {
         displayName="Military Cap (FBC Desert)";
@@ -4023,7 +4096,7 @@ class cfgWeapons
         {
             "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_rnh_woodland_co.paa"
         };
-	};	
+	};
     class ESPW_H_MilCap_RNH_dst: H_MilCap_gry
     {
         displayName="Military Cap (RNH Desert)";
@@ -4049,8 +4122,8 @@ class cfgWeapons
         {
             "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_rgc_co.paa"
         };
-	};		
-	
+	};
+
 	class H_HelmetB;
 	class FP_BluHelmet_KyrelianSplinter: H_HelmetB
 	{
@@ -4105,7 +4178,7 @@ class cfgWeapons
 		_generalMacro = "H_HelmetIA";
 		scope = 2;
 		displayName = "FP Redstone Helmet";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_fp_co.paa"};
 	};
 	class H_Booniehat_khk;
     class FP_Booniehat_FP: H_Booniehat_khk
@@ -4114,7 +4187,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (FP, Redstone)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};
 	};
 	class H_Booniehat_khk_hs;
 	class FP_Booniehat_FP_hs: H_Booniehat_khk_hs
@@ -4123,7 +4196,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (FP, Redstone)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_fp_co.paa"};
 	};
 
 	class ESPW_H_Booniehat_PGAC_B: H_Booniehat_khk
@@ -4132,7 +4205,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (SPC-M)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGAC_B_hs: H_Booniehat_khk_hs
 	{
@@ -4140,7 +4213,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (SPC-M)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spb_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGAC_D: H_Booniehat_khk
 	{
@@ -4148,7 +4221,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (SPC-O)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGAC_D_hs: H_Booniehat_khk_hs
 	{
@@ -4156,7 +4229,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (SPC-O)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spd_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGAC_W: H_Booniehat_khk
 	{
@@ -4164,7 +4237,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (SPC-F)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGAC_W_hs: H_Booniehat_khk_hs
 	{
@@ -4172,15 +4245,15 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (SPC-F)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};		
-	};	
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgac_spw_co.paa"};
+	};
 	class ESPW_H_Booniehat_COG_TPAT: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | CSLeader";
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (TPAT)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_hs: H_Booniehat_khk_hs
 	{
@@ -4188,7 +4261,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (TPAT)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_D: H_Booniehat_khk
 	{
@@ -4196,7 +4269,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (TPAT Desert)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_D_hs: H_Booniehat_khk_hs
 	{
@@ -4204,7 +4277,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (TPAT Desert)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_desert_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_W: H_Booniehat_khk
 	{
@@ -4212,7 +4285,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (TPAT Woodland)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_W_hs: H_Booniehat_khk_hs
 	{
@@ -4220,15 +4293,15 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (TPAT Woodland)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};		
-	};	
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_woodland_co.paa"};
+	};
 	class ESPW_H_Booniehat_COG_TPAT_N: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | CSLeader";
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (TPAT Naval)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};
 	};
 	class ESPW_H_Booniehat_COG_TPAT_N_hs: H_Booniehat_khk_hs
 	{
@@ -4236,7 +4309,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (TPAT Naval)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_cog_tpat_naval_co.paa"};
 	};
 	class ESPW_H_Booniehat_KI_RBS: H_Booniehat_khk
 	{
@@ -4244,7 +4317,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (RBS)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};
 	};
 	class ESPW_H_Booniehat_KI_RBS_hs: H_Booniehat_khk_hs
 	{
@@ -4252,7 +4325,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (RBS)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rbs_co.paa"};
 	};
 	class ESPW_H_Booniehat_KI_RHO: H_Booniehat_khk
 	{
@@ -4260,7 +4333,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (RHOPAT)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};
 	};
 	class ESPW_H_Booniehat_KI_RHO_hs: H_Booniehat_khk_hs
 	{
@@ -4268,7 +4341,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (RHOPAT)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_ki_rhopat_co.paa"};
 	};
 	class ESPW_H_Booniehat_ROH_ALPS: H_Booniehat_khk
 	{
@@ -4276,7 +4349,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (Alpinecam)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};
 	};
 	class ESPW_H_Booniehat_ROH_ALPS_hs: H_Booniehat_khk_hs
 	{
@@ -4284,7 +4357,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (Alpinecam)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_alpcam_co.paa"};
 	};
 	class ESPW_H_Booniehat_ROH_SW2: H_Booniehat_khk
 	{
@@ -4292,7 +4365,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (SW2)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};
 	};
 	class ESPW_H_Booniehat_ROH_SW2S_hs: H_Booniehat_khk_hs
 	{
@@ -4300,7 +4373,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (SW2)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_roh_sw2_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGI_DG: H_Booniehat_khk
 	{
@@ -4308,7 +4381,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (Digital Grey)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGI_DG_hs: H_Booniehat_khk_hs
 	{
@@ -4316,7 +4389,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (Digital Grey)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digigrey_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGI_DR: H_Booniehat_khk
 	{
@@ -4324,7 +4397,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (Digital Red)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};
 	};
 	class ESPW_H_Booniehat_PGI_DR_hs: H_Booniehat_khk_hs
 	{
@@ -4332,15 +4405,15 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (Digital Red)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};		
-	};	
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\booniehat_pgi_digired_co.paa"};
+	};
     class ESPW_Booniehat_FBC_D: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | Rusty";
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (Firebrand, Desert)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};
 	};
 	class ESPW_Booniehat_FBC_D_hs: H_Booniehat_khk_hs
 	{
@@ -4348,15 +4421,15 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (Firebrand, Desert)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};		
-	};	
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_desert_co.paa"};
+	};
     class ESPW_Booniehat_FBC_W: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | Rusty";
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (Firebrand, Woodland)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};
 	};
 	class ESPW_Booniehat_FBC_W_hs: H_Booniehat_khk_hs
 	{
@@ -4364,7 +4437,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (Firebrand, Woodland)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_firebrand_woodland_co.paa"};
 	};
 
     class FP_H_Booniehat_oli_hs: H_Booniehat_khk_hs
@@ -4437,7 +4510,7 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\cappatrol_check1_co.paa"
         };
     };
-   
+
     class FP_H_MilCap_plaid: H_MilCap_gry
     {
         displayName="Military Cap (Plaid)";
@@ -4451,7 +4524,7 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\cappatrol_check2_co.paa"
         };
     };
-   
+
     class FP_H_MilCap_checker: H_MilCap_gry
     {
         displayName="Military Cap (Checker)";
@@ -4465,7 +4538,7 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\cappatrol_check3_co.paa"
         };
     };
-   
+
     class FP_H_MilCap_tan: H_MilCap_gry
     {
         displayName="Military Cap (Tan)";
@@ -4493,7 +4566,7 @@ class cfgWeapons
             "FP_UniformsEverywhereElse\SkinsHeadgear\cappatrol_oli_co.paa"
         };
     };
- 
+
     class H_HelmetO_ocamo;
     class FP_H_HelmetO_blk: H_HelmetO_ocamo
     {
@@ -4509,7 +4582,7 @@ class cfgWeapons
             "\A3\characters_f\OPFOR\data\tech_rus_CO.paa"
         };
     };
- 
+
     class H_HelmetLeaderO_ocamo;
     class FP_H_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo
     {
@@ -4621,22 +4694,22 @@ class cfgWeapons
 		scope = 2;
 		displayName = "GA Carrier Lite (Olive)";
 		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
-		hiddenSelections[] = 
+		hiddenSelections[] =
 		{
 			"camo"
 		};
-		hiddenSelectionstextures[] = 
+		hiddenSelectionstextures[] =
 		{
 			"\A3\Characters_F_Mark\INDEP\Data\equip_ia_vest01_oli_co.paa"
-		};		
+		};
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo"
 			};
 		};
-	};	
+	};
 	class FP_V_PlateCarrierIA2_oli: V_PlateCarrierIA2_dgtl
 	{
 		author = "$STR_A3_Bohemia_Interactive";
@@ -4646,21 +4719,21 @@ class cfgWeapons
 		picture="\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
 		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 		descriptionShort="$STR_A3_SP_AL_III";
-		hiddenSelections[] = 
+		hiddenSelections[] =
 		{
 			"camo"
 		};
-		hiddenSelectionstextures[] = 
+		hiddenSelectionstextures[] =
 		{
 			"\A3\Characters_F_Mark\INDEP\Data\equip_ia_vest01_oli_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelections[] = 
+			hiddenSelections[] =
 			{
 				"camo"
 			};
-		};		
+		};
 	};
 
 	class HelmetBase;
@@ -4679,7 +4752,7 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo"};
-		};		
+		};
 	};
 	class ESPW_H_Cap_headphones_tan: H_Cap_headphones
 	{
@@ -4692,15 +4765,15 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo"};
-		};		
-	};			
+		};
+	};
 	class ESPW_H_Booniehat_Boli: H_Booniehat_khk
 	{
 		author = "Espionage Wars Team | Rusty";
 		_generalMacro = "H_Booniehat_khk";
 		scope = 2;
 		displayName = "Booniehat (DPM)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_boli_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_boli_co.paa"};
 	};
 	class ESPW_H_Booniehat_Boli_hs: H_Booniehat_khk_hs
 	{
@@ -4708,7 +4781,7 @@ class cfgWeapons
 		_generalMacro = "H_Booniehat_khk_hs";
 		scope = 2;
 		displayName = "Booniehat (DPM)(Headset)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_boli_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\boonie_boli_co.paa"};
 	};
 	class ESPW_H_HelmetCGM_CCE: H_HelmetIA
 	{
@@ -4716,7 +4789,7 @@ class cfgWeapons
 		_generalMacro = " H_HelmetIA";
 		scope = 2;
 		displayName = "Modular Helmet (M67 CCE)";
-		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_cce_co.paa"};		
+		hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsHeadgear\iahelmet_cce_co.paa"};
 	};
 	class rhsusf_mich_bare_norotos;
 	class rhsusf_mich_bare_norotos_alt;
@@ -4730,23 +4803,23 @@ class cfgWeapons
 		_generalMacro = "rhsusf_mich_bare_norotos";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
-	};	
+		};
+	};
 	class ESPW_mich_bare_norotos_blk_alt : rhsusf_mich_bare_norotos_alt
 	{
 		author = "Espionage Wars Team | CSLeader";
 		_generalMacro = "rhsusf_mich_bare_norotos_alt";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos/Alt)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
 	class ESPW_mich_bare_norotos_blk_alt_headset : rhsusf_mich_bare_norotos_alt_headset
 		{
@@ -4754,12 +4827,12 @@ class cfgWeapons
 		_generalMacro = "rhsusf_mich_bare_norotos_alt_headset";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos/Alt/Headset)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
-		};		
+		};
 	};
 	class ESPW_mich_bare_norotos_arc_blk : rhsusf_mich_bare_norotos_arc
 	{
@@ -4767,23 +4840,23 @@ class cfgWeapons
 		_generalMacro = "rhsusf_mich_bare_norotos_arc";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos/ARC)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
-	};	
+		};
+	};
 	class ESPW_mich_bare_norotos_arc_blk_alt : rhsusf_mich_bare_norotos_arc_alt
 	{
 		author = "Espionage Wars Team | CSLeader";
 		_generalMacro = "rhsusf_mich_bare_norotos_arc_alt";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos/ARC/Alt)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
 	class ESPW_mich_bare_norotos_arc_blk_alt_headset : rhsusf_mich_bare_norotos_arc_alt_headset
 	{
@@ -4791,12 +4864,12 @@ class cfgWeapons
 		_generalMacro = "rhsusf_mich_bare_norotos_arc_alt_headset";
 		scope = 2;
 		displayName = "MICH 2000 (Black, Norotos/ARC/Alt/Headset)";
-		hiddenSelectionsTextures[] = 
-		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa", 
-			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa", 
+		hiddenSelectionsTextures[] =
+		{ 	"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_norotos_arc_blk_co.paa",
+			"FP_UniformsEverywhereElse\SkinsHeadgear\mich_acc_pgac_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
-		};		
+		};
 	};
 	class rhsusf_ach_bare;
 	class rhsusf_ach_bare_ess;
@@ -4808,11 +4881,11 @@ class cfgWeapons
 		_generalMacro = "rhsusf_ach_bare";
 		scope = 2;
 		displayName = "ACH (Black)";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa",
 		"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
 	class ESPW_ach_bare_blk_ess : rhsusf_ach_bare_ess
 	{
@@ -4820,11 +4893,11 @@ class cfgWeapons
 		_generalMacro = "rhsusf_ach_bare_ess";
 		scope = 2;
 		displayName = "ACH (Black/ESS)";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa",
 		"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
 	class ESPW_ach_bare_blk_headset : rhsusf_ach_bare_headset
 	{
@@ -4832,11 +4905,11 @@ class cfgWeapons
 		_generalMacro = "rhsusf_ach_bare_headset";
 		scope = 2;
 		displayName = "ACH (Black/Headset)";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa",
 		"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
 	class ESPW_ach_bare_blk_headset_ess : rhsusf_ach_bare_headset_ess
 	{
@@ -4844,13 +4917,13 @@ class cfgWeapons
 		_generalMacro = "rhsusf_ach_bare_headset_ess";
 		scope = 2;
 		displayName = "ACH (Black/Headset/ESS)";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\bare_mich_blk_rhino_co.paa",
 		"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
-		};		
+		};
 	};
-	
+
 	class rhs_6b27m;
 	class rhs_6b27m_ess;
 	class rhs_6b27m_MEC_tiger : rhs_6b27m
@@ -4858,19 +4931,19 @@ class cfgWeapons
 		author = "FP Mod Team";
 		scope = 2;
 		displayName = "6B27M MEC Tigerstripe";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
-		};		
+		};
 	};
 	class rhs_6b27m_ess_MEC_tiger : rhs_6b27m_ess
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		displayName = "6B27M MEC Tigerstripe (ESS)";
-		hiddenSelectionsTextures[] = 
-		{ 	
+		hiddenSelectionsTextures[] =
+		{
 		"FP_UniformsEverywhereElse\SkinsHeadgear\6b27_mec_co.paa"
-		};		
+		};
 	};
 };
