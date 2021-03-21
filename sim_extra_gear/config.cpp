@@ -4,7 +4,6 @@ class CfgPatches
 	{
 		requiredAddons[]=
 		{
-			"fpa_main",
 			"A3_Characters_F",
 			"rhsusf_infantry"
 		};
@@ -40,6 +39,7 @@ class CfgPatches
 			"milit_unif_desert",
 			"milit_jacket_desert",
 			"milit_unif_cuban",
+			"milit_unif_portg",
 			"milit_unif_duck",
 			"milit_jacket_dpm",
 			"milit_jacket_denison",
@@ -54,6 +54,7 @@ class CfgPatches
 			"flak_basic",
 			"flak_pistol",
 			"flak_MG",
+			"flak_lite",
 			"sciv_tshirtjeans1",
 			"sciv_tshirtjeans2",
 			"sciv_tshirtjeans3",
@@ -119,6 +120,7 @@ class CfgPatches
 			"patrolcap_lizard",
 			"patrolcap_desert",
 			"patrolcap_cuban",
+			"patrolcap_portg",
 			"patrolcap_duck",
 			"patrolcap_black",
 			"M2_helmet_net",
@@ -126,11 +128,13 @@ class CfgPatches
 			"ssh40_helmet",
 			"unif_sov_m69",
 			"unif_chi_type65",
+			"unif_chi_type65_kpa",
 			"cap_chi_type65",
 			"vest_sov_webgear",
 			"vest_sov_chestrig",
 			"vest_sov_holster",
 			"vest_SADF_pat83",
+			"vest_chicom_sks",
 			"unif_PCU_jacket",
 			"unif_PCU_jacket_arctic",
 			"unif_PCU_jacket_wood"
@@ -1328,6 +1332,16 @@ class CfgVehicles
 			"sim_extra_gear\tex\militia_cuban.paa"
 		};
 	};
+	class milit_unif_portg: milit_unif_tan
+	{
+		_generalMacro="milit_unif_portg";
+		displayName="Militia uniform (portuguese lizard)";
+		uniformClass="milit_unif_portg";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\militia_portg.paa"
+		};
+	};
 	class milit_unif_duck: milit_unif_tan
 	{
 		_generalMacro="milit_unif_duck";
@@ -2018,6 +2032,24 @@ class CfgVehicles
 		};
 		linkedItems[]={};
 		respawnLinkedItems[]={};
+	};
+	class unif_chi_type65_kpa: unif_chi_type65
+	{
+		author="simkas";
+		_generalMacro="unif_chi_type65_kpa";
+		scope=1;
+		displayName="KPA 1950 uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="unif_chi_type65_kpa";
+		model="sim_extra_gear\chi_type65.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_kpa_co.paa"
+		};
 	};
 	class unif_PCU_jacket: C_man_1
 	{
@@ -3648,6 +3680,22 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class milit_unif_portg: milit_unif_tan
+	{
+		displayName="Militia uniform (portuguese lizard)";
+		picture="\sim_extra_gear\icons\militia\milit_duck.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\militia_portg.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="milit_unif_portg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class milit_unif_black: milit_unif_tan
 	{
 		displayName="Militia uniform (black)";
@@ -3843,6 +3891,18 @@ class CfgWeapons
 			hiddenSelections[] = {"camo1"};
 		};
 	};
+	class patrolcap_portg: rhsusf_patrolcap_ocp
+	{
+		displayName = "Patrol cap (portuguese lizard)";
+		picture="\sim_extra_gear\icons\militia\cap_cuban.paa";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\sim_extra_gear\tex\RHS\patrolcap_portg.paa"};
+		hiddenSelectionsMaterials[] = {"\sim_extra_gear\tex\RHS\patrolcap.rvmat"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelections[] = {"camo1"};
+		};
+	};
 	class patrolcap_duck: rhsusf_patrolcap_ocp
 	{
 		displayName = "Patrol cap (duck hunter)";
@@ -3957,17 +4017,32 @@ class CfgWeapons
 			mass=10;
 		};
 	};
+	class vest_chicom_sks: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="vest_chicom_sks";
+		scope=2;
+		displayName="Chinese SKS Bandolier";
+		picture="\sim_extra_gear\icons\vests\chestrig.paa";
+		model="\sim_extra_gear\chi_sks_belt.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\chi_sks_belt.p3d";
+			containerClass="Supply180";
+			mass=10;
+		};
+	};
 	class chestrig_chic: Vest_Camo_Base
 	{
 		author="simkas";
 		_generalMacro="chestrig_chic";
 		scope=2;
-		displayName="Chestrig (Type 56)";
+		displayName="Chinese Type 56 Chestrig";
 		picture="\sim_extra_gear\icons\vests\chestrig.paa";
-		model="\sim_extra_gear\chestrig.p3d";
+		model="\sim_extra_gear\chi_chestrig.p3d";
 		class ItemInfo: VestItem
 		{
-			uniformModel="\sim_extra_gear\chestrig.p3d";
+			uniformModel="\sim_extra_gear\chi_chestrig.p3d";
 			containerClass="Supply180";
 			mass=10;
 		};
@@ -3976,7 +4051,7 @@ class CfgWeapons
 	{
 		author="simkas";
 		_generalMacro="chestrig_RHS";
-		scope=2;
+		scope=1;
 		displayName="Chestrig (Type 56, RHS)";
 		picture="\sim_extra_gear\icons\vests\chestrig.paa";
 		model="\sim_extra_gear\chestrig_RHS.p3d";
@@ -4132,6 +4207,65 @@ class CfgWeapons
 		{
 			uniformModel="\sim_extra_gear\flak_pistol.p3d";
 			containerClass="Supply120";
+			mass=40;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=4;
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.3;
+					explosionShielding=0.7;
+				};
+			};
+		};
+	};
+	class flak_lite: Vest_Camo_Base
+	{
+		author="simkas";
+		_generalMacro="flak_lite";
+		scope=2;
+		displayName="M69 Flak Vest (Lite)";
+		picture="\sim_extra_gear\icons\vests\flak_basic.paa";
+		model="\sim_extra_gear\flak_lite.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\sim_extra_gear\flak_lite.p3d";
+			containerClass="Supply60";
 			mass=40;
 			class HitpointsProtectionInfo
 			{
@@ -5049,6 +5183,28 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="unif_chi_type65";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class unif_chi_type65_kpa: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="KPA 1950 uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_type65.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_kpa_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_chi_type65_kpa";
 			containerClass="Supply40";
 			mass=20;
 		};
