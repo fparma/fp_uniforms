@@ -4,6 +4,7 @@ class CfgPatches
 	{
 		requiredAddons[]=
 		{
+			"fpa_main",
 			"A3_Characters_F",
 			"rhsusf_infantry"
 		};
