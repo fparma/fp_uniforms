@@ -139,7 +139,7 @@ class CfgPatches
 			"unif_PCU_jacket",
 			"unif_PCU_jacket_arctic",
 			"unif_PCU_jacket_wood",
-			"rhs_uniform_cossack_M43"
+			"FP_rhs_uniform_cossack_M43"
 		};
 		magazines[]={};
 		requiredVersion=1;
@@ -2140,10 +2140,10 @@ class CfgVehicles
 		};
 	};
 	class rhs_cossack_base;
-	class rhs_cossack_M43: rhs_cossack_base
+	class FP_rhs_cossack_M43: rhs_cossack_base
 	{
 		displayName="Soviet M43 Uniform";
-		uniformClass = "rhs_uniform_cossack_M43";
+		uniformClass = "FP_rhs_uniform_cossack_M43";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry3\data\cossack_vest_co.paa",
@@ -2168,7 +2168,7 @@ class CfgWeapons
 	class VestItem;
 	class V_PlateCarrier1_rgr;
 	class rhs_uniform_cossack;
-	class rhs_uniform_cossack_M43: rhs_uniform_cossack
+	class FP_rhs_uniform_cossack_M43: rhs_uniform_cossack
 	{
 		displayName="Soviet M43 Uniform";
 		class ItemInfo: UniformItem
@@ -2177,7 +2177,7 @@ class CfgWeapons
 			mass = 40;
 			scope = 0;
 			type = 801;
-			uniformClass = "rhs_cossack_M43";
+			uniformClass = "FP_rhs_cossack_M43";
 			uniformModel = "-";
 		};
 	};
