@@ -8,6 +8,8 @@ for /d %%G in ("FP_*") do (
 	makepbo -p -@=%%G %%G build/%%G || goto error
 )
 
+makepbo -p -W -u -@=sim_extra_gear sim_extra_gear build/sim_extra_gear || goto error
+
 echo.
 echo Build done, no errors
 pause
