@@ -605,6 +605,270 @@ class CfgVehicles
 			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
 		};
 	};
+	class FP_Rifleman_Granite_B: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="ROK Granite B";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Granite_B";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Granite_B.paa"
+		};
+	};
+	class FP_Rifleman_02_Granite_B: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="ROK Granite B";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Granite_B";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Granite_B.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Granite_B: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="ROK Granite B";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Granite_B";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Granite_B.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Granite_B.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Granite_B: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="ROK Granite B";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Granite_B";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Granite_B.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Granite_B.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_Type87: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="PLA Type87";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_Type87";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type87.paa"
+		};
+	};
+	class FP_Rifleman_02_Type87: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="PLA Type87";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_Type87";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Type87.paa"
+		};
+	};
+	class FP_Rifleman_BDU_Type87: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="PLA Type87";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_Type87";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type87.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type87.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_Type87: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="PLA Type87";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_Type87";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_Type87.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_Type87.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_KPA_Woodland: I_soldier_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="KPA Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_KPA_Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Woodland.paa"
+		};
+	};
+	class FP_Rifleman_02_KPA_Woodland: I_soldier_02_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="KPA Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_02_KPA_Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Woodland.paa"
+		};
+	};
+	class FP_Rifleman_BDU_KPA_Woodland: I_E_Uniform_01_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="KPA Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_KPA_Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_KPA_Woodland.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Woodland.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_Rifleman_BDU_02_KPA_Woodland: I_E_Uniform_01_shortsleeve_F
+	{
+		_generalMacro="B_Soldier_F";
+		scope=1;
+		displayName="KPA Woodland";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_Uniform_BDU_02_KPA_Woodland";
+		author="FP Mod Team";
+		side=0;
+		scopeCurator=0;
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsUniform\FP_Officer_KPA_Woodland.paa",
+			"FP_UniformsAsia\SkinsUniform\FP_KPA_Woodland.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
 	class O_officer_F;
 	class FP_Rifleman_KPA_Brown: O_officer_F
 	{
@@ -1203,6 +1467,192 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class FP_Uniform_Granite_B: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Granite B)";
+		picture="\FP_UniformsAsia\UI\granitebicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Granite_B";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Granite_B: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Granite B, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\granitebicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Granite_B";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_Granite_B: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Granite B, BDU)";
+		picture="\FP_UniformsAsia\UI\granitebicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Granite_B";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Granite_B: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Granite B, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\granitebicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Granite_B";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_Type87: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type87)";
+		picture="\FP_UniformsAsia\UI\type87icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_Type87";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_Type87: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type87, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\type87icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_Type87";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_Type87: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type87, BDU)";
+		picture="\FP_UniformsAsia\UI\type87icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_Type87";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_Type87: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (Type87, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\type87icon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_Type87";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_KPA_Woodland: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Combat Fatigues (KPA Woodland)";
+		picture="\FP_UniformsAsia\UI\kpawoodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_KPA_Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_02_KPA_Woodland: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Combat Fatigues (KPA Woodland, Rolled-Up)";
+		picture="\FP_UniformsAsia\UI\kpawoodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		side=1;
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_02_KPA_Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_KPA_Woodland: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (KPA Woodland, BDU)";
+		picture="\FP_UniformsAsia\UI\kpawoodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_KPA_Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_Uniform_BDU_02_KPA_Woodland: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues (KPA Woodland, BDU, Rolled-up)";
+		picture="\FP_UniformsAsia\UI\kpawoodlandicon.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		author="FP Mod Team";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_BDU_02_KPA_Woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class U_O_OfficerUniform_ocamo;
 	class FP_Uniform_KPA_Brown: U_O_OfficerUniform_ocamo
 	{
@@ -1340,6 +1790,17 @@ class cfgWeapons
 			"FP_UniformsAsia\SkinsHeadgear\FP_helm_AZTURARID.paa"
 		};
 	};
+	class FP_H_HelmetIA_ROK: H_HelmetIA
+	{
+		author="FP Mod Team";
+		_generalMacro="H_HelmetIA";
+		scope=2;
+		displayName="Modular Helmet (Granite B)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_helm_Granite_B.paa"
+		};
+	};	
 	class rhs_6b27m_digi;
 	class FP_Helmet_Type07Uni: rhs_6b27m_digi
 	{
@@ -1473,6 +1934,17 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAsia\SkinsHeadgear\FP_Type07OceanicHelmet.paa"
+		};
+	};
+	class FP_fieldcap_KPA_Woodland: rhs_fieldcap
+	{
+		author="FP Mod Team";
+		_generalMacro="rhs_fieldcap";
+		scope=2;
+		displayName="FP KPA Field Cap (Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\FP_6b27_KPA_co.paa"
 		};
 	};
 	class rhsgref_helmet_pasgt_woodland;
