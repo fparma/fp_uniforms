@@ -5301,28 +5301,6 @@ class CfgWeapons
 			mass=20;
 		};
 	};
-	class unif_chi_type65_kpa_dh_camo: U_C_Poloshirt_blue
-	{
-		author="simkas, Antimatter Games";
-		scope=2;
-		displayName="KPA camo uniform";
-		picture="\sim_extra_gear\icons\uniforms\ico_type65.paa";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"sim_extra_gear\tex\type65_kpa_dh_camo_co.paa"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="unif_chi_type65_kpa_dh_camo";
-			containerClass="Supply40";
-			mass=20;
-		};
-	};
 	class vest_sov_webgear: Vest_Camo_Base
 	{
 		author="simkas";
