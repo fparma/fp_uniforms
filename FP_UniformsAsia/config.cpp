@@ -2929,5 +2929,41 @@ class cfgWeapons
 		{
 			"FP_UniformsAsia\SkinsCarrier\IBA.rvmat"
 		};
+	};
+	class V_CarrierRigKBT_01_Olive_F;
+	class V_CarrierRigKBT_01_light_Olive_F;
+	class V_CarrierRigKBT_01_heavy_Olive_F;
+	class FP_CSL_V_CarrierRigKBT_GraniteB_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "CSLeader";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (Granite B)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROK_CO.paa"
+		};
+	};
+	class FP_CSL_V_CarrierRigKBT_light_GraniteB_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "CSLeader";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (Granite B)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROK_CO.paa"
+		};
+	};
+	class FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (Granite B)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROK_CO.paa"
+		};
 	};	
 };
