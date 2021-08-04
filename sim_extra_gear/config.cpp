@@ -2070,24 +2070,6 @@ class CfgVehicles
 			"sim_extra_gear\tex\type65_kpa_modern_co.paa"
 		};
 	};
-	class unif_chi_type65_kpa_dh_camo: unif_chi_type65
-	{
-		author="simkas";
-		_generalMacro="unif_chi_type65_kpa";
-		scope=1;
-		displayName="KPA uniform";
-		nakedUniform="U_BasicBody";
-		uniformClass="unif_chi_type65_kpa_dh_camo";
-		model="sim_extra_gear\chi_type65.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"sim_extra_gear\tex\type65_kpa_dh_camo_co.paa"
-		};
-	};
 	class unif_PCU_jacket: C_man_1
 	{
 		author="simkas, Infinity Ward";

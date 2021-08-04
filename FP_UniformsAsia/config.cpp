@@ -54,7 +54,7 @@ class CfgVehicles
 	class I_Soldier_02_F;
 	class FP_Rifleman_Type07Universal: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -72,9 +72,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Universal.paa"
 		};
 	};
-	class FP_Rifleman_02_Type07Universal: I_soldier_02_F
+	class FP_Rifleman_02_Type07Universal: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -94,7 +94,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Type07Desert: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -112,9 +112,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Desert.paa"
 		};
 	};
-	class FP_Rifleman_02_Type07Desert: I_soldier_02_F
+	class FP_Rifleman_02_Type07Desert: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -134,7 +134,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Type07Woodland: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -152,9 +152,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Woodland.paa"
 		};
 	};
-	class FP_Rifleman_02_Type07Woodland: I_soldier_02_F
+	class FP_Rifleman_02_Type07Woodland: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -174,7 +174,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Type07Oceanic: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -192,9 +192,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type07Oceanic.paa"
 		};
 	};
-	class FP_Rifleman_02_Type07Oceanic: I_soldier_02_F
+	class FP_Rifleman_02_Type07Oceanic: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -216,7 +216,7 @@ class CfgVehicles
 	class I_E_Uniform_01_shortsleeve_F;
 	class FP_Rifleman_BDU_Type07Universal: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -240,7 +240,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Type07Universal: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="CH Type 07 Universal";
 		nakedUniform="U_BasicBody";
@@ -264,7 +264,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Type07Desert: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="CH Type 07 Desert";
 		nakedUniform="U_BasicBody";
@@ -288,7 +288,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Type07Desert: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="CH Type 07 Desert";
 		nakedUniform="U_BasicBody";
@@ -312,7 +312,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Type07Woodland: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="CH Type 07 Woodland";
 		nakedUniform="U_BasicBody";
@@ -336,7 +336,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Type07Woodland: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="CH Type 07 Woodland";
 		nakedUniform="U_BasicBody";
@@ -360,7 +360,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Type07Oceanic: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="CH Type 07 Oceanic";
 		nakedUniform="U_BasicBody";
@@ -384,7 +384,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Type07Oceanic: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="CH Type 07 Oceanic";
 		nakedUniform="U_BasicBody";
@@ -408,7 +408,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Jietai: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="JP Jietai";
 		nakedUniform="U_BasicBody";
@@ -426,9 +426,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Jietai.paa"
 		};
 	};
-	class FP_Rifleman_02_Jietai: I_soldier_02_F
+	class FP_Rifleman_02_Jietai: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="JP Jietai";
 		nakedUniform="U_BasicBody";
@@ -471,7 +471,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Jietai: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="JP Jietai";
 		nakedUniform="U_BasicBody";
@@ -495,7 +495,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Jietai: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="JP Jietai";
 		nakedUniform="U_BasicBody";
@@ -519,7 +519,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Jietai_Desert: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="JP Jietai Desert";
 		nakedUniform="U_BasicBody";
@@ -537,9 +537,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Jietai_Desert.paa"
 		};
 	};
-	class FP_Rifleman_02_Jietai_Desert: I_soldier_02_F
+	class FP_Rifleman_02_Jietai_Desert: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="JP Jietai Desert";
 		nakedUniform="U_BasicBody";
@@ -559,7 +559,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Jietai_Desert: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="JP Jietai Desert";
 		nakedUniform="U_BasicBody";
@@ -583,7 +583,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Jietai_Desert: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="JP Jietai Desert";
 		nakedUniform="U_BasicBody";
@@ -607,7 +607,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Granite_B: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="ROK Granite B";
 		nakedUniform="U_BasicBody";
@@ -625,9 +625,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Granite_B.paa"
 		};
 	};
-	class FP_Rifleman_02_Granite_B: I_soldier_02_F
+	class FP_Rifleman_02_Granite_B: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="ROK Granite B";
 		nakedUniform="U_BasicBody";
@@ -647,7 +647,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Granite_B: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="ROK Granite B";
 		nakedUniform="U_BasicBody";
@@ -671,7 +671,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Granite_B: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="ROK Granite B";
 		nakedUniform="U_BasicBody";
@@ -695,7 +695,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_WAVEPAT: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="ROK WAVEPAT";
 		nakedUniform="U_BasicBody";
@@ -713,9 +713,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_WAVEPAT.paa"
 		};
 	};
-	class FP_Rifleman_02_WAVEPAT: I_soldier_02_F
+	class FP_Rifleman_02_WAVEPAT: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="ROK WAVEPAT";
 		nakedUniform="U_BasicBody";
@@ -735,7 +735,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_WAVEPAT: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="ROK WAVEPAT";
 		nakedUniform="U_BasicBody";
@@ -759,7 +759,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_WAVEPAT: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="ROK WAVEPAT";
 		nakedUniform="U_BasicBody";
@@ -783,7 +783,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_Type87: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="PLA Type87";
 		nakedUniform="U_BasicBody";
@@ -801,9 +801,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_Type87.paa"
 		};
 	};
-	class FP_Rifleman_02_Type87: I_soldier_02_F
+	class FP_Rifleman_02_Type87: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="PLA Type87";
 		nakedUniform="U_BasicBody";
@@ -823,7 +823,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_Type87: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="PLA Type87";
 		nakedUniform="U_BasicBody";
@@ -847,7 +847,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_Type87: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="PLA Type87";
 		nakedUniform="U_BasicBody";
@@ -871,7 +871,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_KPA_Woodland: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="KPA Woodland";
 		nakedUniform="U_BasicBody";
@@ -889,9 +889,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_KPA_Woodland.paa"
 		};
 	};
-	class FP_Rifleman_02_KPA_Woodland: I_soldier_02_F
+	class FP_Rifleman_02_KPA_Woodland: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="KPA Woodland";
 		nakedUniform="U_BasicBody";
@@ -911,7 +911,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_KPA_Woodland: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="KPA Woodland";
 		nakedUniform="U_BasicBody";
@@ -935,7 +935,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_KPA_Woodland: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="KPA Woodland";
 		nakedUniform="U_BasicBody";
@@ -959,7 +959,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_KPA_DigiWld: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="KPA Digital Woodland";
 		nakedUniform="U_BasicBody";
@@ -977,9 +977,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_KPA_DigiWld.paa"
 		};
 	};
-	class FP_Rifleman_02_KPA_DigiWld: I_soldier_02_F
+	class FP_Rifleman_02_KPA_DigiWld: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="KPA Digital Woodland";
 		nakedUniform="U_BasicBody";
@@ -999,7 +999,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_KPA_DigiWld: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="KPA Digital Woodland";
 		nakedUniform="U_BasicBody";
@@ -1023,7 +1023,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_KPA_DigiWld: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="KPA Digital Woodland";
 		nakedUniform="U_BasicBody";
@@ -1047,7 +1047,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_ROC_Digital: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="ROC Digital";
 		nakedUniform="U_BasicBody";
@@ -1065,9 +1065,9 @@ class CfgVehicles
 			"FP_UniformsAsia\SkinsUniform\FP_ROC_Digital.paa"
 		};
 	};
-	class FP_Rifleman_02_ROC_Digital: I_soldier_02_F
+	class FP_Rifleman_02_ROC_Digital: I_Soldier_02_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		displayName="ROC Digital";
 		nakedUniform="U_BasicBody";
@@ -1087,7 +1087,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_ROC_Digital: I_E_Uniform_01_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		displayName="ROC Digital";
 		nakedUniform="U_BasicBody";
@@ -1111,7 +1111,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_BDU_02_ROC_Digital: I_E_Uniform_01_shortsleeve_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		displayName="ROC Digital";
 		nakedUniform="U_BasicBody";
@@ -1183,7 +1183,7 @@ class CfgVehicles
 	class B_Helipilot_F;
 	class FP_Helipilot_PLA: B_Helipilot_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="B_Helipilot_F";
 		scope=1;
 		displayName="Helicopter Pilot";
 		nakedUniform="U_BasicBody";
@@ -1204,7 +1204,7 @@ class CfgVehicles
 	class O_Fighter_Pilot_F;
 	class FP_Fighter_Pilot_PLA_F: O_Fighter_Pilot_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="O_Fighter_Pilot_F";
 		scope=1;
 		displayName="Fighter Pilot";
 		nakedUniform="U_BasicBody";
@@ -1264,7 +1264,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_MECTiger: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="MEC Tigerstripe (Sweater)";
 		nakedUniform="U_BasicBody";
@@ -1284,7 +1284,7 @@ class CfgVehicles
 	};
 	class FP_Rifleman_MECDigiDesert: I_soldier_F
 	{
-		_generalMacro="B_Soldier_F";
+		_generalMacro="I_soldier_F";
 		scope=1;
 		displayName="MEC Recon Digital Desert (Sweater)";
 		nakedUniform="U_BasicBody";
