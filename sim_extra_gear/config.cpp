@@ -2053,6 +2053,24 @@ class CfgVehicles
 			"sim_extra_gear\tex\type65_kpa_co.paa"
 		};
 	};
+	class unif_chi_type65_kpa_modern: unif_chi_type65
+	{
+		author="simkas";
+		_generalMacro="unif_chi_type65_kpa";
+		scope=1;
+		displayName="KPA uniform";
+		nakedUniform="U_BasicBody";
+		uniformClass="unif_chi_type65_kpa_modern";
+		model="sim_extra_gear\chi_type65.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_kpa_modern_co.paa"
+		};
+	};
 	class unif_PCU_jacket: C_man_1
 	{
 		author="simkas, Infinity Ward";
@@ -5144,6 +5162,12 @@ class CfgWeapons
 			hiddenSelections[] = { "camo" };
 		};
 	};
+	class cap_chi_type65_kpa_modern: cap_chi_type65
+	{
+		displayName = "North Korean Type 65 Field Cap";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\type65_cap_kpa_modern_co.paa" };
+	};
 	class ssh40_helmet: ItemCore
 	{
 		author="FPA";
@@ -5233,6 +5257,28 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="unif_chi_type65_kpa";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class unif_chi_type65_kpa_modern: U_C_Poloshirt_blue
+	{
+		author="simkas, Antimatter Games";
+		scope=2;
+		displayName="KPA uniform";
+		picture="\sim_extra_gear\icons\uniforms\ico_type65.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\type65_kpa_modern_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="unif_chi_type65_kpa_modern";
 			containerClass="Supply40";
 			mass=20;
 		};
