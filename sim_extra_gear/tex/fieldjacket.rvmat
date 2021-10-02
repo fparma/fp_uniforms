@@ -50,7 +50,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture = "sim_extra_gear\tex\fieldjacket_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
