@@ -1,0 +1,51 @@
+name = "fp_uniforms"
+prefix = ""
+author = "fparma"
+template = "cba"
+mainprefix = "z"
+folder_optionals = false
+sig_version = 3
+version = "1.0.0"
+
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.tga"
+]
+files = [
+    "*.paa"
+]
+
+check = [
+    # "!link_a3"
+]
+
+postbuild = [
+    # "!unlink_a3"
+]
+
+
+reuse_private_key = true
+key_name = "fp_gear_v2"
+authority = "fp_gear_v2"
+
+[scripts.link_a3]
+steps_windows = [
+    "if exist a3 (rmdir a3)",
+    "mklink /j a3 include\\a3"
+]
+steps_linux = [
+    "echo 'Not supported'"
+]
+only_release = false
+show_output = true
+
+[scripts.unlink_a3]
+steps_windows = [
+    "rmdir a3"
+]
+steps_linux = [
+    "echo 'Not supported'"
+]
+only_release = false
+show_output = true
