@@ -126,6 +126,7 @@ class CfgPatches
 			"patrolcap_black",
 			"M2_helmet_net",
 			"M38_tanker_helmet",
+			"T56_tanker_helmet",
 			"ssh40_helmet",
 			"unif_sov_m69",
 			"unif_chi_type65",
@@ -5405,6 +5406,24 @@ class CfgWeapons
 			uniformClass="unif_PCU_jacket_wood";
 			containerClass="Supply40";
 			mass=20;
+		};
+	};
+	class T56_tanker_helmet: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "T56-6 Crewman Helmet";
+		picture = "\sim_extra_gear\icons\ico_T56helm.paa";
+		model = "\sim_extra_gear\T56_helmet";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\t56_helmet_co.paa" };
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\T56_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
 		};
 	};
 };
