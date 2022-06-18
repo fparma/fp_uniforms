@@ -11,7 +11,8 @@ class CfgPatches
 			"U_FP_OG107_cuban_tuck",
 			"U_FP_OG107_cuban_tuck_trop",
 			"U_FP_OG107_tan_tuck",
-			"U_FP_OG107_tan_tuck_trop"
+			"U_FP_OG107_tan_tuck_trop",
+			"U_FP_TCU_french_roll
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -109,6 +110,20 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class simc_tcu_mk1_leg_roll;
+	class FP_tcu_french_roll: simc_tcu_mk1_leg_roll
+	{
+		displayName="French Lizard Paratrooper Uniform";
+		uniformClass="U_FP_TCU_french_roll";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsSNS\data\tcu_french_co.paa",
+			"\FP_UniformsSNS\data\tcu_french_co.paa",
+			"",
+			""
+		};
+	};
 };
 class cfgWeapons
 {
@@ -176,6 +191,20 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="FP_og107_guer3_trop";
+		};
+	};
+	
+	class U_Simc_TCU_mk3_leg;
+	class U_Simc_TCU_mk1_leg_roll: U_Simc_TCU_mk3_leg
+	{
+		class ItemInfo;
+	};
+	class U_FP_TCU_french_roll: U_Simc_TCU_mk1_leg_roll
+	{
+		displayName="French Lizard Paratrooper Uniform";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_tcu_french_roll";
 		};
 	};
 };
