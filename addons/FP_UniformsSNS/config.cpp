@@ -17,7 +17,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			//"fpa_main",
+			"fpa_main",
 			"simc_mc_67_core"
 		};
 	};
