@@ -12,7 +12,7 @@ class CfgPatches
 			"U_FP_OG107_cuban_tuck_trop",
 			"U_FP_OG107_tan_tuck",
 			"U_FP_OG107_tan_tuck_trop",
-			"U_FP_TCU_french_roll
+			"U_FP_TCU_french_roll"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
