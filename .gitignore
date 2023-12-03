@@ -6,3 +6,12 @@ releases/*
 *.biprivatekey
 keys/*
 ####
+
+.hemtt/local
+
+.hemttout
+hemtt
+hemtt.exe
+####
+
+build.bat
