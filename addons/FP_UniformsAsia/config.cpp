@@ -2261,7 +2261,51 @@ class cfgWeapons
 		{
 			"FP_UniformsAsia\SkinsHeadgear\FP_helm_WAVEPAT.paa"
 		};
-	};	
+	};
+	class H_HelmetHBK_F;
+	class H_HelmetHBK_chops_F;
+	class H_HelmetHBK_ear_F;
+	class H_HelmetHBK_headset_F;
+	class FP_H_HelmetHBK_ROC_F: H_HelmetHBK_F
+	{
+		author="FP Mod Team";
+		scope=2;
+		displayName="Advanced Modular Helmet (ROC Digital)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\H_HelmetHBK_01_ROC_co.paa"
+		};
+	};
+	class F_H_HalmentHBK_ROC_chops_F: H_HelmetHBK_chops_F
+	{
+		author="FP Mod Team";
+		scope=2;
+		displayName="Advanced Modular Helmet (ROC Digital, Chops)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\H_HelmetHBK_01_ROC_co.paa"
+		};
+	};
+	class FP_H_HelmetHBK_ROC_ear_F: H_HelmetHBK_ear_F
+	{
+		author="FP Mod Team";
+		scope=2;
+		displayName="Advanced Modular Helmet (ROC Digital, Ear Protectors)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\H_HelmetHBK_01_ROC_co.paa"
+		};
+	};
+	class FP_H_HelmetHBK_ROC_headset_F: H_HelmetHBK_headset_F
+	{
+		author="FP Mod Team";
+		scope=2;
+		displayName="Advanced Modular Helmet (ROC Digital, Headset)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\H_HelmetHBK_01_ROC_co.paa"
+		};
+	};
 	class rhs_6b27m_digi;
 	class FP_Helmet_Type07Uni: rhs_6b27m_digi
 	{
@@ -2406,6 +2450,16 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAsia\SkinsHeadgear\FP_6b27_KPA_co.paa"
+		};
+	};
+	class H_ParadeDressCap_01_CSAT_F;
+	class FP_CSL_ParadeDressCap_01_KPA_F: H_ParadeDressCap_01_CSAT_F
+	{
+		author="FP Mod Team";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsHeadgear\ParadeDressCap_01_KPA_F_ca.paa"
 		};
 	};
 	class rhsgref_helmet_pasgt_woodland;
@@ -2957,13 +3011,46 @@ class cfgWeapons
 	};
 	class FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F: V_CarrierRigKBT_01_heavy_Olive_F
 	{
-		author = "Gordon Weedman";
+		author = "CSLeader";
 		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Granite B)";
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROK_CO.paa"
+		};
+	};
+	class FP_CSL_V_CarrierRigKBT_ROCDigital_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "CSLeader";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (ROC Digital)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROC_CO.paa"
+		};
+	};
+	class FP_CSL_V_CarrierRigKBT_light_ROCDigital_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "CSLeader";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (ROC Digital)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROC_CO.paa"
+		};
+	};
+	class FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "CSLeader";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (ROC Digital)";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAsia\SkinsCarrier\CarrierRigKBT_01_ROC_CO.paa"
 		};
 	};	
 };
