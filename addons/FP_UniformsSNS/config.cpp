@@ -12,7 +12,9 @@ class CfgPatches
 			"U_FP_OG107_cuban_tuck_trop",
 			"U_FP_OG107_tan_tuck",
 			"U_FP_OG107_tan_tuck_trop",
-			"U_FP_TCU_french_roll"
+			"U_FP_TCU_french_roll",
+			"U_FP_DNCE_Winter",
+			"U_FP_DNCE_Olive"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -109,6 +111,28 @@ class CfgVehicles
 			""
 		};
 	};
+		
+	class simc_DNCE;
+	class FP_DNCE_Winter: simc_DNCE
+	{
+		displayName="M1951 Parka (Winter)";
+		uniformClass="U_FP_DNCE_Winter";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsSNS\data\wcu.paa",
+			"\FP_UniformsSNS\data\wcu.paa"
+		};		
+	};
+	class FP_DNCE_Olive: simc_DNCE
+	{
+		displayName="M1951 Parka (Olive)";
+		uniformClass="U_FP_DNCE_Olive";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_UniformsSNS\data\wcu_olive.paa",
+			"\FP_UniformsSNS\data\wcu_olive.paa"
+		};		
+	};
 	
 	class simc_tcu_mk1_leg_roll;
 	class FP_tcu_french_roll: simc_tcu_mk1_leg_roll
@@ -190,6 +214,28 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="FP_og107_guer3_trop";
+		};
+	};
+	
+	class U_Simc_81_BasicBody;
+	class U_Simc_DNCE: U_Simc_81_BasicBody
+	{
+		class ItemInfo;
+	};
+	class U_FP_DNCE_Winter: U_Simc_DNCE
+	{
+		displayName="M1951 Parka (Winter)";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_DNCE_Winter";
+		};
+	};
+	class U_FP_DNCE_Olive: U_Simc_DNCE
+	{
+		displayName="M1951 Parka (Olive)";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_DNCE_Olive";
 		};
 	};
 	
