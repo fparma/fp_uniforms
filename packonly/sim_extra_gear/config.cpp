@@ -1452,60 +1452,6 @@ class CfgVehicles
 		linkedItems[]={};
 		respawnLinkedItems[]={};
 	};
-	class milit_unif_tan: C_man_1
-	{
-		author="simkas";
-		_generalMacro="milit_unif_tan";
-		scope=1;
-		displayName="Militia uniform (tan)";
-		nakedUniform="U_BasicBody";
-		uniformClass="milit_unif_tan";
-		model="sim_extra_gear\militia_unif.p3d";
-		modelSides[]={0,1,2,3};
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"sim_extra_gear\tex\militia_co.paa"
-		};
-		headgearList[]={};
-		identityTypes[]=
-		{
-			"LanguageENG_F",
-			"Head_Euro",
-			"NoGlasses"
-		};
-		class Wounds
-		{
-			tex[]={};
-			mat[]=
-			{
-				"sim_extra_gear\tex\militia.rvmat",
-				"A3\Characters_F\Common\Data\basicbody.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
-			};
-		};
-		linkedItems[]={};
-		respawnLinkedItems[]={};
-	};
 	class milit_unif_od: milit_unif_tan
 	{
 		_generalMacro="milit_unif_od";
