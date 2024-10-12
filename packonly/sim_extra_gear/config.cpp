@@ -77,6 +77,12 @@ class CfgPatches
 			"PMC_garb_3",
 			"PMC_garb_4",
 			"PMC_garb_5",
+			"FP_U_flightsuit",
+			"FP_U_flightsuit_glov",
+			"FP_U_flightsuit_gray",
+			"FP_U_flightsuit_glov_gray",
+			"FP_U_flightsuit_tan",
+			"FP_U_flightsuit_glov_tan",
 			"58_pat_web",
 			"58_pat_flak",
 			"chestrig_chic",
@@ -1231,6 +1237,168 @@ class CfgVehicles
 			"sim_extra_gear\tex\fieldjacket_denison.paa"
 		};
 	};
+	class FP_U_flightsuit: C_man_1
+	{
+		author="simkas";
+		_generalMacro="FP_U_flightsuit";
+		scope=1;
+		displayName="Flight suit (green)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_flightsuit";
+		model="sim_extra_gear\flightsuit.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class FP_U_flightsuit_glov: C_man_1
+	{
+		author="simkas";
+		_generalMacro="FP_U_flightsuit_glov";
+		scope=1;
+		displayName="Flight suit (green, gloves)";
+		nakedUniform="U_BasicBody";
+		uniformClass="FP_U_flightsuit_glov";
+		model="sim_extra_gear\flightsuit_gloves.p3d";
+		modelSides[]={0,1,2,3};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+		headgearList[]={};
+		identityTypes[]=
+		{
+			"LanguageENG_F",
+			"Head_Euro",
+			"NoGlasses"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			};
+		};
+		linkedItems[]={};
+		respawnLinkedItems[]={};
+	};
+	class FP_U_flightsuit_gray: FP_U_flightsuit
+	{
+		_generalMacro="FP_U_flightsuit_gray";
+		displayName="Flight suit (gray)";
+		uniformClass="FP_U_flightsuit_gray";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_gray_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_gray_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+	};
+	class FP_U_flightsuit_glov_gray: FP_U_flightsuit_glov
+	{
+		_generalMacro="FP_U_flightsuit_glov_gray";
+		displayName="Flight suit (gray, gloves)";
+		uniformClass="FP_U_flightsuit_glov_gray";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_gray_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_gray_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+	};
+	class FP_U_flightsuit_tan: FP_U_flightsuit
+	{
+		_generalMacro="FP_U_flightsuit_tan";
+		displayName="Flight suit (tan)";
+		uniformClass="FP_U_flightsuit_tan";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_tan_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_tan_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+	};
+	class FP_U_flightsuit_glov_tan: FP_U_flightsuit_glov
+	{
+		_generalMacro="FP_U_flightsuit_glov_tan";
+		displayName="Flight suit (tan, gloves)";
+		uniformClass="FP_U_flightsuit_glov_tan";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_tan_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_tan_lower_co.paa",
+			"sim_extra_gear\tex\len_gloves_nomex_1_co.paa"
+		};
+	};
 	class milit_unif_tan: C_man_1
 	{
 		author="simkas";
@@ -1261,7 +1429,6 @@ class CfgVehicles
 			tex[]={};
 			mat[]=
 			{
-				"sim_extra_gear\tex\militia.rvmat",
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -3499,6 +3666,122 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class FP_U_flightsuit: U_C_Poloshirt_blue
+	{
+		ACE_GForceCoef = 0.8;
+		scope=2;
+		displayName="Flight suit (green)";
+		picture="\sim_extra_gear\icons\ico_flight_grn.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_U_flightsuit_glov: U_C_Poloshirt_blue
+	{
+		ACE_GForceCoef = 0.8;
+		scope=2;
+		displayName="Flight suit (green, gloves)";
+		picture="\sim_extra_gear\icons\ico_flight_grn.paa";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit_glov";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_U_flightsuit_gray: FP_U_flightsuit
+	{
+		displayName="Flight suit (gray)";
+		picture="\sim_extra_gear\icons\ico_flight_gray.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_gray_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_gray_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit_gray";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_U_flightsuit_glov_gray: FP_U_flightsuit_glov
+	{
+		displayName="Flight suit (gray, gloves)";
+		picture="\sim_extra_gear\icons\ico_flight_gray.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_gray_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_gray_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit_glov_gray";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_U_flightsuit_tan: FP_U_flightsuit
+	{
+		displayName="Flight suit (tan)";
+		picture="\sim_extra_gear\icons\ico_flight_tan.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_tan_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_tan_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit_tan";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_U_flightsuit_glov_tan: FP_U_flightsuit_glov
+	{
+		displayName="Flight suit (tan, gloves)";
+		picture="\sim_extra_gear\icons\ico_flight_tan.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"sim_extra_gear\tex\flightsuit_tan_upper_co.paa",
+			"sim_extra_gear\tex\flightsuit_tan_lower_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_U_flightsuit_glov_tan";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class milit_jacket_tan: U_C_Poloshirt_blue
 	{
 		author="simkas";
@@ -5426,6 +5709,178 @@ class CfgWeapons
 			hiddenSelections[] = { "camo" };
 		};
 	};
+	class FP_H_Headset: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Tactical headset";
+		picture = "\sim_extra_gear\icons\ico_headset.paa";
+		model = "\sim_extra_gear\tact_headset";
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\tact_headset";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};	
+	class FP_H_P1A_helmet: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "P-1A Pilot Helmet";
+		picture = "\sim_extra_gear\icons\ico_p1a_helmet.paa";
+		model = "\sim_extra_gear\P1A_helmet";
+		class ItemInfo: HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\sim_extra_gear\P1A_helmet";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};
+	class FP_NV_Headset: Glove_base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		scope=2;
+		displayName = "Tactical headset";
+		model="\sim_extra_gear\tact_headset.p3d";
+		picture = "\sim_extra_gear\icons\ico_headset.paa";
+		class Library
+		{
+			libTextDesc="Tactical headset";
+		};
+		class ItemInfo
+		{
+			type=616;
+			hmdType=0;
+			uniformModel="\sim_extra_gear\tact_headset.p3d";
+			modelOff="\sim_extra_gear\tact_headset.p3d";
+			mass=1;
+		};
+	};
+	
+	class FP_HGU68P_MBU14P_Tinted: H_HelmetB
+	{
+		author="556Moe";
+		displayName="HGU-68/P / MBU-14/P (Tinted)";
+		picture="\sim_extra_gear\MoeHelmets\data\HGU68PMBU14Tinted.paa";
+		hiddenSelections[]=
+		{
+			"HGUVisor",
+			"HGUShell",
+			"MBU14"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\sim_extra_gear\MoeHelmets\data\HGU55P_CA.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa"
+		};
+		descriptionShort="HGU-68/P Flight Helmet with MBU-14/P Mask";
+		ace_hearing_protection=0.80000001;
+		ace_hearing_lowerVolume=0.60000002;
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[]=
+			{
+				"HGUVisor",
+				"HGUShell",
+				"MBU14"
+			};
+			mass=45;
+			uniformModel="\sim_extra_gear\MoeHelmets\HGU68PMBU14.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName="HitHead";
+					armor=0;
+					passThrough=1;
+				};
+			};
+		};
+	};
+	class FP_HGU68P_MBU14P_Amber: FP_HGU68P_MBU14P_Tinted
+	{
+		author="556Moe";
+		displayName="HGU-68/P / MBU-14/P (Amber)";
+		picture="\sim_extra_gear\MoeHelmets\data\HGU68PMBU14Amber.paa";
+		hiddenSelections[]=
+		{
+			"HGUVisor",
+			"HGUShell",
+			"MBU14"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\sim_extra_gear\MoeHelmets\data\HGU55PAmber_CA.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa"
+		};
+		descriptionShort="HGU-68/P Flight Helmet with MBU-14/P Mask";
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[]=
+			{
+				"HGUVisor",
+				"HGUShell",
+				"MBU14"
+			};
+			mass=45;
+			uniformModel="\sim_extra_gear\MoeHelmets\HGU68PMBU14.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName="HitHead";
+					armor=0;
+					passThrough=1;
+				};
+			};
+		};
+	};
+	class FP_HGU68P_MBU14P_Clear: FP_HGU68P_MBU14P_Tinted
+	{
+		author="556Moe";
+		displayName="HGU-68/P / MBU-14/P (Clear)";
+		picture="\sim_extra_gear\MoeHelmets\data\HGU68PMBU14Clear.paa";
+		hiddenSelections[]=
+		{
+			"HGUVisor",
+			"HGUShell",
+			"MBU14"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\sim_extra_gear\MoeHelmets\data\HGU55PClear_CA.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa",
+			"\sim_extra_gear\MoeHelmets\data\HGU68P_CO.paa"
+		};
+		descriptionShort="HGU-68/P Flight Helmet with MBU-14/P Mask";
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[]=
+			{
+				"HGUVisor",
+				"HGUShell",
+				"MBU14"
+			};
+			mass=45;
+			uniformModel="\sim_extra_gear\MoeHelmets\HGU68PMBU14.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName="HitHead";
+					armor=0;
+					passThrough=1;
+				};
+			};
+		};
+	};
 };
 class CfgGlasses
 {
@@ -5478,15 +5933,20 @@ class CfgGlasses
 		};
 		mass=2;
 	};
-	class NVA_scarf: None
+	class FP_G_Headset: None
 	{
-		author="simkas, Antimatter Games";
-		_generalMacro="NVA_scarf";
-		displayname="Vietnamese Khan Ran Scarf";
-		model="\sim_extra_gear\NVA_scarf";
-		picture="\sim_extra_gear\icons\ico_viet_scarf.paa";
-		hiddenSelections[] = { "camo" };
-		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\nva_hat_co.paa" };
+		_generalMacro="FP_G_Headset";
+		displayName = "Tactical headset";
+		model="\sim_extra_gear\tact_headset";
+		picture = "\sim_extra_gear\icons\ico_headset.paa";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\heads\glasses\data\spectacles_brown_ca.paa"
+		};
 		identityTypes[]=
 		{
 			"NoGlasses",
@@ -5519,6 +5979,88 @@ class CfgGlasses
 			20
 		};
 		mass=2;
+	};
+	class NVA_scarf: None
+	{
+		scope=1;
+		_generalMacro="NVA_scarf";
+		displayname="Neck Scarf (Khan Ran, Red)";
+		model="\sim_extra_gear\neck_scarf";
+		picture="\sim_extra_gear\icons\ico_viet_scarf.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_viet_co.paa" };
+		identityTypes[]=
+		{
+			"NoGlasses",
+			0,
+			"G_NATO_default",
+			0,
+			"G_NATO_casual",
+			0,
+			"G_NATO_pilot",
+			0,
+			"G_NATO_recon",
+			5,
+			"G_NATO_SF",
+			0,
+			"G_NATO_sniper",
+			0,
+			"G_NATO_diver",
+			0,
+			"G_IRAN_default",
+			0,
+			"G_IRAN_diver",
+			0,
+			"G_GUERIL_default",
+			10,
+			"G_HAF_default",
+			10,
+			"G_CIVIL_female",
+			10,
+			"G_CIVIL_male",
+			20
+		};
+		mass=2;
+	};
+	class FP_G_neck_scarf_viet: NVA_scarf
+	{
+		scope=2;
+		picture="\sim_extra_gear\icons\ico_scarf_viet_red.paa";
+	};
+	class FP_G_neck_scarf_viet_green: NVA_scarf
+	{
+		scope=2;
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_viet_green_co.paa" };
+		displayname="Neck Scarf (Khan Ran, Green)";
+		picture="\sim_extra_gear\icons\ico_scarf_viet_green.paa";
+	};
+	class FP_G_neck_scarf_viet_blue: NVA_scarf
+	{
+		scope=2;
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_viet_blue_co.paa" };
+		displayname="Neck Scarf (Khan Ran, Blue)";
+		picture="\sim_extra_gear\icons\ico_scarf_viet_blue.paa";
+	};
+	class FP_G_neck_scarf_scrim: NVA_scarf
+	{
+		scope=2;
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_scrim_co.paa" };
+		displayname="Neck Scarf (Scrim)";
+		picture="\sim_extra_gear\icons\ico_scarf_scrim.paa";
+	};
+	class FP_G_neck_scarf_brown: NVA_scarf
+	{
+		scope=2;
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_wool_brown_co.paa" };
+		displayname="Neck Scarf (Wool, Brown)";
+		picture="\sim_extra_gear\icons\ico_scarf_woolbrown.paa";
+	};
+	class FP_G_neck_scarf_green: NVA_scarf
+	{
+		scope=2;
+		hiddenSelectionsTextures[] = { "\sim_extra_gear\tex\neck_scarf_wool_green_co.paa" };
+		displayname="Neck Scarf (Wool, Green)";
+		picture="\sim_extra_gear\icons\ico_scarf_woolgreen.paa";
 	};
 	class VSM_magpul_flightglove_standalone
 	{
