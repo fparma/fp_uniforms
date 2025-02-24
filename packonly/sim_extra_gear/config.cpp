@@ -5881,6 +5881,111 @@ class CfgWeapons
 			};
 		};
 	};
+	
+	class FP_H_Balaclava_blk: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Balaclava (Black)";
+		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\a3\characters_f_bootcamp\guerrilla\data\headgear_balaclava_blk_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	class FP_H_Balaclava_oli: FP_H_Balaclava_blk
+	{
+		displayName = "Balaclava (Olive)";
+		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_olive_ca.paa";
+		hiddenSelections[] = { "camo" };
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Bootcamp\Guerrilla\Data\headgear_balaclava_grn_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = { "camo" };
+		};
+	};	
+	class FP_H_Balaclava_TI_blk_F: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Stealth Balaclava (Black)";
+		picture = "\A3\Characters_F_Exp\BLUFOR\Data\UI\icon_G_Balaclava_TI_blk_F_ca.paa";
+		model = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_F";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\BLUFOR\Data\G_Balaclava_TI_blk_F_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_F.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	class FP_H_rhs_balaclava: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayname = "Balaclava (One hole, Olive)";
+		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_balaclava_ca.paa";
+		model = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_bala2_olive_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"Camo1"};
+		};
+	};
+	class FP_H_rhs_balaclava_wht: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayname = "Balaclava (One hole, White)";
+		picture = "\sim_extra_gear\icons\gear_icon_balaclava_wht_ca.paa";
+		model = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\sim_extra_gear\tex\rhs_bala2_white_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"Camo1"};
+		};
+	};	
+	class FP_H_rhs_balaclava1_olive: ItemCore
+	{
+		author="FPA";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayname = "Balaclava (Two hole, Olive)";
+		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_balaclava_ca.paa";
+		model = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala1";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_bala1_olive_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 6;
+			uniformModel = "\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala1.p3d";
+			modelSides[]={0,1,2,3};
+			hiddenSelections[] = {"Camo1"};
+		};
+	};
 };
 class CfgGlasses
 {
@@ -6398,5 +6503,12 @@ class CfgGlasses
 			"G_CIVIL_male",
 			0
 		};
+	};
+	class rhs_balaclava;
+	class FP_rhs_balaclava_wht: rhs_balaclava
+	{
+		displayname = "Balaclava (One hole, White)";
+		hiddenSelectionsTextures[] = {"\sim_extra_gear\tex\rhs_bala2_white_co.paa"};
+		picture = "\sim_extra_gear\icons\gear_icon_balaclava_wht_ca.paa";		
 	};
 };
