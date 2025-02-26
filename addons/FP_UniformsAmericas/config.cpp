@@ -25,7 +25,7 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
-    class FP_B_soldier_S_F: B_soldier_F
+    class FP_B_soldier_S_F: B_Soldier_F
     {
         scope=1;
         displayName="Rifleman (Sage)";
@@ -54,7 +54,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_co.paa"};
     };
  
-    class FP_B_soldier_W_F: B_soldier_F
+    class FP_B_soldier_W_F: B_Soldier_F
     {
         scope=1;
         displayName="Rifleman (Woodland)";

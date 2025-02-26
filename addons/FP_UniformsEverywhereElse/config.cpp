@@ -59,7 +59,7 @@ class CfgVehicles
 	class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
-	class I_soldier_F;
+	class I_Soldier_F;
 	class I_Soldier_02_F;
 	class I_officer_F;
 	class O_officer_F;
@@ -68,7 +68,7 @@ class CfgVehicles
 	class I_C_Soldier_Para_7_F;
 	class I_E_Uniform_01_F;
 	class I_E_Uniform_01_shortsleeve_F;
-	class FP_Rifleman_KyrelianFBSplinter: I_soldier_F
+	class FP_Rifleman_KyrelianFBSplinter: I_Soldier_F
 	{
 		_generalMacro="B_Soldier_F";
 		scope=1;
@@ -88,7 +88,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\Kyrelian_SPM_93.paa"
 		};
 	};
-	class FP_Rifleman_FP: I_soldier_F
+	class FP_Rifleman_FP: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -128,7 +128,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_fp_co.paa"
 		};
 	};
-    class FP_I_soldier_O_F: I_soldier_F
+    class FP_I_soldier_O_F: I_Soldier_F
     {
         scope=1;
         displayName="Rifleman (Olive)";
@@ -136,7 +136,7 @@ class CfgVehicles
         author="Diwako & Taggart";
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_clothing_oli_co"};
     };
-    class FP_I_soldier_M_J_F: I_soldier_F
+    class FP_I_soldier_M_J_F: I_Soldier_F
     {
         scope=1;
         displayName="Squad Leader (Olive, Jumper)";
@@ -144,7 +144,7 @@ class CfgVehicles
         author="Diwako & Taggart";
         hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\ia_soldier_01_jumper_clothing_oli_co.paa"};
     };
-    class FP_I_soldier_LAT_J_F: I_soldier_F
+    class FP_I_soldier_LAT_J_F: I_Soldier_F
     {
         scope=1;
         displayName="Marksman (Jumper)";
@@ -617,7 +617,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_top_co.paa", "FP_UniformsEverywhereElse\SkinsUniform\fbc_militia_woodland_bottom_co.paa"
 		};
 	};
-	class ESPW_Rifleman_Kuril: I_soldier_F
+	class ESPW_Rifleman_Kuril: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -686,7 +686,7 @@ class CfgVehicles
 			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_kuril_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_M81: I_soldier_F
+	class ESPW_I_Rifleman_M81: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -726,7 +726,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_m81_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_CCE: I_soldier_F
+	class ESPW_I_Rifleman_CCE: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -766,7 +766,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_cce_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_Arcadia: I_soldier_F
+	class ESPW_I_Rifleman_Arcadia: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -786,7 +786,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_02_Arcadia: I_soldier_02_F
+	class ESPW_I_Rifleman_02_Arcadia: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
@@ -806,7 +806,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_arcadia_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_Fregata: I_soldier_F
+	class ESPW_I_Rifleman_Fregata: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -826,7 +826,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_wsp_co.paa"
 		};
 	};
-	class ESPW_I_Rifleman_02_Fregata: I_soldier_02_F
+	class ESPW_I_Rifleman_02_Fregata: I_Soldier_02_F
 	{
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
@@ -1553,7 +1553,7 @@ class CfgVehicles
 			"\A3\Characters_F\Common\Data\basicbody_black_co.paa"
 		};
 	};
-	class ESPW_Rifleman_GDS_W: I_soldier_F
+	class ESPW_Rifleman_GDS_W: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -1669,7 +1669,7 @@ class CfgVehicles
 			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_fst_co.paa"
 		};
 	};
-	class ESPW_Rifleman_GDS_D: I_soldier_F
+	class ESPW_Rifleman_GDS_D: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -1785,7 +1785,7 @@ class CfgVehicles
 			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gds_dst_co.paa"
 		};
 	};
-	class ESPW_Rifleman_GSAF: I_soldier_F
+	class ESPW_Rifleman_GSAF: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -1825,7 +1825,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_gsaf_co.paa"
 		};
 	};
-	class ESPW_Rifleman_RNH_W: I_soldier_F
+	class ESPW_Rifleman_RNH_W: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -1941,7 +1941,7 @@ class CfgVehicles
 			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_wld_co.paa"
 		};
 	};
-	class ESPW_Rifleman_RNH_D: I_soldier_F
+	class ESPW_Rifleman_RNH_D: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -2057,7 +2057,7 @@ class CfgVehicles
 			"\FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rnh_dst_co.paa"
 		};
 	};
-	class ESPW_Rifleman_CoA_D: I_soldier_F
+	class ESPW_Rifleman_CoA_D: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -2097,7 +2097,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_dst_co.paa"
 		};
 	};
-	class ESPW_Rifleman_CoA_W: I_soldier_F
+	class ESPW_Rifleman_CoA_W: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -2137,7 +2137,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_asana_wld_co.paa"
 		};
 	};
-	class ESPW_Rifleman_RGC: I_soldier_F
+	class ESPW_Rifleman_RGC: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -2177,7 +2177,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_rgc_co.paa"
 		};
 	};
-	class ESPW_Rifleman_Trinity: I_soldier_F
+	class ESPW_Rifleman_Trinity: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
@@ -2217,7 +2217,7 @@ class CfgVehicles
 			"FP_UniformsEverywhereElse\SkinsUniform\iasoldier_trinity_co.paa"
 		};
 	};
-	class ESPW_Rifleman_RoK: I_soldier_F
+	class ESPW_Rifleman_RoK: I_Soldier_F
 	{
 		_generalMacro="I_Soldier_F";
 		scope=1;
