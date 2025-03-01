@@ -2286,6 +2286,174 @@ class CfgVehicles
 			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
 		};
 	};
+	class FP_U_Obr88_ghex_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_ghex";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_tropic_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_ghex_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_ghex";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_tropic_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_hex_semi_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_hex_semi";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_semi_arid_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_hex_semi_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_hex_semi";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_semi_arid_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_hex_arid_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_hex_arid";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_arid_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_hex_arid_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_hex_arid";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_arid_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_hex_desert_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_hex_desert";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_desert_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_hex_desert_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_hex_desert";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_desert_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_hex_naval_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_hex_naval";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_oceanic_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_hex_naval_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_hex_naval";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_oceanic_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_hex_urban_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_hex_urban";
+		model = "\jam_characters_east\Uniforms\jam_obr88.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_urban_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
+	class FP_U_Obr88_rolled_hex_urban_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_Obr88_rolled_hex_urban";
+		model = "\jam_characters_east\Uniforms\jam_obr88_rolled.p3d";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_urban_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"jam_characters_east\Uniforms\Data\jam_obr88.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","jam_characters_east\Uniforms\Data\jam_obr88_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","a3\characters_f\heads\data\hl_white.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","a3\characters_f\heads\data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"};
+		};
+	};
 
 	class B_Carryall_Base;
 	class FP_B_Carryall_Inv: B_Carryall_Base
@@ -4073,6 +4241,245 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	//radeon's additions
+	class FP_U_Obr88_hex: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_vanilla_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_Unit";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
+	class FP_U_Obr88_rolled_hex: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_vanilla_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_ghex: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Tropic)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_tropic_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_ghex_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_ghex: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Tropic, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_tropic_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_ghex_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_hex_semi: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Semi-Arid)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_semi_arid_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_semi_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_hex_semi: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Semi-Arid, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_semi_arid_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_semi_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_hex_arid: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Arid)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_arid_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_arid_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_hex_arid_rolled: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Arid, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_arid_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_arid_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_hex_desert: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Desert)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_desert_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_desert_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_hex_desert: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Desert, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_desert_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_desert_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_hex_naval: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Oceanic)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_oceanic_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_naval_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_hex_naval: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Oceanic, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_oceanic_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_naval_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_hex_urban: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Urban)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_urban_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_hex_urban_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class FP_U_Obr88_rolled_hex_urban: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Obr.88 Uniform (Hex Urban, Rolled)";
+		picture = "\A3\Ui_f\data\Map\Markers\Flags\CSAT_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jam_obr88_hex_urban_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_Obr88_rolled_hex_urban_Unit";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
 
 	class H_MilCap_gry;
 	class FP_H_MilCap_blk: H_MilCap_gry
@@ -4567,6 +4974,87 @@ class cfgWeapons
             "\A3\Characters_F\Common\Data\cappatrol_check3_co.paa"
         };
     };
+	class FP_H_Beret_FPA: H_HelmetB
+	{
+		author = "AMD Radeon 386";
+		displayName = "Beret (FPA, Red)";
+		descriptionShort = "Standard issue headdress of the FPMC, with a cap<br/>badge bearing the motto that guides their conduct:<br/>""Ordo Autismus - Vigilo Retro Explosio""";
+		picture = "\A3\Characters_F_Oldman\Headgear\data\UI\icon_H_Beret_CSAT_01_F_CA.paa";
+		scope = 2;
+		model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_red_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 8;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_red_CO.paa"};
+			uniformModel = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 1;
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+	class FP_H_Beret_FPA_brn: H_HelmetB
+	{
+		author = "AMD Radeon 386";
+		displayName = "Beret (FPA, Brown)";
+		descriptionShort = "Worn by the FPMC special forces.";
+		picture = "\A3\Characters_F_Oldman\Headgear\data\UI\icon_H_Beret_CSAT_01_F_CA.paa";
+		scope = 2;
+		model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_brn_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 8;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_brn_CO.paa"};
+			uniformModel = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 1;
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+	class FP_H_Beret_FPA_blue: H_HelmetB
+	{
+		author = "AMD Radeon 386";
+		displayName = "Beret (FPA, Blue)";
+		descriptionShort = "Worn by the FPA Humanitarian Corps,<br/>a widely feared organization.";
+		picture = "\A3\Characters_F_Oldman\Headgear\data\UI\icon_H_Beret_CSAT_01_F_CA.paa";
+		scope = 2;
+		model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_blu_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 8;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsHeadgear\H_Beret_FPA_blu_CO.paa"};
+			uniformModel = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 1;
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
 
     class FP_H_MilCap_tan: H_MilCap_gry
     {
