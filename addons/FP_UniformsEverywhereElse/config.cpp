@@ -50,7 +50,8 @@ class CfgPatches
 			"A3_Characters_F_Beta",
 			"A3_Characters_F",
 			"A3_Characters_F_BLUFOR",
-			"A3_Data_F_Oldman_Loadorder"
+			"A3_Data_F_Oldman_Loadorder",
+			"jam_characters_east"
 		};
 	};
 };
@@ -2258,6 +2259,34 @@ class CfgVehicles
 		};
 	};
 	//radeon uniforms
+	class FP_U_pilotjacket_drive_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_pilotjacket_drive";
+		model = "\lxrf\characters_rf\uniform\jacket_rf.p3d";
+		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
+		hiddenSelectionsTextures[] = {\FP_UniformsEverywhereElse\SkinsUniform\jacket_drive_co.paa","\a3\characters_f_aow\Uniforms\Data\U_C_ArtTShirt_01_v1_F_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"a3\characters_f_gamma\guerrilla\data\ig_guerrilla3_1.rvmat","a3\characters_f\civil\data\hunter_injury.rvmat","a3\characters_f\civil\data\hunter_injury.rvmat","lxrf\characters_rf\uniform\data\jacket_rf.rvmat","lxrf\characters_rf\uniform\data\jacket_injury.rvmat","lxrf\characters_rf\uniform\data\jacket_injury.rvmat"};
+		};
+	};
+	class FP_U_pilotjacket_open_drive_Unit: I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		uniformClass = "FP_U_pilotjacket_open_drive";
+		model = "\lxrf\characters_rf\uniform\jacket_open_rf.p3d";
+		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jacket_drive_co.paa","\a3\characters_f_aow\Uniforms\Data\U_C_ArtTShirt_01_v1_F_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"a3\characters_f_gamma\guerrilla\data\ig_guerrilla3_1.rvmat","a3\characters_f\civil\data\hunter_injury.rvmat","a3\characters_f\civil\data\hunter_injury.rvmat","lxrf\characters_rf\uniform\data\jacket_rf.rvmat","lxrf\characters_rf\uniform\data\jacket_injury.rvmat","lxrf\characters_rf\uniform\data\jacket_injury.rvmat"};
+		};
+	};
 	class FP_U_Obr88_hex_Unit: I_Soldier_F
 	{
 		scope = 1;
@@ -4242,6 +4271,40 @@ class cfgWeapons
 		};
 	};
 	//radeon's additions
+	class FP_U_pilotjacket_drive: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Leather Jacket (Scorpion)";
+		picture = "\lxRF\characters_rf\data\ui\icon_U_C_PilotJacket_black_ca.paa";
+		model = "\lxRF\characters_rf\uniform\suitpack_jacket_rf.p3d";
+		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jacket_drive_co.paa","\a3\characters_f_gamma\guerrilla\data\ig_guerrilla3_1_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_pilotjacket_drive_Unit";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
+	class FP_U_pilotjacket_open_drive: Uniform_Base
+	{
+		author = "AMD Radeon 386";
+		scope = 2;
+		displayName = "Leather Jacket (Scorpion, Open)";
+		picture = "\lxRF\characters_rf\data\ui\icon_U_C_PilotJacket_black_ca.paa";
+		model = "\lxRF\characters_rf\uniform\suitpack_jacket_rf.p3d";
+		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
+		hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\jacket_drive_co.paa","\a3\characters_f_gamma\guerrilla\data\ig_guerrilla3_1_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "FP_U_pilotjacket_open_drive_Unit";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
 	class FP_U_Obr88_hex: Uniform_Base
 	{
 		author = "AMD Radeon 386";
