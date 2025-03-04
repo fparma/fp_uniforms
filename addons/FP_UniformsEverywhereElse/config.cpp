@@ -4276,6 +4276,7 @@ class cfgWeapons
 		author = "AMD Radeon 386";
 		scope = 2;
 		displayName = "Leather Jacket (Scorpion)";
+		descriptionShort = "There's something inside you<br/>It's hard to explain";
 		picture = "\lxRF\characters_rf\data\ui\icon_U_C_PilotJacket_black_ca.paa";
 		model = "\lxRF\characters_rf\uniform\suitpack_jacket_rf.p3d";
 		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
@@ -4293,6 +4294,7 @@ class cfgWeapons
 		author = "AMD Radeon 386";
 		scope = 2;
 		displayName = "Leather Jacket (Scorpion, Open)";
+		descriptionShort = "They're talking about you, boy<br/>But you're still the same";
 		picture = "\lxRF\characters_rf\data\ui\icon_U_C_PilotJacket_black_ca.paa";
 		model = "\lxRF\characters_rf\uniform\suitpack_jacket_rf.p3d";
 		hiddenSelections[] = {"camo","camo2","CamoB","insignia"};
